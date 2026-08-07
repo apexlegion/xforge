@@ -4,13 +4,13 @@
  * Route:  POST /api/generate   -> real AI generation for every module
  *         GET  /api/generate   -> { enabled, model }  (lets the UI show a "Live AI" badge)
  *
- * The Gemini API key lives ONLY here, as a Cloudflare env var (GEMINI_API_KEY).
+ * The Groq API key lives ONLY here, as a Cloudflare env var (GROQ_API_KEY).
  * It is never shipped to the browser, so index.html stays 100% public/open-source.
- * If the key is missing or Gemini fails, we return a soft error and the front-end
+ * If the key is missing or Groq fails, we return a soft error and the front-end
  * silently falls back to its built-in templates — the site never breaks.
  */
 
-const MODEL = "gemini-2.0-flash";
+const MODEL = "llama-3.3-70b-versatile";
 const MAX_INPUT = 1200; // chars per field — keeps prompts + cost bounded
 
 const CORS = {
@@ -30,11 +30,11 @@ export function onRequestOptions() {
 }
 
 export function onRequestGet({ env }) {
-  return json({ enabled: !!env.GEMINI_API_KEY, model: MODEL });
+  return json({ enabled: !!env.GROQ_API_KEY, model: MODEL });
 }
 
 export async function onRequestPost({ request, env }) {
-  const key = env.GEMINI_API_KEY;
+  const key = env.GROQ_API_KEY;
   if (!key) return json({ error: "no-key", fallback: true }, 503);
 
   let payload;
@@ -52,28 +52,28 @@ export async function onRequestPost({ request, env }) {
   const prompt = spec.prompt(inputs);
 
   try {
-    const data = await callGemini(key, spec.system, prompt, spec.temp ?? 0.7);
-    return json({ data, source: "gemini", model: MODEL });
+    const data = await callGroq(key, spec.system, prompt, spec.temp ?? 0.7);
+    return json({ data, source: "groq", model: MODEL });
   } catch (err) {
     // Soft-fail: tell the client to use its template fallback.
     return json({ error: String(err && err.message || err), fallback: true }, 502);
   }
 }
 
-/* ---------------- Gemini ---------------- */
+/* ---------------- Groq (OpenAI-compatible chat completions) ---------------- */
 
-async function callGemini(key, system, userPrompt, temperature) {
-  const url =
-    `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent?key=${encodeURIComponent(key)}`;
+async function callGroq(key, system, userPrompt, temperature) {
+  const url = "https://api.groq.com/openai/v1/chat/completions";
 
   const body = {
-    system_instruction: { parts: [{ text: system }] },
-    contents: [{ role: "user", parts: [{ text: userPrompt }] }],
-    generationConfig: {
-      temperature,
-      maxOutputTokens: 2048,
-      responseMimeType: "application/json",
-    },
+    model: MODEL,
+    temperature,
+    max_tokens: 2048,
+    response_format: { type: "json_object" },
+    messages: [
+      { role: "system", content: system },
+      { role: "user", content: userPrompt },
+    ],
   };
 
   const ctrl = new AbortController();
@@ -82,7 +82,10 @@ async function callGemini(key, system, userPrompt, temperature) {
   try {
     res = await fetch(url, {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${key}`,
+      },
       body: JSON.stringify(body),
       signal: ctrl.signal,
     });
@@ -92,11 +95,11 @@ async function callGemini(key, system, userPrompt, temperature) {
 
   if (!res.ok) {
     const t = await res.text().catch(() => "");
-    throw new Error(`gemini ${res.status} ${t.slice(0, 160)}`);
+    throw new Error(`groq ${res.status} ${t.slice(0, 160)}`);
   }
 
   const out = await res.json();
-  const text = out?.candidates?.[0]?.content?.parts?.map((p) => p.text).join("") || "";
+  const text = out?.choices?.[0]?.message?.content || "";
   return parseJson(text);
 }
 

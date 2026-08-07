@@ -720,8 +720,8 @@
   let lastValidationQuery = '';
   let lastValidationReport = null;
 
-  /* ========== AI BRAIN (serverless proxy → Gemini, template fallback) ========== */
-  const AI = { enabled: false, endpoint: '/api/generate', model: 'gemini' };
+  /* ========== AI BRAIN (serverless proxy → Groq/Llama, template fallback) ========== */
+  const AI = { enabled: false, endpoint: '/api/generate', model: 'groq' };
 
   async function aiProbe() {
     try {
@@ -750,7 +750,7 @@
 
   /**
    * Try live AI for a module; always fall back to the deterministic template.
-   * @returns {Promise<{data:any, source:'gemini'|'template'}>}
+   * @returns {Promise<{data:any, source:'groq'|'template'}>}
    */
   async function aiGenerate(mode, inputs, fallbackFn) {
     const base = fallbackFn();
@@ -764,7 +764,7 @@
       if (!r.ok) throw new Error('http ' + r.status);
       const j = await r.json();
       if (!j || !j.data) throw new Error('no-data');
-      return { data: coalesce(base, j.data), source: 'gemini' };
+      return { data: coalesce(base, j.data), source: 'groq' };
     } catch (_) {
       return { data: base, source: 'template' };
     }
@@ -1014,7 +1014,7 @@
   }
 
   function actionBar(mod, source) {
-    const badge = source === 'gemini'
+    const badge = source === 'groq'
       ? `<span class="out-badge on" title="Written live by AI">⚡ Live AI</span>`
       : `<span class="out-badge off" title="Built-in template (add a model key for live AI)">Template</span>`;
     const share = mod === 'validator'

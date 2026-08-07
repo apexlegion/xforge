@@ -14,27 +14,29 @@ grounded in **live Reddit + Hacker News discussions** that refresh automatically
 The browser never holds an API key. A single serverless function does the thinking:
 
 ```
-Browser ──POST /api/generate──▶ Cloudflare Pages Function ──▶ Gemini (free tier)
-                                (holds GEMINI_API_KEY secret)
+Browser ──POST /api/generate──▶ Cloudflare Pages Function ──▶ Groq (Llama 3.3 70B, free tier)
+                                (holds GROQ_API_KEY secret)
 ```
 
 - Key lives **only** as a Cloudflare env var — safe to keep this repo public.
-- If the key is missing or Gemini errors, the app **silently falls back to built-in
+- If the key is missing or Groq errors, the app **silently falls back to built-in
   templates**, so the site never breaks. The header pill shows `⚡ Live AI` or `Offline mode`.
+- Groq's free tier needs no billing setup — unlike some providers, a fresh API key
+  works immediately.
 
 ## Files
 
 | Path | Purpose |
 |------|---------|
 | `index.html` | The whole app (UI + logic + template fallback). |
-| `functions/api/generate.js` | Cloudflare Pages Function → Gemini. Route: `/api/generate`. |
+| `functions/api/generate.js` | Cloudflare Pages Function → Groq. Route: `/api/generate`. |
 | `scripts/fetch-signals.js` | Fetches Reddit + HN → `data/signals.json`. |
 | `.github/workflows/update-signals.yml` | Runs the fetcher every ~9h. |
 
 ## Deploy (one-time, ~10 min)
 
-### 1. Get a free Gemini API key
-Go to **https://aistudio.google.com/apikey** → *Create API key* → copy it.
+### 1. Get a free Groq API key
+Go to **https://console.groq.com/keys** → *Create API key* → copy it.
 
 ### 2. Push this folder to GitHub
 ```bash
@@ -53,8 +55,8 @@ git push -u origin main
    - Framework preset: **None**
    - Build command: *(leave empty)*
    - Build output directory: **`/`** (root)
-3. **Settings → Environment variables → add** `GEMINI_API_KEY` = your key. **Save.**
-4. Deploy. Cloudflare auto-detects `functions/` and serves `/api/generate`.
+3. **Settings → Variables and secrets → add** `GROQ_API_KEY` (type: Secret) = your key. **Save.**
+4. Deploy (or push any commit to redeploy). Cloudflare auto-detects `functions/` and serves `/api/generate`.
 
 That's it. The header pill flips to `⚡ Live AI` once the key is live.
 
@@ -67,9 +69,9 @@ Cloudflare Pages redeploys on each push. Nothing to touch.
 npx serve .        # or any static server
 ```
 Locally there's no key, so it runs in **Offline mode** (templates) — expected.
-To test live AI locally: `npm i -g wrangler` then `wrangler pages dev . --binding GEMINI_API_KEY=<key>`.
+To test live AI locally: `npm i -g wrangler` then `wrangler pages dev . --binding GROQ_API_KEY=<key>`.
 
 ## Swapping the model
-Everything AI lives in `functions/api/generate.js`. To switch providers (e.g. Groq),
-change `callGemini()` and the env var name — the front-end contract (`{mode, inputs}` →
+Everything AI lives in `functions/api/generate.js`. To switch providers,
+change `callGroq()` and the env var name — the front-end contract (`{mode, inputs}` →
 `{data}`) stays the same.
