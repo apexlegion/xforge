@@ -1,0 +1,422 @@
+{
+  "updatedAt": "2026-07-16T11:09:39.434Z",
+  "source": "reddit+hackernews",
+  "sources": [
+    "reddit",
+    "hackernews"
+  ],
+  "subreddits": [
+    "r/entrepreneur",
+    "r/SaaS",
+    "r/indiehackers",
+    "r/smallbusiness"
+  ],
+  "count": 25,
+  "signals": [
+    {
+      "id": "hn-48883305",
+      "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
+      "excerpt": "Hello HN, I don't post on here much, but wanted to get some eyes on a new project I'm just launching. I think we definitely need one more AI code agent.. I'm a long-term C++ dev, and over 30+ years I've created some…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 274,
+      "comments": 118,
+      "url": "https://news.ycombinator.com/item?id=48883305",
+      "externalUrl": "https://github.com/juggler-ai/juggler",
+      "createdUtc": 1783880895,
+      "tags": [
+        "discussion"
+      ],
+      "quality": 85
+    },
+    {
+      "id": "hn-48896672",
+      "title": "The bread paradox: why convenience always wins, and why SaaS isn't doomed",
+      "excerpt": "The bread paradox: why convenience always wins, and why SaaS isn't doomed",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 130,
+      "comments": 118,
+      "url": "https://news.ycombinator.com/item?id=48896672",
+      "externalUrl": "https://www.joanwestenberg.com/p/the-bread-paradox-why-convenience",
+      "createdUtc": 1783966992,
+      "tags": [
+        "saas"
+      ],
+      "quality": 76
+    },
+    {
+      "id": "hn-48797656",
+      "title": "Show HN: Osint tool that finds exposed files on domains",
+      "excerpt": "hey guys, wanted to show one of my side projects i just made public. the idea is basically another osint tool for pentesters and bug bounty hunters. it watches certificate transparency logs and checks newly-seen domains…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 58,
+      "comments": 26,
+      "url": "https://news.ycombinator.com/item?id=48797656",
+      "externalUrl": "https://search.cerast-intelligence.com/",
+      "createdUtc": 1783283077,
+      "tags": [
+        "discussion"
+      ],
+      "quality": 46
+    },
+    {
+      "id": "hn-48735097",
+      "title": "Show HN: A statically typed, cross-platform, easily bootstrappable build system",
+      "excerpt": "Show HN: A statically typed, cross-platform, easily bootstrappable build system",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 46,
+      "comments": 15,
+      "url": "https://news.ycombinator.com/item?id=48735097",
+      "externalUrl": "https://github.com/rochus-keller/BUSY/",
+      "createdUtc": 1782836935,
+      "tags": [
+        "bootstrap"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-48898032",
+      "title": "Bootstrapping GDC with DMD",
+      "excerpt": "Bootstrapping GDC with DMD",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 26,
+      "comments": 2,
+      "url": "https://news.ycombinator.com/item?id=48898032",
+      "externalUrl": "https://briancallahan.net/blog/20260713.html",
+      "createdUtc": 1783973070,
+      "tags": [
+        "bootstrap"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-48795930",
+      "title": "Show HN: I hated how much my 12-year-old played Roblox, so we built our own FPS",
+      "excerpt": "I'm a father of two, 7 and 12. They are obsessed with Roblox, especially Rivals. Like a lot of parents, we did not love it. We tried the usual things: block it, limit it, set timers.\" It became a daily battle, a…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 23,
+      "comments": 7,
+      "url": "https://news.ycombinator.com/item?id=48795930",
+      "externalUrl": "https://cooked.house/",
+      "createdUtc": 1783271685,
+      "tags": [
+        "discussion"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-48907871",
+      "title": "Show HN: I built a smart proxy so your coding agent can run loose",
+      "excerpt": "The only way to go fast is full YOLO mode in your coding agent. I've got the local sandbox figured out (pro tip: Incus VMs work great) but I wanted to keep my agents from doing things like inadvertently blowing up my…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 14,
+      "comments": 6,
+      "url": "https://news.ycombinator.com/item?id=48907871",
+      "externalUrl": "https://trollbridge.dev/",
+      "createdUtc": 1784040953,
+      "tags": [
+        "discussion"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-48900788",
+      "title": "Show HN: Microphone – Talk out your side-project ideas, then test them with ads",
+      "excerpt": "If you are an aspiring founder, any VC will ask you this question: “why are you the only person who could solve this”. If you want to generate passive income with your side idea, get ready to enter a crowded market as…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 10,
+      "comments": 12,
+      "url": "https://news.ycombinator.com/item?id=48900788",
+      "externalUrl": "https://www.trie.dev/",
+      "createdUtc": 1783988758,
+      "tags": [
+        "discussion"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-48826680",
+      "title": "What if users start cloning SaaS using AI",
+      "excerpt": "There is a trend that is just starting: People are cloning softwares and websites using Ai(fable 5 is doing great), what do you think what things would protect businesses from this in future? if i can clone smth easily…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 7,
+      "comments": 26,
+      "url": "https://news.ycombinator.com/item?id=48826680",
+      "externalUrl": null,
+      "createdUtc": 1783476788,
+      "tags": [
+        "saas",
+        "ai"
+      ],
+      "quality": 43
+    },
+    {
+      "id": "hn-48918150",
+      "title": "Ask HN: How do you do marketing in the age of slop?",
+      "excerpt": "Hi dear hackernewsfolks, vocal contributors and lurkers alike. We (that is to say my business partner and I) are building SaaS products, but we are really struggling to find enough users. This is an age old problem, but…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 9,
+      "comments": 11,
+      "url": "https://news.ycombinator.com/item?id=48918150",
+      "externalUrl": null,
+      "createdUtc": 1784106485,
+      "tags": [
+        "marketing",
+        "indie"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-48905763",
+      "title": "Ask HN: Should I Promote My SaaS to get first 100 Customers without budget",
+      "excerpt": "Bootstrapped founders: how did you get your first 100 customers without spending on ads? I'm interested in tactics that actually worked in 2026, not generic marketing advice.",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 8,
+      "comments": 18,
+      "url": "https://news.ycombinator.com/item?id=48905763",
+      "externalUrl": null,
+      "createdUtc": 1784032086,
+      "tags": [
+        "saas"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-48926718",
+      "title": "Show HN: Spellsurf – Create words from words",
+      "excerpt": "Hey HN! I've always loved beautiful words. I also enjoy coming up with fun names for all the side projects and businesses that I'm working on, trying to find something unique with an available .com. After spending…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 9,
+      "comments": 6,
+      "url": "https://news.ycombinator.com/item?id=48926718",
+      "externalUrl": "https://spellsurf.com/",
+      "createdUtc": 1784147795,
+      "tags": [
+        "discussion"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-48754114",
+      "title": "Show HN: Shark Tank but you pitch your idea to indie hackers",
+      "excerpt": "Show HN: Shark Tank but you pitch your idea to indie hackers",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 9,
+      "comments": 1,
+      "url": "https://news.ycombinator.com/item?id=48754114",
+      "externalUrl": "https://indiesharktank.vercel.app/",
+      "createdUtc": 1782945809,
+      "tags": [
+        "indie"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-48792499",
+      "title": "Show HN: A live badge that proves your SaaS runs on EU infrastructure",
+      "excerpt": "Show HN: A live badge that proves your SaaS runs on EU infrastructure",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 6,
+      "comments": 4,
+      "url": "https://news.ycombinator.com/item?id=48792499",
+      "externalUrl": "https://euroseal.pages.dev/",
+      "createdUtc": 1783242191,
+      "tags": [
+        "saas"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-48875730",
+      "title": "Show HN: OpenBenchmarks – Helping agents discover and pick the right SaaS APIs",
+      "excerpt": "I'm Fenil, co-founder/CEO of OpenFunnel (YC F24), building this with my co-founder/CTO Aditya. We're launching OpenBenchmarks (  ), open-source, reproducible benchmarks for SaaS APIs, starting with the category we know…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 6,
+      "comments": 2,
+      "url": "https://news.ycombinator.com/item?id=48875730",
+      "externalUrl": "https://openbenchmarks.com/",
+      "createdUtc": 1783803055,
+      "tags": [
+        "saas"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-48783728",
+      "title": "Remote work didn't kill collaboration. Invisible teammates did",
+      "excerpt": "Remote work didn't kill collaboration. Invisible teammates did",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 6,
+      "comments": 2,
+      "url": "https://news.ycombinator.com/item?id=48783728",
+      "externalUrl": "https://www.indiehackers.com/post/remote-work-didnt-kill-collaboration-invisible-teammates-did-JUDLzTHH3vggaNNKAEce",
+      "createdUtc": 1783153834,
+      "tags": [
+        "indie"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-48926324",
+      "title": "SaaS Still Has a Moat. Just Not the One We Think",
+      "excerpt": "SaaS Still Has a Moat. Just Not the One We Think",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 6,
+      "comments": 0,
+      "url": "https://news.ycombinator.com/item?id=48926324",
+      "externalUrl": "https://iamcharliegraham.substack.com/p/saas-still-has-a-moat-just-not-the",
+      "createdUtc": 1784145670,
+      "tags": [
+        "saas"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-48720627",
+      "title": "Ask HN: How do you handle QA at a startup with no QA team? Genuinely curious",
+      "excerpt": "Been doing QA for 19yrs, mostly at startups and still trying to figure out how are AI startups navigating the quality aspect nowadays, practically. I'm also trying to productize my expertise and I see quite a lot of…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 4,
+      "comments": 15,
+      "url": "https://news.ycombinator.com/item?id=48720627",
+      "externalUrl": null,
+      "createdUtc": 1782747198,
+      "tags": [
+        "growth",
+        "startup"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-48799052",
+      "title": "Ask HN: How are you staying productive using LLMs?",
+      "excerpt": "1. What's your predominantly use-case? Eg: If you're using it for coding, what are you doing to make yourself productive? If you're using it for something else, please share what it is and what you are making doing to…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 4,
+      "url": "https://news.ycombinator.com/item?id=48799052",
+      "externalUrl": null,
+      "createdUtc": 1783294579,
+      "tags": [
+        "product"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-48805309",
+      "title": "Show HN: AI harness for C/C++ with GDB, sanitizers, perf and compile tools",
+      "excerpt": "hey guys, i wanted to show one of my side projects. The idea is a coding harness (independent of models) natively designed for C/C++ developer workflows. I'm a C++ dev and do not find claude code work well with C++…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 2,
+      "url": "https://news.ycombinator.com/item?id=48805309",
+      "externalUrl": "https://byteask.ai/",
+      "createdUtc": 1783348729,
+      "tags": [
+        "ai"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-48762112",
+      "title": "Show HN: My first SaaS to help human developers and AI agents share context",
+      "excerpt": "Hello HN, I created Decispher (decispher.com) to enable human developers and AI agents working alongside each other to share their context. It has some pretty cool features, like Branch Story (explains why a branch's…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 1,
+      "url": "https://news.ycombinator.com/item?id=48762112",
+      "externalUrl": null,
+      "createdUtc": 1783002273,
+      "tags": [
+        "saas",
+        "ai"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-48734375",
+      "title": "Show HN: FastReact – FastAPI and React Starter Kit for AI SaaS",
+      "excerpt": "Hi everyone, I've successfully used Backend + SPA pattern in several AI products so far. Then I decided to put years of experience into this starter pack. Even then, it took me a few months to make it a complete…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 0,
+      "url": "https://news.ycombinator.com/item?id=48734375",
+      "externalUrl": "https://fastreact.dev/",
+      "createdUtc": 1782834281,
+      "tags": [
+        "saas",
+        "ai"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-48778675",
+      "title": "Show HN: StillUpTo – Keep track of the side projects if they are still alive",
+      "excerpt": "Show HN: StillUpTo – Keep track of the side projects if they are still alive",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 0,
+      "url": "https://news.ycombinator.com/item?id=48778675",
+      "externalUrl": "https://stillup.to/",
+      "createdUtc": 1783105326,
+      "tags": [
+        "discussion"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-48707717",
+      "title": "Build Your Own IP Geolocation Setup Without the SaaS Tax in an Afternoon",
+      "excerpt": "Build Your Own IP Geolocation Setup Without the SaaS Tax in an Afternoon",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 3,
+      "comments": 6,
+      "url": "https://news.ycombinator.com/item?id=48707717",
+      "externalUrl": "https://kerochan.lol/blogs/ip.html",
+      "createdUtc": 1782657604,
+      "tags": [
+        "saas"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-48803116",
+      "title": "Tools/approach to pentest my own framework/SaaS?",
+      "excerpt": "i built a saas on custom php framework, running on test server. i would like to check how hackable the live deployment actually is - not just static code review. whats your go to stack for self pentesting a web app?",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 3,
+      "comments": 4,
+      "url": "https://news.ycombinator.com/item?id=48803116",
+      "externalUrl": null,
+      "createdUtc": 1783336279,
+      "tags": [
+        "saas"
+      ],
+      "quality": 42
+    }
+  ]
+}

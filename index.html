@@ -1,0 +1,2167 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>XForge — Idea Validator & free toolkit to dominate on X</title>
+  <meta name="description" content="XForge: flagship Idea Validator with Fresh Signals, plus threads, outreach, growth plans, replies, analytics, and niche research. Built for X." />
+  <meta name="theme-color" content="#000000" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            x: {
+              bg: '#000000', elevated: '#0a0a0a', panel: '#16181c',
+              border: '#2f3336', primary: '#e7e9ea', secondary: '#71767b',
+              blue: '#1d9bf0', 'blue-hover': '#1a8cd8', 'blue-dim': 'rgba(29,155,240,0.1)',
+              green: '#00ba7c', red: '#f4212e', yellow: '#ffd400', orange: '#ff7a00',
+            }
+          },
+          fontFamily: {
+            sans: ['-apple-system','BlinkMacSystemFont','"Segoe UI"', 'Roboto','Helvetica','Arial','sans-serif'],
+          },
+          maxWidth: { feed: '600px', shell: '1265px' }
+        }
+      }
+    }
+  </script>
+  <style>
+    :root { color-scheme: dark; }
+    * { scrollbar-width: thin; scrollbar-color: #2f3336 transparent; }
+    *::-webkit-scrollbar { width: 6px; height: 6px; }
+    *::-webkit-scrollbar-thumb { background: #2f3336; border-radius: 999px; }
+    body { background: #000; color: #e7e9ea; }
+    .x-hover { transition: background-color .15s ease; }
+    .x-hover:hover { background-color: rgba(231,233,234,0.03); }
+    .x-btn-primary {
+      background: #e7e9ea; color: #0f1419; font-weight: 700; border-radius: 9999px;
+      transition: background .15s ease;
+    }
+    .x-btn-primary:hover { background: #d7dbdc; }
+    .x-btn-blue {
+      background: #1d9bf0; color: #fff; font-weight: 700; border-radius: 9999px;
+      transition: background .15s ease;
+    }
+    .x-btn-blue:hover { background: #1a8cd8; }
+    .x-btn-blue:disabled { opacity: .5; cursor: not-allowed; }
+    .x-btn-outline {
+      border: 1px solid #536471; color: #e7e9ea; font-weight: 700; border-radius: 9999px;
+      transition: background .15s ease;
+    }
+    .x-btn-outline:hover { background: rgba(239,243,244,0.1); }
+    .x-input {
+      background: #000; border: 1px solid #2f3336; color: #e7e9ea;
+      border-radius: 4px; width: 100%; transition: border-color .15s ease;
+    }
+    .x-input:focus { outline: none; border-color: #1d9bf0; }
+    .x-input::placeholder { color: #71767b; }
+    select.x-input {
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%2371767b' viewBox='0 0 16 16'%3E%3Cpath d='M4.5 6l3.5 4 3.5-4'/%3E%3C/svg%3E");
+      background-repeat: no-repeat; background-position: right 12px center; padding-right: 32px;
+    }
+    .nav-item {
+      display: flex; align-items: center; gap: 1rem;
+      padding: 0.75rem 0.9rem; border-radius: 9999px;
+      font-size: 1.05rem; color: #e7e9ea; width: 100%; text-align: left;
+      transition: background .15s ease;
+    }
+    .nav-item:hover { background: rgba(231,233,234,0.1); }
+    .nav-item.active { font-weight: 700; }
+    .nav-item.flagship {
+      background: rgba(29,155,240,0.08);
+    }
+    .nav-item.flagship.active {
+      background: rgba(29,155,240,0.14);
+    }
+    .module-view { display: none; }
+    .module-view.active { display: block; }
+    .post-card { border-bottom: 1px solid #2f3336; padding: 12px 16px; }
+    .post-card:hover { background: rgba(255,255,255,0.03); }
+    .chip {
+      display: inline-flex; align-items: center; padding: 4px 12px; border-radius: 9999px;
+      font-size: 13px; color: #1d9bf0; border: 1px solid #2f3336; cursor: pointer;
+      transition: background .15s, border-color .15s; background: transparent;
+    }
+    .chip:hover, .chip.active { background: rgba(29,155,240,0.1); border-color: #1d9bf0; }
+    .score-ring { background: conic-gradient(var(--c) calc(var(--s) * 1%), #2f3336 0); }
+    .prose-out { white-space: pre-wrap; word-break: break-word; }
+    .line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .line-clamp-3 { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+    .sidebar-mobile { transform: translateX(-100%); transition: transform .2s ease; }
+    .sidebar-mobile.open { transform: translateX(0); }
+    .spinner {
+      width: 28px; height: 28px; border: 2.5px solid #2f3336;
+      border-top-color: #1d9bf0; border-radius: 50%;
+      animation: spin .7s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    .fade-in { animation: fadeIn .25s ease; }
+    .skeleton {
+      background: linear-gradient(90deg, #16181c 25%, #1e2025 50%, #16181c 75%);
+      background-size: 200% 100%; animation: sk 1.4s ease infinite; border-radius: 4px;
+    }
+    @keyframes sk { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
+    .action-bar button {
+      color: #71767b; font-size: 13px; font-weight: 500;
+      padding: 6px 12px; border-radius: 9999px; border: 1px solid #2f3336;
+      transition: color .15s, background .15s, border-color .15s;
+    }
+    .action-bar button:hover { color: #1d9bf0; border-color: #1d9bf0; background: rgba(29,155,240,0.1); }
+    .avatar {
+      width: 40px; height: 40px; border-radius: 9999px; background: #16181c;
+      border: 1px solid #2f3336; display: flex; align-items: center; justify-content: center;
+      font-weight: 700; font-size: 13px; flex-shrink: 0; color: #e7e9ea;
+    }
+    .verified { display: inline-flex; color: #1d9bf0; vertical-align: middle; margin-left: 2px; }
+    .ai-status {
+      display: inline-flex; align-items: center; gap: 4px; flex-shrink: 0;
+      font-size: 12px; font-weight: 700; padding: 4px 10px; border-radius: 9999px;
+      border: 1px solid #2f3336; white-space: nowrap;
+    }
+    .ai-status.on { color: #00ba7c; border-color: rgba(0,186,124,0.4); background: rgba(0,186,124,0.08); }
+    .ai-status.off { color: #71767b; }
+    .out-badge {
+      display: inline-flex; align-items: center; font-size: 12px; font-weight: 700;
+      padding: 3px 10px; border-radius: 9999px; border: 1px solid #2f3336;
+    }
+    .out-badge.on { color: #00ba7c; border-color: rgba(0,186,124,0.4); background: rgba(0,186,124,0.08); }
+    .out-badge.off { color: #71767b; }
+    .signal-validate {
+      font-size: 12px; font-weight: 700; color: #1d9bf0;
+      padding: 3px 10px; border-radius: 9999px; border: 1px solid rgba(29,155,240,0.4);
+      background: rgba(29,155,240,0.08); transition: background .15s, border-color .15s;
+    }
+    .signal-validate:hover { background: rgba(29,155,240,0.18); border-color: #1d9bf0; }
+    .section-label {
+      padding: 12px 16px; font-size: 13px; font-weight: 700; color: #71767b;
+      border-bottom: 1px solid #2f3336; text-transform: none; letter-spacing: 0;
+    }
+    .report-block {
+      border-bottom: 1px solid #2f3336;
+      padding: 16px 16px;
+      overflow: hidden;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+      max-width: 100%;
+    }
+    .report-block h4 {
+      font-size: 15px; font-weight: 700; margin-bottom: 10px;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+    .report-block p,
+    .report-block li {
+      overflow-wrap: anywhere;
+      word-break: break-word;
+      line-height: 1.5;
+      max-width: 100%;
+    }
+    .report-block ul,
+    .report-block ol {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .report-block ol.report-steps {
+      list-style: decimal;
+      padding-left: 1.25rem;
+    }
+    .report-block ol.report-steps li {
+      padding-left: 0.25rem;
+      margin-bottom: 0.65rem;
+    }
+    .report-block ol.report-steps li:last-child { margin-bottom: 0; }
+    .report-list > li {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 0.75rem;
+      font-size: 15px;
+      line-height: 1.5;
+    }
+    .report-list > li:last-child { margin-bottom: 0; }
+    .report-list .bullet {
+      flex-shrink: 0;
+      width: 1rem;
+      text-align: center;
+      margin-top: 1px;
+    }
+    .report-list .bullet-body {
+      min-width: 0;
+      flex: 1 1 0%;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+    .report-competitor {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      margin-bottom: 14px;
+      max-width: 100%;
+    }
+    .report-competitor:last-child { margin-bottom: 0; }
+    .report-competitor .type-tag {
+      flex-shrink: 0;
+      width: 4.5rem;
+      font-size: 12px;
+      font-weight: 700;
+      color: #1d9bf0;
+      margin-top: 2px;
+    }
+    .report-competitor .comp-body {
+      min-width: 0;
+      flex: 1 1 0%;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+    .score-rings {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 16px 20px;
+      padding: 20px 16px;
+      border-bottom: 1px solid #2f3336;
+      max-width: 100%;
+      overflow: hidden;
+      box-sizing: border-box;
+    }
+    .score-rings .score-ring-item {
+      flex: 0 0 auto;
+      width: 76px;
+      max-width: 100%;
+      overflow: hidden;
+    }
+    .score-rings .score-ring-item .score-label {
+      max-width: 76px;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+      line-height: 1.25;
+    }
+    .report-header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 16px;
+      max-width: 100%;
+    }
+    .report-header-text {
+      min-width: 0;
+      flex: 1 1 200px;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+      max-width: 100%;
+    }
+    .report-header-score {
+      flex: 0 0 auto;
+      min-width: 0;
+      max-width: 100%;
+    }
+    .report-signal-card {
+      display: block;
+      margin-bottom: 12px;
+      border-radius: 16px;
+      border: 1px solid #2f3336;
+      padding: 12px;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+      max-width: 100%;
+      box-sizing: border-box;
+    }
+    .report-signal-card:last-child { margin-bottom: 0; }
+    .dim-bar {
+      height: 6px; border-radius: 999px; background: #2f3336; overflow: hidden;
+    }
+    .dim-bar > span {
+      display: block; height: 100%; border-radius: 999px;
+      background: linear-gradient(90deg, #1d9bf0, #00ba7c);
+      transition: width .45s ease;
+    }
+    .flag-badge {
+      display: inline-flex; align-items: center; gap: 4px;
+      font-size: 11px; font-weight: 700; letter-spacing: .02em;
+      text-transform: uppercase; color: #1d9bf0;
+      background: rgba(29,155,240,0.12); border: 1px solid rgba(29,155,240,0.25);
+      border-radius: 999px; padding: 2px 8px;
+    }
+    .nav-item.active .nav-label { font-weight: 700; }
+  </style>
+</head>
+<body class="h-full font-sans antialiased overflow-hidden bg-x-bg text-x-primary">
+  <div id="app" class="h-full flex justify-center">
+    <div class="w-full max-w-shell flex h-full">
+
+      <div id="overlay" class="fixed inset-0 bg-black/60 z-40 hidden lg:hidden" onclick="toggleSidebar(false)"></div>
+
+      <!-- Sidebar -->
+      <aside id="sidebar" class="sidebar-mobile lg:translate-x-0 fixed lg:static z-50 inset-y-0 left-0 w-[275px] h-full border-r border-x-border bg-x-bg flex flex-col px-2 xl:px-3 py-1 overflow-y-auto">
+        <div class="px-3 py-3 flex items-center justify-between">
+          <a href="#" onclick="navigate('home'); return false;" class="w-12 h-12 rounded-full x-hover flex items-center justify-center -ml-1" aria-label="Home">
+            <svg viewBox="0 0 24 24" class="w-7 h-7 fill-current"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+          </a>
+          <button class="lg:hidden w-9 h-9 rounded-full x-hover flex items-center justify-center" onclick="toggleSidebar(false)" aria-label="Close">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+          </button>
+        </div>
+
+        <nav class="flex-1 space-y-0.5 mt-1">
+          <button class="nav-item" data-module="home" onclick="navigate('home')">
+            <span class="w-7 flex justify-center"><svg class="w-[26px] h-[26px]" fill="currentColor" viewBox="0 0 24 24"><path d="M21.591 7.146L12.52 1.157c-.316-.21-.724-.21-1.04 0l-9.071 5.99c-.26.173-.409.456-.409.757v13.183c0 .502.418.913.929.913H9.14c.51 0 .929-.41.929-.913v-7.075h3.909v7.075c0 .502.408.913.919.913h6.165c.51 0 .929-.41.929-.913V7.904c0-.301-.158-.584-.408-.758z"/></svg></span>
+            <span class="nav-label">Home</span>
+          </button>
+
+          <button class="nav-item flagship active" data-module="validator" onclick="navigate('validator')">
+            <span class="w-7 flex justify-center">
+              <svg class="w-[26px] h-[26px] text-x-blue" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l2.4 7.2H22l-6 4.8 2.3 7L12 16.8 5.7 21l2.3-7-6-4.8h7.6L12 2z"/></svg>
+            </span>
+            <span class="flex-1 text-left leading-tight">
+              <span class="nav-label block">Idea Validator</span>
+              <span class="text-[12px] text-x-blue font-normal">Flagship · Fresh Signals</span>
+            </span>
+          </button>
+
+          <button class="nav-item" data-module="threads" onclick="navigate('threads')">
+            <span class="w-7 flex justify-center text-base font-bold text-x-secondary">01</span>
+            <span>Thread Generator</span>
+          </button>
+          <button class="nav-item" data-module="outreach" onclick="navigate('outreach')">
+            <span class="w-7 flex justify-center text-base font-bold text-x-secondary">02</span>
+            <span>Lead &amp; Outreach</span>
+          </button>
+          <button class="nav-item" data-module="growth" onclick="navigate('growth')">
+            <span class="w-7 flex justify-center text-base font-bold text-x-secondary">03</span>
+            <span>Growth System</span>
+          </button>
+          <button class="nav-item" data-module="replies" onclick="navigate('replies')">
+            <span class="w-7 flex justify-center text-base font-bold text-x-secondary">04</span>
+            <span>Reply Booster</span>
+          </button>
+          <button class="nav-item" data-module="analytics" onclick="navigate('analytics')">
+            <span class="w-7 flex justify-center text-base font-bold text-x-secondary">05</span>
+            <span>X Analytics</span>
+          </button>
+          <button class="nav-item" data-module="niche" onclick="navigate('niche')">
+            <span class="w-7 flex justify-center text-base font-bold text-x-secondary">06</span>
+            <span>Niche Research</span>
+          </button>
+          <button class="nav-item" data-module="history" onclick="navigate('history')">
+            <span class="w-7 flex justify-center">
+              <svg class="w-[26px] h-[26px]" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            </span>
+            <span class="flex-1">My History</span>
+            <span id="hist-badge" class="text-xs text-x-secondary hidden">0</span>
+          </button>
+        </nav>
+
+        <div class="p-3 mt-auto mb-2">
+          <button class="x-btn-blue w-full py-3.5 text-[15px]" onclick="navigate('validator')">Validate an idea</button>
+          <p class="text-[12px] text-x-secondary mt-3 px-1 leading-snug">Free · client-side · no account</p>
+        </div>
+      </aside>
+
+      <!-- Main -->
+      <div class="flex-1 min-w-0 h-full flex flex-col border-r border-x-border">
+        <header class="sticky top-0 z-30 h-[53px] px-4 flex items-center gap-3 border-b border-x-border bg-black/65 backdrop-blur-md">
+          <button class="lg:hidden w-9 h-9 rounded-full x-hover flex items-center justify-center -ml-1" onclick="toggleSidebar(true)" aria-label="Menu">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          </button>
+          <div class="min-w-0 flex-1">
+            <h1 id="page-title" class="text-[17px] font-bold leading-tight truncate">Idea Validator</h1>
+            <p id="page-subtitle" class="text-[13px] text-x-secondary truncate">Flagship · Fresh Signals</p>
+          </div>
+          <span id="ai-status" class="ai-status off" title="Checking AI status…">…</span>
+          <button class="text-[13px] font-bold text-x-blue px-3 py-1.5 rounded-full hover:bg-x-blue-dim" onclick="navigate('history')">History</button>
+          <button class="x-btn-blue text-[13px] px-4 py-1.5" onclick="navigate('validator')">Validate</button>
+        </header>
+
+        <main class="flex-1 overflow-y-auto">
+          <div class="max-w-feed mx-auto lg:max-w-3xl w-full pb-20">
+
+            <!-- HOME -->
+            <section id="view-home" class="module-view">
+              <div class="px-4 py-5 border-b border-x-border">
+                <div class="flex items-start gap-3">
+                  <div class="avatar bg-x-blue text-white border-x-blue">XF</div>
+                  <div class="min-w-0 flex-1">
+                    <div class="flex items-center gap-1 flex-wrap">
+                      <span class="font-bold text-[15px]">XForge</span>
+                      <svg class="verified w-[18px] h-[18px]" viewBox="0 0 22 22" fill="currentColor"><path d="M20.396 11c-.018-.646-.215-1.275-.57-1.816-.354-.54-.852-.972-1.438-1.246.223-.607.27-1.264.14-1.897-.131-.634-.437-1.218-.882-1.687-.47-.445-1.053-.75-1.687-.882-.633-.13-1.29-.083-1.897.14-.273-.587-.704-1.086-1.245-1.44S11.647 1.62 11 1.604c-.646.017-1.273.213-1.813.568s-.971.854-1.245 1.44c-.608-.223-1.267-.272-1.902-.14-.635.13-1.22.436-1.69.882-.445.47-.749 1.055-.878 1.688-.13.633-.08 1.29.144 1.896-.587.274-1.087.705-1.443 1.245-.356.54-.555 1.17-.574 1.817.02.647.218 1.276.574 1.817.356.54.856.972 1.443 1.245-.224.606-.274 1.263-.144 1.896.13.634.433 1.218.877 1.688.47.443 1.054.747 1.687.878.633.132 1.29.084 1.897-.136.274.586.705 1.084 1.246 1.439.54.354 1.17.551 1.816.569.647-.016 1.276-.213 1.817-.567s.972-.854 1.245-1.44c.604.239 1.266.296 1.903.164.636-.132 1.22-.447 1.68-.907.46-.46.776-1.044.908-1.681s.075-1.299-.165-1.903c.586-.274 1.084-.705 1.439-1.246.354-.54.551-1.17.569-1.816zM9.662 14.85l-3.429-3.428 1.293-1.302 2.072 2.072 4.4-4.794 1.347 1.246z"/></svg>
+                      <span class="text-x-secondary text-[15px]">@xforge</span>
+                    </div>
+                    <p class="text-[15px] mt-1 leading-normal">
+                      The free toolkit to dominate on X — led by a <span class="text-x-blue font-medium">flagship Idea Validator</span> with live Fresh Signals from Reddit &amp; Hacker News.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mt-3">
+                      <button class="x-btn-blue text-[14px] px-4 py-1.5" onclick="navigate('validator')">Open Idea Validator</button>
+                      <button class="x-btn-outline text-[14px] px-4 py-1.5" onclick="navigate('threads')">Thread tools</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Flagship promo card -->
+              <button onclick="navigate('validator')" class="w-full text-left border-b border-x-border px-4 py-4 bg-x-blue-dim x-hover">
+                <div class="text-[13px] font-bold text-x-blue">Flagship module</div>
+                <div class="text-[19px] font-bold mt-1">Idea Validator + Fresh Signals</div>
+                <p class="text-[14px] text-x-secondary mt-1 leading-relaxed">Deep validation: problems, competitors, market timing, distribution, differentiation, monetization, red flags, and action steps — grounded in live public discussions.</p>
+                <span class="inline-block mt-3 text-[14px] font-bold text-x-blue">Run a validation →</span>
+              </button>
+
+              <div class="grid grid-cols-3 border-b border-x-border text-center">
+                <div class="py-3 border-r border-x-border"><div class="text-[17px] font-bold">7</div><div class="text-[13px] text-x-secondary">Modules</div></div>
+                <div class="py-3 border-r border-x-border"><div class="text-[17px] font-bold">$0</div><div class="text-[13px] text-x-secondary">Free</div></div>
+                <div class="py-3"><div class="text-[17px] font-bold text-x-blue">9h</div><div class="text-[13px] text-x-secondary">Signals</div></div>
+              </div>
+
+              <!-- Who to follow (mobile/home) -->
+              <div id="follow-home" class="border-b border-x-border"></div>
+
+              <div class="section-label flex items-center justify-between">
+                <span>Live Fresh Signals</span>
+                <button type="button" class="text-[13px] font-bold text-x-blue" onclick="navigate('validator')">Open validator →</button>
+              </div>
+              <div id="home-signals"></div>
+
+              <div class="section-label">Toolkit</div>
+              <div id="home-modules"></div>
+            </section>
+
+            <!-- HISTORY -->
+            <section id="view-history" class="module-view">
+              <div class="px-4 py-3 border-b border-x-border flex items-center justify-between gap-2">
+                <p class="text-[13px] text-x-secondary">Saved on this device · private</p>
+                <div class="flex gap-3">
+                  <button class="text-[13px] font-bold text-x-blue" onclick="exportHistory()">Export</button>
+                  <button class="text-[13px] font-bold text-x-red" onclick="clearHistory()">Clear</button>
+                </div>
+              </div>
+              <div id="history-list"></div>
+            </section>
+
+            <!-- THREADS -->
+            <section id="view-threads" class="module-view">
+              <div class="border-b border-x-border p-4 space-y-3">
+                <div>
+                  <label class="text-[13px] text-x-secondary font-medium">Topic / hook</label>
+                  <textarea id="th-topic" rows="3" class="x-input mt-1 px-3 py-2 text-[15px] resize-none" placeholder="How I landed 5 clients from X replies without a big following"></textarea>
+                  <div class="flex flex-wrap gap-1.5 mt-2" id="th-examples"></div>
+                </div>
+                <div class="grid grid-cols-2 sm:grid-cols-3 gap-2">
+                  <div>
+                    <label class="text-[13px] text-x-secondary">Tone</label>
+                    <select id="th-tone" class="x-input mt-1 px-3 py-2 text-[14px]">
+                      <option value="authoritative">Authoritative</option>
+                      <option value="storytelling">Storytelling</option>
+                      <option value="contrarian">Contrarian</option>
+                      <option value="tactical">Tactical</option>
+                      <option value="friendly">Friendly</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label class="text-[13px] text-x-secondary">Length</label>
+                    <select id="th-length" class="x-input mt-1 px-3 py-2 text-[14px]">
+                      <option value="short">5 tweets</option>
+                      <option value="medium" selected>8 tweets</option>
+                      <option value="long">12 tweets</option>
+                    </select>
+                  </div>
+                  <div class="col-span-2 sm:col-span-1">
+                    <label class="text-[13px] text-x-secondary">Goal</label>
+                    <select id="th-goal" class="x-input mt-1 px-3 py-2 text-[14px]">
+                      <option value="growth">Grow followers</option>
+                      <option value="leads">Generate leads</option>
+                      <option value="authority">Build authority</option>
+                      <option value="product">Promote product</option>
+                      <option value="engagement">Max engagement</option>
+                    </select>
+                  </div>
+                </div>
+                <button class="x-btn-blue w-full py-2.5 text-[15px]" onclick="runThreads()">Generate threads</button>
+              </div>
+              <div id="th-output"></div>
+            </section>
+
+            <!-- OUTREACH -->
+            <section id="view-outreach" class="module-view">
+              <div class="border-b border-x-border p-4 space-y-3">
+                <div>
+                  <label class="text-[13px] text-x-secondary font-medium">Who are you reaching?</label>
+                  <input id="or-target" class="x-input mt-1 px-3 py-2 text-[15px]" placeholder="SaaS founders with 5–20k followers" />
+                  <div class="flex flex-wrap gap-1.5 mt-2" id="or-examples"></div>
+                </div>
+                <div>
+                  <label class="text-[13px] text-x-secondary font-medium">Your offer</label>
+                  <textarea id="or-offer" rows="2" class="x-input mt-1 px-3 py-2 text-[15px] resize-none" placeholder="Free X profile audit that finds 3 growth leaks"></textarea>
+                </div>
+                <div class="grid grid-cols-2 gap-2">
+                  <div>
+                    <label class="text-[13px] text-x-secondary">Style</label>
+                    <select id="or-style" class="x-input mt-1 px-3 py-2 text-[14px]">
+                      <option value="value">Value-first</option>
+                      <option value="peer">Peer-to-peer</option>
+                      <option value="direct">Direct</option>
+                      <option value="curious">Curiosity</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label class="text-[13px] text-x-secondary">Sequence</label>
+                    <select id="or-seq" class="x-input mt-1 px-3 py-2 text-[14px]">
+                      <option value="3">3-touch</option>
+                      <option value="4" selected>4-touch</option>
+                      <option value="5">5-touch</option>
+                    </select>
+                  </div>
+                </div>
+                <button class="x-btn-blue w-full py-2.5 text-[15px]" onclick="runOutreach()">Generate sequence</button>
+              </div>
+              <div id="or-output"></div>
+            </section>
+
+            <!-- GROWTH -->
+            <section id="view-growth" class="module-view">
+              <div class="border-b border-x-border p-4 space-y-3">
+                <div>
+                  <label class="text-[13px] text-x-secondary font-medium">Core idea / niche</label>
+                  <textarea id="gr-idea" rows="2" class="x-input mt-1 px-3 py-2 text-[15px] resize-none" placeholder="Teaching freelancers how to productize services"></textarea>
+                  <div class="flex flex-wrap gap-1.5 mt-2" id="gr-examples"></div>
+                </div>
+                <div>
+                  <label class="text-[13px] text-x-secondary">Audience</label>
+                  <input id="gr-audience" class="x-input mt-1 px-3 py-2 text-[15px]" placeholder="Freelance designers earning $3–8k/mo" />
+                </div>
+                <div>
+                  <label class="text-[13px] text-x-secondary">Goal</label>
+                  <select id="gr-goal" class="x-input mt-1 px-3 py-2 text-[14px]">
+                    <option value="audience">Grow audience</option>
+                    <option value="leads">Book calls</option>
+                    <option value="product">Waitlist</option>
+                    <option value="authority">Authority</option>
+                  </select>
+                </div>
+                <button class="x-btn-blue w-full py-2.5 text-[15px]" onclick="runGrowth()">Build 7-day plan</button>
+              </div>
+              <div id="gr-output"></div>
+            </section>
+
+            <!-- REPLIES -->
+            <section id="view-replies" class="module-view">
+              <div class="border-b border-x-border p-4 space-y-3">
+                <div>
+                  <label class="text-[13px] text-x-secondary font-medium">Paste the post</label>
+                  <textarea id="rp-tweet" rows="4" class="x-input mt-1 px-3 py-2 text-[15px] resize-none" placeholder="Paste any post you want to reply to or quote…"></textarea>
+                  <div class="flex flex-wrap gap-1.5 mt-2" id="rp-examples"></div>
+                </div>
+                <div>
+                  <label class="text-[13px] text-x-secondary">Angle</label>
+                  <select id="rp-angle" class="x-input mt-1 px-3 py-2 text-[14px]">
+                    <option value="insight">Add insight</option>
+                    <option value="story">Personal story</option>
+                    <option value="disagree">Respectful disagree</option>
+                    <option value="data">Data / proof</option>
+                    <option value="humor">Witty</option>
+                  </select>
+                </div>
+                <button class="x-btn-blue w-full py-2.5 text-[15px]" onclick="runReplies()">Generate replies</button>
+              </div>
+              <div id="rp-output"></div>
+            </section>
+
+            <!-- ANALYTICS -->
+            <section id="view-analytics" class="module-view">
+              <div class="border-b border-x-border p-4 space-y-3">
+                <div>
+                  <label class="text-[13px] text-x-secondary">Analyze</label>
+                  <select id="an-type" class="x-input mt-1 px-3 py-2 text-[14px]">
+                    <option value="post">Post / thread</option>
+                    <option value="bio">Bio</option>
+                    <option value="both">Both</option>
+                  </select>
+                </div>
+                <div>
+                  <label class="text-[13px] text-x-secondary font-medium">Paste content</label>
+                  <textarea id="an-text" rows="6" class="x-input mt-1 px-3 py-2 text-[15px] resize-none font-mono text-[13px]" placeholder="Paste your bio or recent posts…"></textarea>
+                  <div class="flex flex-wrap gap-1.5 mt-2" id="an-examples"></div>
+                </div>
+                <button class="x-btn-blue w-full py-2.5 text-[15px]" onclick="runAnalytics()">Analyze</button>
+              </div>
+              <div id="an-output"></div>
+            </section>
+
+            <!-- NICHE -->
+            <section id="view-niche" class="module-view">
+              <div class="border-b border-x-border p-4 space-y-3">
+                <div>
+                  <label class="text-[13px] text-x-secondary font-medium">Niche or market</label>
+                  <input id="ni-niche" class="x-input mt-1 px-3 py-2 text-[15px]" placeholder="AI tools for real estate agents" />
+                  <div class="flex flex-wrap gap-1.5 mt-2" id="ni-examples"></div>
+                </div>
+                <div>
+                  <label class="text-[13px] text-x-secondary">Your strengths (optional)</label>
+                  <input id="ni-strength" class="x-input mt-1 px-3 py-2 text-[15px]" placeholder="Ex-realtor, ship no-code MVPs" />
+                </div>
+                <button class="x-btn-blue w-full py-2.5 text-[15px]" onclick="runNiche()">Find opportunities</button>
+              </div>
+              <div id="ni-output"></div>
+            </section>
+
+            <!-- VALIDATOR FLAGSHIP -->
+            <section id="view-validator" class="module-view active fade-in">
+              <div class="px-4 py-4 border-b border-x-border bg-x-blue-dim">
+                <div class="flex items-center gap-2 flex-wrap">
+                  <span class="flag-badge">★ Flagship</span>
+                  <span class="text-[12px] text-x-secondary">deeper than a vibe check · grounded in live signals</span>
+                </div>
+                <h2 class="text-[20px] font-bold mt-2">Idea Validator</h2>
+                <p class="text-[14px] text-x-secondary mt-1.5 leading-relaxed max-w-xl">
+                  Full stress-test: <span class="text-x-primary">problems</span>, <span class="text-x-primary">competitors</span>, <span class="text-x-primary">market timing</span>, <span class="text-x-primary">distribution reality</span>, <span class="text-x-primary">differentiation</span>, <span class="text-x-primary">monetization</span>, <span class="text-x-primary">red flags</span>, and <span class="text-x-primary">next steps</span> — then matched live discussions from Reddit &amp; HN.
+                </p>
+                <div class="flex flex-wrap gap-2 mt-3 text-[12px] text-x-secondary">
+                  <span class="px-2 py-1 rounded-full border border-x-border">9 dimensions</span>
+                  <span class="px-2 py-1 rounded-full border border-x-border">Related signals</span>
+                  <span class="px-2 py-1 rounded-full border border-x-border">Copy · Download · History</span>
+                </div>
+              </div>
+
+              <div class="border-b border-x-border p-4 space-y-3">
+                <div>
+                  <label class="text-[13px] text-x-secondary font-medium">Idea or niche</label>
+                  <textarea id="va-idea" rows="3" class="x-input mt-1 px-3 py-2 text-[15px] resize-none" placeholder="Weekly X growth audit for B2B founders at $49/mo"></textarea>
+                  <div class="flex flex-wrap gap-1.5 mt-2" id="va-examples"></div>
+                </div>
+                <div class="grid sm:grid-cols-2 gap-2">
+                  <div>
+                    <label class="text-[13px] text-x-secondary">Target customer</label>
+                    <input id="va-customer" class="x-input mt-1 px-3 py-2 text-[15px]" placeholder="Solo B2B founders, 1–10k followers" />
+                  </div>
+                  <div>
+                    <label class="text-[13px] text-x-secondary">Channel advantage (optional)</label>
+                    <input id="va-channel" class="x-input mt-1 px-3 py-2 text-[15px]" placeholder="e.g. 8k niche audience on X" />
+                  </div>
+                </div>
+                <div>
+                  <label class="text-[13px] text-x-secondary">Stage</label>
+                  <select id="va-stage" class="x-input mt-1 px-3 py-2 text-[14px]">
+                    <option value="idea">Just an idea</option>
+                    <option value="building">Building MVP</option>
+                    <option value="launched">Already launched</option>
+                    <option value="pivoting">Pivoting</option>
+                  </select>
+                </div>
+                <button class="x-btn-blue w-full py-3 text-[15px]" onclick="runValidator()">Generate full validation report</button>
+              </div>
+              <div id="va-output"></div>
+
+              <!-- Fresh Signals integrated -->
+              <div class="border-t-[10px] border-x-border">
+                <div class="px-4 py-3 border-b border-x-border sticky top-[53px] z-20 bg-black/90 backdrop-blur-md flex items-start justify-between gap-3">
+                  <div>
+                    <h3 class="text-[17px] font-bold">Fresh Signals</h3>
+                    <p class="text-[13px] text-x-secondary mt-0.5">Live public discussions · auto-updated every ~9h · used to ground validation</p>
+                    <p id="signals-meta" class="text-[12px] text-x-secondary mt-1"></p>
+                  </div>
+                  <button class="text-[13px] font-bold text-x-blue shrink-0 px-3 py-1 rounded-full hover:bg-x-blue-dim" onclick="loadSignals(true)">Refresh</button>
+                </div>
+                <div class="px-4 py-2 border-b border-x-border space-y-2">
+                  <input id="signals-search" type="search" class="x-input px-3 py-2 text-[14px]" placeholder="Search signals (saas, growth, validation…)" autocomplete="off" />
+                  <div class="flex flex-wrap gap-1.5" id="signals-filters"></div>
+                </div>
+                <div id="signals-grid"></div>
+              </div>
+            </section>
+
+          </div>
+        </main>
+      </div>
+
+      <!-- Right rail -->
+      <aside class="hidden xl:block w-[350px] shrink-0 h-full overflow-y-auto pl-6 pr-4 py-2">
+        <div class="sticky top-2 space-y-4">
+          <div class="rounded-2xl bg-x-panel overflow-hidden">
+            <div class="px-4 py-3 text-[19px] font-bold">What's happening</div>
+            <button class="w-full text-left px-4 py-3 x-hover border-t border-x-border" onclick="navigate('validator')">
+              <div class="text-[13px] text-x-blue font-bold">Flagship · Live</div>
+              <div class="font-bold text-[15px] mt-0.5">Idea Validator</div>
+              <div class="text-[13px] text-x-secondary mt-0.5">Deep reports + Fresh Signals</div>
+            </button>
+            <button class="w-full text-left px-4 py-3 x-hover border-t border-x-border" onclick="navigate('threads')">
+              <div class="text-[13px] text-x-secondary">Toolkit</div>
+              <div class="font-bold text-[15px] mt-0.5">Thread Generator</div>
+            </button>
+            <button class="w-full text-left px-4 py-3 x-hover border-t border-x-border" onclick="navigate('growth')">
+              <div class="text-[13px] text-x-secondary">Growth</div>
+              <div class="font-bold text-[15px] mt-0.5">7-day content system</div>
+            </button>
+            <button class="w-full text-left px-4 py-3 text-x-blue text-[15px] x-hover border-t border-x-border" onclick="navigate('home')">Show more</button>
+          </div>
+
+          <div id="follow-rail" class="rounded-2xl bg-x-panel overflow-hidden"></div>
+
+          <p class="text-[12px] text-x-secondary px-3 leading-relaxed">
+            XForge · Free toolkit · Client-side only<br/>
+            Signals refresh every 9 hours via GitHub Actions
+          </p>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <div id="toast" class="fixed bottom-6 left-1/2 -translate-x-1/2 z-[100] hidden px-4 py-2.5 rounded-full bg-x-blue text-white text-[14px] font-medium shadow-lg"></div>
+
+  <script>
+  const HISTORY_KEY = 'xforge_history_v3';
+  const lastOutputs = {};
+  let signalsCache = [];
+  let signalsFilter = 'all';
+  let signalsSearch = '';
+  let lastValidationQuery = '';
+  let lastValidationReport = null;
+
+  /* ========== AI BRAIN (serverless proxy → Gemini, template fallback) ========== */
+  const AI = { enabled: false, endpoint: '/api/generate', model: 'gemini' };
+
+  async function aiProbe() {
+    try {
+      const r = await fetch(AI.endpoint, { method: 'GET' });
+      if (r.ok) { const j = await r.json(); AI.enabled = !!j.enabled; AI.model = j.model || AI.model; }
+    } catch (_) {}
+    updateAIStatus();
+  }
+
+  function updateAIStatus() {
+    const el = document.getElementById('ai-status');
+    if (!el) return;
+    el.textContent = AI.enabled ? '⚡ Live AI' : 'Offline mode';
+    el.className = 'ai-status ' + (AI.enabled ? 'on' : 'off');
+    el.title = AI.enabled
+      ? 'Every report is written live by AI (' + AI.model + ')'
+      : 'Running on built-in templates — add a model key to enable live AI';
+  }
+
+  // Merge AI output over the template default so a missing field can never break a render.
+  function coalesce(base, ai) {
+    if (Array.isArray(base)) return (Array.isArray(ai) && ai.length) ? ai : base;
+    if (base && typeof base === 'object' && ai && typeof ai === 'object') return { ...base, ...ai };
+    return (ai !== undefined && ai !== null) ? ai : base;
+  }
+
+  /**
+   * Try live AI for a module; always fall back to the deterministic template.
+   * @returns {Promise<{data:any, source:'gemini'|'template'}>}
+   */
+  async function aiGenerate(mode, inputs, fallbackFn) {
+    const base = fallbackFn();
+    if (!AI.enabled) return { data: base, source: 'template' };
+    try {
+      const r = await fetch(AI.endpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ mode, inputs }),
+      });
+      if (!r.ok) throw new Error('http ' + r.status);
+      const j = await r.json();
+      if (!j || !j.data) throw new Error('no-data');
+      return { data: coalesce(base, j.data), source: 'gemini' };
+    } catch (_) {
+      return { data: base, source: 'template' };
+    }
+  }
+
+  function thinkingLabel(word) {
+    return AI.enabled ? (word + ' with live AI…') : (word + '…');
+  }
+
+  const MODULES = {
+    home: { title: 'Home', subtitle: 'XForge · dominate on X' },
+    history: { title: 'My History', subtitle: 'Saved on this device' },
+    threads: { title: 'Thread Generator', subtitle: 'High-quality threads · variations' },
+    outreach: { title: 'Lead & Outreach', subtitle: 'Cold DMs and follow-ups' },
+    growth: { title: 'Growth System', subtitle: 'One idea → 7-day plan' },
+    replies: { title: 'Reply Booster', subtitle: 'Replies & quote angles' },
+    analytics: { title: 'X Analytics', subtitle: 'Improve posts and bio' },
+    niche: { title: 'Niche Research', subtitle: 'Problems · angles · opportunity' },
+    validator: { title: 'Idea Validator', subtitle: 'Flagship · Fresh Signals' },
+  };
+
+  const HOME_CARDS = [
+    { id: 'validator', num: '★', title: 'Idea Validator', desc: 'Deep validation report + live Fresh Signals. The core of XForge.', flag: true },
+    { id: 'threads', num: '01', title: 'Thread Generator', desc: 'Tone, length, goal — multiple copy-ready variations.' },
+    { id: 'outreach', num: '02', title: 'Lead & Outreach', desc: 'Multi-touch DM sequences that feel human.' },
+    { id: 'growth', num: '03', title: 'Growth System', desc: 'Full week of posts, threads, and engagement plays.' },
+    { id: 'replies', num: '04', title: 'Reply Booster', desc: 'Replies and quote angles that earn attention.' },
+    { id: 'analytics', num: '05', title: 'X Analytics', desc: 'Scores, fixes, rewrites, weekly plan.' },
+    { id: 'niche', num: '06', title: 'Niche Research', desc: 'Problems, angles, monetization map.' },
+    { id: 'history', num: '↺', title: 'My History', desc: 'Everything you generate, saved locally.' },
+  ];
+
+  const EXAMPLES = {
+    th: [
+      { label: 'Client replies', value: 'How I landed 5 clients from X replies without a big following' },
+      { label: 'Build in public', value: 'What building in public taught me about pricing my SaaS' },
+      { label: 'Hook myths', value: 'Why most viral hooks fail after the first 1,000 followers' },
+    ],
+    or: [
+      { label: 'SaaS founders', value: 'SaaS founders with 5–20k followers' },
+      { label: 'Agency owners', value: 'Boutique marketing agency owners' },
+      { label: 'Creators', value: 'Newsletter creators monetizing digital products' },
+    ],
+    gr: [
+      { label: 'Productize', value: 'Teaching freelancers how to productize services' },
+      { label: 'B2B growth', value: 'B2B founders growing pipeline from X content' },
+      { label: 'AI workflows', value: 'Practical AI workflows for solo consultants' },
+    ],
+    rp: [
+      { label: 'Growth take', value: 'Consistency beats virality. The accounts that win ship boring value for 200 days straight.' },
+      { label: 'Pricing', value: 'If your product needs a 40-page deck to sell, you have a positioning problem — not a product problem.' },
+      { label: 'Audience', value: 'Your first 100 true fans matter more than 10,000 silent followers. Optimize for conversations.' },
+    ],
+    an: [
+      { label: 'Sample bio', value: 'Founder | Helping startups grow | Tweets about marketing, SaaS & life | DM for collabs' },
+      { label: 'Sample post', value: 'Most people overthink content.\n\nI ship one useful idea a day.\nProfile visits are up 3x.\n\nSimple > perfect.' },
+    ],
+    ni: [
+      { label: 'RE + AI', value: 'AI tools for real estate agents' },
+      { label: 'Creator ops', value: 'Ops tools for 10k–100k newsletter writers' },
+      { label: 'Local services', value: 'Lead gen systems for home service businesses' },
+    ],
+    va: [
+      { label: 'X audit SaaS', value: 'A weekly X growth audit product for B2B founders at $49/mo' },
+      { label: 'Reply CRM', value: 'A lightweight CRM for creators who sell via DMs' },
+      { label: 'Niche templates', value: 'Swipe-file marketplace for vertical-specific X posts' },
+    ],
+  };
+
+  const VERIFIED_SVG = `<svg class="verified w-[18px] h-[18px]" viewBox="0 0 22 22" fill="currentColor"><path d="M20.396 11c-.018-.646-.215-1.275-.57-1.816-.354-.54-.852-.972-1.438-1.246.223-.607.27-1.264.14-1.897-.131-.634-.437-1.218-.882-1.687-.47-.445-1.053-.75-1.687-.882-.633-.13-1.29-.083-1.897.14-.273-.587-.704-1.086-1.245-1.44S11.647 1.62 11 1.604c-.646.017-1.273.213-1.813.568s-.971.854-1.245 1.44c-.608-.223-1.267-.272-1.902-.14-.635.13-1.22.436-1.69.882-.445.47-.749 1.055-.878 1.688-.13.633-.08 1.29.144 1.896-.587.274-1.087.705-1.443 1.245-.356.54-.555 1.17-.574 1.817.02.647.218 1.276.574 1.817.356.54.856.972 1.443 1.245-.224.606-.274 1.263-.144 1.896.13.634.433 1.218.877 1.688.47.443 1.054.747 1.687.878.633.132 1.29.084 1.897-.136.274.586.705 1.084 1.246 1.439.54.354 1.17.551 1.816.569.647-.016 1.276-.213 1.817-.567s.972-.854 1.245-1.44c.604.239 1.266.296 1.903.164.636-.132 1.22-.447 1.68-.907.46-.46.776-1.044.908-1.681s.075-1.299-.165-1.903c.586-.274 1.084-.705 1.439-1.246.354-.54.551-1.17.569-1.816zM9.662 14.85l-3.429-3.428 1.293-1.302 2.072 2.072 4.4-4.794 1.347 1.246z"/></svg>`;
+
+  /* ========== SHELL ========== */
+  function navigate(id, opts = {}) {
+    if (!MODULES[id]) id = 'validator';
+    document.querySelectorAll('.module-view').forEach(v => v.classList.remove('active'));
+    const view = document.getElementById('view-' + id);
+    if (!view) return;
+    view.classList.add('active', 'fade-in');
+    document.querySelectorAll('.nav-item').forEach(n => n.classList.toggle('active', n.dataset.module === id));
+    document.getElementById('page-title').textContent = MODULES[id].title;
+    document.getElementById('page-subtitle').textContent = MODULES[id].subtitle;
+    toggleSidebar(false);
+    document.querySelector('main').scrollTop = 0;
+    if (!opts.skipHash) {
+      const hash = '#' + id;
+      if (location.hash !== hash) history.replaceState(null, '', hash);
+    }
+    if (id === 'history') renderHistory();
+    if (id === 'home') renderHomeSignals();
+  }
+
+  function routeFromHash() {
+    const id = (location.hash || '#validator').replace(/^#/, '') || 'validator';
+    navigate(MODULES[id] ? id : 'validator', { skipHash: true });
+  }
+
+  function toggleSidebar(open) {
+    const sb = document.getElementById('sidebar');
+    const ov = document.getElementById('overlay');
+    if (open) { sb.classList.add('open'); ov.classList.remove('hidden'); }
+    else { sb.classList.remove('open'); ov.classList.add('hidden'); }
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') toggleSidebar(false);
+  });
+  window.addEventListener('hashchange', routeFromHash);
+
+  function toast(msg) {
+    const el = document.getElementById('toast');
+    el.textContent = msg;
+    el.classList.remove('hidden');
+    clearTimeout(window.__tt);
+    window.__tt = setTimeout(() => el.classList.add('hidden'), 2200);
+  }
+
+  function escapeHtml(s) {
+    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+  /** Decode HTML entities from Reddit/HN feeds before display/search. */
+  function decodeEntities(s) {
+    if (s == null || s === '') return '';
+    const str = String(s);
+    if (!/[&<]/.test(str)) return str;
+    try {
+      const ta = document.createElement('textarea');
+      ta.innerHTML = str
+        .replace(/<\/?em>/gi, '')
+        .replace(/<\/?p>/gi, ' ')
+        .replace(/<br\s*\/?>/gi, ' ');
+      return ta.value.replace(/\s+/g, ' ').trim();
+    } catch {
+      return str
+        .replace(/&#x27;|&#39;|&apos;/g, "'")
+        .replace(/&quot;/g, '"')
+        .replace(/&amp;/g, '&')
+        .replace(/&lt;/g, '<')
+        .replace(/&gt;/g, '>')
+        .replace(/<\/?[^>]+>/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim();
+    }
+  }
+  function normalizeSignal(s) {
+    if (!s || typeof s !== 'object') return null;
+    return {
+      ...s,
+      title: decodeEntities(s.title),
+      excerpt: decodeEntities(s.excerpt || ''),
+    };
+  }
+  function delay(ms) { return new Promise(r => setTimeout(r, ms)); }
+  function hashStr(s) {
+    let h = 0; for (let i = 0; i < s.length; i++) h = ((h << 5) - h + s.charCodeAt(i)) | 0;
+    return Math.abs(h);
+  }
+  function scoreFrom(seed, base = 62, spread = 30) {
+    return Math.min(97, Math.max(38, base + (seed % spread) - Math.floor(spread / 4)));
+  }
+  function scoreColor(n) {
+    if (n >= 75) return '#00ba7c';
+    if (n >= 55) return '#ffd400';
+    return '#f4212e';
+  }
+  function scoreRing(score, label) {
+    // Coerce to finite 0–100 so arrays/objects never paint as red floating text
+    let n = Number(score);
+    if (!Number.isFinite(n)) n = 0;
+    n = Math.max(0, Math.min(100, Math.round(n)));
+    const c = scoreColor(n);
+    return `<div class="score-ring-item flex flex-col items-center gap-1.5 shrink-0">
+      <div class="score-ring w-[68px] h-[68px] rounded-full p-[3px] shrink-0" style="--s:${n};--c:${c}">
+        <div class="w-full h-full rounded-full bg-black flex items-center justify-center">
+          <span class="font-bold text-lg" style="color:${c}">${n}</span>
+        </div>
+      </div>
+      <div class="score-label text-[12px] text-x-secondary text-center">${escapeHtml(label)}</div>
+    </div>`;
+  }
+
+  function loadingHTML(label) {
+    return `<div class="p-8 flex flex-col items-center gap-3 fade-in">
+      <div class="spinner"></div>
+      <div class="text-[15px] font-bold">${label || 'Working…'}</div>
+      <div class="text-[13px] text-x-secondary">This only takes a moment</div>
+      <div class="w-full max-w-xs space-y-2 mt-2">
+        <div class="skeleton h-3 w-full"></div>
+        <div class="skeleton h-3 w-5/6"></div>
+        <div class="skeleton h-3 w-4/6"></div>
+      </div>
+    </div>`;
+  }
+
+  function emptyState(title, desc, tips = []) {
+    return `<div class="px-6 py-12 text-center border-b border-x-border fade-in">
+      <div class="w-14 h-14 rounded-full bg-x-panel mx-auto flex items-center justify-center mb-3">
+        <svg class="w-7 h-7 text-x-secondary" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/></svg>
+      </div>
+      <h3 class="text-[19px] font-bold">${title}</h3>
+      <p class="text-[14px] text-x-secondary mt-2 max-w-sm mx-auto leading-relaxed">${desc}</p>
+      ${tips.length ? `<ul class="mt-4 text-left max-w-xs mx-auto space-y-1.5">${tips.map(t => `<li class="text-[13px] text-x-secondary flex gap-2"><span class="text-x-blue">·</span><span>${t}</span></li>`).join('')}</ul>` : ''}
+    </div>`;
+  }
+
+  /* ========== WHO TO FOLLOW ========== */
+  function followCardHTML(compact) {
+    return `
+      <div class="${compact ? 'px-4 py-3' : ''}">
+        ${compact ? '<div class="text-[13px] font-bold text-x-secondary mb-3">Who to follow</div>' : '<div class="px-4 py-3 text-[19px] font-bold border-b border-x-border">Who to follow</div>'}
+        <div class="${compact ? '' : 'px-4 py-3'} flex items-start gap-3">
+          <a href="https://x.com/AffiliateForge" target="_blank" rel="noopener noreferrer" class="avatar bg-x-blue text-white border-x-blue hover:opacity-90">AF</a>
+          <div class="min-w-0 flex-1">
+            <div class="flex items-center justify-between gap-2">
+              <a href="https://x.com/AffiliateForge" target="_blank" rel="noopener noreferrer" class="min-w-0 hover:underline">
+                <div class="flex items-center gap-0.5">
+                  <span class="font-bold text-[15px] truncate">AffiliateForge</span>
+                  ${VERIFIED_SVG}
+                </div>
+                <div class="text-[14px] text-x-secondary truncate">@AffiliateForge</div>
+              </a>
+              <a href="https://x.com/AffiliateForge" target="_blank" rel="noopener noreferrer" class="x-btn-primary text-[14px] px-4 py-1.5 shrink-0">Follow</a>
+            </div>
+            <p class="text-[14px] text-x-secondary mt-1.5 leading-snug">Building XForge + sharing real systems that work on X</p>
+          </div>
+        </div>
+      </div>`;
+  }
+
+  function renderFollowCards() {
+    document.getElementById('follow-home').innerHTML = followCardHTML(true);
+    document.getElementById('follow-rail').innerHTML = followCardHTML(false);
+  }
+
+  /* ========== ACTIONS ========== */
+  async function copyText(text) {
+    try { await navigator.clipboard.writeText(text); toast('Copied to clipboard'); return true; }
+    catch { toast('Copy failed'); return false; }
+  }
+  function downloadText(text, filename) {
+    const blob = new Blob([text], { type: 'text/plain;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = filename || 'xforge.txt';
+    document.body.appendChild(a); a.click(); a.remove();
+    URL.revokeObjectURL(url);
+    toast('Download started');
+  }
+
+  function actionBar(mod, source) {
+    const badge = source === 'gemini'
+      ? `<span class="out-badge on" title="Written live by AI">⚡ Live AI</span>`
+      : `<span class="out-badge off" title="Built-in template (add a model key for live AI)">Template</span>`;
+    const share = mod === 'validator'
+      ? `<button type="button" data-act="share" data-mod="${mod}" title="Share verdict on X">Post to X</button>`
+      : '';
+    return `<div class="action-bar flex flex-wrap items-center gap-2 px-4 py-3 border-b border-x-border bg-x-elevated">
+      <button type="button" data-act="copy" data-mod="${mod}">Copy</button>
+      <button type="button" data-act="download" data-mod="${mod}">Download</button>
+      <button type="button" data-act="regen" data-mod="${mod}">Regenerate</button>
+      ${share}
+      <span class="ml-auto">${badge}</span>
+    </div>`;
+  }
+
+  function wireActions(root, mod) {
+    root.querySelectorAll('[data-act]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const act = btn.dataset.act, m = btn.dataset.mod;
+        if (act === 'share') { shareValidation(); return; }
+        if (act === 'regen') {
+          ({ threads: runThreads, outreach: runOutreach, growth: runGrowth, replies: runReplies, analytics: runAnalytics, niche: runNiche, validator: runValidator })[m]?.();
+          return;
+        }
+        const pack = lastOutputs[m];
+        if (!pack?.text) return toast('Nothing to export');
+        if (act === 'copy') copyText(pack.text);
+        if (act === 'download') downloadText(pack.text, pack.filename || `xforge-${m}.txt`);
+      });
+    });
+    root.querySelectorAll('[data-copy-chunk]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const chunk = lastOutputs[mod]?.chunks?.[btn.dataset.copyChunk];
+        if (chunk) copyText(chunk);
+      });
+    });
+  }
+
+  function outEl(mod) {
+    return document.getElementById({ threads:'th-output', outreach:'or-output', growth:'gr-output', replies:'rp-output', analytics:'an-output', niche:'ni-output', validator:'va-output' }[mod]);
+  }
+
+  function setOutput(mod, { text, title, filename, html, chunks = {}, source = 'template' }) {
+    lastOutputs[mod] = { text, title, filename, chunks, source, at: Date.now() };
+    saveHistory({ id: `${mod}-${Date.now()}`, module: mod, title: title || MODULES[mod].title, text, at: Date.now() });
+    const el = outEl(mod);
+    el.innerHTML = `<div class="fade-in">${actionBar(mod, source)}${html}</div>`;
+    wireActions(el, mod);
+  }
+
+  function copyChunkBtn(key) {
+    return `<button type="button" class="text-[13px] font-bold text-x-blue hover:underline" data-copy-chunk="${key}">Copy</button>`;
+  }
+
+  /* ========== HISTORY ========== */
+  function getHistory() {
+    try { return JSON.parse(localStorage.getItem(HISTORY_KEY) || '[]'); } catch { return []; }
+  }
+  function saveHistory(entry) {
+    const list = getHistory();
+    list.unshift(entry);
+    localStorage.setItem(HISTORY_KEY, JSON.stringify(list.slice(0, 80)));
+    updateHistoryBadges();
+  }
+  function updateHistoryBadges() {
+    const n = getHistory().length;
+    const el = document.getElementById('hist-badge');
+    el.textContent = n;
+    el.classList.toggle('hidden', n === 0);
+  }
+  function clearHistory() {
+    if (!getHistory().length) return toast('History empty');
+    if (!confirm('Clear all history on this device?')) return;
+    localStorage.removeItem(HISTORY_KEY);
+    updateHistoryBadges();
+    renderHistory();
+    toast('History cleared');
+  }
+  function exportHistory() {
+    const list = getHistory();
+    if (!list.length) return toast('No history');
+    downloadText(JSON.stringify(list, null, 2), `xforge-history-${new Date().toISOString().slice(0,10)}.json`);
+  }
+  function deleteHistoryItem(id) {
+    localStorage.setItem(HISTORY_KEY, JSON.stringify(getHistory().filter(h => h.id !== id)));
+    updateHistoryBadges();
+    renderHistory();
+    toast('Removed');
+  }
+  function renderHistory() {
+    const list = getHistory();
+    const el = document.getElementById('history-list');
+    if (!list.length) {
+      el.innerHTML = emptyState('No history yet', 'Generate something in any module — it appears here automatically.', ['Stays in your browser only', 'Export JSON anytime']);
+      return;
+    }
+    const labels = { threads:'Threads', outreach:'Outreach', growth:'Growth', replies:'Replies', analytics:'Analytics', niche:'Niche', validator:'Validator' };
+    el.innerHTML = list.map((h, idx) => `
+      <article class="post-card" data-hist-idx="${idx}">
+        <div class="flex gap-3">
+          <div class="avatar text-[11px]">${(labels[h.module]||'XF').slice(0,2).toUpperCase()}</div>
+          <div class="min-w-0 flex-1">
+            <div class="flex items-center gap-1 flex-wrap">
+              <span class="font-bold text-[15px]">${escapeHtml(labels[h.module] || h.module)}</span>
+              <span class="text-x-secondary text-[14px]">· ${new Date(h.at).toLocaleString()}</span>
+            </div>
+            <div class="text-[15px] font-medium mt-0.5">${escapeHtml(h.title)}</div>
+            <pre class="text-[14px] text-x-secondary mt-2 whitespace-pre-wrap font-sans leading-normal line-clamp-3">${escapeHtml(h.text.slice(0, 400))}${h.text.length > 400 ? '…' : ''}</pre>
+            <div class="flex gap-4 mt-3 text-[13px] text-x-secondary">
+              <button type="button" class="hover:text-x-blue font-medium" data-hist-act="copy">Copy</button>
+              <button type="button" class="hover:text-x-blue font-medium" data-hist-act="download">Download</button>
+              <button type="button" class="hover:text-x-red font-medium" data-hist-act="delete">Delete</button>
+            </div>
+          </div>
+        </div>
+      </article>`).join('');
+    el.querySelectorAll('[data-hist-act]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = list[Number(btn.closest('[data-hist-idx]').dataset.histIdx)];
+        if (!item) return;
+        if (btn.dataset.histAct === 'copy') copyText(item.text);
+        if (btn.dataset.histAct === 'download') downloadText(item.text, `xforge-${item.module}.txt`);
+        if (btn.dataset.histAct === 'delete') deleteHistoryItem(item.id);
+      });
+    });
+  }
+
+  /* ========== INIT UI ========== */
+  function renderHome() {
+    document.getElementById('home-modules').innerHTML = HOME_CARDS.map(c => `
+      <button onclick="navigate('${c.id}')" class="post-card w-full text-left ${c.flag ? 'bg-x-blue-dim/40' : ''}">
+        <div class="flex gap-3">
+          <div class="avatar ${c.flag ? 'bg-x-blue text-white border-x-blue' : ''}">${c.num}</div>
+          <div class="min-w-0 flex-1">
+            <div class="flex items-center gap-1">
+              <span class="font-bold text-[15px]">${c.title}</span>
+              ${c.flag ? VERIFIED_SVG : ''}
+              <span class="text-x-secondary text-[14px] ml-auto">→</span>
+            </div>
+            <p class="text-[15px] text-x-secondary mt-0.5 leading-normal">${c.desc}</p>
+          </div>
+        </div>
+      </button>`).join('');
+  }
+
+  function renderHomeSignals() {
+    const host = document.getElementById('home-signals');
+    if (!host) return;
+    const list = signalsCache.filter(s => s?.title && validUrl(s.url)).slice(0, 3);
+    if (!list.length) {
+      host.innerHTML = `<div class="px-4 py-6 text-[14px] text-x-secondary border-b border-x-border">Signals load with the Idea Validator. <button type="button" class="text-x-blue font-bold" onclick="navigate('validator')">Open flagship →</button></div>`;
+      return;
+    }
+    host.innerHTML = list.map(s => {
+      const isHN = s.source === 'hackernews' || s.subreddit === 'HN';
+      const src = isHN ? 'HN' : (s.subreddit || 'Reddit');
+      return `
+        <a href="${escapeHtml(s.url)}" target="_blank" rel="noopener noreferrer" class="post-card block">
+          <div class="flex gap-3">
+            <div class="avatar text-[11px] ${isHN ? 'text-x-orange border-x-orange/30' : ''}">${isHN ? 'HN' : 'r/'}</div>
+            <div class="min-w-0 flex-1">
+              <div class="text-[13px] text-x-secondary">${escapeHtml(src)} · ↑${s.score || 0} · Q${s.quality || '—'}</div>
+              <div class="text-[15px] font-medium mt-0.5 leading-snug line-clamp-2">${escapeHtml(s.title)}</div>
+            </div>
+          </div>
+        </a>`;
+    }).join('') + `
+      <button type="button" onclick="navigate('validator')" class="w-full post-card text-left text-[14px] font-bold text-x-blue">
+        Validate an idea against live signals →
+      </button>`;
+  }
+
+  function dimRow(label, value, invert) {
+    let n = Number(value);
+    if (!Number.isFinite(n)) n = 0;
+    n = Math.max(0, Math.min(100, Math.round(n)));
+    const shown = invert ? Math.max(20, 100 - n) : n;
+    const c = scoreColor(shown);
+    return `<div class="mb-3" style="max-width:100%">
+      <div class="flex justify-between gap-3 text-[13px] mb-1">
+        <span class="text-x-secondary min-w-0" style="overflow-wrap:anywhere">${escapeHtml(label)}</span>
+        <span class="font-bold shrink-0" style="color:${c}">${shown}</span>
+      </div>
+      <div class="dim-bar"><span style="width:${shown}%;background:${c}"></span></div>
+    </div>`;
+  }
+
+  function wireExamples() {
+    const map = { th:['th-examples','th-topic'], or:['or-examples','or-target'], gr:['gr-examples','gr-idea'], rp:['rp-examples','rp-tweet'], an:['an-examples','an-text'], ni:['ni-examples','ni-niche'], va:['va-examples','va-idea'] };
+    Object.entries(map).forEach(([key, [hostId, fieldId]]) => {
+      const host = document.getElementById(hostId);
+      host.innerHTML = (EXAMPLES[key] || []).map((ex, i) =>
+        `<button type="button" class="chip" data-k="${key}" data-i="${i}">${escapeHtml(ex.label)}</button>`
+      ).join('');
+      host.querySelectorAll('.chip').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.getElementById(fieldId).value = EXAMPLES[btn.dataset.k][Number(btn.dataset.i)].value;
+          toast('Example loaded');
+        });
+      });
+    });
+  }
+
+  function initEmpty() {
+    document.getElementById('th-output').innerHTML = emptyState('Nothing here yet', 'Write a hook, pick tone & goal, then generate three thread variations.', ['Specific numbers beat vague topics', 'Match tone to your brand']);
+    document.getElementById('or-output').innerHTML = emptyState('No sequence yet', 'Describe who you target and what you offer.', ['Lead with value', 'Space follow-ups 2–4 days']);
+    document.getElementById('gr-output').innerHTML = emptyState('No plan yet', 'One idea becomes a full week of content.', ['Define audience clearly', 'Align to one goal']);
+    document.getElementById('rp-output').innerHTML = emptyState('No replies yet', 'Paste any post for high-engagement angles.', ['Insight > compliments', 'Never pitch first']);
+    document.getElementById('an-output').innerHTML = emptyState('No analysis yet', 'Paste a bio or post for scores and rewrites.', ['Numbers boost clarity', 'One CTA is enough']);
+    document.getElementById('ni-output').innerHTML = emptyState('No research yet', 'Enter a niche to map opportunity.', ['Narrow beats broad', 'Pair with your strengths']);
+    document.getElementById('va-output').innerHTML = emptyState(
+      'Your validation canvas',
+      'Run a full stress-test: problems, competition, timing, distribution, differentiation, monetization, red flags, and next steps — with related Fresh Signals.',
+      ['Name a paying customer clearly', 'Be honest about your distribution', 'Scroll down for live market signals']
+    );
+  }
+
+  /* ========== GENERATORS (shared modules) ========== */
+  async function runThreads() {
+    const topic = document.getElementById('th-topic').value.trim();
+    const tone = document.getElementById('th-tone').value;
+    const length = document.getElementById('th-length').value;
+    const goal = document.getElementById('th-goal').value;
+    if (!topic) return toast('Add a topic first');
+    outEl('threads').innerHTML = loadingHTML(thinkingLabel('Generating threads'));
+    const n = { short: 5, medium: 8, long: 12 }[length];
+    const { data: variations, source } = await aiGenerate(
+      'threads',
+      { topic, tone, goal, count: n },
+      () => buildThreads(topic, tone, goal, n, hashStr(topic + tone + goal + (Date.now() % 99)))
+    );
+    const chunks = {};
+    let full = `XForge Threads · ${topic}\nTone: ${tone} · Goal: ${goal}\n\n`;
+    variations.forEach((v, i) => {
+      const block = v.tweets.map((t, j) => `${j + 1}/${v.tweets.length}\n${t}`).join('\n\n');
+      chunks['th' + i] = block;
+      full += `=== ${v.name} ===\n${v.why}\n\n${block}\n\n`;
+    });
+    const html = variations.map((v, i) => `
+      <article class="post-card">
+        <div class="flex gap-3">
+          <div class="avatar">T${i + 1}</div>
+          <div class="min-w-0 flex-1">
+            <div class="flex items-center justify-between gap-2">
+              <div>
+                <span class="font-bold text-[15px]">${escapeHtml(v.name)}</span>
+                <div class="text-[13px] text-x-secondary">${escapeHtml(v.why)}</div>
+              </div>
+              ${copyChunkBtn('th' + i)}
+            </div>
+            <div class="mt-3 space-y-0 border border-x-border rounded-2xl overflow-hidden">
+              ${v.tweets.map((t, j) => `
+                <div class="px-3 py-2.5 ${j ? 'border-t border-x-border' : ''}">
+                  <div class="text-[12px] text-x-secondary font-medium">${j + 1}/${v.tweets.length}</div>
+                  <div class="text-[15px] mt-0.5 leading-normal prose-out">${escapeHtml(t)}</div>
+                </div>`).join('')}
+            </div>
+          </div>
+        </div>
+      </article>`).join('');
+    setOutput('threads', { text: full.trim(), title: `Threads: ${topic.slice(0, 60)}`, filename: 'xforge-threads.txt', html, chunks, source });
+  }
+
+  function buildThreads(topic, tone, goal, n, seed) {
+    const hooks = {
+      authoritative: [`Most people get "${topic}" completely wrong.`, `If you care about results with ${topic}, read this carefully.`, `After studying "${topic}", here's the real playbook:`],
+      storytelling: [`6 months ago I was stuck on "${topic}". Then everything flipped.`, `A single experiment with ${topic} changed my trajectory.`, `I almost quit before I figured out ${topic}. Story:`],
+      contrarian: [`Unpopular: everything you've heard about ${topic} is outdated.`, `Stop doing what gurus say about ${topic}. Do this:`, `${topic} advice online is mostly theater. What works:`],
+      tactical: [`A practical system for ${topic} (steal this):`, `Step-by-step: win at ${topic} without burning out.`, `Exact checklist I use for ${topic}:`],
+      friendly: [`Quick share on ${topic} — hope this helps:`, `Been thinking about ${topic}. Here's what clicked:`, `Friendly reminder about ${topic}:`],
+    };
+    const cta = {
+      growth: 'Follow for more breakdowns. Bookmark this system.',
+      leads: 'Want this done for you? Reply PLAYBOOK.',
+      authority: 'I break this down weekly — follow for the next level.',
+      product: 'Built a tool around this. Link in bio for early access.',
+      engagement: 'Which step hit hardest? Reply with your #1 takeaway.',
+    };
+    const pools = {
+      authoritative: ['Clarity beats cleverness. Define the outcome first.', 'Consistency compounds. One solid post daily > random virality.', 'Create once, repackage five ways.', 'Optimize conversations and saves — not vanity likes.', 'Proof pattern: claim → mechanism → example → takeaway.', 'Batch creation. Ship on a fixed cadence.', 'Track profile visits, clicks, DMs.', 'Systems beat motivation.', 'Specificity is your edge.', 'Niches grow faster than generalists.'],
+      storytelling: ['I was doing everything "right" and still stuck.', 'I shipped before I felt ready.', '30 days of tracking revealed the pattern.', 'A 12-minute post beat hours of overthinking.', 'I collected conversations instead of chasing virality.', 'One DM after a thread changed everything.', 'Outcome-focused bio increased clicks.', 'I cut 40% of ideas. Focus won.', 'Mon research, Tue draft, Wed–Fri ship.', 'The system made luck inevitable.'],
+      contrarian: ['More content isn\'t the answer. Better packaging is.', 'Ignore trends if your niche is underserved.', 'Fake engagement doesn\'t compound.', 'Dense 5-tweet threads often beat long ones.', 'Brand = repeated proof over time.', 'Earn follows with one undeniable insight.', 'Themes create memory. Random posts create noise.', 'Taste + timing beat tools.', 'Agreement isn\'t sharpness.', 'Clarity and conversation beat polish.'],
+      tactical: ['Write 20 hooks. Ship the top 3.', 'Hook → Tension → Insight → Proof → CTA.', 'One clear action at the end.', 'Reply to 15 posts before you post.', 'One win → thread, single, reply, notes.', 'Pin a proof post.', 'Track 3 metrics weekly.', 'Swipe-file saves, not likes.', 'Deep work blocks over doomscroll.', 'Monthly review. Double down on what drives DMs.'],
+      friendly: ['Early means free to experiment.', 'Share the messy middle.', 'Small public wins compound.', 'Curiosity builds community.', '100 true fans > 10k silent followers.', 'Repeat your best ideas.', 'Generosity is a growth strategy.', 'Curate your feed ruthlessly.', 'Rest is part of the system.', 'Ship the draft you\'re overthinking.'],
+    };
+    const pool = pools[tone] || pools.tactical;
+    const hookList = hooks[tone] || hooks.authoritative;
+    return [
+      { name: 'Variation A · Hook-led', why: 'Scroll-stopping open' },
+      { name: 'Variation B · Proof-heavy', why: 'Built for trust & saves' },
+      { name: 'Variation C · CTA-focused', why: `Goal: ${goal}` },
+    ].map((meta, vi) => {
+      const tweets = [hookList[(seed + vi) % hookList.length]];
+      for (let i = 0; i < n - 2; i++) {
+        let line = pool[(seed + vi * 7 + i * 3) % pool.length];
+        if (i === 0) line = `On ${topic}: ${line}`;
+        if (vi === 1 && i === Math.floor((n - 2) / 2))
+          line = `Proof: applying this to ${topic} made the bottleneck obvious — and fixable.`;
+        tweets.push(line);
+      }
+      tweets.push(cta[goal] || cta.growth);
+      return { ...meta, tweets };
+    });
+  }
+
+  async function runOutreach() {
+    const target = document.getElementById('or-target').value.trim();
+    const offer = document.getElementById('or-offer').value.trim();
+    const style = document.getElementById('or-style').value;
+    const seq = +document.getElementById('or-seq').value;
+    if (!target || !offer) return toast('Fill target and offer');
+    outEl('outreach').innerHTML = loadingHTML(thinkingLabel('Writing sequence'));
+    const { data: messages, source } = await aiGenerate(
+      'outreach',
+      { target, offer, style, seq },
+      () => buildOutreach(target, offer, style, seq)
+    );
+    const chunks = {};
+    let full = `XForge Outreach · ${target}\nOffer: ${offer}\n\n`;
+    messages.forEach((m, i) => { chunks['or' + i] = m.body; full += `--- ${m.label} (${m.timing}) ---\n${m.body}\n\n`; });
+    const html = `
+      <div class="px-4 py-3 border-b border-x-border text-[13px] text-x-secondary">Lead with relevance · one ask per message · space 2–4 days</div>
+      ${messages.map((m, i) => `
+        <article class="post-card">
+          <div class="flex gap-3">
+            <div class="avatar text-x-blue border-x-blue/40">${i + 1}</div>
+            <div class="min-w-0 flex-1">
+              <div class="flex justify-between gap-2">
+                <div>
+                  <span class="font-bold text-[15px]">${escapeHtml(m.label)}</span>
+                  <div class="text-[13px] text-x-secondary">${escapeHtml(m.timing)}</div>
+                </div>
+                ${copyChunkBtn('or' + i)}
+              </div>
+              <p class="text-[15px] mt-2 leading-normal prose-out">${escapeHtml(m.body)}</p>
+            </div>
+          </div>
+        </article>`).join('')}`;
+    setOutput('outreach', { text: full.trim(), title: `Outreach: ${target.slice(0, 50)}`, filename: 'xforge-outreach.txt', html, chunks, source });
+  }
+
+  function buildOutreach(target, offer, style, seq) {
+    const m1 = {
+      value: `Hey — noticed your work with ${target}. Quick idea:\n\nI put together ${offer}. No pitch deck — something useful today.\n\nWant me to send it?`,
+      peer: `Hey, fellow builder. Your presence as ${target} is sharp.\n\nI've been testing ${offer} and thought of you.\n\nOpen to a quick look?`,
+      direct: `Hey — short note.\n\nI help ${target} with ${offer}.\n\nRelevant? Happy to share a 2-min version.`,
+      curious: `Hey — quick question for ${target}:\n\nHave you tried ${offer}?\n\nCurious if it's even on your radar.`,
+    };
+    return [
+      { label: 'Touch 1 · Opener', timing: 'Send now · after a real interaction', body: m1[style] },
+      { label: 'Touch 2 · Value bump', timing: 'Day 2–3 if no reply', body: `Quick bump — no stress.\n\nInsight for ${target}: winners package ${offer} into a weekly ritual.\n\nWant the template?` },
+      { label: 'Touch 3 · Proof', timing: 'Day 5–6', body: `Last note:\n\nA few ${target} used ${offer} → clearer positioning → more inbound.\n\n5-min async outline if useful.` },
+      { label: 'Touch 4 · Soft close', timing: 'Day 8–10', body: `Closing the loop.\n\nIf ${offer} becomes a priority, I'm around. If solved already — win.` },
+      { label: 'Touch 5 · Gift', timing: 'Day 12–14', body: `Final note.\n\nFree checklist for ${offer}:\n1) One outcome\n2) Weekly public proof\n3) One CTA\n\nRooting for you.` },
+    ].slice(0, seq);
+  }
+
+  async function runGrowth() {
+    const idea = document.getElementById('gr-idea').value.trim();
+    const audience = document.getElementById('gr-audience').value.trim() || 'your audience';
+    const goal = document.getElementById('gr-goal').value;
+    if (!idea) return toast('Enter a core idea');
+    outEl('growth').innerHTML = loadingHTML(thinkingLabel('Building 7-day plan'));
+    const { data: days, source } = await aiGenerate(
+      'growth',
+      { idea, audience, goal },
+      () => buildGrowthPlan(idea, audience, goal)
+    );
+    const chunks = {};
+    let full = `XForge 7-Day Plan · ${idea}\nAudience: ${audience} · Goal: ${goal}\n\n`;
+    days.forEach((d, i) => {
+      const b = `${d.day} — ${d.theme}\n\nPost:\n${d.post}\n\nThread:\n${d.thread}\n\nEngage:\n${d.engage}`;
+      chunks['gr' + i] = b; full += `=== Day ${i + 1} ===\n${b}\n\n`;
+    });
+    const html = days.map((d, i) => `
+      <article class="post-card">
+        <div class="flex gap-3">
+          <div class="avatar text-[12px] font-bold">D${i + 1}</div>
+          <div class="min-w-0 flex-1">
+            <div class="flex justify-between gap-2">
+              <div>
+                <span class="font-bold text-[15px]">${escapeHtml(d.day)}</span>
+                <div class="text-[13px] text-x-secondary">${escapeHtml(d.theme)}</div>
+              </div>
+              ${copyChunkBtn('gr' + i)}
+            </div>
+            <div class="mt-2 space-y-2 text-[15px]">
+              <div><span class="text-x-blue font-medium text-[13px]">Post</span><div class="mt-0.5 leading-normal">${escapeHtml(d.post)}</div></div>
+              <div><span class="text-x-blue font-medium text-[13px]">Thread</span><div class="mt-0.5 leading-normal">${escapeHtml(d.thread)}</div></div>
+              <div><span class="text-x-blue font-medium text-[13px]">Engage</span><div class="mt-0.5 leading-normal">${escapeHtml(d.engage)}</div></div>
+            </div>
+          </div>
+        </div>
+      </article>`).join('');
+    setOutput('growth', { text: full.trim(), title: `Growth: ${idea.slice(0, 50)}`, filename: 'xforge-growth.txt', html, chunks, source });
+  }
+
+  function buildGrowthPlan(idea, audience, goal) {
+    const g = { audience: 'follows', leads: 'DMs', product: 'waitlist', authority: 'saves' }[goal];
+    return [
+      { day: 'Monday', theme: 'Define the problem', post: `Hot take for ${audience}: the bottleneck in ${idea} isn't effort — it's a missing system. (Aim: ${g})`, thread: `5 silent leaks killing progress with ${idea}. End with a checklist.`, engage: `10 diagnostic replies to ${audience}.` },
+      { day: 'Tuesday', theme: 'Proof', post: `One change around ${idea} that moved a metric — and why.`, thread: `Before → after. Steps ${audience} can copy.`, engage: `Quote a creator; add your framework.` },
+      { day: 'Wednesday', theme: 'Tactical play', post: `15-minute play for ${audience} on ${idea}.`, thread: `SOP: tools, templates, mistakes, success criteria.`, engage: `3 value replies under niche posts.` },
+      { day: 'Thursday', theme: 'Myth-bust', post: `Myth vs reality on ${idea}.`, thread: `Unpack with examples. Invite disagreement.`, engage: `"Biggest blocker with ${idea}?" prompt.` },
+      { day: 'Friday', theme: 'Community', post: `What do you wish someone told you about ${idea}?`, thread: `Compile best replies (credit people).`, engage: `Thank 3 thoughtful repliers — no pitch.` },
+      { day: 'Saturday', theme: 'Repurpose', post: `Week's best insight on ${idea}.`, thread: `Week review + upgraded framework.`, engage: `Light — 5 dream accounts.` },
+      { day: 'Sunday', theme: 'Systems', post: `How I batch content for ${idea}.`, thread: `Research → draft → ship pipeline.`, engage: `Plan hooks. Soft CTA for ${g}.` },
+    ];
+  }
+
+  async function runReplies() {
+    const tweet = document.getElementById('rp-tweet').value.trim();
+    const angle = document.getElementById('rp-angle').value;
+    if (!tweet) return toast('Paste a post first');
+    outEl('replies').innerHTML = loadingHTML(thinkingLabel('Crafting angles'));
+    const { data: items, source } = await aiGenerate(
+      'replies',
+      { tweet, angle },
+      () => buildReplies(tweet, angle)
+    );
+    const chunks = {};
+    let full = `XForge Replies\nSource: ${tweet}\n\n`;
+    items.replies.forEach((r, i) => { chunks['r' + i] = r.text; full += `Reply (${r.style}):\n${r.text}\n\n`; });
+    items.qts.forEach((q, i) => { chunks['q' + i] = q.text; full += `QT (${q.style}):\n${q.text}\n\n`; });
+    const html = `
+      <div class="post-card"><div class="text-[13px] text-x-secondary mb-1">Source</div><p class="text-[15px] leading-normal line-clamp-4">${escapeHtml(tweet)}</p></div>
+      <div class="section-label">Replies</div>
+      ${items.replies.map((r, i) => `
+        <article class="post-card">
+          <div class="flex gap-3">
+            <div class="avatar">R</div>
+            <div class="min-w-0 flex-1">
+              <div class="flex justify-between"><span class="text-[13px] text-x-blue font-medium">${escapeHtml(r.style)}</span>${copyChunkBtn('r' + i)}</div>
+              <p class="text-[15px] mt-1 leading-normal prose-out">${escapeHtml(r.text)}</p>
+            </div>
+          </div>
+        </article>`).join('')}
+      <div class="section-label">Quote angles</div>
+      ${items.qts.map((q, i) => `
+        <article class="post-card">
+          <div class="flex gap-3">
+            <div class="avatar">Q</div>
+            <div class="min-w-0 flex-1">
+              <div class="flex justify-between"><span class="text-[13px] text-x-blue font-medium">${escapeHtml(q.style)}</span>${copyChunkBtn('q' + i)}</div>
+              <p class="text-[15px] mt-1 leading-normal prose-out">${escapeHtml(q.text)}</p>
+            </div>
+          </div>
+        </article>`).join('')}`;
+    setOutput('replies', { text: full.trim(), title: 'Reply booster', filename: 'xforge-replies.txt', html, chunks, source });
+  }
+
+  function buildReplies(tweet, angle) {
+    const snip = tweet.length > 80 ? tweet.slice(0, 77) + '…' : tweet;
+    const banks = {
+      insight: [
+        { style: 'Insight', text: 'Underrated. Most people copy the tactic but skip the constraint that made it work. Context > template.' },
+        { style: 'Framework', text: 'Filter: if it doesn\'t create a conversation or save, it\'s decoration. Your point starts the conversation.' },
+        { style: 'Second-order', text: 'Agreed — people remember who made the idea feel obvious, not just who said it first.' },
+      ],
+      story: [
+        { style: 'Story', text: 'Felt this. Tried the opposite for 2 weeks — stalled. Switched approaches and inbound showed up within days.' },
+        { style: 'Lesson', text: 'Learned the hard way: volume lost to one focused post that actually said something.' },
+        { style: 'Relatable', text: 'Saving this. I was overcomplicating this exact problem.' },
+      ],
+      disagree: [
+        { style: 'Pushback', text: 'Strong take. Slight pushback: works best after baseline distribution. Early on, consistency still compounds.' },
+        { style: 'Nuance', text: 'True for advanced accounts. Smaller ones often need simple proofs first, then this layer.' },
+        { style: 'Edge case', text: 'Holds in most niches — dense verticals sometimes need depth over brevity. Core still stands.' },
+      ],
+      data: [
+        { style: 'Proof', text: 'Matched my sample: tension-line posts ~2× profile clicks vs pure tips over 30 days.' },
+        { style: 'Metrics', text: 'Track saves + replies, not likes — vanity hides the signal.' },
+        { style: 'Test', text: 'A/B the hook: curiosity vs authority. Curiosity often wins early.' },
+      ],
+      humor: [
+        { style: 'Wit', text: 'The algorithm said "build in public." I heard "overshare my calendar anxiety." This is the adult version.' },
+        { style: 'Playful', text: 'Me after rewriting the same post 14 times: …okay, shipping the draft.' },
+        { style: 'Callback', text: 'Pin this next to "just post bro." Actually useful edition.' },
+      ],
+    };
+    return {
+      replies: banks[angle] || banks.insight,
+      qts: [
+        { style: 'Amplify', text: `Most people will screenshot this and change nothing.\n\nTurn it into a weekly ritual.\n\n("${snip}")` },
+        { style: 'Bridge', text: 'Read twice. Then ask: what would make my next post unignorable for one person?' },
+        { style: 'Systems', text: 'Good post. Incomplete without: distribution is a practice. Systems > inspiration.' },
+      ],
+    };
+  }
+
+  async function runAnalytics() {
+    const type = document.getElementById('an-type').value;
+    const text = document.getElementById('an-text').value.trim();
+    if (!text) return toast('Paste content first');
+    outEl('analytics').innerHTML = loadingHTML(thinkingLabel('Analyzing'));
+    const { data: r, source } = await aiGenerate(
+      'analytics',
+      { text, type },
+      () => analyzeContent(text, type)
+    );
+    const full = `XForge Analytics\nOverall: ${r.overall}\nClarity: ${r.clarity} · Hook: ${r.hook} · CTA: ${r.cta}\n\nStrengths:\n${r.strengths.map(s => '- ' + s).join('\n')}\n\nFixes:\n${r.fixes.map(s => '- ' + s).join('\n')}\n\nRewrites:\n${r.rewrites.map(x => x.label + ':\n' + x.text).join('\n\n')}\n\nPlan:\n${r.plan.map((p, i) => (i + 1) + '. ' + p).join('\n')}`;
+    const html = `
+      <div class="px-4 py-5 border-b border-x-border flex flex-wrap justify-around gap-4">
+        ${scoreRing(r.overall, 'Overall')}${scoreRing(r.clarity, 'Clarity')}${scoreRing(r.hook, 'Hook')}${scoreRing(r.cta, 'CTA')}
+      </div>
+      <div class="report-block"><h4 class="text-x-green">Strengths</h4><ul class="space-y-1.5">${r.strengths.map(s => `<li class="text-[15px]">· ${escapeHtml(s)}</li>`).join('')}</ul></div>
+      <div class="report-block"><h4 class="text-x-yellow">Fix first</h4><ul class="space-y-1.5">${r.fixes.map(s => `<li class="text-[15px]">· ${escapeHtml(s)}</li>`).join('')}</ul></div>
+      <div class="report-block"><h4>Rewrites</h4>${r.rewrites.map(x => `<div class="mb-3"><div class="text-[13px] text-x-blue font-medium">${escapeHtml(x.label)}</div><div class="text-[15px] mt-1 prose-out">${escapeHtml(x.text)}</div></div>`).join('')}</div>
+      <div class="report-block"><h4>7-day plan</h4><ol class="list-decimal list-inside space-y-1 text-[15px]">${r.plan.map(p => `<li>${escapeHtml(p)}</li>`).join('')}</ol></div>`;
+    setOutput('analytics', { text: full, title: 'Analytics report', filename: 'xforge-analytics.txt', html, source });
+  }
+
+  function analyzeContent(text, type) {
+    const seed = hashStr(text);
+    const hasNumbers = /\d/.test(text), hasQuestion = /\?/.test(text);
+    const hasCTA = /(dm|follow|reply|link|bio|comment|subscribe|join)/i.test(text);
+    const lines = text.split(/\n+/).filter(Boolean);
+    const wc = text.trim().split(/\s+/).length;
+    let clarity = scoreFrom(seed, 58, 28), hook = scoreFrom(seed + 3, 55, 32), cta = scoreFrom(seed + 7, 50, 30);
+    if (hasNumbers) { clarity += 6; hook += 4; }
+    if (hasQuestion) hook += 5;
+    if (hasCTA) cta += 12;
+    if (wc > 8 && wc < 40) clarity += 5;
+    if (text.length < 40) { clarity -= 10; hook -= 8; }
+    if (lines.length > 3) clarity += 4;
+    clarity = Math.min(96, Math.max(35, clarity));
+    hook = Math.min(96, Math.max(35, hook));
+    cta = Math.min(96, Math.max(30, cta));
+    const overall = Math.round(clarity * 0.35 + hook * 0.35 + cta * 0.3);
+    const strengths = [], fixes = [];
+    if (hasNumbers) strengths.push('Uses specifics/numbers — credibility boost.'); else fixes.push('Add a number, timeframe, or result up top.');
+    if (hasQuestion) strengths.push('Question invites replies.'); else fixes.push('End with one sharp question.');
+    if (hasCTA) strengths.push('CTA signal present.'); else fixes.push('Add one clear CTA.');
+    if (wc >= 12) strengths.push('Enough substance for a complete thought.'); else fixes.push('Add one insight + one example.');
+    while (strengths.length < 3) strengths.push('Voice feels human — keep it.');
+    while (fixes.length < 3) fixes.push('Lead with tension or outcome before context.');
+    const first = lines[0] || text.slice(0, 100);
+    return {
+      overall, clarity, hook, cta,
+      strengths: strengths.slice(0, 4), fixes: fixes.slice(0, 4),
+      rewrites: [
+        { label: 'Stronger hook', text: `Try:\n"${hasNumbers ? first : 'In 30 days of testing, ' + first}"` },
+        { label: type === 'bio' ? 'Bio upgrade' : 'CTA upgrade', text: type === 'bio' ? 'I help [audience] get [outcome] without [pain].\nProof: [metric].\n↓ [CTA]' : 'Close with: Reply GUIDE for the checklist.' },
+        { label: 'Structure', text: '1) Tension hook\n2) Mechanism\n3) Mini proof\n4) Single CTA' },
+      ],
+      plan: [
+        'Rewrite bio: outcome + proof + CTA; pin best proof.',
+        'Ship 3 hooks for one idea; post the strongest.',
+        '20 value replies/day in your niche.',
+        'Thread: problem → system → proof → ask.',
+        'Review visits & DMs; double down on winners.',
+      ],
+    };
+  }
+
+  async function runNiche() {
+    const niche = document.getElementById('ni-niche').value.trim();
+    const strength = document.getElementById('ni-strength').value.trim();
+    if (!niche) return toast('Enter a niche');
+    outEl('niche').innerHTML = loadingHTML(thinkingLabel('Mapping opportunities'));
+    const { data: r, source } = await aiGenerate(
+      'niche',
+      { niche, strength },
+      () => buildNicheReport(niche, strength)
+    );
+    const full = `XForge Niche · ${r.title}\nOpp: ${r.opp} · Demand: ${r.demand}\n\n${r.edge}\n\nProblems:\n${r.problems.map(p => '- ' + p).join('\n')}\n\nAngles:\n${r.angles.map(p => '- ' + p).join('\n')}\n\nMonetization:\n${r.monetization.map(m => `- ${m.name}: ${m.desc}`).join('\n')}`;
+    const html = `
+      <div class="px-4 py-5 border-b border-x-border flex flex-wrap justify-around gap-4">
+        ${scoreRing(r.opp, 'Opportunity')}${scoreRing(r.demand, 'Demand')}${scoreRing(100 - Math.round(r.competition * 0.7), 'White space')}
+      </div>
+      <div class="report-block"><div class="font-bold text-[15px]">${escapeHtml(r.title)}</div><p class="text-[14px] text-x-secondary mt-1">${escapeHtml(r.edge)}</p></div>
+      <div class="report-block"><h4>Problems</h4><ul class="space-y-1.5">${r.problems.map(p => `<li class="text-[15px]">· ${escapeHtml(p)}</li>`).join('')}</ul></div>
+      <div class="report-block"><h4>Content angles</h4><ul class="space-y-1.5">${r.angles.map(p => `<li class="text-[15px]">· ${escapeHtml(p)}</li>`).join('')}</ul></div>
+      <div class="report-block"><h4>Monetization</h4>${r.monetization.map(m => `<div class="mb-2"><div class="font-medium text-[15px]">${escapeHtml(m.name)}</div><div class="text-[14px] text-x-secondary">${escapeHtml(m.desc)}</div></div>`).join('')}</div>`;
+    setOutput('niche', { text: full, title: `Niche: ${niche.slice(0, 50)}`, filename: 'xforge-niche.txt', html, source });
+  }
+
+  function buildNicheReport(niche, strength) {
+    const seed = hashStr(niche + strength);
+    return {
+      title: niche,
+      opp: scoreFrom(seed, 64, 28),
+      competition: scoreFrom(seed + 11, 48, 35),
+      demand: scoreFrom(seed + 19, 60, 30),
+      problems: [
+        `${niche} buyers drown in hype and waste budget on generic tools.`,
+        `Implementation stalls after the first attempt with ${niche}.`,
+        `Trust gap: claims without public proof.`,
+        `ICP wants outcomes without becoming full-time operators.`,
+      ],
+      angles: [
+        `Myths about ${niche}`,
+        `Public teardowns of real ${niche} setups`,
+        `1 problem → 1 system → 1 checklist / week`,
+        `Build diaries specific to ${niche}`,
+        `Speed-to-value comparisons`,
+      ],
+      monetization: [
+        { name: 'Productized audit', desc: `Fixed-scope ${niche} audit, 48h turnaround` },
+        { name: 'Template pack', desc: 'SOPs + swipe files, low ticket' },
+        { name: 'Cohort', desc: '2-week live sprint' },
+        { name: 'Micro-tool', desc: 'Automate the most painful step' },
+        { name: 'Sponsorships', desc: 'Once trust is high, niche sponsors convert' },
+      ],
+      edge: strength
+        ? `Your edge ("${strength}") is the wedge — lead with proof only you can show.`
+        : 'Define a wedge: experience, distribution, or unique data.',
+    };
+  }
+
+  /* ========== FLAGSHIP VALIDATOR ========== */
+  function tokensFrom(text) {
+    return String(text).toLowerCase()
+      .replace(/[^a-z0-9\s]/g, ' ')
+      .split(/\s+/)
+      .filter(w => w.length > 3 && !['with','that','this','from','your','have','will','into','about','they','them','what','when','just','only','more','than','also','like'].includes(w));
+  }
+
+  function relatedSignals(idea, customer, limit = 4) {
+    const toks = new Set([...tokensFrom(idea), ...tokensFrom(customer)]);
+    if (!toks.size) return signalsCache.slice(0, limit);
+    const scored = signalsCache
+      .filter(s => s?.title && validUrl(s.url))
+      .map(s => {
+        const hay = `${s.title} ${s.excerpt || ''} ${(s.tags || []).join(' ')}`.toLowerCase();
+        let score = 0;
+        toks.forEach(t => { if (hay.includes(t)) score += 2; });
+        score += (s.quality || 50) / 50;
+        score += Math.log10((s.score || 1) + 10) * 0.3;
+        return { s, score };
+      })
+      .filter(x => x.score > 0.5)
+      .sort((a, b) => b.score - a.score);
+    const top = scored.slice(0, limit).map(x => x.s);
+    // Always fill with high-quality general signals if few matches
+    if (top.length < limit) {
+      const ids = new Set(top.map(t => t.id));
+      for (const s of signalsCache) {
+        if (top.length >= limit) break;
+        if (s?.title && validUrl(s.url) && !ids.has(s.id)) top.push(s);
+      }
+    }
+    return top;
+  }
+
+  async function runValidator() {
+    const idea = document.getElementById('va-idea').value.trim();
+    const customer = document.getElementById('va-customer').value.trim() || 'early adopters who already feel this pain';
+    const channel = document.getElementById('va-channel').value.trim();
+    const stage = document.getElementById('va-stage').value;
+    if (!idea) return toast('Enter an idea');
+    lastValidationQuery = idea + ' ' + customer;
+    outEl('validator').innerHTML = loadingHTML(thinkingLabel('Running deep validation'));
+    const related = relatedSignals(idea, customer, 4);
+    const signals = related.map(s => ({ title: s.title, excerpt: s.excerpt || '' }));
+    const { data: r, source } = await aiGenerate(
+      'validator',
+      { idea, customer, stage, channel, signals },
+      () => buildValidationReport(idea, customer, stage, channel, related)
+    );
+    r.related = related; // always keep the real, client-matched signals
+    lastValidationReport = r;
+    const full = formatValidationText(r);
+    const html = renderValidationHTML(r);
+    setOutput('validator', { text: full, title: `Validation: ${idea.slice(0, 50)}`, filename: 'xforge-validation.txt', html, source });
+    // Highlight related filter in signals if user is on validator
+    signalsFilter = 'all';
+    renderSignals();
+  }
+
+  // Prefill the validator from a live signal card and jump to it.
+  function validateFromSignal(id) {
+    const s = signalsCache.find(x => x.id === id);
+    if (!s) return;
+    const el = document.getElementById('va-idea');
+    if (el) el.value = s.title;
+    navigate('validator');
+    const main = document.querySelector('main');
+    if (main) main.scrollTop = 0;
+    if (el) el.focus();
+    toast('Idea loaded — tweak it, then hit Validate');
+  }
+
+  // One-tap share of the verdict to X (opens the compose intent — user still confirms the post).
+  function shareValidation() {
+    const r = lastValidationReport;
+    if (!r) return toast('Run a validation first');
+    const idea = (r.idea || '').slice(0, 90);
+    const url = location.href.split('#')[0];
+    const text = `"${idea}" scored ${r.overall}/100 on XForge — ${r.verdict.label}.\n\nFree AI idea validator + live market signals:`;
+    const intent = 'https://twitter.com/intent/tweet?' +
+      new URLSearchParams({ text, url, hashtags: 'buildinpublic' }).toString();
+    window.open(intent, '_blank', 'noopener,noreferrer');
+  }
+
+  function buildValidationReport(idea, customer, stage, channel, related) {
+    const seed = hashStr(idea + customer + stage + channel + (Date.now() % 40));
+    const hasChannel = !!channel;
+    const wordCount = idea.split(/\s+/).length;
+    const specific = wordCount >= 6 || /\d|\$|mo|month|b2b|saas|audit|crm|template/i.test(idea);
+
+    let demand = scoreFrom(seed, 58, 28);
+    let competition = scoreFrom(seed + 5, 48, 36);
+    let timing = scoreFrom(seed + 11, 60, 30);
+    let distribution = scoreFrom(seed + 17, hasChannel ? 72 : 48, 28);
+    let differentiation = scoreFrom(seed + 23, specific ? 65 : 48, 30);
+    let monetizationScore = scoreFrom(seed + 29, 62, 28);
+    let feasibility = scoreFrom(seed + 31, stage === 'launched' ? 70 : 58, 28);
+
+    if (specific) { demand += 5; differentiation += 6; }
+    if (hasChannel) { distribution += 10; demand += 3; }
+    if (stage === 'idea') feasibility -= 4;
+    if (stage === 'launched') demand += 4;
+    if (related.length >= 3) { timing += 4; demand += 3; }
+
+    demand = clamp(demand); competition = clamp(competition); timing = clamp(timing);
+    distribution = clamp(distribution); differentiation = clamp(differentiation);
+    monetizationScore = clamp(monetizationScore); feasibility = clamp(feasibility);
+
+    // Weighted opportunity (competition inverted)
+    const overall = Math.round(
+      demand * 0.2 +
+      (100 - competition) * 0.12 +
+      timing * 0.12 +
+      distribution * 0.18 +
+      differentiation * 0.14 +
+      monetizationScore * 0.14 +
+      feasibility * 0.1
+    );
+
+    const stageNotes = {
+      idea: 'Pre-build stage: your job is learning speed, not feature count. Optimize for conversations and payment intent.',
+      building: 'MVP stage: ship the thinnest wedge that proves the painful moment is real. Instrument activation early.',
+      launched: 'Live product: double down on retention, case studies, and distribution — not new feature sprawl.',
+      pivoting: 'Pivot with distribution intact. Keep the audience; change the offer until pull is obvious.',
+    };
+
+    const verdict =
+      overall >= 75 ? { label: 'Strong pursue', color: '#00ba7c', note: 'Signals favor building — if you can reach buyers quickly.' } :
+      overall >= 58 ? { label: 'Validate harder', color: '#ffd400', note: 'Promising, but unproven. Earn evidence before heavy investment.' } :
+      { label: 'High risk / narrow', color: '#f4212e', note: 'Soft pull or hard distribution. Narrow the ICP or kill fast.' };
+
+    return {
+      idea, customer, channel, stage, overall, demand, competition, timing, distribution, differentiation, monetizationScore, feasibility,
+      stageNote: stageNotes[stage],
+      verdict,
+      executive: buildExecutiveSummary(idea, customer, overall, hasChannel, specific),
+      problems: [
+        `${customer} waste time comparing generic tools that don't match how they actually work week to week.`,
+        `They get the promise of “${idea.slice(0, 90)}${idea.length > 90 ? '…' : ''}” conceptually, but stall on first implementation without a guided path.`,
+        `Trust is low around this category: vague claims and thin proof. ${customer} need public before/after evidence they can screenshot.`,
+        `Budget exists for pain relief only when ROI is framed in their language (time saved, pipeline, revenue) — not feature lists for “${idea.split(/\s+/).slice(0, 4).join(' ')}”.`,
+        `Status-quo inertia wins until a forcing event (missed quarter, failed hire, burnout) makes change urgent for ${customer}.`,
+      ],
+      competitors: [
+        { type: 'Direct', name: 'Incumbent tools & agencies', note: `Strong brands and budgets; often weaker personalization for ${customer} and this exact workflow.` },
+        { type: 'Indirect', name: 'Free threads, Notion templates, newsletters', note: 'Near-zero cost alternatives with high abandon rates — your edge is completion and outcomes.' },
+        { type: 'Behavioral', name: 'Doing nothing / spreadsheets', note: 'The real competitor is habit. Design for activation, not just acquisition.' },
+        { type: 'Emerging', name: 'AI wrappers in adjacent categories', note: 'Fast followers will appear. Defend with workflow depth, data, or distribution — not UI polish alone.' },
+      ],
+      marketTiming: [
+        timing >= 70
+          ? 'Timing looks favorable: public conversation volume and willingness to experiment in this space are elevated.'
+          : 'Timing is mixed: interest exists, but buyers may be fatigued by noise. A sharper wedge is required.',
+        'Macro tailwinds: creators and operators still need leverage on X without full-time content teams.',
+        related.length
+          ? `Fresh Signals show ${related.length} recent high-signal discussions adjacent to this idea — treat them as demand breadcrumbs, not proof of purchase.`
+          : 'Few tightly matching Fresh Signals right now — validate with direct conversations, not feed vibes.',
+        'Window risk: if you wait for a "perfect" product, faster builders with weaker products but better distribution will own the narrative.',
+      ],
+      distributionReality: [
+        hasChannel
+          ? `You declared a channel: "${channel}". That is a real advantage — convert attention into waitlist/pre-sales before expanding scope.`
+          : 'No channel advantage declared. Assume cold start: replies, collaborations, and niche communities will matter more than product polish.',
+        'On X, distribution is a skill: weekly proof posts + deliberate reply graph beats sporadic "launch" energy.',
+        'Warm path: 10 customer interviews → 1 case study → 1 productized offer → public build loop.',
+        distribution < 55
+          ? 'Distribution is your bottleneck. Fix reach before building a wide surface area.'
+          : 'Distribution is workable. Protect it: one clear CTA, one offer, consistent shipping cadence.',
+      ],
+      // Text notes — MUST stay named diffNotes (score is differentiation above)
+      diffNotes: [
+        specific
+          ? `Specificity in "${idea}" helps. Lean into a single ICP + single painful moment until you have 10 paying proofs.`
+          : 'The idea reads broad. Differentiation will suffer until you pick a vertical and a weekly job-to-be-done.',
+        'Win on: (1) outcome language, (2) faster time-to-value, (3) public proof, (4) community/distribution — pick two to dominate.',
+        'Avoid competing on "AI-powered" alone. Compete on the workflow and the results your ICP can screenshot.',
+        `Positioning draft: "For ${customer} who struggle with [pain], ${idea} helps them [outcome] without [old painful alternative]."`,
+      ],
+      monetization: [
+        `Lead magnet: free diagnostic or mini-audit tightly tied to ${idea} (captures intent + proof of problem).`,
+        'Core offer: $29–$99/mo software or $149–$499 productized service with a fixed scope and turnaround.',
+        'Expansion: cohort/workshop, templates pack, or annual plan once completion rates are proven.',
+        'Upsell: done-with-you or team seats after you have 3–5 case studies in the same ICP.',
+        monetizationScore >= 65
+          ? 'Willingness-to-pay signals look reasonable if you sell to people already spending on growth/tools.'
+          : 'Monetization may need a sharper ROI story — start with service, productize later.',
+      ],
+      redFlags: [
+        overall < 55 ? 'Overall opportunity is soft — narrow ICP or kill criteria soon.' : 'Main risk is vanity validation (likes without payment intent).',
+        'If you cannot name 10 people who already pay for a worse alternative, demand is still a hypothesis.',
+        competition > 72 ? 'Crowded field — without a wedge or channel, you will fight on ads/attention forever.' : 'Competition is manageable if positioning stays crisp.',
+        stage === 'idea' ? 'Building before 10 real conversations is the #1 failure mode.' : 'Feature creep can erase learning speed — timebox experiments.',
+        !hasChannel ? 'Cold distribution is the silent killer of "good" ideas. Plan the first 100 users explicitly.' : 'Don\'t assume your channel converts — measure waitlist → paid conversion weekly.',
+      ],
+      nextSteps: [
+        'Write a one-sentence offer: who + outcome + without what pain.',
+        `Book 10 conversations with ${customer}. Ask: what they tried, what they paid, what failed, what "done" looks like.`,
+        'Run a paid waitlist, deposit, or pre-order before expanding product scope.',
+        'Publish 5 X posts teaching the painful moment (not the product). Measure profile visits and DMs.',
+        'Define kill/pivot criteria in writing (e.g. "0 paid intent after 20 interviews → narrow or stop").',
+        hasChannel ? `Use ${channel} this week: one proof post + one offer post + 20 intentional replies.` : 'Build distribution: 20 value replies/day in-niche + 1 proof thread this week.',
+      ],
+      related,
+    };
+  }
+
+  function clamp(n) { return Math.min(96, Math.max(32, Math.round(n))); }
+
+  function buildExecutiveSummary(idea, customer, overall, hasChannel, specific) {
+    const tier = overall >= 75 ? 'high' : overall >= 58 ? 'medium' : 'low';
+    if (tier === 'high') {
+      return `“${idea}” for ${customer} scores as a high-potential opportunity. ${specific ? 'Specificity is a strength.' : 'Tighten the wedge further.'} ${hasChannel ? 'Your stated channel can accelerate learning.' : 'Pair the idea with a concrete distribution plan immediately.'} Proceed with pre-sales and a thin MVP.`;
+    }
+    if (tier === 'medium') {
+      return `“${idea}” for ${customer} is plausible but not yet earned. The bottleneck is usually distribution or ICP sharpness — not more features. Use interviews + a paid test before committing months of build time.`;
+    }
+    return `“${idea}” for ${customer} currently looks fragile. Either the market is noisy, the offer is too broad, or reach is unproven. Narrow hard or set a short kill timer.`;
+  }
+
+  function formatValidationText(r) {
+    return `XForge Idea Validation Report
+================================
+Idea: ${r.idea}
+Customer: ${r.customer}
+Stage: ${r.stage}
+Channel: ${r.channel || '(none declared)'}
+Opportunity score: ${r.overall}/100 — ${r.verdict.label}
+
+Executive summary
+${r.executive}
+
+Stage note
+${r.stageNote}
+
+Scores
+- Demand: ${r.demand}
+- Competition pressure: ${r.competition} (higher = more crowded)
+- Market timing: ${r.timing}
+- Distribution reality: ${r.distribution}
+- Differentiation: ${r.differentiation}
+- Monetization: ${r.monetizationScore}
+- Feasibility: ${r.feasibility}
+
+Problems people face
+${r.problems.map(p => '- ' + p).join('\n')}
+
+Competitive landscape
+${r.competitors.map(c => `- [${c.type}] ${c.name}: ${c.note}`).join('\n')}
+
+Market timing
+${r.marketTiming.map(p => '- ' + p).join('\n')}
+
+Distribution reality
+${r.distributionReality.map(p => '- ' + p).join('\n')}
+
+Differentiation
+${(r.diffNotes || []).map(p => '- ' + p).join('\n')}
+
+Monetization paths
+${r.monetization.map(p => '- ' + p).join('\n')}
+
+Red flags
+${r.redFlags.map(p => '- ' + p).join('\n')}
+
+Next steps
+${r.nextSteps.map((p, i) => (i + 1) + '. ' + p).join('\n')}
+
+Related Fresh Signals
+${(r.related || []).map(s => `- ${s.title} (${s.subreddit || s.source}) ${s.url}`).join('\n') || '- None loaded'}
+`;
+  }
+
+  function renderValidationHTML(r) {
+    // Scores are numbers; narrative lists are separate fields (diffNotes ≠ differentiation)
+    const bulletList = (items, bulletClass = 'text-x-secondary') => {
+      const list = Array.isArray(items) ? items : [];
+      return `<ul class="report-list">${list.map(p =>
+        `<li><span class="bullet ${bulletClass}" aria-hidden="true">·</span><span class="bullet-body">${escapeHtml(String(p))}</span></li>`
+      ).join('')}</ul>`;
+    };
+
+    const relatedHtml = (r.related || []).length
+      ? r.related.map(s => {
+          const isHN = s.source === 'hackernews' || s.subreddit === 'HN';
+          return `
+            <a href="${escapeHtml(s.url)}" target="_blank" rel="noopener noreferrer" class="report-signal-card x-hover">
+              <div class="text-[12px] text-x-secondary">${escapeHtml(isHN ? 'HN' : (s.subreddit || 'Reddit'))} · ↑${s.score || 0} · Q${s.quality || '—'}</div>
+              <div class="text-[15px] font-medium mt-1" style="line-height:1.4">${escapeHtml(s.title)}</div>
+              <div class="text-[13px] text-x-secondary mt-1.5 line-clamp-2">${escapeHtml(s.excerpt || '')}</div>
+            </a>`;
+        }).join('')
+      : `<p class="text-[14px] text-x-secondary">No signals loaded yet — scroll to Fresh Signals and hit Refresh.</p>`;
+
+    return `
+      <div class="report-block bg-x-blue-dim/50">
+        <div class="report-header">
+          <div class="report-header-text">
+            <div class="flex items-center gap-2 flex-wrap">
+              <span class="flag-badge">Flagship report</span>
+              <span class="text-[13px] font-bold" style="color:${r.verdict.color}">${escapeHtml(r.verdict.label)}</span>
+            </div>
+            <div class="text-[18px] font-bold mt-2" style="line-height:1.3">Full validation report</div>
+            <p class="text-[14px] text-x-secondary mt-1.5">${escapeHtml(r.idea)}</p>
+            <p class="text-[13px] text-x-secondary mt-1">For ${escapeHtml(r.customer)}${r.channel ? ' · Channel: ' + escapeHtml(r.channel) : ''} · Stage: ${escapeHtml(r.stage)}</p>
+            <p class="text-[14px] mt-3">${escapeHtml(r.verdict.note)}</p>
+          </div>
+          <div class="report-header-score">
+            ${scoreRing(r.overall, 'Opportunity')}
+          </div>
+        </div>
+      </div>
+
+      <div class="report-block">
+        <h4>Executive summary</h4>
+        <p class="text-[15px]">${escapeHtml(r.executive)}</p>
+        <p class="text-[13px] text-x-secondary mt-3">${escapeHtml(r.stageNote)}</p>
+      </div>
+
+      <div class="score-rings">
+        ${scoreRing(r.demand, 'Demand')}
+        ${scoreRing(Math.max(20, 100 - (Number(r.competition) || 0)), 'Open space')}
+        ${scoreRing(r.timing, 'Timing')}
+        ${scoreRing(r.distribution, 'Distribution')}
+        ${scoreRing(r.differentiation, 'Differentiation')}
+        ${scoreRing(r.monetizationScore, 'Monetization')}
+        ${scoreRing(r.feasibility, 'Feasibility')}
+      </div>
+
+      <div class="report-block">
+        <h4>Dimension breakdown</h4>
+        <p class="text-[13px] text-x-secondary mb-4">Heuristic scores from your inputs + signal match — use as a stress-test, not a crystal ball.</p>
+        ${dimRow('Demand signal', r.demand)}
+        ${dimRow('Open competitive space', r.competition, true)}
+        ${dimRow('Market timing', r.timing)}
+        ${dimRow('Distribution reality', r.distribution)}
+        ${dimRow('Differentiation', r.differentiation)}
+        ${dimRow('Monetization fit', r.monetizationScore)}
+        ${dimRow('Feasibility', r.feasibility)}
+      </div>
+
+      <div class="report-block">
+        <h4>Problems people face</h4>
+        ${bulletList(r.problems, 'text-x-red')}
+      </div>
+
+      <div class="report-block">
+        <h4>Competitive landscape</h4>
+        ${(r.competitors || []).map(c => `
+          <div class="report-competitor">
+            <span class="type-tag">${escapeHtml(c.type)}</span>
+            <div class="comp-body">
+              <div class="text-[15px] font-medium" style="line-height:1.4">${escapeHtml(c.name)}</div>
+              <div class="text-[14px] text-x-secondary mt-1" style="line-height:1.5">${escapeHtml(c.note)}</div>
+            </div>
+          </div>`).join('')}
+      </div>
+
+      <div class="report-block">
+        <h4>Market timing</h4>
+        ${bulletList(r.marketTiming)}
+      </div>
+
+      <div class="report-block">
+        <h4>Distribution reality</h4>
+        ${bulletList(r.distributionReality)}
+      </div>
+
+      <div class="report-block">
+        <h4>Differentiation</h4>
+        ${bulletList(r.diffNotes)}
+      </div>
+
+      <div class="report-block">
+        <h4>Monetization paths</h4>
+        ${bulletList(r.monetization)}
+      </div>
+
+      <div class="report-block">
+        <h4 class="text-x-yellow">Red flags</h4>
+        ${bulletList(r.redFlags, 'text-x-yellow')}
+      </div>
+
+      <div class="report-block">
+        <h4 class="text-x-blue">Recommended next steps</h4>
+        <ol class="report-steps text-[15px]">
+          ${(r.nextSteps || []).map(p => `<li>${escapeHtml(p)}</li>`).join('')}
+        </ol>
+      </div>
+
+      <div class="report-block">
+        <div class="flex items-start justify-between gap-3 mb-2 flex-wrap">
+          <h4 class="mb-0" style="margin-bottom:0">Related Fresh Signals</h4>
+          <button type="button" class="text-[13px] font-bold text-x-blue shrink-0" onclick="document.getElementById('signals-grid').scrollIntoView({behavior:'smooth'})">See all ↓</button>
+        </div>
+        <p class="text-[13px] text-x-secondary mb-4">Matched from live Reddit &amp; HN data to ground this validation — not a substitute for customer interviews.</p>
+        ${relatedHtml}
+      </div>`;
+  }
+
+  /* ========== SIGNALS ========== */
+  const FALLBACK = {
+    updatedAt: new Date().toISOString(),
+    source: 'embedded',
+    signals: [
+      { id: 'f1', title: 'How I grew SaaS to $10k MRR with zero ads', excerpt: 'Organic X growth + product-led content. Ship in public weekly.', source: 'reddit', subreddit: 'r/SaaS', score: 842, comments: 156, url: 'https://www.reddit.com/r/SaaS/', tags: ['growth', 'saas'], quality: 92 },
+      { id: 'f2', title: 'Cold outreach that actually works', excerpt: 'Stopped pitching. Free micro-audits. Specificity wins.', source: 'reddit', subreddit: 'r/entrepreneur', score: 1204, comments: 289, url: 'https://www.reddit.com/r/entrepreneur/', tags: ['outreach'], quality: 95 },
+      { id: 'f3', title: 'Thread formats that convert to waitlists', excerpt: 'Problem → story → proof → CTA. Short threads convert.', source: 'reddit', subreddit: 'r/indiehackers', score: 567, comments: 98, url: 'https://www.reddit.com/r/indiehackers/', tags: ['threads'], quality: 88 },
+      { id: 'f4', title: 'Ask HN: Validating ideas without building', excerpt: 'Pre-sell, waitlists, interviews beat vanity metrics.', source: 'hackernews', subreddit: 'HN', score: 412, comments: 180, url: 'https://news.ycombinator.com/newest', tags: ['validation', 'saas'], quality: 93 },
+      { id: 'f5', title: 'Building in public without burning out', excerpt: 'Batch content. Ship Mon/Wed/Fri. Consistency wins.', source: 'reddit', subreddit: 'r/smallbusiness', score: 389, comments: 112, url: 'https://www.reddit.com/r/smallbusiness/', tags: ['content'], quality: 85 },
+      { id: 'f6', title: 'Show HN: Tools for bootstrapped founders', excerpt: 'Distribution, pricing, shipping without VC.', source: 'hackernews', subreddit: 'HN', score: 256, comments: 72, url: 'https://news.ycombinator.com/news', tags: ['indie', 'bootstrap'], quality: 89 },
+    ],
+  };
+
+  function validUrl(u) {
+    try { const x = new URL(u); return x.protocol === 'http:' || x.protocol === 'https:'; } catch { return false; }
+  }
+
+  function renderSignals() {
+    const grid = document.getElementById('signals-grid');
+    let list = signalsCache.filter(s => s?.title && validUrl(s.url));
+    if (signalsFilter === 'reddit') list = list.filter(s => s.source === 'reddit' || (s.subreddit || '').startsWith('r/'));
+    if (signalsFilter === 'hackernews') list = list.filter(s => s.source === 'hackernews' || s.subreddit === 'HN');
+    if (signalsFilter === 'related' && lastValidationQuery) {
+      list = relatedSignals(lastValidationQuery, '', 16);
+    }
+    const q = signalsSearch.trim().toLowerCase();
+    if (q) {
+      const terms = q.split(/\s+/).filter(Boolean);
+      list = list.filter(s => {
+        const hay = `${s.title} ${s.excerpt || ''} ${(s.tags || []).join(' ')} ${s.subreddit || ''}`.toLowerCase();
+        return terms.every(t => hay.includes(t));
+      });
+    }
+    list = list.slice(0, 16);
+    if (!list.length) {
+      grid.innerHTML = emptyState('No signals', q ? 'No matches for that search — try fewer keywords or clear the box.' : 'Try Refresh or another filter. Data updates every ~9 hours.');
+      return;
+    }
+    grid.innerHTML = list.map(s => {
+      const isHN = s.source === 'hackernews' || s.subreddit === 'HN';
+      const src = isHN ? 'HN' : (s.subreddit || 'Reddit');
+      const quality = s.quality || 70;
+      return `
+        <a href="${escapeHtml(s.url)}" target="_blank" rel="noopener noreferrer" class="post-card block">
+          <div class="flex gap-3">
+            <div class="avatar text-[11px] ${isHN ? 'text-x-orange border-x-orange/30' : ''}">${isHN ? 'HN' : 'r/'}</div>
+            <div class="min-w-0 flex-1">
+              <div class="flex items-center gap-1 flex-wrap text-[14px]">
+                <span class="font-bold">${escapeHtml(src)}</span>
+                <span class="text-x-secondary">· Q${quality}</span>
+                <span class="text-x-secondary">· ↑${s.score || 0}</span>
+                <span class="text-x-secondary">· 💬${s.comments || 0}</span>
+              </div>
+              <div class="text-[15px] font-medium mt-0.5 leading-snug line-clamp-2">${escapeHtml(s.title)}</div>
+              <p class="text-[14px] text-x-secondary mt-1 leading-normal line-clamp-2">${escapeHtml(s.excerpt || '')}</p>
+              <div class="flex flex-wrap items-center gap-1.5 mt-2">
+                ${(s.tags || []).slice(0, 3).map(t => `<span class="text-[12px] text-x-blue">#${escapeHtml(t)}</span>`).join('')}
+                <button type="button" class="signal-validate ml-auto"
+                  onclick="event.preventDefault();event.stopPropagation();validateFromSignal('${escapeHtml(s.id)}')"
+                  title="Validate an idea against this signal">⚡ Validate</button>
+                <span class="text-[13px] text-x-secondary">Open ↗</span>
+              </div>
+            </div>
+          </div>
+        </a>`;
+    }).join('');
+  }
+
+  function wireSignalsSearch() {
+    const input = document.getElementById('signals-search');
+    if (!input || input.dataset.wired) return;
+    input.dataset.wired = '1';
+    let t;
+    input.addEventListener('input', () => {
+      clearTimeout(t);
+      t = setTimeout(() => {
+        signalsSearch = input.value || '';
+        renderSignals();
+      }, 120);
+    });
+  }
+
+  async function loadSignals(manual) {
+    const grid = document.getElementById('signals-grid');
+    const meta = document.getElementById('signals-meta');
+    if (manual) grid.innerHTML = `<div class="p-4 space-y-3"><div class="skeleton h-16"></div><div class="skeleton h-16"></div><div class="skeleton h-16"></div></div>`;
+    let data = FALLBACK;
+    const paths = ['data/signals.json', './data/signals.json'];
+    for (const p of paths) {
+      try {
+        const res = await fetch(p + '?t=' + Date.now(), { cache: 'no-store' });
+        if (res.ok) {
+          const json = await res.json();
+          if (json?.signals?.length) { data = json; break; }
+        }
+      } catch (_) {}
+    }
+    signalsCache = (data.signals || [])
+      .map(normalizeSignal)
+      .filter(s => s?.title && validUrl(s.url));
+    const updated = data.updatedAt ? new Date(data.updatedAt) : null;
+    meta.textContent = updated
+      ? `Updated ${updated.toLocaleString()} · ${data.source || 'live'} · ${signalsCache.length} live links`
+      : `${signalsCache.length} signals`;
+
+    const filters = document.getElementById('signals-filters');
+    const opts = [
+      ['all', 'All'],
+      ['reddit', 'Reddit'],
+      ['hackernews', 'Hacker News'],
+    ];
+    if (lastValidationQuery) opts.push(['related', 'Related to last idea']);
+    filters.innerHTML = opts.map(([f, label]) =>
+      `<button type="button" class="chip ${signalsFilter === f ? 'active' : ''}" data-filter="${f}">${label}</button>`
+    ).join('');
+    filters.querySelectorAll('[data-filter]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        signalsFilter = btn.dataset.filter;
+        renderSignals();
+        filters.querySelectorAll('.chip').forEach(c => c.classList.toggle('active', c.dataset.filter === signalsFilter));
+      });
+    });
+    wireSignalsSearch();
+    renderSignals();
+    renderHomeSignals();
+    if (manual) toast('Signals refreshed');
+  }
+
+  /* INIT */
+  renderHome();
+  renderFollowCards();
+  initEmpty();
+  wireExamples();
+  updateHistoryBadges();
+  routeFromHash();
+  loadSignals(false);
+  aiProbe();
+  </script>
+</body>
+</html>

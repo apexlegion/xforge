@@ -1,0 +1,37 @@
+name: Update XForge Fresh Signals
+
+on:
+  schedule:
+    # Every 9 hours
+    - cron: "0 */9 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-signals:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch Reddit + Hacker News signals
+        run: node scripts/fetch-signals.js
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/signals.json
+          if git diff --staged --quiet; then
+            echo "No changes to signals.json"
+          else
+            git commit -m "chore: refresh Fresh Signals (Reddit + HN) [skip ci]"
+            git push
+          fi
