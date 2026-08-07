@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T10:00:49.071Z",
+  "updatedAt": "2026-08-07T18:54:43.113Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 25,
+  "count": 24,
   "signals": [
     {
       "id": "hn-48981136",
@@ -29,22 +29,6 @@
         "startup"
       ],
       "quality": 73
-    },
-    {
-      "id": "hn-48950774",
-      "title": "Show HN: A zoomable timeline of 4M Wikipedia events",
-      "excerpt": "I'm building a journal app in Kotlin Multiplatform and for this purpose I have created a zoomable timeline interface. This is a side-project where I reuse the timeline interface to display 4 million events imported from…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 118,
-      "comments": 43,
-      "url": "https://news.ycombinator.com/item?id=48950774",
-      "externalUrl": "https://app.everything.diena.co/",
-      "createdUtc": 1784313453,
-      "tags": [
-        "discussion"
-      ],
-      "quality": 61
     },
     {
       "id": "hn-49037971",
@@ -111,6 +95,22 @@
       "quality": 42
     },
     {
+      "id": "hn-49181766",
+      "title": "Ask HN: Show your micro-SaaS / MRR updates (August 2026)",
+      "excerpt": "HN is a fantastic indiehacker/solo-founder community. We, the people, love transparency, numbers, and analyzing bootstrapped businesses. What is your current (solo) project, and what is your monthly recurring revenue?…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 11,
+      "comments": 9,
+      "url": "https://news.ycombinator.com/item?id=49181766",
+      "externalUrl": null,
+      "createdUtc": 1785932172,
+      "tags": [
+        "saas"
+      ],
+      "quality": 42
+    },
+    {
       "id": "hn-48956706",
       "title": "Ask HN: Having a child before career has taken off",
       "excerpt": "Dear HN, I am a soon-to-be dad. I am looking forward to it, and we have prepared as best we can. However, one thought is nagging me. I have finished my bachelors degree in computer science, and I am onset to start my…",
@@ -139,22 +139,6 @@
       "createdUtc": 1784594362,
       "tags": [
         "discussion"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49181766",
-      "title": "Ask HN: Show your micro-SaaS / MRR updates (August 2026)",
-      "excerpt": "HN is a fantastic indiehacker/solo-founder community. We, the people, love transparency, numbers, and analyzing bootstrapped businesses. What is your current (solo) project, and what is your monthly recurring revenue?…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 10,
-      "comments": 9,
-      "url": "https://news.ycombinator.com/item?id=49181766",
-      "externalUrl": null,
-      "createdUtc": 1785932172,
-      "tags": [
-        "saas"
       ],
       "quality": 42
     },
