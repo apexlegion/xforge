@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T09:36:12.847Z",
+  "updatedAt": "2026-08-08T18:35:19.139Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,25 +11,8 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 24,
+  "count": 21,
   "signals": [
-    {
-      "id": "hn-48981136",
-      "title": "Launch HN: Bloomy (YC S26) – AI-powered mastery learning for K-12",
-      "excerpt": "Hi HN, I’m Alex Southmayd, the founder of Bloomy (  ) – an AI-powered mastery-learning platform for K-12 students. Bloomy provides students with an AI tutor alongside adaptive curriculum (right now Math, English…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 102,
-      "comments": 107,
-      "url": "https://news.ycombinator.com/item?id=48981136",
-      "externalUrl": null,
-      "createdUtc": 1784565130,
-      "tags": [
-        "growth",
-        "startup"
-      ],
-      "quality": 73
-    },
     {
       "id": "hn-49037971",
       "title": "Micro-SaaS Is Dead. Service With A Software Replaces It",
@@ -111,20 +94,20 @@
       "quality": 42
     },
     {
-      "id": "hn-48956706",
-      "title": "Ask HN: Having a child before career has taken off",
-      "excerpt": "Dear HN, I am a soon-to-be dad. I am looking forward to it, and we have prepared as best we can. However, one thought is nagging me. I have finished my bachelors degree in computer science, and I am onset to start my…",
+      "id": "hn-49218360",
+      "title": "I watched 13 legal pages for two weeks, three of them changed",
+      "excerpt": "I watched 13 legal pages for two weeks, three of them changed",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 7,
-      "comments": 26,
-      "url": "https://news.ycombinator.com/item?id=48956706",
-      "externalUrl": null,
-      "createdUtc": 1784370442,
+      "score": 12,
+      "comments": 5,
+      "url": "https://news.ycombinator.com/item?id=49218360",
+      "externalUrl": "https://www.indiehackers.com/post/i-watched-13-legal-pages-for-two-weeks-three-of-them-changed-1d212c5c71",
+      "createdUtc": 1786155721,
       "tags": [
-        "discussion"
+        "indie"
       ],
-      "quality": 43
+      "quality": 42
     },
     {
       "id": "hn-48986762",
@@ -139,39 +122,6 @@
       "createdUtc": 1784594362,
       "tags": [
         "discussion"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49218360",
-      "title": "I watched 13 legal pages for two weeks, three of them changed",
-      "excerpt": "I watched 13 legal pages for two weeks, three of them changed",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 10,
-      "comments": 4,
-      "url": "https://news.ycombinator.com/item?id=49218360",
-      "externalUrl": "https://www.indiehackers.com/post/i-watched-13-legal-pages-for-two-weeks-three-of-them-changed-1d212c5c71",
-      "createdUtc": 1786155721,
-      "tags": [
-        "indie"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49118082",
-      "title": "Ask HN: After 8 Years of Failed Apps, Should I Give Up?",
-      "excerpt": "I’m asking because I have been trying for eight years, before AI and vibe coding. I’m an IT engineer and a hard worker. During all those years, I tried to build tens of apps. I was always so excited at first, but after…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 7,
-      "comments": 25,
-      "url": "https://news.ycombinator.com/item?id=49118082",
-      "externalUrl": null,
-      "createdUtc": 1785461979,
-      "tags": [
-        "growth",
-        "startup"
       ],
       "quality": 42
     },
