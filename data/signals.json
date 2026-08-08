@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T01:26:14.227Z",
+  "updatedAt": "2026-08-08T09:36:12.847Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -143,6 +143,22 @@
       "quality": 42
     },
     {
+      "id": "hn-49218360",
+      "title": "I watched 13 legal pages for two weeks, three of them changed",
+      "excerpt": "I watched 13 legal pages for two weeks, three of them changed",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 10,
+      "comments": 4,
+      "url": "https://news.ycombinator.com/item?id=49218360",
+      "externalUrl": "https://www.indiehackers.com/post/i-watched-13-legal-pages-for-two-weeks-three-of-them-changed-1d212c5c71",
+      "createdUtc": 1786155721,
+      "tags": [
+        "indie"
+      ],
+      "quality": 42
+    },
+    {
       "id": "hn-49118082",
       "title": "Ask HN: After 8 Years of Failed Apps, Should I Give Up?",
       "excerpt": "I’m asking because I have been trying for eight years, before AI and vibe coding. I’m an IT engineer and a hard worker. During all those years, I tried to build tens of apps. I was always so excited at first, but after…",
@@ -173,22 +189,6 @@
       "tags": [
         "saas",
         "ai"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-48955979",
-      "title": "Find What SaaS Tools Competitors Use via Sub-Processors",
-      "excerpt": "Find What SaaS Tools Competitors Use via Sub-Processors",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 8,
-      "comments": 0,
-      "url": "https://news.ycombinator.com/item?id=48955979",
-      "externalUrl": "https://ashishb.net/tech/sub-processors-leak-saas-stack/",
-      "createdUtc": 1784359941,
-      "tags": [
-        "saas"
       ],
       "quality": 42
     },
