@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T18:38:06.675Z",
+  "updatedAt": "2026-08-10T01:41:53.139Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 21,
+  "count": 20,
   "signals": [
     {
       "id": "hn-49037971",
@@ -131,7 +131,7 @@
       "excerpt": "AI Is Breaking the SaaS Deployment Model: 10 Commandments for BYOC",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 10,
+      "score": 11,
       "comments": 0,
       "url": "https://news.ycombinator.com/item?id=49163459",
       "externalUrl": "https://byocanywhere.org/",
@@ -240,22 +240,6 @@
       "tags": [
         "saas",
         "ai"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-48971660",
-      "title": "Built 160 micro calculator tools and the keyword data genuinely surprised me",
-      "excerpt": "Built 160 micro calculator tools and the keyword data genuinely surprised me",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 5,
-      "comments": 1,
-      "url": "https://news.ycombinator.com/item?id=48971660",
-      "externalUrl": "https://www.indiehackers.com/post/built-160-micro-calculator-tools-and-the-keyword-data-genuinely-surprised-me-1f62596837",
-      "createdUtc": 1784495260,
-      "tags": [
-        "indie"
       ],
       "quality": 42
     },
