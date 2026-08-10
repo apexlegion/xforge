@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T10:15:30.354Z",
+  "updatedAt": "2026-08-10T18:55:41.957Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 20,
+  "count": 19,
   "signals": [
     {
       "id": "hn-49037971",
@@ -143,20 +143,19 @@
       "quality": 42
     },
     {
-      "id": "hn-48979363",
-      "title": "After five failed products, this founder quit his job and hit $7.5k/mo",
-      "excerpt": "After five failed products, this founder quit his job and hit $7.5k/mo",
+      "id": "hn-49118082",
+      "title": "Ask HN: After 8 Years of Failed Apps, Should I Give Up?",
+      "excerpt": "I’m asking because I have been trying for eight years, before AI and vibe coding. I’m an IT engineer and a hard worker. During all those years, I tried to build tens of apps. I was always so excited at first, but after…",
       "source": "hackernews",
       "subreddit": "HN",
       "score": 7,
-      "comments": 7,
-      "url": "https://news.ycombinator.com/item?id=48979363",
-      "externalUrl": "https://www.indiehackers.com/post/tech/after-five-failed-products-this-founder-quit-his-job-and-hit-7-5k-mo-in-12-months-xaDBfmynasknHQkim3sO",
-      "createdUtc": 1784557719,
+      "comments": 25,
+      "url": "https://news.ycombinator.com/item?id=49118082",
+      "externalUrl": null,
+      "createdUtc": 1785461979,
       "tags": [
-        "indie",
-        "product",
-        "founder"
+        "growth",
+        "startup"
       ],
       "quality": 42
     },
@@ -189,24 +188,6 @@
       "createdUtc": 1785746946,
       "tags": [
         "saas"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-48982122",
-      "title": "California to impose sales and use tax on digital products including SaaS",
-      "excerpt": "California to impose sales and use tax on digital products including SaaS",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 6,
-      "comments": 0,
-      "url": "https://news.ycombinator.com/item?id=48982122",
-      "externalUrl": "https://www.pwc.com/us/en/services/tax/library/california-imposes-sales-and-use-tax-on-digital-products-and-saas.html",
-      "createdUtc": 1784569259,
-      "tags": [
-        "saas",
-        "product",
-        "sales"
       ],
       "quality": 42
     },
