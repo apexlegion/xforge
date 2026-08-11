@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T18:55:41.957Z",
+  "updatedAt": "2026-08-11T01:39:00.778Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -106,22 +106,6 @@
       "createdUtc": 1786155721,
       "tags": [
         "indie"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-48986762",
-      "title": "Show HN: Ekko – post-quantum E2EE layer for Instagram, WhatsApp, Telegram Web",
-      "excerpt": "Hi everyone, I am a big privacy activist and the amount of privacy concerns in the internet with the discussions around European Chat Control, Meta removing e2ee in Instagram and corporations harvesting personal data…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 10,
-      "comments": 10,
-      "url": "https://news.ycombinator.com/item?id=48986762",
-      "externalUrl": "https://useekko.app/",
-      "createdUtc": 1784594362,
-      "tags": [
-        "discussion"
       ],
       "quality": 42
     },
@@ -237,6 +221,22 @@
       "createdUtc": 1785341416,
       "tags": [
         "bootstrap"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49242046",
+      "title": "Ask HN: Is Traditional SaaS Dying?",
+      "excerpt": "I think a good proxy for the question is: Does your employer try to replicate some SaaS features in-house? And do these experiments mostly succeed? My data points: Two internal projects to replace Hubspot and Float.…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 4,
+      "comments": 6,
+      "url": "https://news.ycombinator.com/item?id=49242046",
+      "externalUrl": null,
+      "createdUtc": 1786359356,
+      "tags": [
+        "saas"
       ],
       "quality": 42
     },
