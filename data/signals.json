@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T09:59:14.340Z",
+  "updatedAt": "2026-08-11T19:00:12.478Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -110,6 +110,23 @@
       "quality": 42
     },
     {
+      "id": "hn-49118082",
+      "title": "Ask HN: After 8 Years of Failed Apps, Should I Give Up?",
+      "excerpt": "I’m asking because I have been trying for eight years, before AI and vibe coding. I’m an IT engineer and a hard worker. During all those years, I tried to build tens of apps. I was always so excited at first, but after…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 7,
+      "comments": 26,
+      "url": "https://news.ycombinator.com/item?id=49118082",
+      "externalUrl": null,
+      "createdUtc": 1785461979,
+      "tags": [
+        "growth",
+        "startup"
+      ],
+      "quality": 43
+    },
+    {
       "id": "hn-49163459",
       "title": "AI Is Breaking the SaaS Deployment Model: 10 Commandments for BYOC",
       "excerpt": "AI Is Breaking the SaaS Deployment Model: 10 Commandments for BYOC",
@@ -123,23 +140,6 @@
       "tags": [
         "saas",
         "ai"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49118082",
-      "title": "Ask HN: After 8 Years of Failed Apps, Should I Give Up?",
-      "excerpt": "I’m asking because I have been trying for eight years, before AI and vibe coding. I’m an IT engineer and a hard worker. During all those years, I tried to build tens of apps. I was always so excited at first, but after…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 7,
-      "comments": 25,
-      "url": "https://news.ycombinator.com/item?id=49118082",
-      "externalUrl": null,
-      "createdUtc": 1785461979,
-      "tags": [
-        "growth",
-        "startup"
       ],
       "quality": 42
     },
@@ -209,6 +209,22 @@
       "quality": 42
     },
     {
+      "id": "hn-49242046",
+      "title": "Ask HN: Is Traditional SaaS Dying?",
+      "excerpt": "I think a good proxy for the question is: Does your employer try to replicate some SaaS features in-house? And do these experiments mostly succeed? My data points: Two internal projects to replace Hubspot and Float.…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 4,
+      "comments": 13,
+      "url": "https://news.ycombinator.com/item?id=49242046",
+      "externalUrl": null,
+      "createdUtc": 1786359356,
+      "tags": [
+        "saas"
+      ],
+      "quality": 42
+    },
+    {
       "id": "hn-49099377",
       "title": "Show HN: College application essay inspiration and brainstorm",
       "excerpt": "I collected thousands of outstanding college application essays to train a specialized AI model designed to inspire and coach students throughout the essay-writing process. Unlike general-purpose AI, each essay is…",
@@ -221,22 +237,6 @@
       "createdUtc": 1785341416,
       "tags": [
         "bootstrap"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49242046",
-      "title": "Ask HN: Is Traditional SaaS Dying?",
-      "excerpt": "I think a good proxy for the question is: Does your employer try to replicate some SaaS features in-house? And do these experiments mostly succeed? My data points: Two internal projects to replace Hubspot and Float.…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 4,
-      "comments": 10,
-      "url": "https://news.ycombinator.com/item?id=49242046",
-      "externalUrl": null,
-      "createdUtc": 1786359356,
-      "tags": [
-        "saas"
       ],
       "quality": 42
     },
