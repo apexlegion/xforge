@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T19:00:12.478Z",
+  "updatedAt": "2026-08-12T01:50:08.672Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -176,6 +176,22 @@
       "quality": 42
     },
     {
+      "id": "hn-49242046",
+      "title": "Ask HN: Is Traditional SaaS Dying?",
+      "excerpt": "I think a good proxy for the question is: Does your employer try to replicate some SaaS features in-house? And do these experiments mostly succeed? My data points: Two internal projects to replace Hubspot and Float.…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 13,
+      "url": "https://news.ycombinator.com/item?id=49242046",
+      "externalUrl": null,
+      "createdUtc": 1786359356,
+      "tags": [
+        "saas"
+      ],
+      "quality": 42
+    },
+    {
       "id": "hn-49037725",
       "title": "Show HN: Jixp, a Lisp DSL for describing Jax neural nets",
       "excerpt": "This is a side project I've been working on while learning Jax. I noticed that a bunch of the neural net math looked like it would work well in a lisp syntax because most of the data flows through layers in a…",
@@ -205,22 +221,6 @@
       "tags": [
         "saas",
         "ai"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49242046",
-      "title": "Ask HN: Is Traditional SaaS Dying?",
-      "excerpt": "I think a good proxy for the question is: Does your employer try to replicate some SaaS features in-house? And do these experiments mostly succeed? My data points: Two internal projects to replace Hubspot and Float.…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 4,
-      "comments": 13,
-      "url": "https://news.ycombinator.com/item?id=49242046",
-      "externalUrl": null,
-      "createdUtc": 1786359356,
-      "tags": [
-        "saas"
       ],
       "quality": 42
     },
