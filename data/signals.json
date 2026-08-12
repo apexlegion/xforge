@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T10:02:56.493Z",
+  "updatedAt": "2026-08-12T19:00:10.190Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 19,
+  "count": 17,
   "signals": [
     {
       "id": "hn-49037971",
@@ -110,23 +110,6 @@
       "quality": 42
     },
     {
-      "id": "hn-49118082",
-      "title": "Ask HN: After 8 Years of Failed Apps, Should I Give Up?",
-      "excerpt": "I’m asking because I have been trying for eight years, before AI and vibe coding. I’m an IT engineer and a hard worker. During all those years, I tried to build tens of apps. I was always so excited at first, but after…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 7,
-      "comments": 26,
-      "url": "https://news.ycombinator.com/item?id=49118082",
-      "externalUrl": null,
-      "createdUtc": 1785461979,
-      "tags": [
-        "growth",
-        "startup"
-      ],
-      "quality": 43
-    },
-    {
       "id": "hn-49163459",
       "title": "AI Is Breaking the SaaS Deployment Model: 10 Commandments for BYOC",
       "excerpt": "AI Is Breaking the SaaS Deployment Model: 10 Commandments for BYOC",
@@ -182,7 +165,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 5,
-      "comments": 15,
+      "comments": 16,
       "url": "https://news.ycombinator.com/item?id=49242046",
       "externalUrl": null,
       "createdUtc": 1786359356,
@@ -271,22 +254,6 @@
       "createdUtc": 1785359384,
       "tags": [
         "discussion"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49010676",
-      "title": "Ask HN: How to get started with a sustainable bootstrapped business of your own?",
-      "excerpt": "Experienced Software Engineer working in Big Tech since the past decade. I'm at a point in my life where I'm feeling pretty done with a daily 9-5 job especially because of the overwhelming demands and random priority…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 3,
-      "comments": 4,
-      "url": "https://news.ycombinator.com/item?id=49010676",
-      "externalUrl": null,
-      "createdUtc": 1784742605,
-      "tags": [
-        "bootstrap"
       ],
       "quality": 42
     },
