@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T10:03:51.533Z",
+  "updatedAt": "2026-08-13T19:01:25.236Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 17,
+  "count": 19,
   "signals": [
     {
       "id": "hn-49037971",
@@ -28,6 +28,22 @@
         "saas"
       ],
       "quality": 56
+    },
+    {
+      "id": "hn-49283063",
+      "title": "Launch HN: Bullet (YC S26) – A Faster Coding Agent",
+      "excerpt": "Hi HN! We’re Adi and Alex, founders of Bullet, a faster coding agent. Bullet started in a senior year dorm. We were fresh out of working at AppLovin and Citadel, and naturally thought we were on a sure path to startup…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 25,
+      "comments": 28,
+      "url": "https://news.ycombinator.com/item?id=49283063",
+      "externalUrl": "https://www.codewithbullet.com/",
+      "createdUtc": 1786608870,
+      "tags": [
+        "discussion"
+      ],
+      "quality": 44
     },
     {
       "id": "hn-49128177",
@@ -108,6 +124,23 @@
         "indie"
       ],
       "quality": 42
+    },
+    {
+      "id": "hn-49118082",
+      "title": "Ask HN: After 8 Years of Failed Apps, Should I Give Up?",
+      "excerpt": "I’m asking because I have been trying for eight years, before AI and vibe coding. I’m an IT engineer and a hard worker. During all those years, I tried to build tens of apps. I was always so excited at first, but after…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 7,
+      "comments": 26,
+      "url": "https://news.ycombinator.com/item?id=49118082",
+      "externalUrl": null,
+      "createdUtc": 1785461979,
+      "tags": [
+        "growth",
+        "startup"
+      ],
+      "quality": 43
     },
     {
       "id": "hn-49163459",
