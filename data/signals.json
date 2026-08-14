@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T01:49:46.170Z",
+  "updatedAt": "2026-08-14T09:59:38.282Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 20,
+  "count": 21,
   "signals": [
     {
       "id": "hn-49283063",
@@ -19,15 +19,32 @@
       "excerpt": "Hi HN! We’re Adi and Alex, founders of Bullet, a faster coding agent. Bullet started in a senior year dorm. We were fresh out of working at AppLovin and Citadel, and naturally thought we were on a sure path to startup…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 84,
-      "comments": 54,
+      "score": 98,
+      "comments": 74,
       "url": "https://news.ycombinator.com/item?id=49283063",
       "externalUrl": "https://www.codewithbullet.com/",
       "createdUtc": 1786608870,
       "tags": [
         "discussion"
       ],
-      "quality": 61
+      "quality": 66
+    },
+    {
+      "id": "hn-49074817",
+      "title": "Launch HN: Rise Reforming (YC S26) – Turning Waste Gases into Valuable Chemicals",
+      "excerpt": "Hi HN! This is George, Lucas, and Jona from Rise Reforming (  ). We’re developing a process to convert gas produced at landfills, farms, and wastewater plants (“biogas”) into higher value chemicals. Our technology is…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 85,
+      "comments": 38,
+      "url": "https://news.ycombinator.com/item?id=49074817",
+      "externalUrl": "https://www.rise-reforming.com/",
+      "createdUtc": 1785182302,
+      "tags": [
+        "marketing",
+        "x"
+      ],
+      "quality": 58
     },
     {
       "id": "hn-49037971",
@@ -110,6 +127,22 @@
       "quality": 42
     },
     {
+      "id": "hn-49290713",
+      "title": "Ask HN: How much money do you spend monthly on subscriptions for AI models?",
+      "excerpt": "Monthly total for all AI model subscriptions for personal use, with a breakdown of which models you use and for what purpose (coding side projects, AI assistants, etc.). You can also mention how much you spend monthly…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 10,
+      "comments": 25,
+      "url": "https://news.ycombinator.com/item?id=49290713",
+      "externalUrl": null,
+      "createdUtc": 1786648896,
+      "tags": [
+        "ai"
+      ],
+      "quality": 42
+    },
+    {
       "id": "hn-49218360",
       "title": "I watched 13 legal pages for two weeks, three of them changed",
       "excerpt": "I watched 13 legal pages for two weeks, three of them changed",
@@ -155,22 +188,6 @@
       "createdUtc": 1785807424,
       "tags": [
         "saas",
-        "ai"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49290713",
-      "title": "Ask HN: How much money do you spend monthly on subscriptions for AI models?",
-      "excerpt": "Monthly total for all AI model subscriptions for personal use, with a breakdown of which models you use and for what purpose (coding side projects, AI assistants, etc.). You can also mention how much you spend monthly…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 6,
-      "comments": 18,
-      "url": "https://news.ycombinator.com/item?id=49290713",
-      "externalUrl": null,
-      "createdUtc": 1786648896,
-      "tags": [
         "ai"
       ],
       "quality": 42
