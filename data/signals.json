@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T19:01:25.236Z",
+  "updatedAt": "2026-08-14T01:49:46.170Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,8 +11,24 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 19,
+  "count": 20,
   "signals": [
+    {
+      "id": "hn-49283063",
+      "title": "Launch HN: Bullet (YC S26) – A Faster Coding Agent",
+      "excerpt": "Hi HN! We’re Adi and Alex, founders of Bullet, a faster coding agent. Bullet started in a senior year dorm. We were fresh out of working at AppLovin and Citadel, and naturally thought we were on a sure path to startup…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 84,
+      "comments": 54,
+      "url": "https://news.ycombinator.com/item?id=49283063",
+      "externalUrl": "https://www.codewithbullet.com/",
+      "createdUtc": 1786608870,
+      "tags": [
+        "discussion"
+      ],
+      "quality": 61
+    },
     {
       "id": "hn-49037971",
       "title": "Micro-SaaS Is Dead. Service With A Software Replaces It",
@@ -28,22 +44,6 @@
         "saas"
       ],
       "quality": 56
-    },
-    {
-      "id": "hn-49283063",
-      "title": "Launch HN: Bullet (YC S26) – A Faster Coding Agent",
-      "excerpt": "Hi HN! We’re Adi and Alex, founders of Bullet, a faster coding agent. Bullet started in a senior year dorm. We were fresh out of working at AppLovin and Citadel, and naturally thought we were on a sure path to startup…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 25,
-      "comments": 28,
-      "url": "https://news.ycombinator.com/item?id=49283063",
-      "externalUrl": "https://www.codewithbullet.com/",
-      "createdUtc": 1786608870,
-      "tags": [
-        "discussion"
-      ],
-      "quality": 44
     },
     {
       "id": "hn-49128177",
@@ -160,13 +160,29 @@
       "quality": 42
     },
     {
+      "id": "hn-49290713",
+      "title": "Ask HN: How much money do you spend monthly on subscriptions for AI models?",
+      "excerpt": "Monthly total for all AI model subscriptions for personal use, with a breakdown of which models you use and for what purpose (coding side projects, AI assistants, etc.). You can also mention how much you spend monthly…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 6,
+      "comments": 18,
+      "url": "https://news.ycombinator.com/item?id=49290713",
+      "externalUrl": null,
+      "createdUtc": 1786648896,
+      "tags": [
+        "ai"
+      ],
+      "quality": 42
+    },
+    {
       "id": "hn-49187337",
       "title": "Ask HN: Developers–How Did You Get Your First Paying Customers?",
       "excerpt": "I have just launched a SAAS. But I am not on any social Media, neither I like Social Media, How do I promote it, I am Totaly stuck now, I spent 1.5 years building it. Now I came to know that distribution is the main…",
       "source": "hackernews",
       "subreddit": "HN",
       "score": 6,
-      "comments": 16,
+      "comments": 17,
       "url": "https://news.ycombinator.com/item?id=49187337",
       "externalUrl": null,
       "createdUtc": 1785956290,
