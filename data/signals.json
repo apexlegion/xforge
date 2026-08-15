@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T09:24:30.090Z",
+  "updatedAt": "2026-08-15T18:27:29.130Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -20,7 +20,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 109,
-      "comments": 86,
+      "comments": 87,
       "url": "https://news.ycombinator.com/item?id=49283063",
       "externalUrl": "https://www.codewithbullet.com/",
       "createdUtc": 1786608870,
@@ -52,7 +52,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 13,
-      "comments": 35,
+      "comments": 36,
       "url": "https://news.ycombinator.com/item?id=49290713",
       "externalUrl": null,
       "createdUtc": 1786648896,
