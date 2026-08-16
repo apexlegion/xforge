@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T09:25:13.823Z",
+  "updatedAt": "2026-08-16T18:26:36.080Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 16,
+  "count": 15,
   "signals": [
     {
       "id": "hn-49283063",
@@ -253,22 +253,6 @@
       "createdUtc": 1785885574,
       "tags": [
         "startup"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49060868",
-      "title": "Ask HN: Anyone suffering from the tyranny of the Waiting Equation?",
-      "excerpt": "In space exploration, there's a famous conundrum that we shouldn't launch a 100-year journey transport ship to another galaxy, because in 20 years technology will have made the ship twice as fast, and we can get there…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 3,
-      "comments": 3,
-      "url": "https://news.ycombinator.com/item?id=49060868",
-      "externalUrl": null,
-      "createdUtc": 1785090270,
-      "tags": [
-        "discussion"
       ],
       "quality": 42
     }
