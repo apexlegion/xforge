@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T01:12:48.749Z",
+  "updatedAt": "2026-08-16T09:25:13.823Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -19,7 +19,7 @@
       "excerpt": "Hi HN! We’re Adi and Alex, founders of Bullet, a faster coding agent. Bullet started in a senior year dorm. We were fresh out of working at AppLovin and Citadel, and naturally thought we were on a sure path to startup…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 112,
+      "score": 113,
       "comments": 88,
       "url": "https://news.ycombinator.com/item?id=49283063",
       "externalUrl": "https://www.codewithbullet.com/",
@@ -51,8 +51,8 @@
       "excerpt": "Monthly total for all AI model subscriptions for personal use, with a breakdown of which models you use and for what purpose (coding side projects, AI assistants, etc.). You can also mention how much you spend monthly…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 13,
-      "comments": 36,
+      "score": 14,
+      "comments": 37,
       "url": "https://news.ycombinator.com/item?id=49290713",
       "externalUrl": null,
       "createdUtc": 1786648896,
