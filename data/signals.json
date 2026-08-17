@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T01:10:23.901Z",
+  "updatedAt": "2026-08-17T09:39:28.219Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 16,
+  "count": 15,
   "signals": [
     {
       "id": "hn-49283063",
@@ -19,7 +19,7 @@
       "excerpt": "Hi HN! We’re Adi and Alex, founders of Bullet, a faster coding agent. Bullet started in a senior year dorm. We were fresh out of working at AppLovin and Citadel, and naturally thought we were on a sure path to startup…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 113,
+      "score": 115,
       "comments": 88,
       "url": "https://news.ycombinator.com/item?id=49283063",
       "externalUrl": "https://www.codewithbullet.com/",
@@ -27,7 +27,7 @@
       "tags": [
         "discussion"
       ],
-      "quality": 69
+      "quality": 70
     },
     {
       "id": "hn-49128177",
@@ -60,22 +60,6 @@
         "ai"
       ],
       "quality": 45
-    },
-    {
-      "id": "hn-49066836",
-      "title": "The Indie Hacker Economy Is a Pyramid Scheme",
-      "excerpt": "The Indie Hacker Economy Is a Pyramid Scheme",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 18,
-      "comments": 8,
-      "url": "https://news.ycombinator.com/item?id=49066836",
-      "externalUrl": "https://medium.com/westenberg/the-indie-hacker-economy-is-a-pyramid-scheme-d06cb5789648",
-      "createdUtc": 1785142546,
-      "tags": [
-        "indie"
-      ],
-      "quality": 42
     },
     {
       "id": "hn-49078588",
@@ -207,6 +191,23 @@
       "quality": 42
     },
     {
+      "id": "hn-49317713",
+      "title": "Growth of CVEs fixed in Postgres looks exponential",
+      "excerpt": "Growth of CVEs fixed in Postgres looks exponential",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 2,
+      "url": "https://news.ycombinator.com/item?id=49317713",
+      "externalUrl": "https://twitter.com/samokhvalov/status/2088870235705319924",
+      "createdUtc": 1786865403,
+      "tags": [
+        "growth",
+        "startup"
+      ],
+      "quality": 42
+    },
+    {
       "id": "hn-49099377",
       "title": "Show HN: College application essay inspiration and brainstorm",
       "excerpt": "I collected thousands of outstanding college application essays to train a specialized AI model designed to inspire and coach students throughout the essay-writing process. Unlike general-purpose AI, each essay is…",
@@ -219,24 +220,6 @@
       "createdUtc": 1785341416,
       "tags": [
         "bootstrap"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49064805",
-      "title": "What breaks in production AI workflows?",
-      "excerpt": "What breaks in production AI workflows?",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 4,
-      "comments": 3,
-      "url": "https://news.ycombinator.com/item?id=49064805",
-      "externalUrl": "https://www.indiehackers.com/post/weve-reproduced-30-real-ai-runtime-failures-over-the-past-week-here-s-the-pattern-we-keep-seeing-4570fe4242",
-      "createdUtc": 1785121911,
-      "tags": [
-        "ai",
-        "indie",
-        "product"
       ],
       "quality": 42
     },
