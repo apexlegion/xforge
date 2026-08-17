@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T18:26:36.080Z",
+  "updatedAt": "2026-08-17T01:10:23.901Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 15,
+  "count": 16,
   "signals": [
     {
       "id": "hn-49283063",
@@ -187,6 +187,22 @@
       "createdUtc": 1786359356,
       "tags": [
         "saas"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49321046",
+      "title": "Show HN: A punch clock to help with hourly household workers",
+      "excerpt": "My wife & I have a housekeeper who works flexible days and hours during the week. She has other commitments, so she comes to our house when it works best for her, within “agreed reasonable hours” (she doesn’t come on…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 3,
+      "url": "https://news.ycombinator.com/item?id=49321046",
+      "externalUrl": "https://www.punchy.live/",
+      "createdUtc": 1786894714,
+      "tags": [
+        "discussion"
       ],
       "quality": 42
     },
