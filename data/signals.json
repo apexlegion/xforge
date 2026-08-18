@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T01:08:05.038Z",
+  "updatedAt": "2026-08-18T09:31:39.196Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -13,6 +13,22 @@
   ],
   "count": 15,
   "signals": [
+    {
+      "id": "hn-49340013",
+      "title": "Ask HN: Does anyone else feel like nothing matters anymore?",
+      "excerpt": "New software releases? Who cares. Learning new CS concepts? Whatever. Studying for the next interview? Job probably won't even exist in a year. Working on that side project? No one will care because it's just another…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 172,
+      "comments": 121,
+      "url": "https://news.ycombinator.com/item?id=49340013",
+      "externalUrl": null,
+      "createdUtc": 1787016528,
+      "tags": [
+        "discussion"
+      ],
+      "quality": 80
+    },
     {
       "id": "hn-49283063",
       "title": "Launch HN: Bullet (YC S26) – A Faster Coding Agent",
@@ -36,7 +52,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 14,
-      "comments": 40,
+      "comments": 41,
       "url": "https://news.ycombinator.com/item?id=49290713",
       "externalUrl": null,
       "createdUtc": 1786648896,
@@ -56,22 +72,6 @@
       "url": "https://news.ycombinator.com/item?id=49128177",
       "externalUrl": "https://www.trytilde.ai/blog/how-to-build-code-review-agent",
       "createdUtc": 1785529648,
-      "tags": [
-        "discussion"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49078588",
-      "title": "Ask HN: What apps are you building?",
-      "excerpt": "I’m curious what people here are working on lately. What are you building right now? Apps, tools, experiments, weird side projects, anything. Would love to see what folks are making.",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 14,
-      "comments": 22,
-      "url": "https://news.ycombinator.com/item?id=49078588",
-      "externalUrl": null,
-      "createdUtc": 1785206276,
       "tags": [
         "discussion"
       ],
