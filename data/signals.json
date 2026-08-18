@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T09:31:39.196Z",
+  "updatedAt": "2026-08-18T18:36:13.510Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 15,
+  "count": 14,
   "signals": [
     {
       "id": "hn-49340013",
@@ -19,15 +19,15 @@
       "excerpt": "New software releases? Who cares. Learning new CS concepts? Whatever. Studying for the next interview? Job probably won't even exist in a year. Working on that side project? No one will care because it's just another…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 172,
-      "comments": 121,
+      "score": 233,
+      "comments": 154,
       "url": "https://news.ycombinator.com/item?id=49340013",
       "externalUrl": null,
       "createdUtc": 1787016528,
       "tags": [
         "discussion"
       ],
-      "quality": 80
+      "quality": 90
     },
     {
       "id": "hn-49283063",
@@ -187,23 +187,6 @@
       "createdUtc": 1786894714,
       "tags": [
         "discussion"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49317713",
-      "title": "Growth of CVEs fixed in Postgres looks exponential",
-      "excerpt": "Growth of CVEs fixed in Postgres looks exponential",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 5,
-      "comments": 2,
-      "url": "https://news.ycombinator.com/item?id=49317713",
-      "externalUrl": "https://twitter.com/samokhvalov/status/2088870235705319924",
-      "createdUtc": 1786865403,
-      "tags": [
-        "growth",
-        "startup"
       ],
       "quality": 42
     },
