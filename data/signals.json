@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T18:36:13.510Z",
+  "updatedAt": "2026-08-19T01:09:07.560Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -19,15 +19,15 @@
       "excerpt": "New software releases? Who cares. Learning new CS concepts? Whatever. Studying for the next interview? Job probably won't even exist in a year. Working on that side project? No one will care because it's just another…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 233,
-      "comments": 154,
+      "score": 250,
+      "comments": 165,
       "url": "https://news.ycombinator.com/item?id=49340013",
       "externalUrl": null,
       "createdUtc": 1787016528,
       "tags": [
         "discussion"
       ],
-      "quality": 90
+      "quality": 93
     },
     {
       "id": "hn-49283063",
@@ -35,8 +35,8 @@
       "excerpt": "Hi HN! We’re Adi and Alex, founders of Bullet, a faster coding agent. Bullet started in a senior year dorm. We were fresh out of working at AppLovin and Citadel, and naturally thought we were on a sure path to startup…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 117,
-      "comments": 88,
+      "score": 118,
+      "comments": 89,
       "url": "https://news.ycombinator.com/item?id=49283063",
       "externalUrl": "https://www.codewithbullet.com/",
       "createdUtc": 1786608870,
