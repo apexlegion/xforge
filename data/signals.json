@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T09:32:25.676Z",
+  "updatedAt": "2026-08-19T18:33:19.792Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -19,7 +19,7 @@
       "excerpt": "New software releases? Who cares. Learning new CS concepts? Whatever. Studying for the next interview? Job probably won't even exist in a year. Working on that side project? No one will care because it's just another…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 256,
+      "score": 264,
       "comments": 166,
       "url": "https://news.ycombinator.com/item?id=49340013",
       "externalUrl": null,
@@ -149,7 +149,7 @@
       "excerpt": "I'm hearing that ServiceNow are pushing enterprise towards self-hosted for their next renewals. I get the impression that the main driver is an inability to service the necessary compute to deal with the avalanche of…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 8,
+      "score": 9,
       "comments": 4,
       "url": "https://news.ycombinator.com/item?id=49355352",
       "externalUrl": null,
@@ -224,18 +224,19 @@
       "quality": 42
     },
     {
-      "id": "hn-49099377",
-      "title": "Show HN: College application essay inspiration and brainstorm",
-      "excerpt": "I collected thousands of outstanding college application essays to train a specialized AI model designed to inspire and coach students throughout the essay-writing process. Unlike general-purpose AI, each essay is…",
+      "id": "hn-49317713",
+      "title": "Growth of CVEs fixed in Postgres looks exponential",
+      "excerpt": "Growth of CVEs fixed in Postgres looks exponential",
       "source": "hackernews",
       "subreddit": "HN",
       "score": 5,
-      "comments": 0,
-      "url": "https://news.ycombinator.com/item?id=49099377",
-      "externalUrl": "https://essaycompass.net/",
-      "createdUtc": 1785341416,
+      "comments": 2,
+      "url": "https://news.ycombinator.com/item?id=49317713",
+      "externalUrl": "https://twitter.com/samokhvalov/status/2088870235705319924",
+      "createdUtc": 1786865403,
       "tags": [
-        "bootstrap"
+        "growth",
+        "startup"
       ],
       "quality": 42
     },
