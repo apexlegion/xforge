@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T01:09:07.560Z",
+  "updatedAt": "2026-08-19T09:32:25.676Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 14,
+  "count": 16,
   "signals": [
     {
       "id": "hn-49340013",
@@ -19,15 +19,15 @@
       "excerpt": "New software releases? Who cares. Learning new CS concepts? Whatever. Studying for the next interview? Job probably won't even exist in a year. Working on that side project? No one will care because it's just another…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 250,
-      "comments": 165,
+      "score": 256,
+      "comments": 166,
       "url": "https://news.ycombinator.com/item?id=49340013",
       "externalUrl": null,
       "createdUtc": 1787016528,
       "tags": [
         "discussion"
       ],
-      "quality": 93
+      "quality": 94
     },
     {
       "id": "hn-49283063",
@@ -110,6 +110,23 @@
       "quality": 42
     },
     {
+      "id": "hn-49118082",
+      "title": "Ask HN: After 8 Years of Failed Apps, Should I Give Up?",
+      "excerpt": "I’m asking because I have been trying for eight years, before AI and vibe coding. I’m an IT engineer and a hard worker. During all those years, I tried to build tens of apps. I was always so excited at first, but after…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 7,
+      "comments": 26,
+      "url": "https://news.ycombinator.com/item?id=49118082",
+      "externalUrl": null,
+      "createdUtc": 1785461979,
+      "tags": [
+        "growth",
+        "startup"
+      ],
+      "quality": 43
+    },
+    {
       "id": "hn-49163459",
       "title": "AI Is Breaking the SaaS Deployment Model: 10 Commandments for BYOC",
       "excerpt": "AI Is Breaking the SaaS Deployment Model: 10 Commandments for BYOC",
@@ -123,6 +140,22 @@
       "tags": [
         "saas",
         "ai"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49355352",
+      "title": "ServiceNow are pushing customers off SaaS – are other industries doing similar?",
+      "excerpt": "I'm hearing that ServiceNow are pushing enterprise towards self-hosted for their next renewals. I get the impression that the main driver is an inability to service the necessary compute to deal with the avalanche of…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 8,
+      "comments": 4,
+      "url": "https://news.ycombinator.com/item?id=49355352",
+      "externalUrl": null,
+      "createdUtc": 1787102495,
+      "tags": [
+        "saas"
       ],
       "quality": 42
     },
