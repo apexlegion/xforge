@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T18:33:19.792Z",
+  "updatedAt": "2026-08-20T01:08:40.093Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 16,
+  "count": 15,
   "signals": [
     {
       "id": "hn-49340013",
@@ -19,7 +19,7 @@
       "excerpt": "New software releases? Who cares. Learning new CS concepts? Whatever. Studying for the next interview? Job probably won't even exist in a year. Working on that side project? No one will care because it's just another…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 264,
+      "score": 269,
       "comments": 166,
       "url": "https://news.ycombinator.com/item?id=49340013",
       "externalUrl": null,
@@ -237,22 +237,6 @@
       "tags": [
         "growth",
         "startup"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49103122",
-      "title": "Ask HN: What do you use for privacy focused analytics?",
-      "excerpt": "Hi, What do you use for website analytics? I am working on a small side project and I have used Google Analytics in the past but am looking for something a little more privacy focused, what do you use? I would like to…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 3,
-      "comments": 10,
-      "url": "https://news.ycombinator.com/item?id=49103122",
-      "externalUrl": null,
-      "createdUtc": 1785359384,
-      "tags": [
-        "discussion"
       ],
       "quality": 42
     },
