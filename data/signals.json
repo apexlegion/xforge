@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T09:34:41.416Z",
+  "updatedAt": "2026-08-21T18:34:31.072Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 14,
+  "count": 15,
   "signals": [
     {
       "id": "hn-49340013",
@@ -19,15 +19,15 @@
       "excerpt": "New software releases? Who cares. Learning new CS concepts? Whatever. Studying for the next interview? Job probably won't even exist in a year. Working on that side project? No one will care because it's just another…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 272,
-      "comments": 166,
+      "score": 283,
+      "comments": 171,
       "url": "https://news.ycombinator.com/item?id=49340013",
       "externalUrl": null,
       "createdUtc": 1787016528,
       "tags": [
         "discussion"
       ],
-      "quality": 95
+      "quality": 96
     },
     {
       "id": "hn-49283063",
@@ -35,7 +35,7 @@
       "excerpt": "Hi HN! We’re Adi and Alex, founders of Bullet, a faster coding agent. Bullet started in a senior year dorm. We were fresh out of working at AppLovin and Citadel, and naturally thought we were on a sure path to startup…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 120,
+      "score": 121,
       "comments": 89,
       "url": "https://news.ycombinator.com/item?id=49283063",
       "externalUrl": "https://www.codewithbullet.com/",
@@ -218,6 +218,22 @@
       "url": "https://news.ycombinator.com/item?id=49321046",
       "externalUrl": "https://www.punchy.live/",
       "createdUtc": 1786894714,
+      "tags": [
+        "discussion"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49386529",
+      "title": "Ask HN: How do you keep notes organized across long-running side projects?",
+      "excerpt": "I keep starting side projects that go on for months, and my notes end up scattered between a text file, a couple of markdown docs, and whatever I remembered to write down. Curious how others handle this — do you keep…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 2,
+      "url": "https://news.ycombinator.com/item?id=49386529",
+      "externalUrl": null,
+      "createdUtc": 1787311720,
       "tags": [
         "discussion"
       ],
