@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T18:36:48.978Z",
+  "updatedAt": "2026-08-21T01:12:13.944Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 14,
+  "count": 15,
   "signals": [
     {
       "id": "hn-49340013",
@@ -35,7 +35,7 @@
       "excerpt": "Hi HN! We’re Adi and Alex, founders of Bullet, a faster coding agent. Bullet started in a senior year dorm. We were fresh out of working at AppLovin and Citadel, and naturally thought we were on a sure path to startup…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 119,
+      "score": 120,
       "comments": 89,
       "url": "https://news.ycombinator.com/item?id=49283063",
       "externalUrl": "https://www.codewithbullet.com/",
@@ -218,6 +218,22 @@
       "url": "https://news.ycombinator.com/item?id=49321046",
       "externalUrl": "https://www.punchy.live/",
       "createdUtc": 1786894714,
+      "tags": [
+        "discussion"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49372908",
+      "title": "Show HN: Protobuf.com, a visual, interactive guide to Protocol Buffers",
+      "excerpt": "Protobuf is a fairly simple format, but the way people are first introduced to it often doesn't speak to them. That is how it was for me at first. I tried to address that in two ways: simple visual diagrams where a…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 0,
+      "url": "https://news.ycombinator.com/item?id=49372908",
+      "externalUrl": "https://protobuf.com/",
+      "createdUtc": 1787223213,
       "tags": [
         "discussion"
       ],
