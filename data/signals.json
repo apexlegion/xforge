@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T01:12:13.944Z",
+  "updatedAt": "2026-08-21T09:34:41.416Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 15,
+  "count": 14,
   "signals": [
     {
       "id": "hn-49340013",
@@ -236,22 +236,6 @@
       "createdUtc": 1787223213,
       "tags": [
         "discussion"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49176613",
-      "title": "Show HN: Your next startup, ready in the blink of an eye",
-      "excerpt": "Over this past weekend I built a web app called Blink Ideas. It finds customer complaints and feedback on places like HN, StackExchange, app store reviews, and more. Then it generates real startup solutions, scored with…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 3,
-      "comments": 3,
-      "url": "https://news.ycombinator.com/item?id=49176613",
-      "externalUrl": "https://blink-ideas-web.onrender.com/",
-      "createdUtc": 1785885574,
-      "tags": [
-        "startup"
       ],
       "quality": 42
     }
