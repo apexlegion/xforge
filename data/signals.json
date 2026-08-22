@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T01:08:29.730Z",
+  "updatedAt": "2026-08-22T09:24:56.881Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -19,15 +19,15 @@
       "excerpt": "New software releases? Who cares. Learning new CS concepts? Whatever. Studying for the next interview? Job probably won't even exist in a year. Working on that side project? No one will care because it's just another…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 284,
-      "comments": 171,
+      "score": 287,
+      "comments": 172,
       "url": "https://news.ycombinator.com/item?id=49340013",
       "externalUrl": null,
       "createdUtc": 1787016528,
       "tags": [
         "discussion"
       ],
-      "quality": 96
+      "quality": 97
     },
     {
       "id": "hn-49283063",
