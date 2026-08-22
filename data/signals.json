@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T18:34:31.072Z",
+  "updatedAt": "2026-08-22T01:08:29.730Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -19,7 +19,7 @@
       "excerpt": "New software releases? Who cares. Learning new CS concepts? Whatever. Studying for the next interview? Job probably won't even exist in a year. Working on that side project? No one will care because it's just another…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 283,
+      "score": 284,
       "comments": 171,
       "url": "https://news.ycombinator.com/item?id=49340013",
       "externalUrl": null,
@@ -60,22 +60,6 @@
         "ai"
       ],
       "quality": 46
-    },
-    {
-      "id": "hn-49128177",
-      "title": "Show HN: How to build and self-host a code review agent",
-      "excerpt": "Hey HN, I've had a side-project that I've slowly ticked away at over the last year called Tilde. Tilde is a harness SDK platform - I've tried to take the best things of OpenClaw, Hermes & other harnesses and decompose…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 29,
-      "comments": 6,
-      "url": "https://news.ycombinator.com/item?id=49128177",
-      "externalUrl": "https://www.trytilde.ai/blog/how-to-build-code-review-agent",
-      "createdUtc": 1785529648,
-      "tags": [
-        "discussion"
-      ],
-      "quality": 42
     },
     {
       "id": "hn-49181766",
@@ -220,6 +204,23 @@
       "createdUtc": 1786894714,
       "tags": [
         "discussion"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49317713",
+      "title": "Growth of CVEs fixed in Postgres looks exponential",
+      "excerpt": "Growth of CVEs fixed in Postgres looks exponential",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 2,
+      "url": "https://news.ycombinator.com/item?id=49317713",
+      "externalUrl": "https://twitter.com/samokhvalov/status/2088870235705319924",
+      "createdUtc": 1786865403,
+      "tags": [
+        "growth",
+        "startup"
       ],
       "quality": 42
     },
