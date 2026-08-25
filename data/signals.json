@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T09:33:36.511Z",
+  "updatedAt": "2026-08-25T18:37:33.164Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 12,
+  "count": 13,
   "signals": [
     {
       "id": "hn-49340013",
@@ -51,15 +51,15 @@
       "excerpt": "There was another one of these a couple of months ago and it did not get any traction. Lets hope this one does better. I myself am at $0/mo from my side projects and am really hoping side projects still have a future.…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 59,
-      "comments": 77,
+      "score": 66,
+      "comments": 85,
       "url": "https://news.ycombinator.com/item?id=49417766",
       "externalUrl": null,
       "createdUtc": 1787567336,
       "tags": [
         "discussion"
       ],
-      "quality": 56
+      "quality": 58
     },
     {
       "id": "hn-49290713",
@@ -190,18 +190,34 @@
       "quality": 42
     },
     {
-      "id": "hn-49372908",
-      "title": "Show HN: Protobuf.com, a visual, interactive guide to Protocol Buffers",
-      "excerpt": "Protobuf is a fairly simple format, but the way people are first introduced to it often doesn't speak to them. That is how it was for me at first. I tried to address that in two ways: simple visual diagrams where a…",
+      "id": "hn-49435251",
+      "title": "Show HN: I built a SaaS without knowing how to code – am I an idiot?",
+      "excerpt": "It's called learnfrom.co, a platform for creating, hosting and selling online courses. I started building it because I wanted to solve a problem I had with existing course platforms. I kept running into things I wanted…",
       "source": "hackernews",
       "subreddit": "HN",
       "score": 5,
-      "comments": 0,
-      "url": "https://news.ycombinator.com/item?id=49372908",
-      "externalUrl": "https://protobuf.com/",
-      "createdUtc": 1787223213,
+      "comments": 5,
+      "url": "https://news.ycombinator.com/item?id=49435251",
+      "externalUrl": "https://www.learnfrom.co/",
+      "createdUtc": 1787669710,
       "tags": [
-        "discussion"
+        "saas"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49434426",
+      "title": "Show HN: A cemetery for failed side projects and what founders build next",
+      "excerpt": "Show HN: A cemetery for failed side projects and what founders build next",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 2,
+      "url": "https://news.ycombinator.com/item?id=49434426",
+      "externalUrl": "https://www.ripmybuild.com/",
+      "createdUtc": 1787666892,
+      "tags": [
+        "founder"
       ],
       "quality": 42
     }
