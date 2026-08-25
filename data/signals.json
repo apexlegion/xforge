@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T18:37:48.686Z",
+  "updatedAt": "2026-08-25T01:10:23.338Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 12,
+  "count": 13,
   "signals": [
     {
       "id": "hn-49340013",
@@ -19,7 +19,7 @@
       "excerpt": "New software releases? Who cares. Learning new CS concepts? Whatever. Studying for the next interview? Job probably won't even exist in a year. Working on that side project? No one will care because it's just another…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 292,
+      "score": 296,
       "comments": 173,
       "url": "https://news.ycombinator.com/item?id=49340013",
       "externalUrl": null,
@@ -44,6 +44,22 @@
         "discussion"
       ],
       "quality": 70
+    },
+    {
+      "id": "hn-49417766",
+      "title": "Ask HN: Those making $500/month on side projects in 2026 – Show and tell",
+      "excerpt": "There was another one of these a couple of months ago and it did not get any traction. Lets hope this one does better. I myself am at $0/mo from my side projects and am really hoping side projects still have a future.…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 55,
+      "comments": 73,
+      "url": "https://news.ycombinator.com/item?id=49417766",
+      "externalUrl": null,
+      "createdUtc": 1787567336,
+      "tags": [
+        "discussion"
+      ],
+      "quality": 55
     },
     {
       "id": "hn-49290713",
@@ -159,6 +175,22 @@
       "quality": 42
     },
     {
+      "id": "hn-49386529",
+      "title": "Ask HN: How do you keep notes organized across long-running side projects?",
+      "excerpt": "I keep starting side projects that go on for months, and my notes end up scattered between a text file, a couple of markdown docs, and whatever I remembered to write down. Curious how others handle this — do you keep…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 6,
+      "comments": 4,
+      "url": "https://news.ycombinator.com/item?id=49386529",
+      "externalUrl": null,
+      "createdUtc": 1787311720,
+      "tags": [
+        "discussion"
+      ],
+      "quality": 42
+    },
+    {
       "id": "hn-49321046",
       "title": "Show HN: A punch clock to help with hourly household workers",
       "excerpt": "My wife & I have a housekeeper who works flexible days and hours during the week. She has other commitments, so she comes to our house when it works best for her, within “agreed reasonable hours” (she doesn’t come on…",
@@ -169,22 +201,6 @@
       "url": "https://news.ycombinator.com/item?id=49321046",
       "externalUrl": "https://www.punchy.live/",
       "createdUtc": 1786894714,
-      "tags": [
-        "discussion"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49386529",
-      "title": "Ask HN: How do you keep notes organized across long-running side projects?",
-      "excerpt": "I keep starting side projects that go on for months, and my notes end up scattered between a text file, a couple of markdown docs, and whatever I remembered to write down. Curious how others handle this — do you keep…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 5,
-      "comments": 4,
-      "url": "https://news.ycombinator.com/item?id=49386529",
-      "externalUrl": null,
-      "createdUtc": 1787311720,
       "tags": [
         "discussion"
       ],
