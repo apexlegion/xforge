@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T01:10:23.338Z",
+  "updatedAt": "2026-08-25T09:33:36.511Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 13,
+  "count": 12,
   "signals": [
     {
       "id": "hn-49340013",
@@ -19,15 +19,15 @@
       "excerpt": "New software releases? Who cares. Learning new CS concepts? Whatever. Studying for the next interview? Job probably won't even exist in a year. Working on that side project? No one will care because it's just another…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 296,
-      "comments": 173,
+      "score": 297,
+      "comments": 174,
       "url": "https://news.ycombinator.com/item?id=49340013",
       "externalUrl": null,
       "createdUtc": 1787016528,
       "tags": [
         "discussion"
       ],
-      "quality": 97
+      "quality": 98
     },
     {
       "id": "hn-49283063",
@@ -51,15 +51,15 @@
       "excerpt": "There was another one of these a couple of months ago and it did not get any traction. Lets hope this one does better. I myself am at $0/mo from my side projects and am really hoping side projects still have a future.…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 55,
-      "comments": 73,
+      "score": 59,
+      "comments": 77,
       "url": "https://news.ycombinator.com/item?id=49417766",
       "externalUrl": null,
       "createdUtc": 1787567336,
       "tags": [
         "discussion"
       ],
-      "quality": 55
+      "quality": 56
     },
     {
       "id": "hn-49290713",
@@ -106,23 +106,6 @@
       "createdUtc": 1786155721,
       "tags": [
         "indie"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49163459",
-      "title": "AI Is Breaking the SaaS Deployment Model: 10 Commandments for BYOC",
-      "excerpt": "AI Is Breaking the SaaS Deployment Model: 10 Commandments for BYOC",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 11,
-      "comments": 0,
-      "url": "https://news.ycombinator.com/item?id=49163459",
-      "externalUrl": "https://byocanywhere.org/",
-      "createdUtc": 1785807424,
-      "tags": [
-        "saas",
-        "ai"
       ],
       "quality": 42
     },
