@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T01:12:47.042Z",
+  "updatedAt": "2026-08-26T09:39:30.980Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 13,
+  "count": 14,
   "signals": [
     {
       "id": "hn-49340013",
@@ -51,8 +51,8 @@
       "excerpt": "There was another one of these a couple of months ago and it did not get any traction. Lets hope this one does better. I myself am at $0/mo from my side projects and am really hoping side projects still have a future.…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 68,
-      "comments": 85,
+      "score": 71,
+      "comments": 86,
       "url": "https://news.ycombinator.com/item?id=49417766",
       "externalUrl": null,
       "createdUtc": 1787567336,
@@ -218,6 +218,23 @@
       "createdUtc": 1787666892,
       "tags": [
         "founder"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49438730",
+      "title": "Show HN: Ifso – A personal finance simulator for major life decisions",
+      "excerpt": "Hello all! Ifso is a personal finance simulator that takes all of your various accounts (like taxable brokerages, retirement accounts, loans, etc) and various life events (like income changes, retirement, purchasing a…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 1,
+      "url": "https://news.ycombinator.com/item?id=49438730",
+      "externalUrl": "https://ifso.io/",
+      "createdUtc": 1787683722,
+      "tags": [
+        "growth",
+        "startup"
       ],
       "quality": 42
     }
