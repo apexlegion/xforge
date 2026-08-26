@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T09:39:30.980Z",
+  "updatedAt": "2026-08-26T19:46:50.205Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 14,
+  "count": 11,
   "signals": [
     {
       "id": "hn-49340013",
@@ -20,7 +20,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 297,
-      "comments": 174,
+      "comments": 175,
       "url": "https://news.ycombinator.com/item?id=49340013",
       "externalUrl": null,
       "createdUtc": 1787016528,
@@ -52,14 +52,14 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 71,
-      "comments": 86,
+      "comments": 87,
       "url": "https://news.ycombinator.com/item?id=49417766",
       "externalUrl": null,
       "createdUtc": 1787567336,
       "tags": [
         "discussion"
       ],
-      "quality": 58
+      "quality": 59
     },
     {
       "id": "hn-49290713",
@@ -76,22 +76,6 @@
         "ai"
       ],
       "quality": 46
-    },
-    {
-      "id": "hn-49181766",
-      "title": "Ask HN: Show your micro-SaaS / MRR updates (August 2026)",
-      "excerpt": "HN is a fantastic indiehacker/solo-founder community. We, the people, love transparency, numbers, and analyzing bootstrapped businesses. What is your current (solo) project, and what is your monthly recurring revenue?…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 13,
-      "comments": 9,
-      "url": "https://news.ycombinator.com/item?id=49181766",
-      "externalUrl": null,
-      "createdUtc": 1785932172,
-      "tags": [
-        "saas"
-      ],
-      "quality": 42
     },
     {
       "id": "hn-49218360",
@@ -126,22 +110,6 @@
       "quality": 42
     },
     {
-      "id": "hn-49187337",
-      "title": "Ask HN: Developers–How Did You Get Your First Paying Customers?",
-      "excerpt": "I have just launched a SAAS. But I am not on any social Media, neither I like Social Media, How do I promote it, I am Totaly stuck now, I spent 1.5 years building it. Now I came to know that distribution is the main…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 6,
-      "comments": 17,
-      "url": "https://news.ycombinator.com/item?id=49187337",
-      "externalUrl": null,
-      "createdUtc": 1785956290,
-      "tags": [
-        "bootstrap"
-      ],
-      "quality": 42
-    },
-    {
       "id": "hn-49242046",
       "title": "Ask HN: Is Traditional SaaS Dying?",
       "excerpt": "I think a good proxy for the question is: Does your employer try to replicate some SaaS features in-house? And do these experiments mostly succeed? My data points: Two internal projects to replace Hubspot and Float.…",
@@ -152,6 +120,22 @@
       "url": "https://news.ycombinator.com/item?id=49242046",
       "externalUrl": null,
       "createdUtc": 1786359356,
+      "tags": [
+        "saas"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49435251",
+      "title": "Show HN: I built a SaaS without knowing how to code – am I an idiot?",
+      "excerpt": "It's called learnfrom.co, a platform for creating, hosting and selling online courses. I started building it because I wanted to solve a problem I had with existing course platforms. I kept running into things I wanted…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 6,
+      "comments": 6,
+      "url": "https://news.ycombinator.com/item?id=49435251",
+      "externalUrl": "https://www.learnfrom.co/",
+      "createdUtc": 1787669710,
       "tags": [
         "saas"
       ],
@@ -190,51 +174,18 @@
       "quality": 42
     },
     {
-      "id": "hn-49435251",
-      "title": "Show HN: I built a SaaS without knowing how to code – am I an idiot?",
-      "excerpt": "It's called learnfrom.co, a platform for creating, hosting and selling online courses. I started building it because I wanted to solve a problem I had with existing course platforms. I kept running into things I wanted…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 5,
-      "comments": 6,
-      "url": "https://news.ycombinator.com/item?id=49435251",
-      "externalUrl": "https://www.learnfrom.co/",
-      "createdUtc": 1787669710,
-      "tags": [
-        "saas"
-      ],
-      "quality": 42
-    },
-    {
       "id": "hn-49434426",
       "title": "Show HN: A cemetery for failed side projects and what founders build next",
       "excerpt": "Show HN: A cemetery for failed side projects and what founders build next",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 5,
-      "comments": 2,
+      "score": 6,
+      "comments": 3,
       "url": "https://news.ycombinator.com/item?id=49434426",
       "externalUrl": "https://www.ripmybuild.com/",
       "createdUtc": 1787666892,
       "tags": [
         "founder"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49438730",
-      "title": "Show HN: Ifso – A personal finance simulator for major life decisions",
-      "excerpt": "Hello all! Ifso is a personal finance simulator that takes all of your various accounts (like taxable brokerages, retirement accounts, loans, etc) and various life events (like income changes, retirement, purchasing a…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 5,
-      "comments": 1,
-      "url": "https://news.ycombinator.com/item?id=49438730",
-      "externalUrl": "https://ifso.io/",
-      "createdUtc": 1787683722,
-      "tags": [
-        "growth",
-        "startup"
       ],
       "quality": 42
     }
