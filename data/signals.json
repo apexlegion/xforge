@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T07:26:00.931Z",
+  "updatedAt": "2026-08-27T19:26:06.694Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 11,
+  "count": 12,
   "signals": [
     {
       "id": "hn-49340013",
@@ -51,15 +51,15 @@
       "excerpt": "There was another one of these a couple of months ago and it did not get any traction. Lets hope this one does better. I myself am at $0/mo from my side projects and am really hoping side projects still have a future.…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 73,
-      "comments": 88,
+      "score": 74,
+      "comments": 96,
       "url": "https://news.ycombinator.com/item?id=49417766",
       "externalUrl": null,
       "createdUtc": 1787567336,
       "tags": [
         "discussion"
       ],
-      "quality": 59
+      "quality": 61
     },
     {
       "id": "hn-49290713",
@@ -106,6 +106,22 @@
       "createdUtc": 1787102495,
       "tags": [
         "saas"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49444272",
+      "title": "Ask HN: Why are Claude models so verbose?",
+      "excerpt": "Hello! First time poster, longtime reader. I’m a professional software engineer at a startup with about 50 engineers. My primary languages are Ruby (Rails), TypeScript (React), and Go. Of my colleagues, I’m one of the…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 9,
+      "comments": 9,
+      "url": "https://news.ycombinator.com/item?id=49444272",
+      "externalUrl": null,
+      "createdUtc": 1787721279,
+      "tags": [
+        "discussion"
       ],
       "quality": 42
     },
@@ -158,22 +174,6 @@
       "quality": 42
     },
     {
-      "id": "hn-49321046",
-      "title": "Show HN: A punch clock to help with hourly household workers",
-      "excerpt": "My wife & I have a housekeeper who works flexible days and hours during the week. She has other commitments, so she comes to our house when it works best for her, within “agreed reasonable hours” (she doesn’t come on…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 6,
-      "comments": 4,
-      "url": "https://news.ycombinator.com/item?id=49321046",
-      "externalUrl": "https://www.punchy.live/",
-      "createdUtc": 1786894714,
-      "tags": [
-        "discussion"
-      ],
-      "quality": 42
-    },
-    {
       "id": "hn-49434426",
       "title": "Show HN: A cemetery for failed side projects and what founders build next",
       "excerpt": "Show HN: A cemetery for failed side projects and what founders build next",
@@ -186,6 +186,22 @@
       "createdUtc": 1787666892,
       "tags": [
         "founder"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49464927",
+      "title": "Selling SaaS in India",
+      "excerpt": "Selling SaaS in India",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 0,
+      "url": "https://news.ycombinator.com/item?id=49464927",
+      "externalUrl": "https://embedworkflow.com/blog/selling-saas-in-india/",
+      "createdUtc": 1787838706,
+      "tags": [
+        "saas"
       ],
       "quality": 42
     }
