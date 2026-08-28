@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T19:26:06.694Z",
+  "updatedAt": "2026-08-28T09:40:53.351Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 12,
+  "count": 14,
   "signals": [
     {
       "id": "hn-49340013",
@@ -51,7 +51,7 @@
       "excerpt": "There was another one of these a couple of months ago and it did not get any traction. Lets hope this one does better. I myself am at $0/mo from my side projects and am really hoping side projects still have a future.…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 74,
+      "score": 75,
       "comments": 96,
       "url": "https://news.ycombinator.com/item?id=49417766",
       "externalUrl": null,
@@ -60,6 +60,22 @@
         "discussion"
       ],
       "quality": 61
+    },
+    {
+      "id": "hn-49473868",
+      "title": "Bootstrappable Builds: How and Why",
+      "excerpt": "Bootstrappable Builds: How and Why",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 37,
+      "comments": 22,
+      "url": "https://news.ycombinator.com/item?id=49473868",
+      "externalUrl": "https://lwn.net/Articles/1088279/",
+      "createdUtc": 1787886162,
+      "tags": [
+        "bootstrap"
+      ],
+      "quality": 42
     },
     {
       "id": "hn-49290713",
@@ -116,12 +132,30 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 9,
-      "comments": 9,
+      "comments": 10,
       "url": "https://news.ycombinator.com/item?id=49444272",
       "externalUrl": null,
       "createdUtc": 1787721279,
       "tags": [
         "discussion"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49475011",
+      "title": "We ran X (Twitter) ads for 4 months and here are the results",
+      "excerpt": "Duration May - Aug 2026 My Background: I am a founder of multiple SaaS company. Most recently i am building a AI native ticketing system for support platforms, simply put it takes your issues coming from Github,…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 7,
+      "comments": 2,
+      "url": "https://news.ycombinator.com/item?id=49475011",
+      "externalUrl": null,
+      "createdUtc": 1787898208,
+      "tags": [
+        "growth",
+        "startup",
+        "x"
       ],
       "quality": 42
     },
