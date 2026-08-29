@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T14:10:18.492Z",
+  "updatedAt": "2026-08-29T20:26:48.210Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -52,7 +52,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 78,
-      "comments": 97,
+      "comments": 98,
       "url": "https://news.ycombinator.com/item?id=49417766",
       "externalUrl": null,
       "createdUtc": 1787567336,
@@ -67,15 +67,15 @@
       "excerpt": "Bootstrappable Builds: How and Why",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 47,
-      "comments": 57,
+      "score": 48,
+      "comments": 59,
       "url": "https://news.ycombinator.com/item?id=49473868",
       "externalUrl": "https://lwn.net/Articles/1088279/",
       "createdUtc": 1787886162,
       "tags": [
         "bootstrap"
       ],
-      "quality": 45
+      "quality": 46
     },
     {
       "id": "hn-49290713",
