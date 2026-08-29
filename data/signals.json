@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-28T09:40:53.351Z",
+  "updatedAt": "2026-08-29T01:28:18.652Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -51,8 +51,8 @@
       "excerpt": "There was another one of these a couple of months ago and it did not get any traction. Lets hope this one does better. I myself am at $0/mo from my side projects and am really hoping side projects still have a future.…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 75,
-      "comments": 96,
+      "score": 78,
+      "comments": 97,
       "url": "https://news.ycombinator.com/item?id=49417766",
       "externalUrl": null,
       "createdUtc": 1787567336,
@@ -67,15 +67,15 @@
       "excerpt": "Bootstrappable Builds: How and Why",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 37,
-      "comments": 22,
+      "score": 47,
+      "comments": 56,
       "url": "https://news.ycombinator.com/item?id=49473868",
       "externalUrl": "https://lwn.net/Articles/1088279/",
       "createdUtc": 1787886162,
       "tags": [
         "bootstrap"
       ],
-      "quality": 42
+      "quality": 45
     },
     {
       "id": "hn-49290713",
@@ -110,6 +110,22 @@
       "quality": 42
     },
     {
+      "id": "hn-49444272",
+      "title": "Ask HN: Why are Claude models so verbose?",
+      "excerpt": "Hello! First time poster, longtime reader. I’m a professional software engineer at a startup with about 50 engineers. My primary languages are Ruby (Rails), TypeScript (React), and Go. Of my colleagues, I’m one of the…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 10,
+      "comments": 11,
+      "url": "https://news.ycombinator.com/item?id=49444272",
+      "externalUrl": null,
+      "createdUtc": 1787721279,
+      "tags": [
+        "discussion"
+      ],
+      "quality": 42
+    },
+    {
       "id": "hn-49355352",
       "title": "ServiceNow are pushing customers off SaaS – are other industries doing similar?",
       "excerpt": "I'm hearing that ServiceNow are pushing enterprise towards self-hosted for their next renewals. I get the impression that the main driver is an inability to service the necessary compute to deal with the avalanche of…",
@@ -126,35 +142,18 @@
       "quality": 42
     },
     {
-      "id": "hn-49444272",
-      "title": "Ask HN: Why are Claude models so verbose?",
-      "excerpt": "Hello! First time poster, longtime reader. I’m a professional software engineer at a startup with about 50 engineers. My primary languages are Ruby (Rails), TypeScript (React), and Go. Of my colleagues, I’m one of the…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 9,
-      "comments": 10,
-      "url": "https://news.ycombinator.com/item?id=49444272",
-      "externalUrl": null,
-      "createdUtc": 1787721279,
-      "tags": [
-        "discussion"
-      ],
-      "quality": 42
-    },
-    {
       "id": "hn-49475011",
       "title": "We ran X (Twitter) ads for 4 months and here are the results",
       "excerpt": "Duration May - Aug 2026 My Background: I am a founder of multiple SaaS company. Most recently i am building a AI native ticketing system for support platforms, simply put it takes your issues coming from Github,…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 7,
+      "score": 9,
       "comments": 2,
       "url": "https://news.ycombinator.com/item?id=49475011",
       "externalUrl": null,
       "createdUtc": 1787898208,
       "tags": [
-        "growth",
-        "startup",
+        "marketing",
         "x"
       ],
       "quality": 42
