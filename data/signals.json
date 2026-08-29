@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T01:28:18.652Z",
+  "updatedAt": "2026-08-29T14:10:18.492Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 14,
+  "count": 13,
   "signals": [
     {
       "id": "hn-49340013",
@@ -68,7 +68,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 47,
-      "comments": 56,
+      "comments": 57,
       "url": "https://news.ycombinator.com/item?id=49473868",
       "externalUrl": "https://lwn.net/Articles/1088279/",
       "createdUtc": 1787886162,
@@ -94,28 +94,12 @@
       "quality": 46
     },
     {
-      "id": "hn-49218360",
-      "title": "I watched 13 legal pages for two weeks, three of them changed",
-      "excerpt": "I watched 13 legal pages for two weeks, three of them changed",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 12,
-      "comments": 6,
-      "url": "https://news.ycombinator.com/item?id=49218360",
-      "externalUrl": "https://www.indiehackers.com/post/i-watched-13-legal-pages-for-two-weeks-three-of-them-changed-1d212c5c71",
-      "createdUtc": 1786155721,
-      "tags": [
-        "indie"
-      ],
-      "quality": 42
-    },
-    {
       "id": "hn-49444272",
       "title": "Ask HN: Why are Claude models so verbose?",
       "excerpt": "Hello! First time poster, longtime reader. I’m a professional software engineer at a startup with about 50 engineers. My primary languages are Ruby (Rails), TypeScript (React), and Go. Of my colleagues, I’m one of the…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 10,
+      "score": 11,
       "comments": 11,
       "url": "https://news.ycombinator.com/item?id=49444272",
       "externalUrl": null,
