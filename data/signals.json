@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T03:47:07.812Z",
+  "updatedAt": "2026-08-30T14:17:03.717Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 13,
+  "count": 14,
   "signals": [
     {
       "id": "hn-49340013",
@@ -52,7 +52,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 78,
-      "comments": 101,
+      "comments": 102,
       "url": "https://news.ycombinator.com/item?id=49417766",
       "externalUrl": null,
       "createdUtc": 1787567336,
@@ -68,7 +68,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 48,
-      "comments": 59,
+      "comments": 60,
       "url": "https://news.ycombinator.com/item?id=49473868",
       "externalUrl": "https://lwn.net/Articles/1088279/",
       "createdUtc": 1787886162,
@@ -122,6 +122,22 @@
       "createdUtc": 1787102495,
       "tags": [
         "saas"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49496169",
+      "title": "I Built a Free Printable Habit Tracker Because Most Habit Tracking Tools",
+      "excerpt": "I Built a Free Printable Habit Tracker Because Most Habit Tracking Tools",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 10,
+      "comments": 1,
+      "url": "https://news.ycombinator.com/item?id=49496169",
+      "externalUrl": "https://www.indiehackers.com/post/i-built-a-free-printable-habit-tracker-because-most-habit-tracking-tools-felt-too-complicated-PjKUoF61gDZRQQ7MH6bG",
+      "createdUtc": 1788071023,
+      "tags": [
+        "indie"
       ],
       "quality": 42
     },
