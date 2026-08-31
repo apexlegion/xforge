@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T16:43:45.918Z",
+  "updatedAt": "2026-08-31T22:29:18.679Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 16,
+  "count": 17,
   "signals": [
     {
       "id": "hn-49340013",
@@ -60,6 +60,22 @@
         "discussion"
       ],
       "quality": 63
+    },
+    {
+      "id": "hn-49473868",
+      "title": "Bootstrappable Builds: How and Why",
+      "excerpt": "Bootstrappable Builds: How and Why",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 49,
+      "comments": 60,
+      "url": "https://news.ycombinator.com/item?id=49473868",
+      "externalUrl": "https://lwn.net/Articles/1088279/",
+      "createdUtc": 1787886162,
+      "tags": [
+        "bootstrap"
+      ],
+      "quality": 46
     },
     {
       "id": "hn-49290713",
