@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T20:36:37.578Z",
+  "updatedAt": "2026-08-31T03:49:25.965Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 13,
+  "count": 16,
   "signals": [
     {
       "id": "hn-49340013",
@@ -52,14 +52,14 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 79,
-      "comments": 103,
+      "comments": 104,
       "url": "https://news.ycombinator.com/item?id=49417766",
       "externalUrl": null,
       "createdUtc": 1787567336,
       "tags": [
         "discussion"
       ],
-      "quality": 62
+      "quality": 63
     },
     {
       "id": "hn-49290713",
@@ -132,12 +132,13 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 9,
-      "comments": 2,
+      "comments": 3,
       "url": "https://news.ycombinator.com/item?id=49475011",
       "externalUrl": null,
       "createdUtc": 1787898208,
       "tags": [
-        "marketing",
+        "growth",
+        "startup",
         "x"
       ],
       "quality": 42
@@ -191,6 +192,22 @@
       "quality": 42
     },
     {
+      "id": "hn-49321046",
+      "title": "Show HN: A punch clock to help with hourly household workers",
+      "excerpt": "My wife & I have a housekeeper who works flexible days and hours during the week. She has other commitments, so she comes to our house when it works best for her, within “agreed reasonable hours” (she doesn’t come on…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 6,
+      "comments": 4,
+      "url": "https://news.ycombinator.com/item?id=49321046",
+      "externalUrl": "https://www.punchy.live/",
+      "createdUtc": 1786894714,
+      "tags": [
+        "discussion"
+      ],
+      "quality": 42
+    },
+    {
       "id": "hn-49434426",
       "title": "Show HN: A cemetery for failed side projects and what founders build next",
       "excerpt": "Show HN: A cemetery for failed side projects and what founders build next",
@@ -219,6 +236,38 @@
       "createdUtc": 1787838706,
       "tags": [
         "saas"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49503275",
+      "title": "I built a scanner to find a SaaS worth cloning. Its best answer was \"don't.\"",
+      "excerpt": "I built a scanner to find a SaaS worth cloning. Its best answer was \"don't.\"",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 4,
+      "comments": 4,
+      "url": "https://news.ycombinator.com/item?id=49503275",
+      "externalUrl": "https://www.petervijeh.com/projects/saas-scanner",
+      "createdUtc": 1788127066,
+      "tags": [
+        "saas"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49502354",
+      "title": "Ask HN: What do you use to host side projects?",
+      "excerpt": "Ask HN: What do you use to host side projects?",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 2,
+      "comments": 10,
+      "url": "https://news.ycombinator.com/item?id=49502354",
+      "externalUrl": null,
+      "createdUtc": 1788121155,
+      "tags": [
+        "discussion"
       ],
       "quality": 42
     }
