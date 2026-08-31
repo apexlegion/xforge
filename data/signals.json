@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T03:49:25.965Z",
+  "updatedAt": "2026-08-31T16:43:45.918Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -51,8 +51,8 @@
       "excerpt": "There was another one of these a couple of months ago and it did not get any traction. Lets hope this one does better. I myself am at $0/mo from my side projects and am really hoping side projects still have a future.…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 79,
-      "comments": 104,
+      "score": 80,
+      "comments": 105,
       "url": "https://news.ycombinator.com/item?id=49417766",
       "externalUrl": null,
       "createdUtc": 1787567336,
@@ -144,22 +144,6 @@
       "quality": 42
     },
     {
-      "id": "hn-49242046",
-      "title": "Ask HN: Is Traditional SaaS Dying?",
-      "excerpt": "I think a good proxy for the question is: Does your employer try to replicate some SaaS features in-house? And do these experiments mostly succeed? My data points: Two internal projects to replace Hubspot and Float.…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 5,
-      "comments": 16,
-      "url": "https://news.ycombinator.com/item?id=49242046",
-      "externalUrl": null,
-      "createdUtc": 1786359356,
-      "tags": [
-        "saas"
-      ],
-      "quality": 42
-    },
-    {
       "id": "hn-49435251",
       "title": "Show HN: I built a SaaS without knowing how to code – am I an idiot?",
       "excerpt": "It's called learnfrom.co, a platform for creating, hosting and selling online courses. I started building it because I wanted to solve a problem I had with existing course platforms. I kept running into things I wanted…",
@@ -240,6 +224,22 @@
       "quality": 42
     },
     {
+      "id": "hn-49372908",
+      "title": "Show HN: Protobuf.com, a visual, interactive guide to Protocol Buffers",
+      "excerpt": "Protobuf is a fairly simple format, but the way people are first introduced to it often doesn't speak to them. That is how it was for me at first. I tried to address that in two ways: simple visual diagrams where a…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 0,
+      "url": "https://news.ycombinator.com/item?id=49372908",
+      "externalUrl": "https://protobuf.com/",
+      "createdUtc": 1787223213,
+      "tags": [
+        "discussion"
+      ],
+      "quality": 42
+    },
+    {
       "id": "hn-49503275",
       "title": "I built a scanner to find a SaaS worth cloning. Its best answer was \"don't.\"",
       "excerpt": "I built a scanner to find a SaaS worth cloning. Its best answer was \"don't.\"",
@@ -261,8 +261,8 @@
       "excerpt": "Ask HN: What do you use to host side projects?",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 2,
-      "comments": 10,
+      "score": 3,
+      "comments": 14,
       "url": "https://news.ycombinator.com/item?id=49502354",
       "externalUrl": null,
       "createdUtc": 1788121155,
