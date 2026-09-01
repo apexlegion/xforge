@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T13:56:03.181Z",
+  "updatedAt": "2026-09-01T20:35:36.043Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 17,
+  "count": 16,
   "signals": [
     {
       "id": "hn-49340013",
@@ -60,22 +60,6 @@
         "discussion"
       ],
       "quality": 63
-    },
-    {
-      "id": "hn-49473868",
-      "title": "Bootstrappable Builds: How and Why",
-      "excerpt": "Bootstrappable Builds: How and Why",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 100,
-      "comments": 60,
-      "url": "https://news.ycombinator.com/item?id=49473868",
-      "externalUrl": "https://lwn.net/Articles/1088279/",
-      "createdUtc": 1787886162,
-      "tags": [
-        "bootstrap"
-      ],
-      "quality": 57
     },
     {
       "id": "hn-49290713",
@@ -153,8 +137,7 @@
       "externalUrl": null,
       "createdUtc": 1787898208,
       "tags": [
-        "growth",
-        "startup",
+        "marketing",
         "x"
       ],
       "quality": 42
@@ -176,6 +159,22 @@
       "quality": 42
     },
     {
+      "id": "hn-49321046",
+      "title": "Show HN: A punch clock to help with hourly household workers",
+      "excerpt": "My wife & I have a housekeeper who works flexible days and hours during the week. She has other commitments, so she comes to our house when it works best for her, within “agreed reasonable hours” (she doesn’t come on…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 6,
+      "comments": 5,
+      "url": "https://news.ycombinator.com/item?id=49321046",
+      "externalUrl": "https://www.punchy.live/",
+      "createdUtc": 1786894714,
+      "tags": [
+        "discussion"
+      ],
+      "quality": 42
+    },
+    {
       "id": "hn-49386529",
       "title": "Ask HN: How do you keep notes organized across long-running side projects?",
       "excerpt": "I keep starting side projects that go on for months, and my notes end up scattered between a text file, a couple of markdown docs, and whatever I remembered to write down. Curious how others handle this — do you keep…",
@@ -186,22 +185,6 @@
       "url": "https://news.ycombinator.com/item?id=49386529",
       "externalUrl": null,
       "createdUtc": 1787311720,
-      "tags": [
-        "discussion"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49321046",
-      "title": "Show HN: A punch clock to help with hourly household workers",
-      "excerpt": "My wife & I have a housekeeper who works flexible days and hours during the week. She has other commitments, so she comes to our house when it works best for her, within “agreed reasonable hours” (she doesn’t come on…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 6,
-      "comments": 4,
-      "url": "https://news.ycombinator.com/item?id=49321046",
-      "externalUrl": "https://www.punchy.live/",
-      "createdUtc": 1786894714,
       "tags": [
         "discussion"
       ],
