@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T03:42:17.183Z",
+  "updatedAt": "2026-09-01T13:56:03.181Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -100,7 +100,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 11,
-      "comments": 11,
+      "comments": 13,
       "url": "https://news.ycombinator.com/item?id=49444272",
       "externalUrl": null,
       "createdUtc": 1787721279,
