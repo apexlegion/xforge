@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T22:29:18.679Z",
+  "updatedAt": "2026-09-01T03:42:17.183Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -67,7 +67,7 @@
       "excerpt": "Bootstrappable Builds: How and Why",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 49,
+      "score": 100,
       "comments": 60,
       "url": "https://news.ycombinator.com/item?id=49473868",
       "externalUrl": "https://lwn.net/Articles/1088279/",
@@ -75,7 +75,7 @@
       "tags": [
         "bootstrap"
       ],
-      "quality": 46
+      "quality": 57
     },
     {
       "id": "hn-49290713",
