@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T03:00:39.844Z",
+  "updatedAt": "2026-09-02T13:14:50.838Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 16,
+  "count": 17,
   "signals": [
     {
       "id": "hn-49340013",
@@ -62,6 +62,22 @@
       "quality": 63
     },
     {
+      "id": "hn-49473868",
+      "title": "Bootstrappable Builds: How and Why",
+      "excerpt": "Bootstrappable Builds: How and Why",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 100,
+      "comments": 60,
+      "url": "https://news.ycombinator.com/item?id=49473868",
+      "externalUrl": "https://lwn.net/Articles/1088279/",
+      "createdUtc": 1787886162,
+      "tags": [
+        "bootstrap"
+      ],
+      "quality": 57
+    },
+    {
       "id": "hn-49290713",
       "title": "Ask HN: How much money do you spend monthly on subscriptions for AI models?",
       "excerpt": "Monthly total for all AI model subscriptions for personal use, with a breakdown of which models you use and for what purpose (coding side projects, AI assistants, etc.). You can also mention how much you spend monthly…",
@@ -110,6 +126,24 @@
       "quality": 42
     },
     {
+      "id": "hn-49475011",
+      "title": "We ran X (Twitter) ads for 4 months and here are the results",
+      "excerpt": "Duration May - Aug 2026 My Background: I am a founder of multiple SaaS company. Most recently i am building a AI native ticketing system for support platforms, simply put it takes your issues coming from Github,…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 10,
+      "comments": 4,
+      "url": "https://news.ycombinator.com/item?id=49475011",
+      "externalUrl": null,
+      "createdUtc": 1787898208,
+      "tags": [
+        "growth",
+        "startup",
+        "x"
+      ],
+      "quality": 42
+    },
+    {
       "id": "hn-49496169",
       "title": "I Built a Free Printable Habit Tracker Because Most Habit Tracking Tools",
       "excerpt": "I Built a Free Printable Habit Tracker Because Most Habit Tracking Tools",
@@ -122,23 +156,6 @@
       "createdUtc": 1788071023,
       "tags": [
         "indie"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49475011",
-      "title": "We ran X (Twitter) ads for 4 months and here are the results",
-      "excerpt": "Duration May - Aug 2026 My Background: I am a founder of multiple SaaS company. Most recently i am building a AI native ticketing system for support platforms, simply put it takes your issues coming from Github,…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 9,
-      "comments": 3,
-      "url": "https://news.ycombinator.com/item?id=49475011",
-      "externalUrl": null,
-      "createdUtc": 1787898208,
-      "tags": [
-        "marketing",
-        "x"
       ],
       "quality": 42
     },
@@ -261,7 +278,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 3,
-      "comments": 14,
+      "comments": 15,
       "url": "https://news.ycombinator.com/item?id=49502354",
       "externalUrl": null,
       "createdUtc": 1788121155,
