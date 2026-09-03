@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T03:02:23.013Z",
+  "updatedAt": "2026-09-03T13:15:43.903Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -28,22 +28,6 @@
         "discussion"
       ],
       "quality": 98
-    },
-    {
-      "id": "hn-49283063",
-      "title": "Launch HN: Bullet (YC S26) – A Faster Coding Agent",
-      "excerpt": "Hi HN! We’re Adi and Alex, founders of Bullet, a faster coding agent. Bullet started in a senior year dorm. We were fresh out of working at AppLovin and Citadel, and naturally thought we were on a sure path to startup…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 121,
-      "comments": 89,
-      "url": "https://news.ycombinator.com/item?id=49283063",
-      "externalUrl": "https://www.codewithbullet.com/",
-      "createdUtc": 1786608870,
-      "tags": [
-        "discussion"
-      ],
-      "quality": 70
     },
     {
       "id": "hn-49417766",
@@ -234,6 +218,22 @@
       "url": "https://news.ycombinator.com/item?id=49537988",
       "externalUrl": "https://www.milliondollarsaas.club/",
       "createdUtc": 1788363780,
+      "tags": [
+        "saas"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49528828",
+      "title": "Show HN: Rails Baseline – a Rails SaaS starter with agent-readable architecture",
+      "excerpt": "I have built a lot of SaaS Rails apps over the last decade+...and agents are making their way into my workflow more then ever. So I decided I wanted a starter that picks a LOT of vanilla Rails flavors, a little bit of…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 0,
+      "url": "https://news.ycombinator.com/item?id=49528828",
+      "externalUrl": "https://railsbaseline.com/",
+      "createdUtc": 1788300030,
       "tags": [
         "saas"
       ],
