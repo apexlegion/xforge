@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T13:09:56.008Z",
+  "updatedAt": "2026-09-04T20:18:38.720Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 17,
+  "count": 18,
   "signals": [
     {
       "id": "hn-49340013",
@@ -46,12 +46,28 @@
       "quality": 63
     },
     {
+      "id": "hn-49473868",
+      "title": "Bootstrappable Builds: How and Why",
+      "excerpt": "Bootstrappable Builds: How and Why",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 100,
+      "comments": 60,
+      "url": "https://news.ycombinator.com/item?id=49473868",
+      "externalUrl": "https://lwn.net/Articles/1088279/",
+      "createdUtc": 1787886162,
+      "tags": [
+        "bootstrap"
+      ],
+      "quality": 57
+    },
+    {
       "id": "hn-49549602",
       "title": "Ask HN: Founders that raised funding and shutdown, did you raise again?",
       "excerpt": "Curious to know the number of repeat founders here who shutdown and raised again, or chose not to raise the second time. I bootstrapped, raised, shutdown, went solo again, thinking about next steps. Ultimately funding…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 17,
+      "score": 18,
       "comments": 1,
       "url": "https://news.ycombinator.com/item?id=49549602",
       "externalUrl": null,
