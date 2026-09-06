@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T19:57:30.608Z",
+  "updatedAt": "2026-09-06T03:03:39.735Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 18,
+  "count": 19,
   "signals": [
     {
       "id": "hn-49340013",
@@ -220,6 +220,24 @@
       "createdUtc": 1788363780,
       "tags": [
         "saas"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49580353",
+      "title": "Ask HN: How do you build organic traction as an indie dev?",
+      "excerpt": "I have recently become a fulltime indie gamedev. While I'm willing to trust myself on technical and creative output, the topic of getting the word out that I might release something interesting and worth people's time…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 2,
+      "url": "https://news.ycombinator.com/item?id=49580353",
+      "externalUrl": null,
+      "createdUtc": 1788640171,
+      "tags": [
+        "marketing",
+        "indie",
+        "x"
       ],
       "quality": 42
     },
