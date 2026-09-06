@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T12:38:03.680Z",
+  "updatedAt": "2026-09-06T20:01:16.859Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -144,22 +144,6 @@
       "quality": 42
     },
     {
-      "id": "hn-49321046",
-      "title": "Show HN: A punch clock to help with hourly household workers",
-      "excerpt": "My wife & I have a housekeeper who works flexible days and hours during the week. She has other commitments, so she comes to our house when it works best for her, within “agreed reasonable hours” (she doesn’t come on…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 6,
-      "comments": 5,
-      "url": "https://news.ycombinator.com/item?id=49321046",
-      "externalUrl": "https://www.punchy.live/",
-      "createdUtc": 1786894714,
-      "tags": [
-        "discussion"
-      ],
-      "quality": 42
-    },
-    {
       "id": "hn-49580353",
       "title": "Ask HN: How do you build organic traction as an indie dev?",
       "excerpt": "I have recently become a fulltime indie gamedev. While I'm willing to trust myself on technical and creative output, the topic of getting the word out that I might release something interesting and worth people's time…",
@@ -300,6 +284,22 @@
       "url": "https://news.ycombinator.com/item?id=49502354",
       "externalUrl": null,
       "createdUtc": 1788121155,
+      "tags": [
+        "discussion"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49529002",
+      "title": "Ask HN: Where do you announce your projects?",
+      "excerpt": "Over the years I’ve been working on quite the number of personal/hobby projects that turned out very good o think. But Ive always had the most trouble at the marketing/validation step. So as a single developer, where do…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 3,
+      "comments": 3,
+      "url": "https://news.ycombinator.com/item?id=49529002",
+      "externalUrl": null,
+      "createdUtc": 1788301118,
       "tags": [
         "discussion"
       ],
