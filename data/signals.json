@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T20:01:16.859Z",
+  "updatedAt": "2026-09-07T03:01:23.105Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 18,
+  "count": 21,
   "signals": [
     {
       "id": "hn-49340013",
@@ -44,6 +44,22 @@
         "discussion"
       ],
       "quality": 63
+    },
+    {
+      "id": "hn-49473868",
+      "title": "Bootstrappable Builds: How and Why",
+      "excerpt": "Bootstrappable Builds: How and Why",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 100,
+      "comments": 60,
+      "url": "https://news.ycombinator.com/item?id=49473868",
+      "externalUrl": "https://lwn.net/Articles/1088279/",
+      "createdUtc": 1787886162,
+      "tags": [
+        "bootstrap"
+      ],
+      "quality": 57
     },
     {
       "id": "hn-49549602",
@@ -128,6 +144,40 @@
       "quality": 42
     },
     {
+      "id": "hn-49580353",
+      "title": "Ask HN: How do you build organic traction as an indie dev?",
+      "excerpt": "I have recently become a fulltime indie gamedev. While I'm willing to trust myself on technical and creative output, the topic of getting the word out that I might release something interesting and worth people's time…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 7,
+      "comments": 5,
+      "url": "https://news.ycombinator.com/item?id=49580353",
+      "externalUrl": null,
+      "createdUtc": 1788640171,
+      "tags": [
+        "marketing",
+        "indie",
+        "x"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49590656",
+      "title": "Ask HN: Show your micro-SaaS (September 2026)",
+      "excerpt": "HN is a fantastic founder community. We, the people, love transparency, numbers, and analyzing bootstrapped business models. What is your current project? Share your wins, losses, and tech stack. Share monthly recurring…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 7,
+      "comments": 0,
+      "url": "https://news.ycombinator.com/item?id=49590656",
+      "externalUrl": null,
+      "createdUtc": 1788727043,
+      "tags": [
+        "saas"
+      ],
+      "quality": 42
+    },
+    {
       "id": "hn-49435251",
       "title": "Show HN: I built a SaaS without knowing how to code – am I an idiot?",
       "excerpt": "It's called learnfrom.co, a platform for creating, hosting and selling online courses. I started building it because I wanted to solve a problem I had with existing course platforms. I kept running into things I wanted…",
@@ -140,24 +190,6 @@
       "createdUtc": 1787669710,
       "tags": [
         "saas"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49580353",
-      "title": "Ask HN: How do you build organic traction as an indie dev?",
-      "excerpt": "I have recently become a fulltime indie gamedev. While I'm willing to trust myself on technical and creative output, the topic of getting the word out that I might release something interesting and worth people's time…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 6,
-      "comments": 4,
-      "url": "https://news.ycombinator.com/item?id=49580353",
-      "externalUrl": null,
-      "createdUtc": 1788640171,
-      "tags": [
-        "marketing",
-        "indie",
-        "x"
       ],
       "quality": 42
     },
@@ -206,6 +238,24 @@
       "createdUtc": 1788363780,
       "tags": [
         "saas"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49556698",
+      "title": "Ask HN: How do we build a team? (bootstrapped B2B startup)",
+      "excerpt": "Hi everyone, I'm 22 years old and I own a start up with my co-founder, we both just graduated college and we built a b2b SaaS that's live with 60 users and growing. We've been live since beginning of June. I wanted to…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 1,
+      "url": "https://news.ycombinator.com/item?id=49556698",
+      "externalUrl": null,
+      "createdUtc": 1788468369,
+      "tags": [
+        "startup",
+        "b2b",
+        "bootstrap"
       ],
       "quality": 42
     },
