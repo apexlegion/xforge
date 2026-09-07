@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T03:01:23.105Z",
+  "updatedAt": "2026-09-07T14:49:09.627Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -36,7 +36,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 80,
-      "comments": 105,
+      "comments": 106,
       "url": "https://news.ycombinator.com/item?id=49417766",
       "externalUrl": null,
       "createdUtc": 1787567336,
@@ -75,6 +75,22 @@
       "tags": [
         "bootstrap",
         "founder"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49590656",
+      "title": "Ask HN: Show your micro-SaaS",
+      "excerpt": "HN is a fantastic founder community. We, the people, love transparency, numbers, and analyzing bootstrapped business models. What is your current project? Share your wins, losses, and tech stack. Share monthly recurring…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 13,
+      "comments": 3,
+      "url": "https://news.ycombinator.com/item?id=49590656",
+      "externalUrl": null,
+      "createdUtc": 1788727043,
+      "tags": [
+        "saas"
       ],
       "quality": 42
     },
@@ -158,22 +174,6 @@
         "marketing",
         "indie",
         "x"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49590656",
-      "title": "Ask HN: Show your micro-SaaS (September 2026)",
-      "excerpt": "HN is a fantastic founder community. We, the people, love transparency, numbers, and analyzing bootstrapped business models. What is your current project? Share your wins, losses, and tech stack. Share monthly recurring…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 7,
-      "comments": 0,
-      "url": "https://news.ycombinator.com/item?id=49590656",
-      "externalUrl": null,
-      "createdUtc": 1788727043,
-      "tags": [
-        "saas"
       ],
       "quality": 42
     },
