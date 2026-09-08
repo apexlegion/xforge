@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T13:20:02.291Z",
+  "updatedAt": "2026-09-08T20:44:48.730Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 19,
+  "count": 21,
   "signals": [
     {
       "id": "hn-49417766",
@@ -30,13 +30,29 @@
       "quality": 63
     },
     {
+      "id": "hn-49473868",
+      "title": "Bootstrappable Builds: How and Why",
+      "excerpt": "Bootstrappable Builds: How and Why",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 100,
+      "comments": 60,
+      "url": "https://news.ycombinator.com/item?id=49473868",
+      "externalUrl": "https://lwn.net/Articles/1088279/",
+      "createdUtc": 1787886162,
+      "tags": [
+        "bootstrap"
+      ],
+      "quality": 57
+    },
+    {
       "id": "hn-49590656",
       "title": "Ask HN: Show your micro-SaaS",
       "excerpt": "HN is a fantastic founder community. We, the people, love transparency, numbers, and analyzing bootstrapped business models. What is your current project? Share your wins, losses, and tech stack. Share monthly recurring…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 20,
-      "comments": 14,
+      "score": 22,
+      "comments": 17,
       "url": "https://news.ycombinator.com/item?id=49590656",
       "externalUrl": null,
       "createdUtc": 1788727043,
@@ -134,7 +150,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 7,
-      "comments": 5,
+      "comments": 6,
       "url": "https://news.ycombinator.com/item?id=49580353",
       "externalUrl": null,
       "createdUtc": 1788640171,
@@ -270,6 +286,22 @@
       "url": "https://news.ycombinator.com/item?id=49372908",
       "externalUrl": "https://protobuf.com/",
       "createdUtc": 1787223213,
+      "tags": [
+        "discussion"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49609218",
+      "title": "Is there a way to do GPL anymore?",
+      "excerpt": "I have a side project I've worked on for a few years. It's pretty neat. It's in the realm of AI research. I would like to open it up and tell people about it- see if anyone else would like to contribute. But I can't…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 4,
+      "comments": 5,
+      "url": "https://news.ycombinator.com/item?id=49609218",
+      "externalUrl": null,
+      "createdUtc": 1788869320,
       "tags": [
         "discussion"
       ],
