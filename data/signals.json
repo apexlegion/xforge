@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T20:44:48.730Z",
+  "updatedAt": "2026-09-09T03:13:40.838Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 21,
+  "count": 19,
   "signals": [
     {
       "id": "hn-49417766",
@@ -30,29 +30,13 @@
       "quality": 63
     },
     {
-      "id": "hn-49473868",
-      "title": "Bootstrappable Builds: How and Why",
-      "excerpt": "Bootstrappable Builds: How and Why",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 100,
-      "comments": 60,
-      "url": "https://news.ycombinator.com/item?id=49473868",
-      "externalUrl": "https://lwn.net/Articles/1088279/",
-      "createdUtc": 1787886162,
-      "tags": [
-        "bootstrap"
-      ],
-      "quality": 57
-    },
-    {
       "id": "hn-49590656",
       "title": "Ask HN: Show your micro-SaaS",
       "excerpt": "HN is a fantastic founder community. We, the people, love transparency, numbers, and analyzing bootstrapped business models. What is your current project? Share your wins, losses, and tech stack. Share monthly recurring…",
       "source": "hackernews",
       "subreddit": "HN",
       "score": 22,
-      "comments": 17,
+      "comments": 19,
       "url": "https://news.ycombinator.com/item?id=49590656",
       "externalUrl": null,
       "createdUtc": 1788727043,
@@ -91,22 +75,6 @@
       "createdUtc": 1787721279,
       "tags": [
         "discussion"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49355352",
-      "title": "ServiceNow are pushing customers off SaaS – are other industries doing similar?",
-      "excerpt": "I'm hearing that ServiceNow are pushing enterprise towards self-hosted for their next renewals. I get the impression that the main driver is an inability to service the necessary compute to deal with the avalanche of…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 10,
-      "comments": 5,
-      "url": "https://news.ycombinator.com/item?id=49355352",
-      "externalUrl": null,
-      "createdUtc": 1787102495,
-      "tags": [
-        "saas"
       ],
       "quality": 42
     },
@@ -150,7 +118,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 7,
-      "comments": 6,
+      "comments": 7,
       "url": "https://news.ycombinator.com/item?id=49580353",
       "externalUrl": null,
       "createdUtc": 1788640171,
