@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T03:13:40.838Z",
+  "updatedAt": "2026-09-09T13:25:30.283Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 19,
+  "count": 21,
   "signals": [
     {
       "id": "hn-49417766",
@@ -30,13 +30,45 @@
       "quality": 63
     },
     {
+      "id": "hn-49473868",
+      "title": "Bootstrappable Builds: How and Why",
+      "excerpt": "Bootstrappable Builds: How and Why",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 100,
+      "comments": 60,
+      "url": "https://news.ycombinator.com/item?id=49473868",
+      "externalUrl": "https://lwn.net/Articles/1088279/",
+      "createdUtc": 1787886162,
+      "tags": [
+        "bootstrap"
+      ],
+      "quality": 57
+    },
+    {
+      "id": "hn-49622554",
+      "title": "I'm going back to coding by hand",
+      "excerpt": "I have a successful app I built myself with a solid user base. I had been working on a new version via Claude on and off for about six months In work we use LLMs exclusively. Nobody writes code anymore. It's all hands…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 43,
+      "comments": 32,
+      "url": "https://news.ycombinator.com/item?id=49622554",
+      "externalUrl": null,
+      "createdUtc": 1788938548,
+      "tags": [
+        "discussion"
+      ],
+      "quality": 42
+    },
+    {
       "id": "hn-49590656",
       "title": "Ask HN: Show your micro-SaaS",
       "excerpt": "HN is a fantastic founder community. We, the people, love transparency, numbers, and analyzing bootstrapped business models. What is your current project? Share your wins, losses, and tech stack. Share monthly recurring…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 22,
-      "comments": 19,
+      "score": 23,
+      "comments": 21,
       "url": "https://news.ycombinator.com/item?id=49590656",
       "externalUrl": null,
       "createdUtc": 1788727043,
