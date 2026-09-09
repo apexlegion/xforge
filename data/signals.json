@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T13:25:30.283Z",
+  "updatedAt": "2026-09-09T20:27:45.981Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -51,15 +51,15 @@
       "excerpt": "I have a successful app I built myself with a solid user base. I had been working on a new version via Claude on and off for about six months In work we use LLMs exclusively. Nobody writes code anymore. It's all hands…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 43,
-      "comments": 32,
+      "score": 55,
+      "comments": 42,
       "url": "https://news.ycombinator.com/item?id=49622554",
       "externalUrl": null,
       "createdUtc": 1788938548,
       "tags": [
         "discussion"
       ],
-      "quality": 42
+      "quality": 43
     },
     {
       "id": "hn-49590656",
