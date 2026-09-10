@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T03:13:21.566Z",
+  "updatedAt": "2026-09-10T13:19:53.165Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 21,
+  "count": 23,
   "signals": [
     {
       "id": "hn-49417766",
@@ -51,15 +51,15 @@
       "excerpt": "I have a successful app I built myself with a solid user base. I had been working on a new version via Claude on and off for about six months In work we use LLMs exclusively. Nobody writes code anymore. It's all hands…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 57,
-      "comments": 42,
+      "score": 61,
+      "comments": 49,
       "url": "https://news.ycombinator.com/item?id=49622554",
       "externalUrl": null,
       "createdUtc": 1788938548,
       "tags": [
         "discussion"
       ],
-      "quality": 43
+      "quality": 44
     },
     {
       "id": "hn-49590656",
@@ -67,8 +67,8 @@
       "excerpt": "HN is a fantastic founder community. We, the people, love transparency, numbers, and analyzing bootstrapped business models. What is your current project? Share your wins, losses, and tech stack. Share monthly recurring…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 24,
-      "comments": 21,
+      "score": 25,
+      "comments": 23,
       "url": "https://news.ycombinator.com/item?id=49590656",
       "externalUrl": null,
       "createdUtc": 1788727043,
@@ -122,7 +122,8 @@
       "externalUrl": null,
       "createdUtc": 1787898208,
       "tags": [
-        "marketing",
+        "growth",
+        "startup",
         "x"
       ],
       "quality": 42
@@ -276,22 +277,6 @@
       "quality": 42
     },
     {
-      "id": "hn-49372908",
-      "title": "Show HN: Protobuf.com, a visual, interactive guide to Protocol Buffers",
-      "excerpt": "Protobuf is a fairly simple format, but the way people are first introduced to it often doesn't speak to them. That is how it was for me at first. I tried to address that in two ways: simple visual diagrams where a…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 5,
-      "comments": 0,
-      "url": "https://news.ycombinator.com/item?id=49372908",
-      "externalUrl": "https://protobuf.com/",
-      "createdUtc": 1787223213,
-      "tags": [
-        "discussion"
-      ],
-      "quality": 42
-    },
-    {
       "id": "hn-49609218",
       "title": "Is there a way to do GPL anymore?",
       "excerpt": "I have a side project I've worked on for a few years. It's pretty neat. It's in the realm of AI research. I would like to open it up and tell people about it- see if anyone else would like to contribute. But I can't…",
@@ -304,6 +289,22 @@
       "createdUtc": 1788869320,
       "tags": [
         "discussion"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49625627",
+      "title": "Ask HN: Can I turn my part-time project into a full-time SaaS?",
+      "excerpt": "Ask HN: Can I turn my part-time project into a full-time SaaS?",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 4,
+      "comments": 4,
+      "url": "https://news.ycombinator.com/item?id=49625627",
+      "externalUrl": null,
+      "createdUtc": 1788957805,
+      "tags": [
+        "saas"
       ],
       "quality": 42
     },
@@ -350,6 +351,38 @@
       "url": "https://news.ycombinator.com/item?id=49529002",
       "externalUrl": null,
       "createdUtc": 1788301118,
+      "tags": [
+        "discussion"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49461055",
+      "title": "Ask HN: What do you do when your AI coding agent is doing its job?",
+      "excerpt": "I am into my early 50s and recently diagnosed with adult ADHD and maladaptive daydreaming. I realized that I have struggled with it since I was 16. I always wanted to work in programming, but it never worked out for me.…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 2,
+      "comments": 3,
+      "url": "https://news.ycombinator.com/item?id=49461055",
+      "externalUrl": null,
+      "createdUtc": 1787815016,
+      "tags": [
+        "ai"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49423182",
+      "title": "I write my own Markdown",
+      "excerpt": "In the context of side projects, I've come to these rules for code and text: 1a) Code gets minimal review so long as I've architected the solution, built around the correct data structures (I've heard the code writes…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 2,
+      "comments": 3,
+      "url": "https://news.ycombinator.com/item?id=49423182",
+      "externalUrl": null,
+      "createdUtc": 1787592656,
       "tags": [
         "discussion"
       ],
