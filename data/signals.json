@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T20:27:04.228Z",
+  "updatedAt": "2026-09-11T03:08:36.018Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -28,6 +28,22 @@
         "discussion"
       ],
       "quality": 63
+    },
+    {
+      "id": "hn-49473868",
+      "title": "Bootstrappable Builds: How and Why",
+      "excerpt": "Bootstrappable Builds: How and Why",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 100,
+      "comments": 60,
+      "url": "https://news.ycombinator.com/item?id=49473868",
+      "externalUrl": "https://lwn.net/Articles/1088279/",
+      "createdUtc": 1787886162,
+      "tags": [
+        "bootstrap"
+      ],
+      "quality": 57
     },
     {
       "id": "hn-49622554",
@@ -79,6 +95,22 @@
       "quality": 42
     },
     {
+      "id": "hn-49646928",
+      "title": "Show HN: Open-source simulation testing infra for voice agents",
+      "excerpt": "Hey HN, we’re Nischal & Naman. We’re brothers, and together we’re building an open-source platform for simulation based testing of voice agents (try it out in 5 mins -  , 2 min demo video -  ) Platforms that help you do…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 14,
+      "comments": 3,
+      "url": "https://news.ycombinator.com/item?id=49646928",
+      "externalUrl": "https://github.com/egma-ai/egma",
+      "createdUtc": 1789059674,
+      "tags": [
+        "discussion"
+      ],
+      "quality": 42
+    },
+    {
       "id": "hn-49444272",
       "title": "Ask HN: Why are Claude models so verbose?",
       "excerpt": "Hello! First time poster, longtime reader. I’m a professional software engineer at a startup with about 50 engineers. My primary languages are Ruby (Rails), TypeScript (React), and Go. Of my colleagues, I’m one of the…",
@@ -125,22 +157,6 @@
       "createdUtc": 1788071023,
       "tags": [
         "indie"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49646928",
-      "title": "Show HN: Open-source simulation testing infra for voice agents",
-      "excerpt": "Hey HN, we’re Nischal & Naman. We’re brothers, and together we’re building an open-source platform for simulation based testing of voice agents (try it out in 5 mins -  , 2 min demo video -  ) Platforms that help you do…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 9,
-      "comments": 1,
-      "url": "https://news.ycombinator.com/item?id=49646928",
-      "externalUrl": "https://github.com/egma-ai/egma",
-      "createdUtc": 1789059674,
-      "tags": [
-        "discussion"
       ],
       "quality": 42
     },
@@ -353,22 +369,6 @@
       "createdUtc": 1788301118,
       "tags": [
         "discussion"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49461055",
-      "title": "Ask HN: What do you do when your AI coding agent is doing its job?",
-      "excerpt": "I am into my early 50s and recently diagnosed with adult ADHD and maladaptive daydreaming. I realized that I have struggled with it since I was 16. I always wanted to work in programming, but it never worked out for me.…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 2,
-      "comments": 3,
-      "url": "https://news.ycombinator.com/item?id=49461055",
-      "externalUrl": null,
-      "createdUtc": 1787815016,
-      "tags": [
-        "ai"
       ],
       "quality": 42
     }
