@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T03:08:36.018Z",
+  "updatedAt": "2026-09-11T13:15:28.463Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 22,
+  "count": 23,
   "signals": [
     {
       "id": "hn-49417766",
@@ -67,8 +67,8 @@
       "excerpt": "HN is a fantastic founder community. We, the people, love transparency, numbers, and analyzing bootstrapped business models. What is your current project? Share your wins, losses, and tech stack. Share monthly recurring…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 25,
-      "comments": 24,
+      "score": 27,
+      "comments": 27,
       "url": "https://news.ycombinator.com/item?id=49590656",
       "externalUrl": null,
       "createdUtc": 1788727043,
@@ -101,7 +101,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 14,
-      "comments": 3,
+      "comments": 5,
       "url": "https://news.ycombinator.com/item?id=49646928",
       "externalUrl": "https://github.com/egma-ai/egma",
       "createdUtc": 1789059674,
@@ -191,22 +191,6 @@
       "createdUtc": 1787669710,
       "tags": [
         "saas"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49386529",
-      "title": "Ask HN: How do you keep notes organized across long-running side projects?",
-      "excerpt": "I keep starting side projects that go on for months, and my notes end up scattered between a text file, a couple of markdown docs, and whatever I remembered to write down. Curious how others handle this — do you keep…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 6,
-      "comments": 4,
-      "url": "https://news.ycombinator.com/item?id=49386529",
-      "externalUrl": null,
-      "createdUtc": 1787311720,
-      "tags": [
-        "discussion"
       ],
       "quality": 42
     },
@@ -367,6 +351,38 @@
       "url": "https://news.ycombinator.com/item?id=49529002",
       "externalUrl": null,
       "createdUtc": 1788301118,
+      "tags": [
+        "discussion"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49461055",
+      "title": "Ask HN: What do you do when your AI coding agent is doing its job?",
+      "excerpt": "I am into my early 50s and recently diagnosed with adult ADHD and maladaptive daydreaming. I realized that I have struggled with it since I was 16. I always wanted to work in programming, but it never worked out for me.…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 2,
+      "comments": 3,
+      "url": "https://news.ycombinator.com/item?id=49461055",
+      "externalUrl": null,
+      "createdUtc": 1787815016,
+      "tags": [
+        "ai"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49423182",
+      "title": "I write my own Markdown",
+      "excerpt": "In the context of side projects, I've come to these rules for code and text: 1a) Code gets minimal review so long as I've architected the solution, built around the correct data structures (I've heard the code writes…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 2,
+      "comments": 3,
+      "url": "https://news.ycombinator.com/item?id=49423182",
+      "externalUrl": null,
+      "createdUtc": 1787592656,
       "tags": [
         "discussion"
       ],
