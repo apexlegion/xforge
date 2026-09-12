@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T03:14:55.739Z",
+  "updatedAt": "2026-09-12T12:37:56.913Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 23,
+  "count": 22,
   "signals": [
     {
       "id": "hn-49417766",
@@ -20,7 +20,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 80,
-      "comments": 106,
+      "comments": 107,
       "url": "https://news.ycombinator.com/item?id=49417766",
       "externalUrl": null,
       "createdUtc": 1787567336,
@@ -30,36 +30,20 @@
       "quality": 63
     },
     {
-      "id": "hn-49473868",
-      "title": "Bootstrappable Builds: How and Why",
-      "excerpt": "Bootstrappable Builds: How and Why",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 100,
-      "comments": 60,
-      "url": "https://news.ycombinator.com/item?id=49473868",
-      "externalUrl": "https://lwn.net/Articles/1088279/",
-      "createdUtc": 1787886162,
-      "tags": [
-        "bootstrap"
-      ],
-      "quality": 57
-    },
-    {
       "id": "hn-49660676",
       "title": "Show HN: Godot and Rust based multiplexer (terminal panes and more)",
       "excerpt": "I wanted to share my side-project: gPTY. Started off as an idea to combine Godot and Rust in a project (two stacks I wanted to use more to learn more). The base inspiration was tmux - simply allow spawning multiple PTYs…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 83,
-      "comments": 42,
+      "score": 88,
+      "comments": 46,
       "url": "https://news.ycombinator.com/item?id=49660676",
       "externalUrl": "https://github.com/godot-pty/gpty",
       "createdUtc": 1789142585,
       "tags": [
         "discussion"
       ],
-      "quality": 58
+      "quality": 59
     },
     {
       "id": "hn-49622554",
