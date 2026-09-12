@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T20:29:27.692Z",
+  "updatedAt": "2026-09-12T03:14:55.739Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -51,15 +51,15 @@
       "excerpt": "I wanted to share my side-project: gPTY. Started off as an idea to combine Godot and Rust in a project (two stacks I wanted to use more to learn more). The base inspiration was tmux - simply allow spawning multiple PTYs…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 65,
-      "comments": 35,
+      "score": 83,
+      "comments": 42,
       "url": "https://news.ycombinator.com/item?id=49660676",
       "externalUrl": "https://github.com/godot-pty/gpty",
       "createdUtc": 1789142585,
       "tags": [
         "discussion"
       ],
-      "quality": 48
+      "quality": 58
     },
     {
       "id": "hn-49622554",
@@ -83,8 +83,8 @@
       "excerpt": "HN is a fantastic founder community. We, the people, love transparency, numbers, and analyzing bootstrapped business models. What is your current project? Share your wins, losses, and tech stack. Share monthly recurring…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 28,
-      "comments": 36,
+      "score": 29,
+      "comments": 38,
       "url": "https://news.ycombinator.com/item?id=49590656",
       "externalUrl": null,
       "createdUtc": 1788727043,
