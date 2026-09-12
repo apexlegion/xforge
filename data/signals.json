@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T12:37:56.913Z",
+  "updatedAt": "2026-09-12T20:12:48.934Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 22,
+  "count": 23,
   "signals": [
     {
       "id": "hn-49417766",
@@ -35,15 +35,15 @@
       "excerpt": "I wanted to share my side-project: gPTY. Started off as an idea to combine Godot and Rust in a project (two stacks I wanted to use more to learn more). The base inspiration was tmux - simply allow spawning multiple PTYs…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 88,
-      "comments": 46,
+      "score": 91,
+      "comments": 47,
       "url": "https://news.ycombinator.com/item?id=49660676",
       "externalUrl": "https://github.com/godot-pty/gpty",
       "createdUtc": 1789142585,
       "tags": [
         "discussion"
       ],
-      "quality": 59
+      "quality": 60
     },
     {
       "id": "hn-49622554",
@@ -68,7 +68,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 29,
-      "comments": 38,
+      "comments": 39,
       "url": "https://news.ycombinator.com/item?id=49590656",
       "externalUrl": null,
       "createdUtc": 1788727043,
@@ -76,6 +76,23 @@
         "saas"
       ],
       "quality": 42
+    },
+    {
+      "id": "hn-49674396",
+      "title": "How SaaS startup guys get first 100 customers first, make fkn $500k ARR fast?",
+      "excerpt": "I am running a small AI company that has been building an offline security audit app, simply a fine-tuned small language model powering an Electron app that can audit GitHub and local code repos for security stuff. I…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 13,
+      "comments": 33,
+      "url": "https://news.ycombinator.com/item?id=49674396",
+      "externalUrl": null,
+      "createdUtc": 1789232214,
+      "tags": [
+        "saas",
+        "startup"
+      ],
+      "quality": 44
     },
     {
       "id": "hn-49549602",
