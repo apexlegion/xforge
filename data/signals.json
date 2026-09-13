@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T20:12:48.934Z",
+  "updatedAt": "2026-09-13T03:18:54.339Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 23,
+  "count": 24,
   "signals": [
     {
       "id": "hn-49417766",
@@ -35,7 +35,7 @@
       "excerpt": "I wanted to share my side-project: gPTY. Started off as an idea to combine Godot and Rust in a project (two stacks I wanted to use more to learn more). The base inspiration was tmux - simply allow spawning multiple PTYs…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 91,
+      "score": 92,
       "comments": 47,
       "url": "https://news.ycombinator.com/item?id=49660676",
       "externalUrl": "https://github.com/godot-pty/gpty",
@@ -44,6 +44,22 @@
         "discussion"
       ],
       "quality": 60
+    },
+    {
+      "id": "hn-49473868",
+      "title": "Bootstrappable Builds: How and Why",
+      "excerpt": "Bootstrappable Builds: How and Why",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 100,
+      "comments": 60,
+      "url": "https://news.ycombinator.com/item?id=49473868",
+      "externalUrl": "https://lwn.net/Articles/1088279/",
+      "createdUtc": 1787886162,
+      "tags": [
+        "bootstrap"
+      ],
+      "quality": 57
     },
     {
       "id": "hn-49622554",
@@ -83,8 +99,8 @@
       "excerpt": "I am running a small AI company that has been building an offline security audit app, simply a fine-tuned small language model powering an Electron app that can audit GitHub and local code repos for security stuff. I…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 13,
-      "comments": 33,
+      "score": 14,
+      "comments": 35,
       "url": "https://news.ycombinator.com/item?id=49674396",
       "externalUrl": null,
       "createdUtc": 1789232214,
@@ -92,7 +108,7 @@
         "saas",
         "startup"
       ],
-      "quality": 44
+      "quality": 45
     },
     {
       "id": "hn-49549602",
