@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T13:40:26.807Z",
+  "updatedAt": "2026-09-13T20:21:48.934Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -35,7 +35,7 @@
       "excerpt": "I wanted to share my side-project: gPTY. Started off as an idea to combine Godot and Rust in a project (two stacks I wanted to use more to learn more). The base inspiration was tmux - simply allow spawning multiple PTYs…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 93,
+      "score": 94,
       "comments": 48,
       "url": "https://news.ycombinator.com/item?id=49660676",
       "externalUrl": "https://github.com/godot-pty/gpty",
@@ -68,7 +68,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 30,
-      "comments": 39,
+      "comments": 40,
       "url": "https://news.ycombinator.com/item?id=49590656",
       "externalUrl": null,
       "createdUtc": 1788727043,
@@ -84,7 +84,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 16,
-      "comments": 37,
+      "comments": 38,
       "url": "https://news.ycombinator.com/item?id=49674396",
       "externalUrl": null,
       "createdUtc": 1789232214,
@@ -92,7 +92,7 @@
         "saas",
         "startup"
       ],
-      "quality": 45
+      "quality": 46
     },
     {
       "id": "hn-49549602",
@@ -117,7 +117,7 @@
       "excerpt": "Hey HN, we’re Nischal & Naman. We’re brothers, and together we’re building an open-source platform for simulation based testing of voice agents (try it out in 5 mins -  , 2 min demo video -  ) Platforms that help you do…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 15,
+      "score": 16,
       "comments": 6,
       "url": "https://news.ycombinator.com/item?id=49646928",
       "externalUrl": "https://github.com/egma-ai/egma",
