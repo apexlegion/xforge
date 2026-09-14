@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T15:40:25.456Z",
+  "updatedAt": "2026-09-14T21:31:16.522Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 23,
+  "count": 24,
   "signals": [
     {
       "id": "hn-49660676",
@@ -19,7 +19,7 @@
       "excerpt": "I wanted to share my side-project: gPTY. Started off as an idea to combine Godot and Rust in a project (two stacks I wanted to use more to learn more). The base inspiration was tmux - simply allow spawning multiple PTYs…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 96,
+      "score": 97,
       "comments": 49,
       "url": "https://news.ycombinator.com/item?id=49660676",
       "externalUrl": "https://github.com/godot-pty/gpty",
@@ -30,13 +30,29 @@
       "quality": 61
     },
     {
+      "id": "hn-49473868",
+      "title": "Bootstrappable Builds: How and Why",
+      "excerpt": "Bootstrappable Builds: How and Why",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 100,
+      "comments": 60,
+      "url": "https://news.ycombinator.com/item?id=49473868",
+      "externalUrl": "https://lwn.net/Articles/1088279/",
+      "createdUtc": 1787886162,
+      "tags": [
+        "bootstrap"
+      ],
+      "quality": 57
+    },
+    {
       "id": "hn-49622554",
       "title": "I'm going back to coding by hand",
       "excerpt": "I have a successful app I built myself with a solid user base. I had been working on a new version via Claude on and off for about six months In work we use LLMs exclusively. Nobody writes code anymore. It's all hands…",
       "source": "hackernews",
       "subreddit": "HN",
       "score": 62,
-      "comments": 52,
+      "comments": 53,
       "url": "https://news.ycombinator.com/item?id=49622554",
       "externalUrl": null,
       "createdUtc": 1788938548,
@@ -112,6 +128,23 @@
       "quality": 42
     },
     {
+      "id": "hn-49689696",
+      "title": "Ask HN: Would a startup for young creatives who reject AI be feasible?",
+      "excerpt": "I am a member of my university's game development club, which puts me around lots of talented programmers as well as artists of all kinds, and I've observed that just about everyone disapproves of AI. The sentiment is…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 10,
+      "comments": 21,
+      "url": "https://news.ycombinator.com/item?id=49689696",
+      "externalUrl": null,
+      "createdUtc": 1789340977,
+      "tags": [
+        "ai",
+        "startup"
+      ],
+      "quality": 42
+    },
+    {
       "id": "hn-49444272",
       "title": "Ask HN: Why are Claude models so verbose?",
       "excerpt": "Hello! First time poster, longtime reader. I’m a professional software engineer at a startup with about 50 engineers. My primary languages are Ruby (Rails), TypeScript (React), and Go. Of my colleagues, I’m one of the…",
@@ -124,24 +157,6 @@
       "createdUtc": 1787721279,
       "tags": [
         "discussion"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49689696",
-      "title": "Ask HN: Would a startup for young creatives who reject AI be feasible?",
-      "excerpt": "I am a member of my university's game development club, which puts me around lots of talented programmers as well as artists of all kinds, and I've observed that just about everyone disapproves of AI. The sentiment is…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 10,
-      "comments": 20,
-      "url": "https://news.ycombinator.com/item?id=49689696",
-      "externalUrl": null,
-      "createdUtc": 1789340977,
-      "tags": [
-        "ai",
-        "startup",
-        "bootstrap"
       ],
       "quality": 42
     },
