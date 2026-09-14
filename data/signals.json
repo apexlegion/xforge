@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T03:30:44.068Z",
+  "updatedAt": "2026-09-14T15:40:25.456Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,55 +11,23 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 25,
+  "count": 23,
   "signals": [
-    {
-      "id": "hn-49417766",
-      "title": "Ask HN: Those making $500/month on side projects in 2026 – Show and tell",
-      "excerpt": "There was another one of these a couple of months ago and it did not get any traction. Lets hope this one does better. I myself am at $0/mo from my side projects and am really hoping side projects still have a future.…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 80,
-      "comments": 107,
-      "url": "https://news.ycombinator.com/item?id=49417766",
-      "externalUrl": null,
-      "createdUtc": 1787567336,
-      "tags": [
-        "discussion"
-      ],
-      "quality": 63
-    },
     {
       "id": "hn-49660676",
       "title": "Show HN: Godot and Rust based multiplexer (terminal panes and more)",
       "excerpt": "I wanted to share my side-project: gPTY. Started off as an idea to combine Godot and Rust in a project (two stacks I wanted to use more to learn more). The base inspiration was tmux - simply allow spawning multiple PTYs…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 95,
-      "comments": 48,
+      "score": 96,
+      "comments": 49,
       "url": "https://news.ycombinator.com/item?id=49660676",
       "externalUrl": "https://github.com/godot-pty/gpty",
       "createdUtc": 1789142585,
       "tags": [
         "discussion"
       ],
-      "quality": 60
-    },
-    {
-      "id": "hn-49473868",
-      "title": "Bootstrappable Builds: How and Why",
-      "excerpt": "Bootstrappable Builds: How and Why",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 100,
-      "comments": 60,
-      "url": "https://news.ycombinator.com/item?id=49473868",
-      "externalUrl": "https://lwn.net/Articles/1088279/",
-      "createdUtc": 1787886162,
-      "tags": [
-        "bootstrap"
-      ],
-      "quality": 57
+      "quality": 61
     },
     {
       "id": "hn-49622554",
@@ -99,7 +67,7 @@
       "excerpt": "I am running a small AI company that has been building an offline security audit app, simply a fine-tuned small language model powering an Electron app that can audit GitHub and local code repos for security stuff. I…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 16,
+      "score": 17,
       "comments": 38,
       "url": "https://news.ycombinator.com/item?id=49674396",
       "externalUrl": null,
@@ -160,6 +128,24 @@
       "quality": 42
     },
     {
+      "id": "hn-49689696",
+      "title": "Ask HN: Would a startup for young creatives who reject AI be feasible?",
+      "excerpt": "I am a member of my university's game development club, which puts me around lots of talented programmers as well as artists of all kinds, and I've observed that just about everyone disapproves of AI. The sentiment is…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 10,
+      "comments": 20,
+      "url": "https://news.ycombinator.com/item?id=49689696",
+      "externalUrl": null,
+      "createdUtc": 1789340977,
+      "tags": [
+        "ai",
+        "startup",
+        "bootstrap"
+      ],
+      "quality": 42
+    },
+    {
       "id": "hn-49475011",
       "title": "We ran X (Twitter) ads for 4 months and here are the results",
       "excerpt": "Duration May - Aug 2026 My Background: I am a founder of multiple SaaS company. Most recently i am building a AI native ticketing system for support platforms, simply put it takes your issues coming from Github,…",
@@ -189,24 +175,6 @@
       "createdUtc": 1788071023,
       "tags": [
         "indie"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49689696",
-      "title": "Ask HN: Would a startup for young creatives who reject AI be feasible?",
-      "excerpt": "I am a member of my university's game development club, which puts me around lots of talented programmers as well as artists of all kinds, and I've observed that just about everyone disapproves of AI. The sentiment is…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 7,
-      "comments": 9,
-      "url": "https://news.ycombinator.com/item?id=49689696",
-      "externalUrl": null,
-      "createdUtc": 1789340977,
-      "tags": [
-        "ai",
-        "startup",
-        "bootstrap"
       ],
       "quality": 42
     },
