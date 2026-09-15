@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T21:31:16.522Z",
+  "updatedAt": "2026-09-15T03:31:58.535Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 24,
+  "count": 23,
   "signals": [
     {
       "id": "hn-49660676",
@@ -20,7 +20,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 97,
-      "comments": 49,
+      "comments": 50,
       "url": "https://news.ycombinator.com/item?id=49660676",
       "externalUrl": "https://github.com/godot-pty/gpty",
       "createdUtc": 1789142585,
@@ -28,22 +28,6 @@
         "discussion"
       ],
       "quality": 61
-    },
-    {
-      "id": "hn-49473868",
-      "title": "Bootstrappable Builds: How and Why",
-      "excerpt": "Bootstrappable Builds: How and Why",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 100,
-      "comments": 60,
-      "url": "https://news.ycombinator.com/item?id=49473868",
-      "externalUrl": "https://lwn.net/Articles/1088279/",
-      "createdUtc": 1787886162,
-      "tags": [
-        "bootstrap"
-      ],
-      "quality": 57
     },
     {
       "id": "hn-49622554",
@@ -140,7 +124,8 @@
       "createdUtc": 1789340977,
       "tags": [
         "ai",
-        "startup"
+        "startup",
+        "bootstrap"
       ],
       "quality": 42
     },
