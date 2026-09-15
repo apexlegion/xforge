@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T03:31:58.535Z",
+  "updatedAt": "2026-09-15T14:10:30.393Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 23,
+  "count": 24,
   "signals": [
     {
       "id": "hn-49660676",
@@ -28,6 +28,22 @@
         "discussion"
       ],
       "quality": 61
+    },
+    {
+      "id": "hn-49473868",
+      "title": "Bootstrappable Builds: How and Why",
+      "excerpt": "Bootstrappable Builds: How and Why",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 100,
+      "comments": 60,
+      "url": "https://news.ycombinator.com/item?id=49473868",
+      "externalUrl": "https://lwn.net/Articles/1088279/",
+      "createdUtc": 1787886162,
+      "tags": [
+        "bootstrap"
+      ],
+      "quality": 57
     },
     {
       "id": "hn-49622554",
@@ -68,7 +84,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 17,
-      "comments": 38,
+      "comments": 39,
       "url": "https://news.ycombinator.com/item?id=49674396",
       "externalUrl": null,
       "createdUtc": 1789232214,
@@ -118,7 +134,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 10,
-      "comments": 21,
+      "comments": 23,
       "url": "https://news.ycombinator.com/item?id=49689696",
       "externalUrl": null,
       "createdUtc": 1789340977,
@@ -209,22 +225,6 @@
       "createdUtc": 1787669710,
       "tags": [
         "saas"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49434426",
-      "title": "Show HN: A cemetery for failed side projects and what founders build next",
-      "excerpt": "Show HN: A cemetery for failed side projects and what founders build next",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 6,
-      "comments": 3,
-      "url": "https://news.ycombinator.com/item?id=49434426",
-      "externalUrl": "https://www.ripmybuild.com/",
-      "createdUtc": 1787666892,
-      "tags": [
-        "founder"
       ],
       "quality": 42
     },
@@ -387,6 +387,22 @@
       "createdUtc": 1788301118,
       "tags": [
         "discussion"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49461055",
+      "title": "Ask HN: What do you do when your AI coding agent is doing its job?",
+      "excerpt": "I am into my early 50s and recently diagnosed with adult ADHD and maladaptive daydreaming. I realized that I have struggled with it since I was 16. I always wanted to work in programming, but it never worked out for me.…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 2,
+      "comments": 3,
+      "url": "https://news.ycombinator.com/item?id=49461055",
+      "externalUrl": null,
+      "createdUtc": 1787815016,
+      "tags": [
+        "ai"
       ],
       "quality": 42
     }
