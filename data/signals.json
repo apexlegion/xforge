@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T14:10:30.393Z",
+  "updatedAt": "2026-09-15T20:53:26.638Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 24,
+  "count": 22,
   "signals": [
     {
       "id": "hn-49660676",
@@ -28,22 +28,6 @@
         "discussion"
       ],
       "quality": 61
-    },
-    {
-      "id": "hn-49473868",
-      "title": "Bootstrappable Builds: How and Why",
-      "excerpt": "Bootstrappable Builds: How and Why",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 100,
-      "comments": 60,
-      "url": "https://news.ycombinator.com/item?id=49473868",
-      "externalUrl": "https://lwn.net/Articles/1088279/",
-      "createdUtc": 1787886162,
-      "tags": [
-        "bootstrap"
-      ],
-      "quality": 57
     },
     {
       "id": "hn-49622554",
@@ -134,7 +118,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 10,
-      "comments": 23,
+      "comments": 24,
       "url": "https://news.ycombinator.com/item?id=49689696",
       "externalUrl": null,
       "createdUtc": 1789340977,
@@ -209,22 +193,6 @@
         "marketing",
         "indie",
         "x"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49435251",
-      "title": "Show HN: I built a SaaS without knowing how to code – am I an idiot?",
-      "excerpt": "It's called learnfrom.co, a platform for creating, hosting and selling online courses. I started building it because I wanted to solve a problem I had with existing course platforms. I kept running into things I wanted…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 6,
-      "comments": 6,
-      "url": "https://news.ycombinator.com/item?id=49435251",
-      "externalUrl": "https://www.learnfrom.co/",
-      "createdUtc": 1787669710,
-      "tags": [
-        "saas"
       ],
       "quality": 42
     },
