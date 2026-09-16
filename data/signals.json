@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T20:53:26.638Z",
+  "updatedAt": "2026-09-16T03:27:45.304Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 22,
+  "count": 23,
   "signals": [
     {
       "id": "hn-49660676",
@@ -58,6 +58,24 @@
       "createdUtc": 1788727043,
       "tags": [
         "saas"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49713894",
+      "title": "Show HN: Pizza Bot – An inbox for AI agents that work in the background",
+      "excerpt": "Hi HN - long-time lurker (since 2012!), first time poster. Pizza Bot is a self-hosted desktop app for Mac, Windows, and Linux that runs AI agents in the background and exposes them through an email-like UI. Finished…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 35,
+      "comments": 19,
+      "url": "https://news.ycombinator.com/item?id=49713894",
+      "externalUrl": "https://github.com/pizza-bot-app/pizza-bot",
+      "createdUtc": 1789485626,
+      "tags": [
+        "growth",
+        "ai",
+        "startup"
       ],
       "quality": 42
     },
@@ -117,7 +135,7 @@
       "excerpt": "I am a member of my university's game development club, which puts me around lots of talented programmers as well as artists of all kinds, and I've observed that just about everyone disapproves of AI. The sentiment is…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 10,
+      "score": 11,
       "comments": 24,
       "url": "https://news.ycombinator.com/item?id=49689696",
       "externalUrl": null,
@@ -157,7 +175,8 @@
       "externalUrl": null,
       "createdUtc": 1787898208,
       "tags": [
-        "marketing",
+        "growth",
+        "startup",
         "x"
       ],
       "quality": 42
