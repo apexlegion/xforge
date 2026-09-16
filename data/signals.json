@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T03:27:45.304Z",
+  "updatedAt": "2026-09-16T14:02:27.806Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -30,6 +30,22 @@
       "quality": 61
     },
     {
+      "id": "hn-49473868",
+      "title": "Bootstrappable Builds: How and Why",
+      "excerpt": "Bootstrappable Builds: How and Why",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 100,
+      "comments": 60,
+      "url": "https://news.ycombinator.com/item?id=49473868",
+      "externalUrl": "https://lwn.net/Articles/1088279/",
+      "createdUtc": 1787886162,
+      "tags": [
+        "bootstrap"
+      ],
+      "quality": 57
+    },
+    {
       "id": "hn-49622554",
       "title": "I'm going back to coding by hand",
       "excerpt": "I have a successful app I built myself with a solid user base. I had been working on a new version via Claude on and off for about six months In work we use LLMs exclusively. Nobody writes code anymore. It's all hands…",
@@ -44,6 +60,24 @@
         "discussion"
       ],
       "quality": 45
+    },
+    {
+      "id": "hn-49713894",
+      "title": "Show HN: Pizza Bot – An inbox for AI agents that work in the background",
+      "excerpt": "Hi HN - long-time lurker (since 2012!), first time poster. Pizza Bot is a self-hosted desktop app for Mac, Windows, and Linux that runs AI agents in the background and exposes them through an email-like UI. Finished…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 50,
+      "comments": 33,
+      "url": "https://news.ycombinator.com/item?id=49713894",
+      "externalUrl": "https://github.com/pizza-bot-app/pizza-bot",
+      "createdUtc": 1789485626,
+      "tags": [
+        "growth",
+        "ai",
+        "startup"
+      ],
+      "quality": 47
     },
     {
       "id": "hn-49590656",
@@ -62,31 +96,13 @@
       "quality": 42
     },
     {
-      "id": "hn-49713894",
-      "title": "Show HN: Pizza Bot – An inbox for AI agents that work in the background",
-      "excerpt": "Hi HN - long-time lurker (since 2012!), first time poster. Pizza Bot is a self-hosted desktop app for Mac, Windows, and Linux that runs AI agents in the background and exposes them through an email-like UI. Finished…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 35,
-      "comments": 19,
-      "url": "https://news.ycombinator.com/item?id=49713894",
-      "externalUrl": "https://github.com/pizza-bot-app/pizza-bot",
-      "createdUtc": 1789485626,
-      "tags": [
-        "growth",
-        "ai",
-        "startup"
-      ],
-      "quality": 42
-    },
-    {
       "id": "hn-49674396",
       "title": "How SaaS startup guys get first 100 customers first, make fkn $500k ARR fast?",
       "excerpt": "I am running a small AI company that has been building an offline security audit app, simply a fine-tuned small language model powering an Electron app that can audit GitHub and local code repos for security stuff. I…",
       "source": "hackernews",
       "subreddit": "HN",
       "score": 17,
-      "comments": 39,
+      "comments": 40,
       "url": "https://news.ycombinator.com/item?id=49674396",
       "externalUrl": null,
       "createdUtc": 1789232214,
@@ -136,7 +152,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 11,
-      "comments": 24,
+      "comments": 25,
       "url": "https://news.ycombinator.com/item?id=49689696",
       "externalUrl": null,
       "createdUtc": 1789340977,
@@ -144,22 +160,6 @@
         "ai",
         "startup",
         "bootstrap"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49444272",
-      "title": "Ask HN: Why are Claude models so verbose?",
-      "excerpt": "Hello! First time poster, longtime reader. I’m a professional software engineer at a startup with about 50 engineers. My primary languages are Ruby (Rails), TypeScript (React), and Go. Of my colleagues, I’m one of the…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 11,
-      "comments": 13,
-      "url": "https://news.ycombinator.com/item?id=49444272",
-      "externalUrl": null,
-      "createdUtc": 1787721279,
-      "tags": [
-        "discussion"
       ],
       "quality": 42
     },
