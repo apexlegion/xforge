@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T14:02:27.806Z",
+  "updatedAt": "2026-09-16T20:54:04.640Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 23,
+  "count": 22,
   "signals": [
     {
       "id": "hn-49660676",
@@ -28,22 +28,6 @@
         "discussion"
       ],
       "quality": 61
-    },
-    {
-      "id": "hn-49473868",
-      "title": "Bootstrappable Builds: How and Why",
-      "excerpt": "Bootstrappable Builds: How and Why",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 100,
-      "comments": 60,
-      "url": "https://news.ycombinator.com/item?id=49473868",
-      "externalUrl": "https://lwn.net/Articles/1088279/",
-      "createdUtc": 1787886162,
-      "tags": [
-        "bootstrap"
-      ],
-      "quality": 57
     },
     {
       "id": "hn-49622554",
@@ -67,7 +51,7 @@
       "excerpt": "Hi HN - long-time lurker (since 2012!), first time poster. Pizza Bot is a self-hosted desktop app for Mac, Windows, and Linux that runs AI agents in the background and exposes them through an email-like UI. Finished…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 50,
+      "score": 55,
       "comments": 33,
       "url": "https://news.ycombinator.com/item?id=49713894",
       "externalUrl": "https://github.com/pizza-bot-app/pizza-bot",
@@ -152,7 +136,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 11,
-      "comments": 25,
+      "comments": 26,
       "url": "https://news.ycombinator.com/item?id=49689696",
       "externalUrl": null,
       "createdUtc": 1789340977,
@@ -161,7 +145,7 @@
         "startup",
         "bootstrap"
       ],
-      "quality": 42
+      "quality": 43
     },
     {
       "id": "hn-49475011",
