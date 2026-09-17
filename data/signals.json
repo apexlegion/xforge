@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T20:54:04.640Z",
+  "updatedAt": "2026-09-17T03:33:40.165Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 22,
+  "count": 23,
   "signals": [
     {
       "id": "hn-49660676",
@@ -51,7 +51,7 @@
       "excerpt": "Hi HN - long-time lurker (since 2012!), first time poster. Pizza Bot is a self-hosted desktop app for Mac, Windows, and Linux that runs AI agents in the background and exposes them through an email-like UI. Finished…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 55,
+      "score": 56,
       "comments": 33,
       "url": "https://news.ycombinator.com/item?id=49713894",
       "externalUrl": "https://github.com/pizza-bot-app/pizza-bot",
@@ -326,6 +326,23 @@
       "createdUtc": 1788121155,
       "tags": [
         "discussion"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49724378",
+      "title": "ASK HN : Is there still room for new SaaS products in 2026?",
+      "excerpt": "For people who build, buy, or use SaaS products: how do you think about the opportunity for new SaaS products today? It feels like many categories are already crowded, while AI is also making it easier to build software…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 3,
+      "comments": 3,
+      "url": "https://news.ycombinator.com/item?id=49724378",
+      "externalUrl": null,
+      "createdUtc": 1789554250,
+      "tags": [
+        "saas",
+        "product"
       ],
       "quality": 42
     },
