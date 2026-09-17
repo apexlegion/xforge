@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T03:33:40.165Z",
+  "updatedAt": "2026-09-17T14:06:54.590Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -30,6 +30,40 @@
       "quality": 61
     },
     {
+      "id": "hn-49473868",
+      "title": "Bootstrappable Builds: How and Why",
+      "excerpt": "Bootstrappable Builds: How and Why",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 100,
+      "comments": 60,
+      "url": "https://news.ycombinator.com/item?id=49473868",
+      "externalUrl": "https://lwn.net/Articles/1088279/",
+      "createdUtc": 1787886162,
+      "tags": [
+        "bootstrap"
+      ],
+      "quality": 57
+    },
+    {
+      "id": "hn-49713894",
+      "title": "Show HN: Pizza Bot – An inbox for AI agents that work in the background",
+      "excerpt": "Hi HN - long-time lurker (since 2012!), first time poster. Pizza Bot is a self-hosted desktop app for Mac, Windows, and Linux that runs AI agents in the background and exposes them through an email-like UI. Finished…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 58,
+      "comments": 33,
+      "url": "https://news.ycombinator.com/item?id=49713894",
+      "externalUrl": "https://github.com/pizza-bot-app/pizza-bot",
+      "createdUtc": 1789485626,
+      "tags": [
+        "growth",
+        "ai",
+        "startup"
+      ],
+      "quality": 47
+    },
+    {
       "id": "hn-49622554",
       "title": "I'm going back to coding by hand",
       "excerpt": "I have a successful app I built myself with a solid user base. I had been working on a new version via Claude on and off for about six months In work we use LLMs exclusively. Nobody writes code anymore. It's all hands…",
@@ -46,22 +80,20 @@
       "quality": 45
     },
     {
-      "id": "hn-49713894",
-      "title": "Show HN: Pizza Bot – An inbox for AI agents that work in the background",
-      "excerpt": "Hi HN - long-time lurker (since 2012!), first time poster. Pizza Bot is a self-hosted desktop app for Mac, Windows, and Linux that runs AI agents in the background and exposes them through an email-like UI. Finished…",
+      "id": "hn-49740047",
+      "title": "Show HN: I built a new version of my fun spatial 3D online meeting app",
+      "excerpt": "Hi HN! flat.social is a fun spatial online meeting app for remote teams and communities. It's largely built like a web multiplayer game, and the 3D virtual spaces are highly customisable with elements and activities (I…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 56,
-      "comments": 33,
-      "url": "https://news.ycombinator.com/item?id=49713894",
-      "externalUrl": "https://github.com/pizza-bot-app/pizza-bot",
-      "createdUtc": 1789485626,
+      "score": 37,
+      "comments": 23,
+      "url": "https://news.ycombinator.com/item?id=49740047",
+      "externalUrl": "https://flat.social/",
+      "createdUtc": 1789649829,
       "tags": [
-        "growth",
-        "ai",
-        "startup"
+        "bootstrap"
       ],
-      "quality": 47
+      "quality": 42
     },
     {
       "id": "hn-49590656",
@@ -120,7 +152,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 16,
-      "comments": 6,
+      "comments": 7,
       "url": "https://news.ycombinator.com/item?id=49646928",
       "externalUrl": "https://github.com/egma-ai/egma",
       "createdUtc": 1789059674,
@@ -142,8 +174,7 @@
       "createdUtc": 1789340977,
       "tags": [
         "ai",
-        "startup",
-        "bootstrap"
+        "startup"
       ],
       "quality": 43
     },
@@ -244,22 +275,6 @@
       "url": "https://news.ycombinator.com/item?id=49528828",
       "externalUrl": "https://railsbaseline.com/",
       "createdUtc": 1788300030,
-      "tags": [
-        "saas"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49464927",
-      "title": "Selling SaaS in India",
-      "excerpt": "Selling SaaS in India",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 5,
-      "comments": 0,
-      "url": "https://news.ycombinator.com/item?id=49464927",
-      "externalUrl": "https://embedworkflow.com/blog/selling-saas-in-india/",
-      "createdUtc": 1787838706,
       "tags": [
         "saas"
       ],
@@ -375,22 +390,6 @@
       "createdUtc": 1788301118,
       "tags": [
         "discussion"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49461055",
-      "title": "Ask HN: What do you do when your AI coding agent is doing its job?",
-      "excerpt": "I am into my early 50s and recently diagnosed with adult ADHD and maladaptive daydreaming. I realized that I have struggled with it since I was 16. I always wanted to work in programming, but it never worked out for me.…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 2,
-      "comments": 3,
-      "url": "https://news.ycombinator.com/item?id=49461055",
-      "externalUrl": null,
-      "createdUtc": 1787815016,
-      "tags": [
-        "ai"
       ],
       "quality": 42
     }
