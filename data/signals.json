@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T13:23:48.492Z",
+  "updatedAt": "2026-09-18T20:26:11.026Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -14,6 +14,22 @@
   "count": 22,
   "signals": [
     {
+      "id": "hn-49740047",
+      "title": "Show HN: I built a new version of my fun spatial 3D online meeting app",
+      "excerpt": "Hi HN! flat.social is a fun spatial online meeting app for remote teams and communities. It's largely built like a web multiplayer game, and the 3D virtual spaces are highly customisable with elements and activities (I…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 97,
+      "comments": 52,
+      "url": "https://news.ycombinator.com/item?id=49740047",
+      "externalUrl": "https://flat.social/",
+      "createdUtc": 1789649829,
+      "tags": [
+        "bootstrap"
+      ],
+      "quality": 61
+    },
+    {
       "id": "hn-49660676",
       "title": "Show HN: Godot and Rust based multiplexer (terminal panes and more)",
       "excerpt": "I wanted to share my side-project: gPTY. Started off as an idea to combine Godot and Rust in a project (two stacks I wanted to use more to learn more). The base inspiration was tmux - simply allow spawning multiple PTYs…",
@@ -26,22 +42,6 @@
       "createdUtc": 1789142585,
       "tags": [
         "discussion"
-      ],
-      "quality": 61
-    },
-    {
-      "id": "hn-49740047",
-      "title": "Show HN: I built a new version of my fun spatial 3D online meeting app",
-      "excerpt": "Hi HN! flat.social is a fun spatial online meeting app for remote teams and communities. It's largely built like a web multiplayer game, and the 3D virtual spaces are highly customisable with elements and activities (I…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 96,
-      "comments": 52,
-      "url": "https://news.ycombinator.com/item?id=49740047",
-      "externalUrl": "https://flat.social/",
-      "createdUtc": 1789649829,
-      "tags": [
-        "bootstrap"
       ],
       "quality": 61
     },
@@ -119,7 +119,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 32,
-      "comments": 16,
+      "comments": 17,
       "url": "https://news.ycombinator.com/item?id=49743382",
       "externalUrl": "https://www.aclif.ai/",
       "createdUtc": 1789663697,
