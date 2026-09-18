@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T03:19:11.512Z",
+  "updatedAt": "2026-09-18T13:23:48.492Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 23,
+  "count": 22,
   "signals": [
     {
       "id": "hn-49660676",
@@ -35,7 +35,7 @@
       "excerpt": "Hi HN! flat.social is a fun spatial online meeting app for remote teams and communities. It's largely built like a web multiplayer game, and the 3D virtual spaces are highly customisable with elements and activities (I…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 94,
+      "score": 96,
       "comments": 52,
       "url": "https://news.ycombinator.com/item?id=49740047",
       "externalUrl": "https://flat.social/",
@@ -118,7 +118,7 @@
       "excerpt": "Simple discovery of the provider's default schemas is possible without any credentials (since they are built into the binary). If you want it to fetch customizations of your specific instance, give it credentials to…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 31,
+      "score": 32,
       "comments": 16,
       "url": "https://news.ycombinator.com/item?id=49743382",
       "externalUrl": "https://www.aclif.ai/",
@@ -174,26 +174,10 @@
       "createdUtc": 1789340977,
       "tags": [
         "ai",
-        "startup"
+        "startup",
+        "bootstrap"
       ],
       "quality": 43
-    },
-    {
-      "id": "hn-49475011",
-      "title": "We ran X (Twitter) ads for 4 months and here are the results",
-      "excerpt": "Duration May - Aug 2026 My Background: I am a founder of multiple SaaS company. Most recently i am building a AI native ticketing system for support platforms, simply put it takes your issues coming from Github,…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 10,
-      "comments": 4,
-      "url": "https://news.ycombinator.com/item?id=49475011",
-      "externalUrl": null,
-      "createdUtc": 1787898208,
-      "tags": [
-        "marketing",
-        "x"
-      ],
-      "quality": 42
     },
     {
       "id": "hn-49496169",
