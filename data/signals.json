@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T20:58:07.622Z",
+  "updatedAt": "2026-09-18T03:19:11.512Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 22,
+  "count": 23,
   "signals": [
     {
       "id": "hn-49660676",
@@ -35,7 +35,7 @@
       "excerpt": "Hi HN! flat.social is a fun spatial online meeting app for remote teams and communities. It's largely built like a web multiplayer game, and the 3D virtual spaces are highly customisable with elements and activities (I…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 89,
+      "score": 94,
       "comments": 52,
       "url": "https://news.ycombinator.com/item?id=49740047",
       "externalUrl": "https://flat.social/",
@@ -44,6 +44,24 @@
         "bootstrap"
       ],
       "quality": 61
+    },
+    {
+      "id": "hn-49713894",
+      "title": "Show HN: Pizza Bot – An inbox for AI agents that work in the background",
+      "excerpt": "Hi HN - long-time lurker (since 2012!), first time poster. Pizza Bot is a self-hosted desktop app for Mac, Windows, and Linux that runs AI agents in the background and exposes them through an email-like UI. Finished…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 59,
+      "comments": 33,
+      "url": "https://news.ycombinator.com/item?id=49713894",
+      "externalUrl": "https://github.com/pizza-bot-app/pizza-bot",
+      "createdUtc": 1789485626,
+      "tags": [
+        "growth",
+        "ai",
+        "startup"
+      ],
+      "quality": 47
     },
     {
       "id": "hn-49622554",
@@ -84,7 +102,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 17,
-      "comments": 40,
+      "comments": 41,
       "url": "https://news.ycombinator.com/item?id=49674396",
       "externalUrl": null,
       "createdUtc": 1789232214,
@@ -100,7 +118,7 @@
       "excerpt": "Simple discovery of the provider's default schemas is possible without any credentials (since they are built into the binary). If you want it to fetch customizations of your specific instance, give it credentials to…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 25,
+      "score": 31,
       "comments": 16,
       "url": "https://news.ycombinator.com/item?id=49743382",
       "externalUrl": "https://www.aclif.ai/",
