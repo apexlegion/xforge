@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T20:26:11.026Z",
+  "updatedAt": "2026-09-19T03:15:33.899Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -52,7 +52,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 59,
-      "comments": 33,
+      "comments": 35,
       "url": "https://news.ycombinator.com/item?id=49713894",
       "externalUrl": "https://github.com/pizza-bot-app/pizza-bot",
       "createdUtc": 1789485626,
@@ -61,7 +61,7 @@
         "ai",
         "startup"
       ],
-      "quality": 47
+      "quality": 48
     },
     {
       "id": "hn-49622554",
@@ -118,7 +118,7 @@
       "excerpt": "Simple discovery of the provider's default schemas is possible without any credentials (since they are built into the binary). If you want it to fetch customizations of your specific instance, give it credentials to…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 32,
+      "score": 33,
       "comments": 17,
       "url": "https://news.ycombinator.com/item?id=49743382",
       "externalUrl": "https://www.aclif.ai/",
