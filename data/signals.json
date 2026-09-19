@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T03:15:33.899Z",
+  "updatedAt": "2026-09-19T12:52:48.037Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 22,
+  "count": 23,
   "signals": [
     {
       "id": "hn-49740047",
@@ -324,6 +324,22 @@
       "createdUtc": 1788121155,
       "tags": [
         "discussion"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49763221",
+      "title": "Vibe coding did not kill making money out of engineering, open source and SaaS",
+      "excerpt": "Vibe coding did not kill making money out of engineering, open source and SaaS",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 3,
+      "comments": 3,
+      "url": "https://news.ycombinator.com/item?id=49763221",
+      "externalUrl": "https://i18n-keyless.com/",
+      "createdUtc": 1789790714,
+      "tags": [
+        "saas"
       ],
       "quality": 42
     },
