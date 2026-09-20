@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T13:27:37.053Z",
+  "updatedAt": "2026-09-20T20:21:59.005Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 22,
+  "count": 21,
   "signals": [
     {
       "id": "hn-49740047",
@@ -85,8 +85,8 @@
       "excerpt": "I am running a small AI company that has been building an offline security audit app, simply a fine-tuned small language model powering an Electron app that can audit GitHub and local code repos for security stuff. I…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 21,
-      "comments": 41,
+      "score": 22,
+      "comments": 42,
       "url": "https://news.ycombinator.com/item?id=49674396",
       "externalUrl": null,
       "createdUtc": 1789232214,
@@ -94,7 +94,7 @@
         "saas",
         "startup"
       ],
-      "quality": 46
+      "quality": 47
     },
     {
       "id": "hn-49590656",
@@ -174,8 +174,7 @@
       "createdUtc": 1789340977,
       "tags": [
         "ai",
-        "startup",
-        "bootstrap"
+        "startup"
       ],
       "quality": 43
     },
@@ -292,22 +291,6 @@
       "createdUtc": 1788127066,
       "tags": [
         "saas"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49502354",
-      "title": "Ask HN: What do you use to host side projects?",
-      "excerpt": "Ask HN: What do you use to host side projects?",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 3,
-      "comments": 15,
-      "url": "https://news.ycombinator.com/item?id=49502354",
-      "externalUrl": null,
-      "createdUtc": 1788121155,
-      "tags": [
-        "discussion"
       ],
       "quality": 42
     },
