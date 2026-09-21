@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T20:21:59.005Z",
+  "updatedAt": "2026-09-21T03:27:31.802Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 21,
+  "count": 20,
   "signals": [
     {
       "id": "hn-49740047",
@@ -273,22 +273,6 @@
       "url": "https://news.ycombinator.com/item?id=49625627",
       "externalUrl": null,
       "createdUtc": 1788957805,
-      "tags": [
-        "saas"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49503275",
-      "title": "I built a scanner to find a SaaS worth cloning. Its best answer was \"don't.\"",
-      "excerpt": "I built a scanner to find a SaaS worth cloning. Its best answer was \"don't.\"",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 4,
-      "comments": 4,
-      "url": "https://news.ycombinator.com/item?id=49503275",
-      "externalUrl": "https://www.petervijeh.com/projects/saas-scanner",
-      "createdUtc": 1788127066,
       "tags": [
         "saas"
       ],
