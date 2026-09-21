@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T03:27:31.802Z",
+  "updatedAt": "2026-09-21T15:40:39.976Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 20,
+  "count": 21,
   "signals": [
     {
       "id": "hn-49740047",
@@ -174,7 +174,8 @@
       "createdUtc": 1789340977,
       "tags": [
         "ai",
-        "startup"
+        "startup",
+        "bootstrap"
       ],
       "quality": 43
     },
@@ -209,6 +210,22 @@
       "createdUtc": 1788363780,
       "tags": [
         "saas"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49785772",
+      "title": "How We Infringe Trademarks",
+      "excerpt": "How We Infringe Trademarks",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 1,
+      "url": "https://news.ycombinator.com/item?id=49785772",
+      "externalUrl": "https://www.indiehackers.com/post/how-we-infringe-trademarks-8ff22a699b",
+      "createdUtc": 1789989628,
+      "tags": [
+        "indie"
       ],
       "quality": 42
     },
