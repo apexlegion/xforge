@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T13:54:17.836Z",
+  "updatedAt": "2026-09-22T20:54:56.760Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -174,8 +174,7 @@
       "createdUtc": 1789340977,
       "tags": [
         "ai",
-        "startup",
-        "bootstrap"
+        "startup"
       ],
       "quality": 43
     },
