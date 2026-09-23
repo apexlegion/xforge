@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T20:54:56.760Z",
+  "updatedAt": "2026-09-23T03:27:25.226Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 21,
+  "count": 19,
   "signals": [
     {
       "id": "hn-49740047",
@@ -86,7 +86,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 22,
-      "comments": 42,
+      "comments": 43,
       "url": "https://news.ycombinator.com/item?id=49674396",
       "externalUrl": null,
       "createdUtc": 1789232214,
@@ -103,7 +103,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 30,
-      "comments": 41,
+      "comments": 44,
       "url": "https://news.ycombinator.com/item?id=49590656",
       "externalUrl": null,
       "createdUtc": 1788727043,
@@ -247,22 +247,6 @@
       "quality": 42
     },
     {
-      "id": "hn-49528828",
-      "title": "Show HN: Rails Baseline – a Rails SaaS starter with agent-readable architecture",
-      "excerpt": "I have built a lot of SaaS Rails apps over the last decade+...and agents are making their way into my workflow more then ever. So I decided I wanted a starter that picks a LOT of vanilla Rails flavors, a little bit of…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 5,
-      "comments": 0,
-      "url": "https://news.ycombinator.com/item?id=49528828",
-      "externalUrl": "https://railsbaseline.com/",
-      "createdUtc": 1788300030,
-      "tags": [
-        "saas"
-      ],
-      "quality": 42
-    },
-    {
       "id": "hn-49609218",
       "title": "Is there a way to do GPL anymore?",
       "excerpt": "I have a side project I've worked on for a few years. It's pretty neat. It's in the realm of AI research. I would like to open it up and tell people about it- see if anyone else would like to contribute. But I can't…",
@@ -338,22 +322,6 @@
       "url": "https://news.ycombinator.com/item?id=49651638",
       "externalUrl": "https://eggverse.co/",
       "createdUtc": 1789083781,
-      "tags": [
-        "discussion"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49529002",
-      "title": "Ask HN: Where do you announce your projects?",
-      "excerpt": "Over the years I’ve been working on quite the number of personal/hobby projects that turned out very good o think. But Ive always had the most trouble at the marketing/validation step. So as a single developer, where do…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 3,
-      "comments": 3,
-      "url": "https://news.ycombinator.com/item?id=49529002",
-      "externalUrl": null,
-      "createdUtc": 1788301118,
       "tags": [
         "discussion"
       ],
