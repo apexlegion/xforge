@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T14:04:56.324Z",
+  "updatedAt": "2026-09-23T21:07:13.314Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 19,
+  "count": 18,
   "signals": [
     {
       "id": "hn-49740047",
@@ -193,22 +193,6 @@
         "marketing",
         "indie",
         "x"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49537988",
-      "title": "Show HN: I Built a Modern Version of the Million Dollar Homepage for SaaS",
-      "excerpt": "Show HN: I Built a Modern Version of the Million Dollar Homepage for SaaS",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 6,
-      "comments": 0,
-      "url": "https://news.ycombinator.com/item?id=49537988",
-      "externalUrl": "https://www.milliondollarsaas.club/",
-      "createdUtc": 1788363780,
-      "tags": [
-        "saas"
       ],
       "quality": 42
     },
