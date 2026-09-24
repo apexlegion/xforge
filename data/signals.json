@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T14:01:40.522Z",
+  "updatedAt": "2026-09-24T21:10:33.063Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 17,
+  "count": 16,
   "signals": [
     {
       "id": "hn-49740047",
@@ -163,6 +163,24 @@
       "quality": 42
     },
     {
+      "id": "hn-49824887",
+      "title": "AI startups with hyper ARR growth – what's happening inside these companies?",
+      "excerpt": "Seeing more and more people leave great big tech jobs or very smart new grads start AI companies that seem to hit $10m, $50m, $100m ARR incredibly quickly. What’s actually going on inside these companies? Are they…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 4,
+      "url": "https://news.ycombinator.com/item?id=49824887",
+      "externalUrl": null,
+      "createdUtc": 1790211875,
+      "tags": [
+        "growth",
+        "ai",
+        "startup"
+      ],
+      "quality": 42
+    },
+    {
       "id": "hn-49785772",
       "title": "How We Infringe Trademarks",
       "excerpt": "How We Infringe Trademarks",
@@ -175,24 +193,6 @@
       "createdUtc": 1789989628,
       "tags": [
         "indie"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49556698",
-      "title": "Ask HN: How do we build a team? (bootstrapped B2B startup)",
-      "excerpt": "Hi everyone, I'm 22 years old and I own a start up with my co-founder, we both just graduated college and we built a b2b SaaS that's live with 60 users and growing. We've been live since beginning of June. I wanted to…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 5,
-      "comments": 1,
-      "url": "https://news.ycombinator.com/item?id=49556698",
-      "externalUrl": null,
-      "createdUtc": 1788468369,
-      "tags": [
-        "startup",
-        "b2b",
-        "bootstrap"
       ],
       "quality": 42
     },
@@ -225,24 +225,6 @@
       "createdUtc": 1788957805,
       "tags": [
         "saas"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49824887",
-      "title": "AI startups with hyper ARR growth – what's happening inside these companies?",
-      "excerpt": "Seeing more and more people leave great big tech jobs or very smart new grads start AI companies that seem to hit $10m, $50m, $100m ARR incredibly quickly. What’s actually going on inside these companies? Are they…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 4,
-      "comments": 3,
-      "url": "https://news.ycombinator.com/item?id=49824887",
-      "externalUrl": null,
-      "createdUtc": 1790211875,
-      "tags": [
-        "growth",
-        "ai",
-        "startup"
       ],
       "quality": 42
     },
