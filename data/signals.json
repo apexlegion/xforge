@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T03:16:49.745Z",
+  "updatedAt": "2026-09-24T14:01:40.522Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -111,23 +111,6 @@
       "quality": 42
     },
     {
-      "id": "hn-49549602",
-      "title": "Ask HN: Founders that raised funding and shutdown, did you raise again?",
-      "excerpt": "Curious to know the number of repeat founders here who shutdown and raised again, or chose not to raise the second time. I bootstrapped, raised, shutdown, went solo again, thinking about next steps. Ultimately funding…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 18,
-      "comments": 1,
-      "url": "https://news.ycombinator.com/item?id=49549602",
-      "externalUrl": null,
-      "createdUtc": 1788441709,
-      "tags": [
-        "bootstrap",
-        "founder"
-      ],
-      "quality": 42
-    },
-    {
       "id": "hn-49646928",
       "title": "Show HN: Open-source simulation testing infra for voice agents",
       "excerpt": "Hey HN, we’re Nischal & Naman. We’re brothers, and together we’re building an open-source platform for simulation based testing of voice agents (try it out in 5 mins -  , 2 min demo video -  ) Platforms that help you do…",
@@ -156,7 +139,8 @@
       "createdUtc": 1789340977,
       "tags": [
         "ai",
-        "startup"
+        "startup",
+        "bootstrap"
       ],
       "quality": 43
     },
@@ -241,6 +225,24 @@
       "createdUtc": 1788957805,
       "tags": [
         "saas"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49824887",
+      "title": "AI startups with hyper ARR growth – what's happening inside these companies?",
+      "excerpt": "Seeing more and more people leave great big tech jobs or very smart new grads start AI companies that seem to hit $10m, $50m, $100m ARR incredibly quickly. What’s actually going on inside these companies? Are they…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 4,
+      "comments": 3,
+      "url": "https://news.ycombinator.com/item?id=49824887",
+      "externalUrl": null,
+      "createdUtc": 1790211875,
+      "tags": [
+        "growth",
+        "ai",
+        "startup"
       ],
       "quality": 42
     },
