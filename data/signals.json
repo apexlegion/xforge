@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T03:34:30.117Z",
+  "updatedAt": "2026-09-25T14:25:58.259Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 17,
+  "count": 19,
   "signals": [
     {
       "id": "hn-49740047",
@@ -44,6 +44,24 @@
         "discussion"
       ],
       "quality": 61
+    },
+    {
+      "id": "hn-49713894",
+      "title": "Show HN: Pizza Bot – An inbox for AI agents that work in the background",
+      "excerpt": "Hi HN - long-time lurker (since 2012!), first time poster. Pizza Bot is a self-hosted desktop app for Mac, Windows, and Linux that runs AI agents in the background and exposes them through an email-like UI. Finished…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 61,
+      "comments": 37,
+      "url": "https://news.ycombinator.com/item?id=49713894",
+      "externalUrl": "https://github.com/pizza-bot-app/pizza-bot",
+      "createdUtc": 1789485626,
+      "tags": [
+        "growth",
+        "ai",
+        "startup"
+      ],
+      "quality": 48
     },
     {
       "id": "hn-49622554",
@@ -139,7 +157,8 @@
       "createdUtc": 1789340977,
       "tags": [
         "ai",
-        "startup"
+        "startup",
+        "bootstrap"
       ],
       "quality": 43
     },
@@ -168,7 +187,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 5,
-      "comments": 5,
+      "comments": 8,
       "url": "https://news.ycombinator.com/item?id=49824887",
       "externalUrl": null,
       "createdUtc": 1790211875,
@@ -273,6 +292,22 @@
       "tags": [
         "saas",
         "product"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49784830",
+      "title": "Show HN: Gleamit – dental health tracker for Android/iOS",
+      "excerpt": "Hi HN! I wanted to show the world a small project I have been working on, on my spare time, for the past couple of months. It's a small cross-platform mobile application that works as a dental health tracker. It helps…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 3,
+      "comments": 3,
+      "url": "https://news.ycombinator.com/item?id=49784830",
+      "externalUrl": "https://gleamit.app/",
+      "createdUtc": 1789980989,
+      "tags": [
+        "discussion"
       ],
       "quality": 42
     },
