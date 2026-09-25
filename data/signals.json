@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T14:25:58.259Z",
+  "updatedAt": "2026-09-25T21:07:21.984Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 19,
+  "count": 20,
   "signals": [
     {
       "id": "hn-49740047",
@@ -187,10 +187,28 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 5,
-      "comments": 8,
+      "comments": 9,
       "url": "https://news.ycombinator.com/item?id=49824887",
       "externalUrl": null,
       "createdUtc": 1790211875,
+      "tags": [
+        "growth",
+        "ai",
+        "startup"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49849134",
+      "title": "Tell HN: Stop emailing HN users with deceptive AI spam",
+      "excerpt": "Lately, I've been getting many emails that appear to be from a fellow human HN user who saw something you said on HN, and was inspired to reach out about joining their company. There's usually a faint whiff of AI,…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 1,
+      "url": "https://news.ycombinator.com/item?id=49849134",
+      "externalUrl": null,
+      "createdUtc": 1790366186,
       "tags": [
         "growth",
         "ai",
