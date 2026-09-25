@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T21:10:33.063Z",
+  "updatedAt": "2026-09-25T03:34:30.117Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 16,
+  "count": 17,
   "signals": [
     {
       "id": "hn-49740047",
@@ -139,8 +139,7 @@
       "createdUtc": 1789340977,
       "tags": [
         "ai",
-        "startup",
-        "bootstrap"
+        "startup"
       ],
       "quality": 43
     },
@@ -169,7 +168,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 5,
-      "comments": 4,
+      "comments": 5,
       "url": "https://news.ycombinator.com/item?id=49824887",
       "externalUrl": null,
       "createdUtc": 1790211875,
@@ -193,6 +192,22 @@
       "createdUtc": 1789989628,
       "tags": [
         "indie"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49834990",
+      "title": "Show HN: Hormuz Signal – Iran war escalation risk from real data",
+      "excerpt": "This is a side project I have developed to get hard data on Hormuz Strait escalation risk. The thing is the narrative was at some point \"The Strait traffic is at 50% its pre-war level\" when in reality it was below 10%.…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 1,
+      "url": "https://news.ycombinator.com/item?id=49834990",
+      "externalUrl": "https://www.hormuzsignal.com/",
+      "createdUtc": 1790275013,
+      "tags": [
+        "discussion"
       ],
       "quality": 42
     },
