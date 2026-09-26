@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T03:39:57.727Z",
+  "updatedAt": "2026-09-26T13:37:30.022Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 20,
+  "count": 21,
   "signals": [
     {
       "id": "hn-49740047",
@@ -150,8 +150,8 @@
       "excerpt": "Hi everyone, I am KD - Back in my college days, I dabbled with coding, learned the basics, HTML, CSS etc. but somehow I ended up in Finance which consumed the next 20 years. Then, during covid I picked up coding again,…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 9,
-      "comments": 2,
+      "score": 15,
+      "comments": 4,
       "url": "https://news.ycombinator.com/item?id=49849986",
       "externalUrl": "https://www.gptbeyond.com/try?home=1",
       "createdUtc": 1790370568,
@@ -211,6 +211,23 @@
         "growth",
         "ai",
         "startup"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49854851",
+      "title": "Ask HN: Indie hackers on X (Twitter) feels like a mega bubble these days",
+      "excerpt": "Indie hacker group on X feels right now just 10 guys sucking up to each other. Top indie hackers are not promoting anything noble. Not highlighting any new indie hackers. I remember a time when 5 years ago indie hackers…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 1,
+      "url": "https://news.ycombinator.com/item?id=49854851",
+      "externalUrl": null,
+      "createdUtc": 1790415413,
+      "tags": [
+        "indie",
+        "x"
       ],
       "quality": 42
     },
