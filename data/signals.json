@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T21:07:21.984Z",
+  "updatedAt": "2026-09-26T03:39:57.727Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -44,24 +44,6 @@
         "discussion"
       ],
       "quality": 61
-    },
-    {
-      "id": "hn-49713894",
-      "title": "Show HN: Pizza Bot – An inbox for AI agents that work in the background",
-      "excerpt": "Hi HN - long-time lurker (since 2012!), first time poster. Pizza Bot is a self-hosted desktop app for Mac, Windows, and Linux that runs AI agents in the background and exposes them through an email-like UI. Finished…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 61,
-      "comments": 37,
-      "url": "https://news.ycombinator.com/item?id=49713894",
-      "externalUrl": "https://github.com/pizza-bot-app/pizza-bot",
-      "createdUtc": 1789485626,
-      "tags": [
-        "growth",
-        "ai",
-        "startup"
-      ],
-      "quality": 48
     },
     {
       "id": "hn-49622554",
@@ -163,6 +145,40 @@
       "quality": 43
     },
     {
+      "id": "hn-49849986",
+      "title": "Show HN: Ekselio – Loveable for finance workflows (local first)",
+      "excerpt": "Hi everyone, I am KD - Back in my college days, I dabbled with coding, learned the basics, HTML, CSS etc. but somehow I ended up in Finance which consumed the next 20 years. Then, during covid I picked up coding again,…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 9,
+      "comments": 2,
+      "url": "https://news.ycombinator.com/item?id=49849986",
+      "externalUrl": "https://www.gptbeyond.com/try?home=1",
+      "createdUtc": 1790370568,
+      "tags": [
+        "discussion"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49849134",
+      "title": "Tell HN: Stop emailing HN users with deceptive AI spam",
+      "excerpt": "Lately, I've been getting many emails that appear to be from a fellow human HN user who saw something you said on HN, and was inspired to reach out about joining their company. There's usually a faint whiff of AI,…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 8,
+      "comments": 2,
+      "url": "https://news.ycombinator.com/item?id=49849134",
+      "externalUrl": null,
+      "createdUtc": 1790366186,
+      "tags": [
+        "growth",
+        "ai",
+        "startup"
+      ],
+      "quality": 42
+    },
+    {
       "id": "hn-49580353",
       "title": "Ask HN: How do you build organic traction as an indie dev?",
       "excerpt": "I have recently become a fulltime indie gamedev. While I'm willing to trust myself on technical and creative output, the topic of getting the word out that I might release something interesting and worth people's time…",
@@ -191,24 +207,6 @@
       "url": "https://news.ycombinator.com/item?id=49824887",
       "externalUrl": null,
       "createdUtc": 1790211875,
-      "tags": [
-        "growth",
-        "ai",
-        "startup"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49849134",
-      "title": "Tell HN: Stop emailing HN users with deceptive AI spam",
-      "excerpt": "Lately, I've been getting many emails that appear to be from a fellow human HN user who saw something you said on HN, and was inspired to reach out about joining their company. There's usually a faint whiff of AI,…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 5,
-      "comments": 1,
-      "url": "https://news.ycombinator.com/item?id=49849134",
-      "externalUrl": null,
-      "createdUtc": 1790366186,
       "tags": [
         "growth",
         "ai",
