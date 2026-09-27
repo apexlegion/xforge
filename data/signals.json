@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T14:33:30.103Z",
+  "updatedAt": "2026-09-27T20:55:17.123Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 20,
+  "count": 19,
   "signals": [
     {
       "id": "hn-49740047",
@@ -97,18 +97,18 @@
       "quality": 47
     },
     {
-      "id": "hn-49590656",
-      "title": "Ask HN: Show your micro-SaaS",
-      "excerpt": "HN is a fantastic founder community. We, the people, love transparency, numbers, and analyzing bootstrapped business models. What is your current project? Share your wins, losses, and tech stack. Share monthly recurring…",
+      "id": "hn-49849986",
+      "title": "Show HN: Ekselio – Loveable for finance workflows (local first)",
+      "excerpt": "Hi everyone, I am KD - Back in my college days, I dabbled with coding, learned the basics, HTML, CSS etc. but somehow I ended up in Finance which consumed the next 20 years. Then, during covid I picked up coding again,…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 30,
-      "comments": 44,
-      "url": "https://news.ycombinator.com/item?id=49590656",
-      "externalUrl": null,
-      "createdUtc": 1788727043,
+      "score": 39,
+      "comments": 10,
+      "url": "https://news.ycombinator.com/item?id=49849986",
+      "externalUrl": "https://www.gptbeyond.com/try?home=1",
+      "createdUtc": 1790370568,
       "tags": [
-        "saas"
+        "discussion"
       ],
       "quality": 42
     },
@@ -125,22 +125,6 @@
       "createdUtc": 1789663697,
       "tags": [
         "saas"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49849986",
-      "title": "Show HN: Ekselio – Loveable for finance workflows (local first)",
-      "excerpt": "Hi everyone, I am KD - Back in my college days, I dabbled with coding, learned the basics, HTML, CSS etc. but somehow I ended up in Finance which consumed the next 20 years. Then, during covid I picked up coding again,…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 35,
-      "comments": 10,
-      "url": "https://news.ycombinator.com/item?id=49849986",
-      "externalUrl": "https://www.gptbeyond.com/try?home=1",
-      "createdUtc": 1790370568,
-      "tags": [
-        "discussion"
       ],
       "quality": 42
     },
@@ -173,7 +157,8 @@
       "createdUtc": 1789340977,
       "tags": [
         "ai",
-        "startup"
+        "startup",
+        "bootstrap"
       ],
       "quality": 43
     },
@@ -183,7 +168,7 @@
       "excerpt": "Indie hacker group on X feels right now just 10 guys sucking up to each other. Top indie hackers are not promoting anything noble. Not highlighting any new indie hackers. I remember a time when 5 years ago indie hackers…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 8,
+      "score": 9,
       "comments": 3,
       "url": "https://news.ycombinator.com/item?id=49854851",
       "externalUrl": null,
@@ -219,7 +204,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 6,
-      "comments": 2,
+      "comments": 4,
       "url": "https://news.ycombinator.com/item?id=49834990",
       "externalUrl": "https://www.hormuzsignal.com/",
       "createdUtc": 1790275013,
