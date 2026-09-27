@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T03:49:09.182Z",
+  "updatedAt": "2026-09-27T14:33:30.103Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -44,6 +44,24 @@
         "discussion"
       ],
       "quality": 61
+    },
+    {
+      "id": "hn-49713894",
+      "title": "Show HN: Pizza Bot – An inbox for AI agents that work in the background",
+      "excerpt": "Hi HN - long-time lurker (since 2012!), first time poster. Pizza Bot is a self-hosted desktop app for Mac, Windows, and Linux that runs AI agents in the background and exposes them through an email-like UI. Finished…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 61,
+      "comments": 37,
+      "url": "https://news.ycombinator.com/item?id=49713894",
+      "externalUrl": "https://github.com/pizza-bot-app/pizza-bot",
+      "createdUtc": 1789485626,
+      "tags": [
+        "growth",
+        "ai",
+        "startup"
+      ],
+      "quality": 48
     },
     {
       "id": "hn-49622554",
@@ -116,8 +134,8 @@
       "excerpt": "Hi everyone, I am KD - Back in my college days, I dabbled with coding, learned the basics, HTML, CSS etc. but somehow I ended up in Finance which consumed the next 20 years. Then, during covid I picked up coding again,…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 27,
-      "comments": 8,
+      "score": 35,
+      "comments": 10,
       "url": "https://news.ycombinator.com/item?id=49849986",
       "externalUrl": "https://www.gptbeyond.com/try?home=1",
       "createdUtc": 1790370568,
@@ -195,6 +213,22 @@
       "quality": 42
     },
     {
+      "id": "hn-49834990",
+      "title": "Show HN: Hormuz Signal – Iran war escalation risk from real data",
+      "excerpt": "This is a side project I have developed to get hard data on Hormuz Strait escalation risk. The thing is the narrative was at some point \"The Strait traffic is at 50% its pre-war level\" when in reality it was below 10%.…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 6,
+      "comments": 2,
+      "url": "https://news.ycombinator.com/item?id=49834990",
+      "externalUrl": "https://www.hormuzsignal.com/",
+      "createdUtc": 1790275013,
+      "tags": [
+        "discussion"
+      ],
+      "quality": 42
+    },
+    {
       "id": "hn-49824887",
       "title": "AI startups with hyper ARR growth – what's happening inside these companies?",
       "excerpt": "Seeing more and more people leave great big tech jobs or very smart new grads start AI companies that seem to hit $10m, $50m, $100m ARR incredibly quickly. What’s actually going on inside these companies? Are they…",
@@ -225,22 +259,6 @@
       "createdUtc": 1789989628,
       "tags": [
         "indie"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49834990",
-      "title": "Show HN: Hormuz Signal – Iran war escalation risk from real data",
-      "excerpt": "This is a side project I have developed to get hard data on Hormuz Strait escalation risk. The thing is the narrative was at some point \"The Strait traffic is at 50% its pre-war level\" when in reality it was below 10%.…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 5,
-      "comments": 1,
-      "url": "https://news.ycombinator.com/item?id=49834990",
-      "externalUrl": "https://www.hormuzsignal.com/",
-      "createdUtc": 1790275013,
-      "tags": [
-        "discussion"
       ],
       "quality": 42
     },
@@ -320,22 +338,6 @@
       "url": "https://news.ycombinator.com/item?id=49784830",
       "externalUrl": "https://gleamit.app/",
       "createdUtc": 1789980989,
-      "tags": [
-        "discussion"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49651638",
-      "title": "Show HN: Reviving my $15,000 browser arcade with Astra",
-      "excerpt": "Back in 2021, I put roughly $15,000 into a project called Anbu. The original idea was a decentralized cloud gaming platform, but I scaled it down to what I could afford with no cofounders... a browser arcade where…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 3,
-      "comments": 3,
-      "url": "https://news.ycombinator.com/item?id=49651638",
-      "externalUrl": "https://eggverse.co/",
-      "createdUtc": 1789083781,
       "tags": [
         "discussion"
       ],
