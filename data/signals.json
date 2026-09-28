@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T03:48:39.217Z",
+  "updatedAt": "2026-09-28T17:21:45.960Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -85,7 +85,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 40,
-      "comments": 10,
+      "comments": 12,
       "url": "https://news.ycombinator.com/item?id=49849986",
       "externalUrl": "https://www.gptbeyond.com/try?home=1",
       "createdUtc": 1790370568,
@@ -139,7 +139,8 @@
       "createdUtc": 1789340977,
       "tags": [
         "ai",
-        "startup"
+        "startup",
+        "bootstrap"
       ],
       "quality": 43
     },
