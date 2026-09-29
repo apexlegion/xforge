@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T22:57:09.684Z",
+  "updatedAt": "2026-09-29T04:23:12.994Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 18,
+  "count": 19,
   "signals": [
     {
       "id": "hn-49740047",
@@ -139,8 +139,7 @@
       "createdUtc": 1789340977,
       "tags": [
         "ai",
-        "startup",
-        "bootstrap"
+        "startup"
       ],
       "quality": 43
     },
@@ -226,6 +225,22 @@
       "createdUtc": 1789989628,
       "tags": [
         "indie"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49813759",
+      "title": "Show HN: Run Linux kernel drivers in userspace on Neptune OS, NT-like OS on seL4",
+      "excerpt": "For the past ten years I have been working on a side project which I have taken to call Neptune OS [1], named after the ill-fated Microsoft Windows codename. Neptune OS is a Windows NT-like operating system built on the…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 0,
+      "url": "https://news.ycombinator.com/item?id=49813759",
+      "externalUrl": null,
+      "createdUtc": 1790157762,
+      "tags": [
+        "discussion"
       ],
       "quality": 42
     },
