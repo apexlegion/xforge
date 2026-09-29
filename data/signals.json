@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T04:23:12.994Z",
+  "updatedAt": "2026-09-29T15:22:31.131Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -85,7 +85,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 41,
-      "comments": 12,
+      "comments": 13,
       "url": "https://news.ycombinator.com/item?id=49849986",
       "externalUrl": "https://www.gptbeyond.com/try?home=1",
       "createdUtc": 1790370568,
@@ -245,22 +245,6 @@
       "quality": 42
     },
     {
-      "id": "hn-49609218",
-      "title": "Is there a way to do GPL anymore?",
-      "excerpt": "I have a side project I've worked on for a few years. It's pretty neat. It's in the realm of AI research. I would like to open it up and tell people about it- see if anyone else would like to contribute. But I can't…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 4,
-      "comments": 5,
-      "url": "https://news.ycombinator.com/item?id=49609218",
-      "externalUrl": null,
-      "createdUtc": 1788869320,
-      "tags": [
-        "discussion"
-      ],
-      "quality": 42
-    },
-    {
       "id": "hn-49625627",
       "title": "Ask HN: Can I turn my part-time project into a full-time SaaS?",
       "excerpt": "Ask HN: Can I turn my part-time project into a full-time SaaS?",
@@ -289,6 +273,22 @@
       "createdUtc": 1789790714,
       "tags": [
         "saas"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49866739",
+      "title": "Ask HN: How are you getting inference for personal projects?",
+      "excerpt": "It seems like the major providers are starting to cut back the usage included with their monthly subscriptions. How are people handling inference for side projects these days? Are you still using Codex/Claude…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 3,
+      "comments": 6,
+      "url": "https://news.ycombinator.com/item?id=49866739",
+      "externalUrl": null,
+      "createdUtc": 1790517775,
+      "tags": [
+        "discussion"
       ],
       "quality": 42
     },
