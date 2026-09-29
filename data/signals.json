@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T15:22:31.131Z",
+  "updatedAt": "2026-09-29T21:54:18.590Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 19,
+  "count": 20,
   "signals": [
     {
       "id": "hn-49740047",
@@ -44,6 +44,24 @@
         "discussion"
       ],
       "quality": 61
+    },
+    {
+      "id": "hn-49713894",
+      "title": "Show HN: Pizza Bot – An inbox for AI agents that work in the background",
+      "excerpt": "Hi HN - long-time lurker (since 2012!), first time poster. Pizza Bot is a self-hosted desktop app for Mac, Windows, and Linux that runs AI agents in the background and exposes them through an email-like UI. Finished…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 61,
+      "comments": 37,
+      "url": "https://news.ycombinator.com/item?id=49713894",
+      "externalUrl": "https://github.com/pizza-bot-app/pizza-bot",
+      "createdUtc": 1789485626,
+      "tags": [
+        "growth",
+        "ai",
+        "startup"
+      ],
+      "quality": 48
     },
     {
       "id": "hn-49622554",
@@ -84,7 +102,7 @@
       "excerpt": "Hi everyone, I am KD - Back in my college days, I dabbled with coding, learned the basics, HTML, CSS etc. but somehow I ended up in Finance which consumed the next 20 years. Then, during covid I picked up coding again,…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 41,
+      "score": 43,
       "comments": 13,
       "url": "https://news.ycombinator.com/item?id=49849986",
       "externalUrl": "https://www.gptbeyond.com/try?home=1",
@@ -139,7 +157,8 @@
       "createdUtc": 1789340977,
       "tags": [
         "ai",
-        "startup"
+        "startup",
+        "bootstrap"
       ],
       "quality": 43
     },
@@ -195,6 +214,22 @@
       "quality": 42
     },
     {
+      "id": "hn-49813759",
+      "title": "Show HN: Run Linux kernel drivers in userspace on Neptune OS, NT-like OS on seL4",
+      "excerpt": "For the past ten years I have been working on a side project which I have taken to call Neptune OS [1], named after the ill-fated Microsoft Windows codename. Neptune OS is a Windows NT-like operating system built on the…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 6,
+      "comments": 0,
+      "url": "https://news.ycombinator.com/item?id=49813759",
+      "externalUrl": null,
+      "createdUtc": 1790157762,
+      "tags": [
+        "discussion"
+      ],
+      "quality": 42
+    },
+    {
       "id": "hn-49824887",
       "title": "AI startups with hyper ARR growth – what's happening inside these companies?",
       "excerpt": "Seeing more and more people leave great big tech jobs or very smart new grads start AI companies that seem to hit $10m, $50m, $100m ARR incredibly quickly. What’s actually going on inside these companies? Are they…",
@@ -225,22 +260,6 @@
       "createdUtc": 1789989628,
       "tags": [
         "indie"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49813759",
-      "title": "Show HN: Run Linux kernel drivers in userspace on Neptune OS, NT-like OS on seL4",
-      "excerpt": "For the past ten years I have been working on a side project which I have taken to call Neptune OS [1], named after the ill-fated Microsoft Windows codename. Neptune OS is a Windows NT-like operating system built on the…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 5,
-      "comments": 0,
-      "url": "https://news.ycombinator.com/item?id=49813759",
-      "externalUrl": null,
-      "createdUtc": 1790157762,
-      "tags": [
-        "discussion"
       ],
       "quality": 42
     },
