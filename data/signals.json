@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T04:06:42.005Z",
+  "updatedAt": "2026-09-30T15:38:32.691Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 19,
+  "count": 17,
   "signals": [
     {
       "id": "hn-49740047",
@@ -44,22 +44,6 @@
         "discussion"
       ],
       "quality": 61
-    },
-    {
-      "id": "hn-49622554",
-      "title": "I'm going back to coding by hand",
-      "excerpt": "I have a successful app I built myself with a solid user base. I had been working on a new version via Claude on and off for about six months In work we use LLMs exclusively. Nobody writes code anymore. It's all hands…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 62,
-      "comments": 53,
-      "url": "https://news.ycombinator.com/item?id=49622554",
-      "externalUrl": null,
-      "createdUtc": 1788938548,
-      "tags": [
-        "discussion"
-      ],
-      "quality": 45
     },
     {
       "id": "hn-49674396",
@@ -139,8 +123,7 @@
       "createdUtc": 1789340977,
       "tags": [
         "ai",
-        "startup",
-        "bootstrap"
+        "startup"
       ],
       "quality": 43
     },
@@ -246,18 +229,18 @@
       "quality": 42
     },
     {
-      "id": "hn-49625627",
-      "title": "Ask HN: Can I turn my part-time project into a full-time SaaS?",
-      "excerpt": "Ask HN: Can I turn my part-time project into a full-time SaaS?",
+      "id": "hn-49866739",
+      "title": "Ask HN: How are you getting inference for personal projects?",
+      "excerpt": "It seems like the major providers are starting to cut back the usage included with their monthly subscriptions. How are people handling inference for side projects these days? Are you still using Codex/Claude…",
       "source": "hackernews",
       "subreddit": "HN",
       "score": 4,
-      "comments": 4,
-      "url": "https://news.ycombinator.com/item?id=49625627",
+      "comments": 6,
+      "url": "https://news.ycombinator.com/item?id=49866739",
       "externalUrl": null,
-      "createdUtc": 1788957805,
+      "createdUtc": 1790517775,
       "tags": [
-        "saas"
+        "discussion"
       ],
       "quality": 42
     },
@@ -274,22 +257,6 @@
       "createdUtc": 1789790714,
       "tags": [
         "saas"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49866739",
-      "title": "Ask HN: How are you getting inference for personal projects?",
-      "excerpt": "It seems like the major providers are starting to cut back the usage included with their monthly subscriptions. How are people handling inference for side projects these days? Are you still using Codex/Claude…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 3,
-      "comments": 6,
-      "url": "https://news.ycombinator.com/item?id=49866739",
-      "externalUrl": null,
-      "createdUtc": 1790517775,
-      "tags": [
-        "discussion"
       ],
       "quality": 42
     },
