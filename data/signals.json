@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T15:24:07.264Z",
+  "updatedAt": "2026-10-02T21:50:51.219Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 18,
+  "count": 17,
   "signals": [
     {
       "id": "hn-49740047",
@@ -26,22 +26,6 @@
       "createdUtc": 1789649829,
       "tags": [
         "bootstrap"
-      ],
-      "quality": 61
-    },
-    {
-      "id": "hn-49660676",
-      "title": "Show HN: Godot and Rust based multiplexer (terminal panes and more)",
-      "excerpt": "I wanted to share my side-project: gPTY. Started off as an idea to combine Godot and Rust in a project (two stacks I wanted to use more to learn more). The base inspiration was tmux - simply allow spawning multiple PTYs…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 97,
-      "comments": 50,
-      "url": "https://news.ycombinator.com/item?id=49660676",
-      "externalUrl": "https://github.com/godot-pty/gpty",
-      "createdUtc": 1789142585,
-      "tags": [
-        "discussion"
       ],
       "quality": 61
     },
@@ -220,7 +204,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 5,
-      "comments": 4,
+      "comments": 5,
       "url": "https://news.ycombinator.com/item?id=49921770",
       "externalUrl": null,
       "createdUtc": 1790862999,
