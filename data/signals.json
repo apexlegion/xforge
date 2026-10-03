@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T14:08:44.088Z",
+  "updatedAt": "2026-10-03T20:37:18.435Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 19,
+  "count": 18,
   "signals": [
     {
       "id": "hn-49938616",
@@ -19,15 +19,15 @@
       "excerpt": "Every SaaS business will become a harness around a model",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 140,
-      "comments": 96,
+      "score": 157,
+      "comments": 103,
       "url": "https://news.ycombinator.com/item?id=49938616",
       "externalUrl": "https://blog.sshh.io/p/the-harness-is-the-company",
       "createdUtc": 1790975216,
       "tags": [
         "saas"
       ],
-      "quality": 73
+      "quality": 75
     },
     {
       "id": "hn-49740047",
@@ -44,23 +44,6 @@
         "bootstrap"
       ],
       "quality": 61
-    },
-    {
-      "id": "hn-49674396",
-      "title": "How SaaS startup guys get first 100 customers first, make fkn $500k ARR fast?",
-      "excerpt": "I am running a small AI company that has been building an offline security audit app, simply a fine-tuned small language model powering an Electron app that can audit GitHub and local code repos for security stuff. I…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 22,
-      "comments": 43,
-      "url": "https://news.ycombinator.com/item?id=49674396",
-      "externalUrl": null,
-      "createdUtc": 1789232214,
-      "tags": [
-        "saas",
-        "startup"
-      ],
-      "quality": 47
     },
     {
       "id": "hn-49849986",
@@ -146,6 +129,22 @@
       "quality": 42
     },
     {
+      "id": "hn-49940826",
+      "title": "Do Less, So You Can Do Better",
+      "excerpt": "Do Less, So You Can Do Better",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 9,
+      "comments": 0,
+      "url": "https://news.ycombinator.com/item?id=49940826",
+      "externalUrl": "https://www.indiehackers.com/post/do-less-so-you-can-do-it-better-3ea77e92b4",
+      "createdUtc": 1790994103,
+      "tags": [
+        "indie"
+      ],
+      "quality": 42
+    },
+    {
       "id": "hn-49849134",
       "title": "Tell HN: Stop emailing HN users with deceptive AI spam",
       "excerpt": "Lately, I've been getting many emails that appear to be from a fellow human HN user who saw something you said on HN, and was inspired to reach out about joining their company. There's usually a faint whiff of AI,…",
@@ -160,22 +159,6 @@
         "growth",
         "ai",
         "startup"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49940826",
-      "title": "Do Less, So You Can Do Better",
-      "excerpt": "Do Less, So You Can Do Better",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 8,
-      "comments": 0,
-      "url": "https://news.ycombinator.com/item?id=49940826",
-      "externalUrl": "https://www.indiehackers.com/post/do-less-so-you-can-do-it-better-3ea77e92b4",
-      "createdUtc": 1790994103,
-      "tags": [
-        "indie"
       ],
       "quality": 42
     },
