@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T21:50:51.219Z",
+  "updatedAt": "2026-10-03T03:54:30.606Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,8 +11,24 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 17,
+  "count": 19,
   "signals": [
+    {
+      "id": "hn-49938616",
+      "title": "Every SaaS business will become a harness around a model",
+      "excerpt": "Every SaaS business will become a harness around a model",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 116,
+      "comments": 85,
+      "url": "https://news.ycombinator.com/item?id=49938616",
+      "externalUrl": "https://blog.sshh.io/p/the-harness-is-the-company",
+      "createdUtc": 1790975216,
+      "tags": [
+        "saas"
+      ],
+      "quality": 69
+    },
     {
       "id": "hn-49740047",
       "title": "Show HN: I built a new version of my fun spatial 3D online meeting app",
@@ -224,6 +240,22 @@
       "url": "https://news.ycombinator.com/item?id=49785772",
       "externalUrl": "https://www.indiehackers.com/post/how-we-infringe-trademarks-8ff22a699b",
       "createdUtc": 1789989628,
+      "tags": [
+        "indie"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49940826",
+      "title": "Do Less, So You Can Do Better",
+      "excerpt": "Do Less, So You Can Do Better",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 0,
+      "url": "https://news.ycombinator.com/item?id=49940826",
+      "externalUrl": "https://www.indiehackers.com/post/do-less-so-you-can-do-it-better-3ea77e92b4",
+      "createdUtc": 1790994103,
       "tags": [
         "indie"
       ],
