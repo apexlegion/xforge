@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T14:37:40.068Z",
+  "updatedAt": "2026-10-04T20:53:41.353Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -20,7 +20,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 164,
-      "comments": 107,
+      "comments": 108,
       "url": "https://news.ycombinator.com/item?id=49938616",
       "externalUrl": "https://blog.sshh.io/p/the-harness-is-the-company",
       "createdUtc": 1790975216,
@@ -90,7 +90,8 @@
       "createdUtc": 1789340977,
       "tags": [
         "ai",
-        "startup"
+        "startup",
+        "bootstrap"
       ],
       "quality": 43
     },
@@ -250,7 +251,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 4,
-      "comments": 7,
+      "comments": 8,
       "url": "https://news.ycombinator.com/item?id=49866739",
       "externalUrl": null,
       "createdUtc": 1790517775,
