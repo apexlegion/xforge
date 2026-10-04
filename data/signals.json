@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T20:37:18.435Z",
+  "updatedAt": "2026-10-04T04:27:01.188Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -19,15 +19,15 @@
       "excerpt": "Every SaaS business will become a harness around a model",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 157,
-      "comments": 103,
+      "score": 162,
+      "comments": 107,
       "url": "https://news.ycombinator.com/item?id=49938616",
       "externalUrl": "https://blog.sshh.io/p/the-harness-is-the-company",
       "createdUtc": 1790975216,
       "tags": [
         "saas"
       ],
-      "quality": 75
+      "quality": 76
     },
     {
       "id": "hn-49740047",
@@ -90,8 +90,7 @@
       "createdUtc": 1789340977,
       "tags": [
         "ai",
-        "startup",
-        "bootstrap"
+        "startup"
       ],
       "quality": 43
     },
