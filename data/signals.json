@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T04:12:21.042Z",
+  "updatedAt": "2026-10-05T17:55:18.244Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 17,
+  "count": 18,
   "signals": [
     {
       "id": "hn-49938616",
@@ -239,6 +239,22 @@
       "createdUtc": 1790517775,
       "tags": [
         "discussion"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49961794",
+      "title": "Show HN: StackKit – Open-source and self-hosted alternatives to SaaS tools",
+      "excerpt": "Show HN: StackKit – Open-source and self-hosted alternatives to SaaS tools",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 4,
+      "comments": 6,
+      "url": "https://news.ycombinator.com/item?id=49961794",
+      "externalUrl": "https://stackkit.website/",
+      "createdUtc": 1791185906,
+      "tags": [
+        "saas"
       ],
       "quality": 42
     },
