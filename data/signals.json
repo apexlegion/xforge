@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T20:53:41.353Z",
+  "updatedAt": "2026-10-05T04:12:21.042Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 18,
+  "count": 17,
   "signals": [
     {
       "id": "hn-49938616",
@@ -20,14 +20,14 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 164,
-      "comments": 108,
+      "comments": 109,
       "url": "https://news.ycombinator.com/item?id=49938616",
       "externalUrl": "https://blog.sshh.io/p/the-harness-is-the-company",
       "createdUtc": 1790975216,
       "tags": [
         "saas"
       ],
-      "quality": 76
+      "quality": 77
     },
     {
       "id": "hn-49740047",
@@ -76,24 +76,6 @@
         "saas"
       ],
       "quality": 42
-    },
-    {
-      "id": "hn-49689696",
-      "title": "Ask HN: Would a startup for young creatives who reject AI be feasible?",
-      "excerpt": "I am a member of my university's game development club, which puts me around lots of talented programmers as well as artists of all kinds, and I've observed that just about everyone disapproves of AI. The sentiment is…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 11,
-      "comments": 26,
-      "url": "https://news.ycombinator.com/item?id=49689696",
-      "externalUrl": null,
-      "createdUtc": 1789340977,
-      "tags": [
-        "ai",
-        "startup",
-        "bootstrap"
-      ],
-      "quality": 43
     },
     {
       "id": "hn-49921801",
