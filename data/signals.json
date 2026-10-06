@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T15:42:03.127Z",
+  "updatedAt": "2026-10-06T22:21:37.567Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -161,6 +161,22 @@
       "quality": 42
     },
     {
+      "id": "hn-49966238",
+      "title": "Show HN: I finetuned 1.5B Qwen to near GPT-4o level bash generation perf",
+      "excerpt": "Purely a hobby side project to see how far I can push a really small model, using (mostly) automated training pipelines Original mention:  There were a bunch of requests to release it. Full synthetic data:  Models:  and…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 6,
+      "comments": 0,
+      "url": "https://news.ycombinator.com/item?id=49966238",
+      "externalUrl": "https://dirac.run/posts/easycommand",
+      "createdUtc": 1791214529,
+      "tags": [
+        "discussion"
+      ],
+      "quality": 42
+    },
+    {
       "id": "hn-49813759",
       "title": "Show HN: Run Linux kernel drivers in userspace on Neptune OS, NT-like OS on seL4",
       "excerpt": "For the past ten years I have been working on a side project which I have taken to call Neptune OS [1], named after the ill-fated Microsoft Windows codename. Neptune OS is a Windows NT-like operating system built on the…",
@@ -223,22 +239,6 @@
       "createdUtc": 1789989628,
       "tags": [
         "indie"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49966238",
-      "title": "Show HN: I finetuned 1.5B Qwen to near GPT-4o level bash generation perf",
-      "excerpt": "Purely a hobby side project to see how far I can push a really small model, using (mostly) automated training pipelines Original mention:  There were a bunch of requests to release it. Full synthetic data:  Models:  and…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 5,
-      "comments": 0,
-      "url": "https://news.ycombinator.com/item?id=49966238",
-      "externalUrl": "https://dirac.run/posts/easycommand",
-      "createdUtc": 1791214529,
-      "tags": [
-        "discussion"
       ],
       "quality": 42
     },
