@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T23:46:19.900Z",
+  "updatedAt": "2026-10-06T05:00:56.779Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 19,
+  "count": 18,
   "signals": [
     {
       "id": "hn-49938616",
@@ -304,22 +304,6 @@
       "tags": [
         "saas",
         "product"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49784830",
-      "title": "Show HN: Gleamit – dental health tracker for Android/iOS",
-      "excerpt": "Hi HN! I wanted to show the world a small project I have been working on, on my spare time, for the past couple of months. It's a small cross-platform mobile application that works as a dental health tracker. It helps…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 3,
-      "comments": 3,
-      "url": "https://news.ycombinator.com/item?id=49784830",
-      "externalUrl": "https://gleamit.app/",
-      "createdUtc": 1789980989,
-      "tags": [
-        "discussion"
       ],
       "quality": 42
     }
