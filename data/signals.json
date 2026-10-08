@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T16:08:11.203Z",
+  "updatedAt": "2026-10-08T22:56:16.386Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 16,
+  "count": 15,
   "signals": [
     {
       "id": "hn-49938616",
@@ -19,7 +19,7 @@
       "excerpt": "Every SaaS business will become a harness around a model",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 166,
+      "score": 168,
       "comments": 111,
       "url": "https://news.ycombinator.com/item?id=49938616",
       "externalUrl": "https://blog.sshh.io/p/the-harness-is-the-company",
@@ -42,22 +42,6 @@
       "createdUtc": 1790370568,
       "tags": [
         "discussion"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49743382",
-      "title": "Show HN: Aclif – Agent CLI framework: one grammar, canonical names across SaaS",
-      "excerpt": "Simple discovery of the provider's default schemas is possible without any credentials (since they are built into the binary). If you want it to fetch customizations of your specific instance, give it credentials to…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 35,
-      "comments": 18,
-      "url": "https://news.ycombinator.com/item?id=49743382",
-      "externalUrl": "https://www.aclif.ai/",
-      "createdUtc": 1789663697,
-      "tags": [
-        "saas"
       ],
       "quality": 42
     },
