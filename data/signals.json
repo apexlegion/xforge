@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T04:38:46.569Z",
+  "updatedAt": "2026-10-08T16:08:11.203Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 17,
+  "count": 16,
   "signals": [
     {
       "id": "hn-49938616",
@@ -28,22 +28,6 @@
         "saas"
       ],
       "quality": 77
-    },
-    {
-      "id": "hn-49740047",
-      "title": "Show HN: I built a new version of my fun spatial 3D online meeting app",
-      "excerpt": "Hi HN! flat.social is a fun spatial online meeting app for remote teams and communities. It's largely built like a web multiplayer game, and the 3D virtual spaces are highly customisable with elements and activities (I…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 98,
-      "comments": 53,
-      "url": "https://news.ycombinator.com/item?id=49740047",
-      "externalUrl": "https://flat.social/",
-      "createdUtc": 1789649829,
-      "tags": [
-        "bootstrap"
-      ],
-      "quality": 61
     },
     {
       "id": "hn-49849986",
