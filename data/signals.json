@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T15:49:54.270Z",
+  "updatedAt": "2026-10-09T22:17:45.425Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 15,
+  "count": 16,
   "signals": [
     {
       "id": "hn-49938616",
@@ -28,6 +28,22 @@
         "saas"
       ],
       "quality": 77
+    },
+    {
+      "id": "hn-50024499",
+      "title": "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
+      "excerpt": "Showing off carrier-explode, one of my side projects that continuously archives carrier settings for all major phone brands. carrier-explode also contains decoders and explanations for all the common baseband…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 143,
+      "comments": 14,
+      "url": "https://news.ycombinator.com/item?id=50024499",
+      "externalUrl": "https://carrierexplode.com/",
+      "createdUtc": 1791569455,
+      "tags": [
+        "discussion"
+      ],
+      "quality": 50
     },
     {
       "id": "hn-49849986",
