@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T04:27:38.927Z",
+  "updatedAt": "2026-10-10T15:03:22.712Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -13,6 +13,22 @@
   ],
   "count": 15,
   "signals": [
+    {
+      "id": "hn-50024499",
+      "title": "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
+      "excerpt": "Showing off carrier-explode, one of my side projects that continuously archives carrier settings for all major phone brands. carrier-explode also contains decoders and explanations for all the common baseband…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 372,
+      "comments": 45,
+      "url": "https://news.ycombinator.com/item?id=50024499",
+      "externalUrl": "https://carrierexplode.com/",
+      "createdUtc": 1791569455,
+      "tags": [
+        "discussion"
+      ],
+      "quality": 76
+    },
     {
       "id": "hn-49938616",
       "title": "Every SaaS business will become a harness around a model",
@@ -28,22 +44,6 @@
         "saas"
       ],
       "quality": 77
-    },
-    {
-      "id": "hn-50024499",
-      "title": "Show HN: Carrier-Explode: iPhone, Pixel and Galaxy carrier settings decoded",
-      "excerpt": "Showing off carrier-explode, one of my side projects that continuously archives carrier settings for all major phone brands. carrier-explode also contains decoders and explanations for all the common baseband…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 240,
-      "comments": 32,
-      "url": "https://news.ycombinator.com/item?id=50024499",
-      "externalUrl": "https://carrierexplode.com/",
-      "createdUtc": 1791569455,
-      "tags": [
-        "discussion"
-      ],
-      "quality": 66
     },
     {
       "id": "hn-49849986",
