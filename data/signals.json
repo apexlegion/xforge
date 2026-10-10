@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T22:17:45.425Z",
+  "updatedAt": "2026-10-10T04:27:38.927Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 16,
+  "count": 15,
   "signals": [
     {
       "id": "hn-49938616",
@@ -35,15 +35,15 @@
       "excerpt": "Showing off carrier-explode, one of my side projects that continuously archives carrier settings for all major phone brands. carrier-explode also contains decoders and explanations for all the common baseband…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 143,
-      "comments": 14,
+      "score": 240,
+      "comments": 32,
       "url": "https://news.ycombinator.com/item?id=50024499",
       "externalUrl": "https://carrierexplode.com/",
       "createdUtc": 1791569455,
       "tags": [
         "discussion"
       ],
-      "quality": 50
+      "quality": 66
     },
     {
       "id": "hn-49849986",
@@ -253,22 +253,6 @@
       "url": "https://news.ycombinator.com/item?id=49961794",
       "externalUrl": "https://stackkit.website/",
       "createdUtc": 1791185906,
-      "tags": [
-        "saas"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49763221",
-      "title": "Vibe coding did not kill making money out of engineering, open source and SaaS",
-      "excerpt": "Vibe coding did not kill making money out of engineering, open source and SaaS",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 4,
-      "comments": 3,
-      "url": "https://news.ycombinator.com/item?id=49763221",
-      "externalUrl": "https://i18n-keyless.com/",
-      "createdUtc": 1789790714,
       "tags": [
         "saas"
       ],
