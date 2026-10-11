@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T04:10:00.723Z",
+  "updatedAt": "2026-10-11T15:20:27.564Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 15,
+  "count": 16,
   "signals": [
     {
       "id": "hn-50024499",
@@ -19,15 +19,15 @@
       "excerpt": "Showing off carrier-explode, one of my side projects that continuously archives carrier settings for all major phone brands. carrier-explode also contains decoders and explanations for all the common baseband…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 413,
-      "comments": 52,
+      "score": 419,
+      "comments": 53,
       "url": "https://news.ycombinator.com/item?id=50024499",
       "externalUrl": "https://carrierexplode.com/",
       "createdUtc": 1791569455,
       "tags": [
         "discussion"
       ],
-      "quality": 80
+      "quality": 81
     },
     {
       "id": "hn-49938616",
@@ -207,6 +207,23 @@
       "createdUtc": 1790862999,
       "tags": [
         "saas"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-50042240",
+      "title": "Show HN: I'm a 14-year-old building my first startup, Titan",
+      "excerpt": "Hello HN! My name is Vidit, I am 14 years old and Titan is my first start-up. Titan is your personal team of AI agents. Give it a command via voice or desktop app and it will execute tasks: research, emails, plans, your…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 2,
+      "url": "https://news.ycombinator.com/item?id=50042240",
+      "externalUrl": "https://titan-ai.co/",
+      "createdUtc": 1791719415,
+      "tags": [
+        "startup",
+        "bootstrap"
       ],
       "quality": 42
     },
