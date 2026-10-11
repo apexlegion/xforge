@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T15:20:27.564Z",
+  "updatedAt": "2026-10-11T21:30:56.261Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -19,8 +19,8 @@
       "excerpt": "Showing off carrier-explode, one of my side projects that continuously archives carrier settings for all major phone brands. carrier-explode also contains decoders and explanations for all the common baseband…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 419,
-      "comments": 53,
+      "score": 422,
+      "comments": 55,
       "url": "https://news.ycombinator.com/item?id=50024499",
       "externalUrl": "https://carrierexplode.com/",
       "createdUtc": 1791569455,
@@ -129,6 +129,23 @@
       "quality": 42
     },
     {
+      "id": "hn-50042240",
+      "title": "Show HN: I'm a 14-year-old building my first startup, Titan",
+      "excerpt": "Hello HN! My name is Vidit, I am 14 years old and Titan is my first start-up. Titan is your personal team of AI agents. Give it a command via voice or desktop app and it will execute tasks: research, emails, plans, your…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 7,
+      "comments": 3,
+      "url": "https://news.ycombinator.com/item?id=50042240",
+      "externalUrl": "https://titan-ai.co/",
+      "createdUtc": 1791719415,
+      "tags": [
+        "startup",
+        "bootstrap"
+      ],
+      "quality": 42
+    },
+    {
       "id": "hn-49834990",
       "title": "Show HN: Hormuz Signal – Iran war escalation risk from real data",
       "excerpt": "This is a side project I have developed to get hard data on Hormuz Strait escalation risk. The thing is the narrative was at some point \"The Strait traffic is at 50% its pre-war level\" when in reality it was below 10%.…",
@@ -207,23 +224,6 @@
       "createdUtc": 1790862999,
       "tags": [
         "saas"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-50042240",
-      "title": "Show HN: I'm a 14-year-old building my first startup, Titan",
-      "excerpt": "Hello HN! My name is Vidit, I am 14 years old and Titan is my first start-up. Titan is your personal team of AI agents. Give it a command via voice or desktop app and it will execute tasks: research, emails, plans, your…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 5,
-      "comments": 2,
-      "url": "https://news.ycombinator.com/item?id=50042240",
-      "externalUrl": "https://titan-ai.co/",
-      "createdUtc": 1791719415,
-      "tags": [
-        "startup",
-        "bootstrap"
       ],
       "quality": 42
     },
