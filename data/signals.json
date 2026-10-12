@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T21:30:56.261Z",
+  "updatedAt": "2026-10-12T04:28:10.255Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -19,7 +19,7 @@
       "excerpt": "Showing off carrier-explode, one of my side projects that continuously archives carrier settings for all major phone brands. carrier-explode also contains decoders and explanations for all the common baseband…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 422,
+      "score": 424,
       "comments": 55,
       "url": "https://news.ycombinator.com/item?id=50024499",
       "externalUrl": "https://carrierexplode.com/",
@@ -135,7 +135,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 7,
-      "comments": 3,
+      "comments": 6,
       "url": "https://news.ycombinator.com/item?id=50042240",
       "externalUrl": "https://titan-ai.co/",
       "createdUtc": 1791719415,
