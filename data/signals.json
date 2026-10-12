@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T04:28:10.255Z",
+  "updatedAt": "2026-10-12T18:36:44.050Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -19,7 +19,7 @@
       "excerpt": "Showing off carrier-explode, one of my side projects that continuously archives carrier settings for all major phone brands. carrier-explode also contains decoders and explanations for all the common baseband…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 424,
+      "score": 426,
       "comments": 55,
       "url": "https://news.ycombinator.com/item?id=50024499",
       "externalUrl": "https://carrierexplode.com/",
@@ -27,7 +27,7 @@
       "tags": [
         "discussion"
       ],
-      "quality": 81
+      "quality": 82
     },
     {
       "id": "hn-49938616",
@@ -44,6 +44,22 @@
         "saas"
       ],
       "quality": 77
+    },
+    {
+      "id": "hn-50059096",
+      "title": "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents",
+      "excerpt": "Hey HN, I’m Vishnu from Agent37 (  ). We build sandboxes for running AI agents at under 10% of the cost of most sandbox providers. Our customers spend an average of $0.37/month per sandbox. You can view a video…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 40,
+      "comments": 25,
+      "url": "https://news.ycombinator.com/item?id=50059096",
+      "externalUrl": null,
+      "createdUtc": 1791823594,
+      "tags": [
+        "bootstrap"
+      ],
+      "quality": 42
     },
     {
       "id": "hn-49849986",
@@ -95,6 +111,23 @@
       "quality": 42
     },
     {
+      "id": "hn-50042240",
+      "title": "Show HN: I'm a 14-year-old building my first startup, Titan",
+      "excerpt": "Hello HN! My name is Vidit, I am 14 years old and Titan is my first start-up. Titan is your personal team of AI agents. Give it a command via voice or desktop app and it will execute tasks: research, emails, plans, your…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 8,
+      "comments": 9,
+      "url": "https://news.ycombinator.com/item?id=50042240",
+      "externalUrl": "https://titan-ai.co/",
+      "createdUtc": 1791719415,
+      "tags": [
+        "startup",
+        "bootstrap"
+      ],
+      "quality": 42
+    },
+    {
       "id": "hn-49940826",
       "title": "Do Less, So You Can Do Better",
       "excerpt": "Do Less, So You Can Do Better",
@@ -125,23 +158,6 @@
         "growth",
         "ai",
         "startup"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-50042240",
-      "title": "Show HN: I'm a 14-year-old building my first startup, Titan",
-      "excerpt": "Hello HN! My name is Vidit, I am 14 years old and Titan is my first start-up. Titan is your personal team of AI agents. Give it a command via voice or desktop app and it will execute tasks: research, emails, plans, your…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 7,
-      "comments": 6,
-      "url": "https://news.ycombinator.com/item?id=50042240",
-      "externalUrl": "https://titan-ai.co/",
-      "createdUtc": 1791719415,
-      "tags": [
-        "startup",
-        "bootstrap"
       ],
       "quality": 42
     },
@@ -224,22 +240,6 @@
       "createdUtc": 1790862999,
       "tags": [
         "saas"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49785772",
-      "title": "How We Infringe Trademarks",
-      "excerpt": "How We Infringe Trademarks",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 5,
-      "comments": 1,
-      "url": "https://news.ycombinator.com/item?id=49785772",
-      "externalUrl": "https://www.indiehackers.com/post/how-we-infringe-trademarks-8ff22a699b",
-      "createdUtc": 1789989628,
-      "tags": [
-        "indie"
       ],
       "quality": 42
     },
