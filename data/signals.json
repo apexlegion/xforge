@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T05:35:32.377Z",
+  "updatedAt": "2026-10-13T16:43:47.733Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -19,7 +19,7 @@
       "excerpt": "Showing off carrier-explode, one of my side projects that continuously archives carrier settings for all major phone brands. carrier-explode also contains decoders and explanations for all the common baseband…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 429,
+      "score": 430,
       "comments": 55,
       "url": "https://news.ycombinator.com/item?id=50024499",
       "externalUrl": "https://carrierexplode.com/",
@@ -51,15 +51,15 @@
       "excerpt": "Hey HN, I’m Vishnu from Agent37 (  ). We build sandboxes for running AI agents at under 10% of the cost of most sandbox providers. Our customers spend an average of $0.37/month per sandbox. You can view a video…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 124,
-      "comments": 84,
+      "score": 151,
+      "comments": 107,
       "url": "https://news.ycombinator.com/item?id=50059096",
       "externalUrl": null,
       "createdUtc": 1791823594,
       "tags": [
         "bootstrap"
       ],
-      "quality": 69
+      "quality": 75
     },
     {
       "id": "hn-49849986",
@@ -117,7 +117,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 8,
-      "comments": 10,
+      "comments": 11,
       "url": "https://news.ycombinator.com/item?id=50042240",
       "externalUrl": "https://titan-ai.co/",
       "createdUtc": 1791719415,
