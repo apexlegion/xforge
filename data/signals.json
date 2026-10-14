@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T03:39:05.314Z",
+  "updatedAt": "2026-10-14T14:20:26.374Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 16,
+  "count": 15,
   "signals": [
     {
       "id": "hn-50024499",
@@ -35,8 +35,8 @@
       "excerpt": "Hey HN, I’m Vishnu from Agent37 (  ). We build sandboxes for running AI agents at under 10% of the cost of most sandbox providers. Our customers spend an average of $0.37/month per sandbox. You can view a video…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 157,
-      "comments": 117,
+      "score": 160,
+      "comments": 119,
       "url": "https://news.ycombinator.com/item?id=50059096",
       "externalUrl": null,
       "createdUtc": 1791823594,
@@ -188,22 +188,6 @@
       "url": "https://news.ycombinator.com/item?id=49966238",
       "externalUrl": "https://dirac.run/posts/easycommand",
       "createdUtc": 1791214529,
-      "tags": [
-        "discussion"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49813759",
-      "title": "Show HN: Run Linux kernel drivers in userspace on Neptune OS, NT-like OS on seL4",
-      "excerpt": "For the past ten years I have been working on a side project which I have taken to call Neptune OS [1], named after the ill-fated Microsoft Windows codename. Neptune OS is a Windows NT-like operating system built on the…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 6,
-      "comments": 0,
-      "url": "https://news.ycombinator.com/item?id=49813759",
-      "externalUrl": null,
-      "createdUtc": 1790157762,
       "tags": [
         "discussion"
       ],
