@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T22:18:25.469Z",
+  "updatedAt": "2026-10-14T03:39:05.314Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -30,6 +30,22 @@
       "quality": 82
     },
     {
+      "id": "hn-50059096",
+      "title": "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents",
+      "excerpt": "Hey HN, I’m Vishnu from Agent37 (  ). We build sandboxes for running AI agents at under 10% of the cost of most sandbox providers. Our customers spend an average of $0.37/month per sandbox. You can view a video…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 157,
+      "comments": 117,
+      "url": "https://news.ycombinator.com/item?id=50059096",
+      "externalUrl": null,
+      "createdUtc": 1791823594,
+      "tags": [
+        "bootstrap"
+      ],
+      "quality": 78
+    },
+    {
       "id": "hn-49938616",
       "title": "Every SaaS business will become a harness around a model",
       "excerpt": "Every SaaS business will become a harness around a model",
@@ -44,22 +60,6 @@
         "saas"
       ],
       "quality": 77
-    },
-    {
-      "id": "hn-50059096",
-      "title": "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents",
-      "excerpt": "Hey HN, I’m Vishnu from Agent37 (  ). We build sandboxes for running AI agents at under 10% of the cost of most sandbox providers. Our customers spend an average of $0.37/month per sandbox. You can view a video…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 157,
-      "comments": 108,
-      "url": "https://news.ycombinator.com/item?id=50059096",
-      "externalUrl": null,
-      "createdUtc": 1791823594,
-      "tags": [
-        "bootstrap"
-      ],
-      "quality": 76
     },
     {
       "id": "hn-49849986",
