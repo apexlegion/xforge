@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T21:18:08.963Z",
+  "updatedAt": "2026-10-15T03:19:47.081Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 15,
+  "count": 14,
   "signals": [
     {
       "id": "hn-50024499",
@@ -190,24 +190,6 @@
       "createdUtc": 1791214529,
       "tags": [
         "discussion"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49824887",
-      "title": "AI startups with hyper ARR growth – what's happening inside these companies?",
-      "excerpt": "Seeing more and more people leave great big tech jobs or very smart new grads start AI companies that seem to hit $10m, $50m, $100m ARR incredibly quickly. What’s actually going on inside these companies? Are they…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 5,
-      "comments": 9,
-      "url": "https://news.ycombinator.com/item?id=49824887",
-      "externalUrl": null,
-      "createdUtc": 1790211875,
-      "tags": [
-        "growth",
-        "ai",
-        "startup"
       ],
       "quality": 42
     },
