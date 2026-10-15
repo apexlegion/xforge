@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T13:58:08.618Z",
+  "updatedAt": "2026-10-15T20:57:38.695Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -162,22 +162,6 @@
       "quality": 42
     },
     {
-      "id": "hn-49834990",
-      "title": "Show HN: Hormuz Signal – Iran war escalation risk from real data",
-      "excerpt": "This is a side project I have developed to get hard data on Hormuz Strait escalation risk. The thing is the narrative was at some point \"The Strait traffic is at 50% its pre-war level\" when in reality it was below 10%.…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 6,
-      "comments": 4,
-      "url": "https://news.ycombinator.com/item?id=49834990",
-      "externalUrl": "https://www.hormuzsignal.com/",
-      "createdUtc": 1790275013,
-      "tags": [
-        "discussion"
-      ],
-      "quality": 42
-    },
-    {
       "id": "hn-49966238",
       "title": "Show HN: I finetuned 1.5B Qwen to near GPT-4o level bash generation perf",
       "excerpt": "Purely a hobby side project to see how far I can push a really small model, using (mostly) automated training pipelines Original mention:  There were a bunch of requests to release it. Full synthetic data:  Models:  and…",
@@ -238,6 +222,22 @@
       "createdUtc": 1791185906,
       "tags": [
         "saas"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-49959138",
+      "title": "Show HN: Digital scarcity; app where photos gradually decay with time / views",
+      "excerpt": "Like instagram, but all photos have a shelf life: they can be up for year, an hour or ten minutes, or up until they're viewed 100 times, 1000 times or a million times, etc. The longer they're up, the more they fade -…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 2,
+      "comments": 5,
+      "url": "https://news.ycombinator.com/item?id=49959138",
+      "externalUrl": "https://joinfaded.com/",
+      "createdUtc": 1791157585,
+      "tags": [
+        "discussion"
       ],
       "quality": 42
     }
