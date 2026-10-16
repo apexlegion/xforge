@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T13:45:14.403Z",
+  "updatedAt": "2026-10-16T20:32:30.138Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 14,
+  "count": 13,
   "signals": [
     {
       "id": "hn-50024499",
@@ -35,8 +35,8 @@
       "excerpt": "Hey HN, I’m Vishnu from Agent37 (  ). We build sandboxes for running AI agents at under 10% of the cost of most sandbox providers. Our customers spend an average of $0.37/month per sandbox. You can view a video…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 160,
-      "comments": 125,
+      "score": 162,
+      "comments": 127,
       "url": "https://news.ycombinator.com/item?id=50059096",
       "externalUrl": null,
       "createdUtc": 1791823594,
@@ -140,24 +140,6 @@
       "createdUtc": 1790994103,
       "tags": [
         "indie"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49849134",
-      "title": "Tell HN: Stop emailing HN users with deceptive AI spam",
-      "excerpt": "Lately, I've been getting many emails that appear to be from a fellow human HN user who saw something you said on HN, and was inspired to reach out about joining their company. There's usually a faint whiff of AI,…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 8,
-      "comments": 2,
-      "url": "https://news.ycombinator.com/item?id=49849134",
-      "externalUrl": null,
-      "createdUtc": 1790366186,
-      "tags": [
-        "growth",
-        "ai",
-        "startup"
       ],
       "quality": 42
     },
