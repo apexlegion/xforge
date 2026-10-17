@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T20:32:30.138Z",
+  "updatedAt": "2026-10-17T03:06:03.550Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 13,
+  "count": 12,
   "signals": [
     {
       "id": "hn-50024499",
@@ -60,22 +60,6 @@
         "saas"
       ],
       "quality": 77
-    },
-    {
-      "id": "hn-49849986",
-      "title": "Show HN: Ekselio – Loveable for finance workflows (local first)",
-      "excerpt": "Hi everyone, I am KD - Back in my college days, I dabbled with coding, learned the basics, HTML, CSS etc. but somehow I ended up in Finance which consumed the next 20 years. Then, during covid I picked up coding again,…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 43,
-      "comments": 16,
-      "url": "https://news.ycombinator.com/item?id=49849986",
-      "externalUrl": "https://www.gptbeyond.com/try?home=1",
-      "createdUtc": 1790370568,
-      "tags": [
-        "discussion"
-      ],
-      "quality": 42
     },
     {
       "id": "hn-49921801",
