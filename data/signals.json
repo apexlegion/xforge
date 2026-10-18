@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T20:10:17.724Z",
+  "updatedAt": "2026-10-18T03:09:04.180Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -67,7 +67,7 @@
       "excerpt": "Compiler bootstrapping depends on more than you might think",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 24,
+      "score": 26,
       "comments": 2,
       "url": "https://news.ycombinator.com/item?id=50090027",
       "externalUrl": "https://utcc.utoronto.ca/~cks/space/blog/programming/CompilerBootstrappingVsOSChanges",
