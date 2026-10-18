@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T12:58:47.166Z",
+  "updatedAt": "2026-10-18T20:08:27.371Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 12,
+  "count": 11,
   "signals": [
     {
       "id": "hn-50024499",
@@ -155,22 +155,6 @@
       "createdUtc": 1790862999,
       "tags": [
         "saas"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49866739",
-      "title": "Ask HN: How are you getting inference for personal projects?",
-      "excerpt": "It seems like the major providers are starting to cut back the usage included with their monthly subscriptions. How are people handling inference for side projects these days? Are you still using Codex/Claude…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 4,
-      "comments": 8,
-      "url": "https://news.ycombinator.com/item?id=49866739",
-      "externalUrl": null,
-      "createdUtc": 1790517775,
-      "tags": [
-        "discussion"
       ],
       "quality": 42
     },
