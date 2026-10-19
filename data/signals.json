@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T03:22:26.777Z",
+  "updatedAt": "2026-10-19T16:12:44.601Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -35,15 +35,15 @@
       "excerpt": "Hey HN, I’m Vishnu from Agent37 (  ). We build sandboxes for running AI agents at under 10% of the cost of most sandbox providers. Our customers spend an average of $0.37/month per sandbox. You can view a video…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 162,
-      "comments": 128,
+      "score": 163,
+      "comments": 133,
       "url": "https://news.ycombinator.com/item?id=50059096",
       "externalUrl": null,
       "createdUtc": 1791823594,
       "tags": [
         "bootstrap"
       ],
-      "quality": 80
+      "quality": 81
     },
     {
       "id": "hn-49938616",
