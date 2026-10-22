@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T03:24:40.661Z",
+  "updatedAt": "2026-10-22T14:21:27.658Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 12,
+  "count": 10,
   "signals": [
     {
       "id": "hn-50024499",
@@ -67,29 +67,13 @@
       "excerpt": "SaaS Is Dead",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 15,
+      "score": 16,
       "comments": 24,
       "url": "https://news.ycombinator.com/item?id=50176508",
       "externalUrl": "https://saasisdead.si/",
       "createdUtc": 1792561371,
       "tags": [
         "saas"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49921801",
-      "title": "Show HN: Helo – An email API from former Postmark folks",
-      "excerpt": "Hi HN, I'm Ryan, engineer and co-founder at Helo (  ) - an email API for sending transactional and marketing email from your application: password resets, receipts, notifications, newsletters, etc. Most of our team…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 15,
-      "comments": 5,
-      "url": "https://news.ycombinator.com/item?id=49921801",
-      "externalUrl": "https://www.helohq.com/",
-      "createdUtc": 1790863132,
-      "tags": [
-        "bootstrap"
       ],
       "quality": 42
     },
@@ -139,22 +123,6 @@
       "createdUtc": 1791214529,
       "tags": [
         "discussion"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49921770",
-      "title": "Ask HN: Is vibe coding bad for SaaS projects?",
-      "excerpt": "Hi iam upcoming developer and is it possible succuss with vibe coding saas projects",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 5,
-      "comments": 5,
-      "url": "https://news.ycombinator.com/item?id=49921770",
-      "externalUrl": null,
-      "createdUtc": 1790862999,
-      "tags": [
-        "saas"
       ],
       "quality": 42
     },
