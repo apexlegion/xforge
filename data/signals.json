@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T21:13:10.172Z",
+  "updatedAt": "2026-10-23T03:29:30.204Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 11,
+  "count": 10,
   "signals": [
     {
       "id": "hn-50024499",
@@ -36,7 +36,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 163,
-      "comments": 135,
+      "comments": 136,
       "url": "https://news.ycombinator.com/item?id=50059096",
       "externalUrl": null,
       "createdUtc": 1791823594,
@@ -60,22 +60,6 @@
         "saas"
       ],
       "quality": 77
-    },
-    {
-      "id": "hn-50090027",
-      "title": "Compiler bootstrapping depends on more than you might think",
-      "excerpt": "Compiler bootstrapping depends on more than you might think",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 26,
-      "comments": 2,
-      "url": "https://news.ycombinator.com/item?id=50090027",
-      "externalUrl": "https://utcc.utoronto.ca/~cks/space/blog/programming/CompilerBootstrappingVsOSChanges",
-      "createdUtc": 1791994405,
-      "tags": [
-        "bootstrap"
-      ],
-      "quality": 42
     },
     {
       "id": "hn-50176508",
