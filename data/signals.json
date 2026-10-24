@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T21:01:23.635Z",
+  "updatedAt": "2026-10-24T03:24:04.262Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 10,
+  "count": 8,
   "signals": [
     {
       "id": "hn-50024499",
@@ -46,22 +46,6 @@
       "quality": 82
     },
     {
-      "id": "hn-49938616",
-      "title": "Every SaaS business will become a harness around a model",
-      "excerpt": "Every SaaS business will become a harness around a model",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 168,
-      "comments": 111,
-      "url": "https://news.ycombinator.com/item?id=49938616",
-      "externalUrl": "https://blog.sshh.io/p/the-harness-is-the-company",
-      "createdUtc": 1790975216,
-      "tags": [
-        "saas"
-      ],
-      "quality": 77
-    },
-    {
       "id": "hn-50176508",
       "title": "SaaS Is Dead",
       "excerpt": "SaaS Is Dead",
@@ -91,22 +75,6 @@
       "tags": [
         "startup",
         "bootstrap"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49940826",
-      "title": "Do Less, So You Can Do Better",
-      "excerpt": "Do Less, So You Can Do Better",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 9,
-      "comments": 0,
-      "url": "https://news.ycombinator.com/item?id=49940826",
-      "externalUrl": "https://www.indiehackers.com/post/do-less-so-you-can-do-it-better-3ea77e92b4",
-      "createdUtc": 1790994103,
-      "tags": [
-        "indie"
       ],
       "quality": 42
     },
