@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T03:21:22.646Z",
+  "updatedAt": "2026-10-26T15:52:00.780Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 7,
+  "count": 5,
   "signals": [
     {
       "id": "hn-50024499",
@@ -36,7 +36,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 163,
-      "comments": 135,
+      "comments": 136,
       "url": "https://news.ycombinator.com/item?id=50059096",
       "externalUrl": null,
       "createdUtc": 1791823594,
@@ -75,38 +75,6 @@
       "tags": [
         "startup",
         "bootstrap"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49966238",
-      "title": "Show HN: I finetuned 1.5B Qwen to near GPT-4o level bash generation perf",
-      "excerpt": "Purely a hobby side project to see how far I can push a really small model, using (mostly) automated training pipelines Original mention:  There were a bunch of requests to release it. Full synthetic data:  Models:  and…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 6,
-      "comments": 0,
-      "url": "https://news.ycombinator.com/item?id=49966238",
-      "externalUrl": "https://dirac.run/posts/easycommand",
-      "createdUtc": 1791214529,
-      "tags": [
-        "discussion"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49961794",
-      "title": "Show HN: StackKit – Open-source and self-hosted alternatives to SaaS tools",
-      "excerpt": "Show HN: StackKit – Open-source and self-hosted alternatives to SaaS tools",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 4,
-      "comments": 6,
-      "url": "https://news.ycombinator.com/item?id=49961794",
-      "externalUrl": "https://stackkit.website/",
-      "createdUtc": 1791185906,
-      "tags": [
-        "saas"
       ],
       "quality": 42
     },
