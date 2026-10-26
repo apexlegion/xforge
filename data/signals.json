@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T20:24:14.487Z",
+  "updatedAt": "2026-10-26T03:21:22.646Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 9,
+  "count": 7,
   "signals": [
     {
       "id": "hn-50024499",
@@ -36,7 +36,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 163,
-      "comments": 136,
+      "comments": 135,
       "url": "https://news.ycombinator.com/item?id=50059096",
       "externalUrl": null,
       "createdUtc": 1791823594,
@@ -44,22 +44,6 @@
         "bootstrap"
       ],
       "quality": 82
-    },
-    {
-      "id": "hn-50090027",
-      "title": "Compiler bootstrapping depends on more than you might think",
-      "excerpt": "Compiler bootstrapping depends on more than you might think",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 26,
-      "comments": 2,
-      "url": "https://news.ycombinator.com/item?id=50090027",
-      "externalUrl": "https://utcc.utoronto.ca/~cks/space/blog/programming/CompilerBootstrappingVsOSChanges",
-      "createdUtc": 1791994405,
-      "tags": [
-        "bootstrap"
-      ],
-      "quality": 42
     },
     {
       "id": "hn-50176508",
@@ -123,22 +107,6 @@
       "createdUtc": 1791185906,
       "tags": [
         "saas"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-49959138",
-      "title": "Show HN: Digital scarcity; app where photos gradually decay with time / views",
-      "excerpt": "Like instagram, but all photos have a shelf life: they can be up for year, an hour or ten minutes, or up until they're viewed 100 times, 1000 times or a million times, etc. The longer they're up, the more they fade -…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 2,
-      "comments": 5,
-      "url": "https://news.ycombinator.com/item?id=49959138",
-      "externalUrl": "https://joinfaded.com/",
-      "createdUtc": 1791157585,
-      "tags": [
-        "discussion"
       ],
       "quality": 42
     },
