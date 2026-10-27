@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T03:49:15.343Z",
+  "updatedAt": "2026-10-27T15:08:07.099Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 5,
+  "count": 7,
   "signals": [
     {
       "id": "hn-50024499",
@@ -46,6 +46,22 @@
       "quality": 82
     },
     {
+      "id": "hn-50090027",
+      "title": "Compiler bootstrapping depends on more than you might think",
+      "excerpt": "Compiler bootstrapping depends on more than you might think",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 26,
+      "comments": 2,
+      "url": "https://news.ycombinator.com/item?id=50090027",
+      "externalUrl": "https://utcc.utoronto.ca/~cks/space/blog/programming/CompilerBootstrappingVsOSChanges",
+      "createdUtc": 1791994405,
+      "tags": [
+        "bootstrap"
+      ],
+      "quality": 42
+    },
+    {
       "id": "hn-50176508",
       "title": "SaaS Is Dead",
       "excerpt": "SaaS Is Dead",
@@ -75,6 +91,22 @@
       "tags": [
         "startup",
         "bootstrap"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-50256197",
+      "title": "Show HN: Software Hate Index (real-time ranking of SaaS complaints)",
+      "excerpt": "Show HN: Software Hate Index (real-time ranking of SaaS complaints)",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 2,
+      "url": "https://news.ycombinator.com/item?id=50256197",
+      "externalUrl": "https://hissingkitty.com/predictions",
+      "createdUtc": 1793090797,
+      "tags": [
+        "saas"
       ],
       "quality": 42
     },
