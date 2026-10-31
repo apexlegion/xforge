@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T15:03:28.347Z",
+  "updatedAt": "2026-10-31T21:00:45.768Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 9,
+  "count": 10,
   "signals": [
     {
       "id": "hn-50059096",
@@ -35,13 +35,29 @@
       "excerpt": "What inspired you to build that project and how long did it take?",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 35,
-      "comments": 19,
+      "score": 37,
+      "comments": 20,
       "url": "https://news.ycombinator.com/item?id=50293459",
       "externalUrl": null,
       "createdUtc": 1793297537,
       "tags": [
         "discussion"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-50090027",
+      "title": "Compiler bootstrapping depends on more than you might think",
+      "excerpt": "Compiler bootstrapping depends on more than you might think",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 26,
+      "comments": 2,
+      "url": "https://news.ycombinator.com/item?id=50090027",
+      "externalUrl": "https://utcc.utoronto.ca/~cks/space/blog/programming/CompilerBootstrappingVsOSChanges",
+      "createdUtc": 1791994405,
+      "tags": [
+        "bootstrap"
       ],
       "quality": 42
     },
@@ -111,6 +127,23 @@
       "quality": 42
     },
     {
+      "id": "hn-50303984",
+      "title": "Running a bootstrapped SaaS for 20 years with my brother",
+      "excerpt": "Running a bootstrapped SaaS for 20 years with my brother",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 0,
+      "url": "https://news.ycombinator.com/item?id=50303984",
+      "externalUrl": "https://blog.zamzar.com/2026/10/30/20-years-766-million-files-two-chameleons/",
+      "createdUtc": 1793368722,
+      "tags": [
+        "saas",
+        "bootstrap"
+      ],
+      "quality": 42
+    },
+    {
       "id": "hn-50290533",
       "title": "Show HN: Point your camera at a landscape to learn about its geology",
       "excerpt": "I've been working on a fun little app that paints geologic maps over landscapes using augmented reality. You can use it to identify what the mapped rocks are, read descriptions about them, and view the earth as it…",
@@ -140,22 +173,6 @@
       "tags": [
         "growth",
         "startup"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-50252246",
-      "title": "Bootstrapped and Need AWS",
-      "excerpt": "If you are a bootstrapped startup and need to scale on AWS but can't afford it, reply with your email and I will help you out",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 2,
-      "comments": 3,
-      "url": "https://news.ycombinator.com/item?id=50252246",
-      "externalUrl": null,
-      "createdUtc": 1793054891,
-      "tags": [
-        "bootstrap"
       ],
       "quality": 42
     }
