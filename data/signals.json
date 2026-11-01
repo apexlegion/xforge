@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T15:46:04.948Z",
+  "updatedAt": "2026-11-01T21:43:16.200Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -35,8 +35,8 @@
       "excerpt": "Running a bootstrapped SaaS for 20 years with my brother",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 173,
-      "comments": 43,
+      "score": 221,
+      "comments": 52,
       "url": "https://news.ycombinator.com/item?id=50303984",
       "externalUrl": "https://blog.zamzar.com/2026/10/30/20-years-766-million-files-two-chameleons/",
       "createdUtc": 1793368722,
@@ -44,7 +44,7 @@
         "saas",
         "bootstrap"
       ],
-      "quality": 64
+      "quality": 69
     },
     {
       "id": "hn-50290533",
@@ -52,15 +52,15 @@
       "excerpt": "I've been working on a fun little app that paints geologic maps over landscapes using augmented reality. You can use it to identify what the mapped rocks are, read descriptions about them, and view the earth as it…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 69,
-      "comments": 17,
+      "score": 126,
+      "comments": 32,
       "url": "https://news.ycombinator.com/item?id=50290533",
       "externalUrl": "https://outcrop.rocks/",
       "createdUtc": 1793287361,
       "tags": [
         "discussion"
       ],
-      "quality": 42
+      "quality": 59
     },
     {
       "id": "hn-50293459",
@@ -68,8 +68,8 @@
       "excerpt": "What inspired you to build that project and how long did it take?",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 38,
-      "comments": 22,
+      "score": 39,
+      "comments": 24,
       "url": "https://news.ycombinator.com/item?id=50293459",
       "externalUrl": null,
       "createdUtc": 1793297537,
@@ -95,6 +95,22 @@
       "quality": 42
     },
     {
+      "id": "hn-50324966",
+      "title": "OccupySaaS – They laid us off. We're rebuilding their SaaS",
+      "excerpt": "OccupySaaS – They laid us off. We're rebuilding their SaaS",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 6,
+      "comments": 3,
+      "url": "https://news.ycombinator.com/item?id=50324966",
+      "externalUrl": "https://occupysaas.com/",
+      "createdUtc": 1793535986,
+      "tags": [
+        "saas"
+      ],
+      "quality": 42
+    },
+    {
       "id": "hn-50262980",
       "title": "From SaaS to agents: our users' job became the agent's job",
       "excerpt": "From SaaS to agents: our users' job became the agent's job",
@@ -105,22 +121,6 @@
       "url": "https://news.ycombinator.com/item?id=50262980",
       "externalUrl": "https://www.trackingplan.com/blog/from-saas-to-agents",
       "createdUtc": 1793123289,
-      "tags": [
-        "saas"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-50324966",
-      "title": "OccupySaaS – They laid us off. We're rebuilding their SaaS",
-      "excerpt": "OccupySaaS – They laid us off. We're rebuilding their SaaS",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 5,
-      "comments": 3,
-      "url": "https://news.ycombinator.com/item?id=50324966",
-      "externalUrl": "https://occupysaas.com/",
-      "createdUtc": 1793535986,
       "tags": [
         "saas"
       ],
