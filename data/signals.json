@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T04:32:00.247Z",
+  "updatedAt": "2026-11-01T15:46:04.948Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -30,34 +30,51 @@
       "quality": 82
     },
     {
-      "id": "hn-50293459",
-      "title": "Ask HN: Do you have side-projects that generate >$500 revenue/month?",
-      "excerpt": "What inspired you to build that project and how long did it take?",
+      "id": "hn-50303984",
+      "title": "Running a bootstrapped SaaS for 20 years with my brother",
+      "excerpt": "Running a bootstrapped SaaS for 20 years with my brother",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 38,
-      "comments": 21,
-      "url": "https://news.ycombinator.com/item?id=50293459",
-      "externalUrl": null,
-      "createdUtc": 1793297537,
+      "score": 173,
+      "comments": 43,
+      "url": "https://news.ycombinator.com/item?id=50303984",
+      "externalUrl": "https://blog.zamzar.com/2026/10/30/20-years-766-million-files-two-chameleons/",
+      "createdUtc": 1793368722,
+      "tags": [
+        "saas",
+        "bootstrap"
+      ],
+      "quality": 64
+    },
+    {
+      "id": "hn-50290533",
+      "title": "Show HN: Point your camera at a landscape to learn about its geology",
+      "excerpt": "I've been working on a fun little app that paints geologic maps over landscapes using augmented reality. You can use it to identify what the mapped rocks are, read descriptions about them, and view the earth as it…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 69,
+      "comments": 17,
+      "url": "https://news.ycombinator.com/item?id=50290533",
+      "externalUrl": "https://outcrop.rocks/",
+      "createdUtc": 1793287361,
       "tags": [
         "discussion"
       ],
       "quality": 42
     },
     {
-      "id": "hn-50090027",
-      "title": "Compiler bootstrapping depends on more than you might think",
-      "excerpt": "Compiler bootstrapping depends on more than you might think",
+      "id": "hn-50293459",
+      "title": "Ask HN: Do you have side-projects that generate >$500 revenue/month?",
+      "excerpt": "What inspired you to build that project and how long did it take?",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 26,
-      "comments": 2,
-      "url": "https://news.ycombinator.com/item?id=50090027",
-      "externalUrl": "https://utcc.utoronto.ca/~cks/space/blog/programming/CompilerBootstrappingVsOSChanges",
-      "createdUtc": 1791994405,
+      "score": 38,
+      "comments": 22,
+      "url": "https://news.ycombinator.com/item?id=50293459",
+      "externalUrl": null,
+      "createdUtc": 1793297537,
       "tags": [
-        "bootstrap"
+        "discussion"
       ],
       "quality": 42
     },
@@ -78,23 +95,6 @@
       "quality": 42
     },
     {
-      "id": "hn-50042240",
-      "title": "Show HN: I'm a 14-year-old building my first startup, Titan",
-      "excerpt": "Hello HN! My name is Vidit, I am 14 years old and Titan is my first start-up. Titan is your personal team of AI agents. Give it a command via voice or desktop app and it will execute tasks: research, emails, plans, your…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 8,
-      "comments": 11,
-      "url": "https://news.ycombinator.com/item?id=50042240",
-      "externalUrl": "https://titan-ai.co/",
-      "createdUtc": 1791719415,
-      "tags": [
-        "startup",
-        "bootstrap"
-      ],
-      "quality": 42
-    },
-    {
       "id": "hn-50262980",
       "title": "From SaaS to agents: our users' job became the agent's job",
       "excerpt": "From SaaS to agents: our users' job became the agent's job",
@@ -105,6 +105,22 @@
       "url": "https://news.ycombinator.com/item?id=50262980",
       "externalUrl": "https://www.trackingplan.com/blog/from-saas-to-agents",
       "createdUtc": 1793123289,
+      "tags": [
+        "saas"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-50324966",
+      "title": "OccupySaaS – They laid us off. We're rebuilding their SaaS",
+      "excerpt": "OccupySaaS – They laid us off. We're rebuilding their SaaS",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 3,
+      "url": "https://news.ycombinator.com/item?id=50324966",
+      "externalUrl": "https://occupysaas.com/",
+      "createdUtc": 1793535986,
       "tags": [
         "saas"
       ],
@@ -127,35 +143,19 @@
       "quality": 42
     },
     {
-      "id": "hn-50303984",
-      "title": "Running a bootstrapped SaaS for 20 years with my brother",
-      "excerpt": "Running a bootstrapped SaaS for 20 years with my brother",
+      "id": "hn-50318869",
+      "title": "Ask HN: Has Google started cleaning their search results from AI slop?",
+      "excerpt": "Hey everyone, I'm maintaining a couple personal pet projects and I've recently noticed in google search console that on both projects impressions and clicks went from 500-700 impressions / 10-15 clicks daily to almost…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 5,
-      "comments": 0,
-      "url": "https://news.ycombinator.com/item?id=50303984",
-      "externalUrl": "https://blog.zamzar.com/2026/10/30/20-years-766-million-files-two-chameleons/",
-      "createdUtc": 1793368722,
-      "tags": [
-        "saas",
-        "bootstrap"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-50290533",
-      "title": "Show HN: Point your camera at a landscape to learn about its geology",
-      "excerpt": "I've been working on a fun little app that paints geologic maps over landscapes using augmented reality. You can use it to identify what the mapped rocks are, read descriptions about them, and view the earth as it…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 4,
+      "score": 3,
       "comments": 3,
-      "url": "https://news.ycombinator.com/item?id=50290533",
-      "externalUrl": "https://outcrop.rocks/",
-      "createdUtc": 1793287361,
+      "url": "https://news.ycombinator.com/item?id=50318869",
+      "externalUrl": null,
+      "createdUtc": 1793472625,
       "tags": [
-        "discussion"
+        "ai",
+        "indie"
       ],
       "quality": 42
     },
