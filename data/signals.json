@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T21:43:16.200Z",
+  "updatedAt": "2026-11-02T04:35:02.866Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -35,8 +35,8 @@
       "excerpt": "Running a bootstrapped SaaS for 20 years with my brother",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 221,
-      "comments": 52,
+      "score": 228,
+      "comments": 53,
       "url": "https://news.ycombinator.com/item?id=50303984",
       "externalUrl": "https://blog.zamzar.com/2026/10/30/20-years-766-million-files-two-chameleons/",
       "createdUtc": 1793368722,
@@ -52,15 +52,15 @@
       "excerpt": "I've been working on a fun little app that paints geologic maps over landscapes using augmented reality. You can use it to identify what the mapped rocks are, read descriptions about them, and view the earth as it…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 126,
-      "comments": 32,
+      "score": 170,
+      "comments": 40,
       "url": "https://news.ycombinator.com/item?id=50290533",
       "externalUrl": "https://outcrop.rocks/",
       "createdUtc": 1793287361,
       "tags": [
         "discussion"
       ],
-      "quality": 59
+      "quality": 63
     },
     {
       "id": "hn-50293459",
@@ -68,7 +68,7 @@
       "excerpt": "What inspired you to build that project and how long did it take?",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 39,
+      "score": 41,
       "comments": 24,
       "url": "https://news.ycombinator.com/item?id=50293459",
       "externalUrl": null,
