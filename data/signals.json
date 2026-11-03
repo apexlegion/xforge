@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T19:11:58.114Z",
+  "updatedAt": "2026-11-03T05:27:58.170Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 10,
+  "count": 9,
   "signals": [
     {
       "id": "hn-50303984",
@@ -19,8 +19,8 @@
       "excerpt": "Running a bootstrapped SaaS for 20 years with my brother",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 253,
-      "comments": 61,
+      "score": 257,
+      "comments": 62,
       "url": "https://news.ycombinator.com/item?id=50303984",
       "externalUrl": "https://blog.zamzar.com/2026/10/30/20-years-766-million-files-two-chameleons/",
       "createdUtc": 1793368722,
@@ -28,7 +28,7 @@
         "saas",
         "bootstrap"
       ],
-      "quality": 72
+      "quality": 73
     },
     {
       "id": "hn-50290533",
@@ -36,8 +36,8 @@
       "excerpt": "I've been working on a fun little app that paints geologic maps over landscapes using augmented reality. You can use it to identify what the mapped rocks are, read descriptions about them, and view the earth as it…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 253,
-      "comments": 53,
+      "score": 257,
+      "comments": 54,
       "url": "https://news.ycombinator.com/item?id=50290533",
       "externalUrl": "https://outcrop.rocks/",
       "createdUtc": 1793287361,
@@ -53,7 +53,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 41,
-      "comments": 27,
+      "comments": 30,
       "url": "https://news.ycombinator.com/item?id=50293459",
       "externalUrl": null,
       "createdUtc": 1793297537,
@@ -61,22 +61,6 @@
         "discussion"
       ],
       "quality": 45
-    },
-    {
-      "id": "hn-50090027",
-      "title": "Compiler bootstrapping depends on more than you might think",
-      "excerpt": "Compiler bootstrapping depends on more than you might think",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 26,
-      "comments": 2,
-      "url": "https://news.ycombinator.com/item?id=50090027",
-      "externalUrl": "https://utcc.utoronto.ca/~cks/space/blog/programming/CompilerBootstrappingVsOSChanges",
-      "createdUtc": 1791994405,
-      "tags": [
-        "bootstrap"
-      ],
-      "quality": 42
     },
     {
       "id": "hn-50176508",
@@ -101,7 +85,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 6,
-      "comments": 4,
+      "comments": 5,
       "url": "https://news.ycombinator.com/item?id=50324966",
       "externalUrl": "https://occupysaas.com/",
       "createdUtc": 1793535986,
