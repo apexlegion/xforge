@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T04:56:16.143Z",
+  "updatedAt": "2026-11-04T16:51:31.774Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 13,
+  "count": 14,
   "signals": [
     {
       "id": "hn-50303984",
@@ -52,8 +52,8 @@
       "excerpt": "Show HN: HackerChurn – which SaaS tools HN wants to cancel",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 68,
-      "comments": 24,
+      "score": 71,
+      "comments": 25,
       "url": "https://news.ycombinator.com/item?id=50353386",
       "externalUrl": "https://hissingkitty.com/hacker-churn",
       "createdUtc": 1793720512,
@@ -77,22 +77,6 @@
         "discussion"
       ],
       "quality": 45
-    },
-    {
-      "id": "hn-50090027",
-      "title": "Compiler bootstrapping depends on more than you might think",
-      "excerpt": "Compiler bootstrapping depends on more than you might think",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 26,
-      "comments": 2,
-      "url": "https://news.ycombinator.com/item?id=50090027",
-      "externalUrl": "https://utcc.utoronto.ca/~cks/space/blog/programming/CompilerBootstrappingVsOSChanges",
-      "createdUtc": 1791994405,
-      "tags": [
-        "bootstrap"
-      ],
-      "quality": 42
     },
     {
       "id": "hn-50176508",
@@ -138,9 +122,7 @@
       "externalUrl": "https://mackgrenfell.com/writing/saas-growth-2026",
       "createdUtc": 1793703726,
       "tags": [
-        "saas",
-        "growth",
-        "startup"
+        "saas"
       ],
       "quality": 42
     },
@@ -206,6 +188,38 @@
       "tags": [
         "ai",
         "indie"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-50360823",
+      "title": "Ask HN: AI Side/personal projects to improve hireability?",
+      "excerpt": "Hey, wondering if anyone has ideas about what are good personal/side projects to do that could help improve hiring chances, get more interviews and do better in them. Curious about either infra related like serving or…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 3,
+      "comments": 3,
+      "url": "https://news.ycombinator.com/item?id=50360823",
+      "externalUrl": null,
+      "createdUtc": 1793759046,
+      "tags": [
+        "ai"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-50356198",
+      "title": "Show HN: I got tired of GitHub trending, so I built my own",
+      "excerpt": "I like to see what new projects people are working on in open-source, but I found it hard to find projects or news in any systematic way. I built Shadowgraph so that I could browse the latest in open source development…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 3,
+      "comments": 3,
+      "url": "https://news.ycombinator.com/item?id=50356198",
+      "externalUrl": "https://shadowgraph.io/",
+      "createdUtc": 1793731080,
+      "tags": [
+        "discussion"
       ],
       "quality": 42
     },
