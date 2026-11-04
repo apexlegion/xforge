@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T22:55:47.761Z",
+  "updatedAt": "2026-11-04T04:56:16.143Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -53,7 +53,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 68,
-      "comments": 23,
+      "comments": 24,
       "url": "https://news.ycombinator.com/item?id=50353386",
       "externalUrl": "https://hissingkitty.com/hacker-churn",
       "createdUtc": 1793720512,
