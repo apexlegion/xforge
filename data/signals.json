@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T17:06:43.737Z",
+  "updatedAt": "2026-11-05T23:17:27.278Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -53,14 +53,14 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 71,
-      "comments": 25,
+      "comments": 26,
       "url": "https://news.ycombinator.com/item?id=50353386",
       "externalUrl": "https://hissingkitty.com/hacker-churn",
       "createdUtc": 1793720512,
       "tags": [
         "saas"
       ],
-      "quality": 42
+      "quality": 46
     },
     {
       "id": "hn-50293459",
