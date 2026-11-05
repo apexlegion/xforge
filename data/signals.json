@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T05:15:54.814Z",
+  "updatedAt": "2026-11-05T17:06:43.737Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 14,
+  "count": 15,
   "signals": [
     {
       "id": "hn-50303984",
@@ -143,6 +143,24 @@
       "quality": 42
     },
     {
+      "id": "hn-50380154",
+      "title": "Show HN: I built Postraid to help founders create social media content with AI",
+      "excerpt": "Hey HN! I'm an indie hacker, and one thing I've always struggled with is consistently creating content to promote my projects on social media. an of course i found it not fun todo as a developer. Building the product is…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 5,
+      "url": "https://news.ycombinator.com/item?id=50380154",
+      "externalUrl": "https://www.postraid.com/",
+      "createdUtc": 1793891799,
+      "tags": [
+        "ai",
+        "indie",
+        "content"
+      ],
+      "quality": 42
+    },
+    {
       "id": "hn-50351409",
       "title": "Show HN: LokaDB – store each SaaS clients rows in a separate Postgres database",
       "excerpt": "Show HN: LokaDB – store each SaaS clients rows in a separate Postgres database",
@@ -171,6 +189,22 @@
       "createdUtc": 1793090797,
       "tags": [
         "saas"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-50379021",
+      "title": "Show HN: Strive and Seek – original merch for builders, hackers and founders",
+      "excerpt": "It all started with a poster in our office that says \"F ck it, ship it\". People really gravitate to the poster. Take pictures with it. Tell us, \"we love the sentiment!\" So we decided: why not launch a shop? Strive &…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 0,
+      "url": "https://news.ycombinator.com/item?id=50379021",
+      "externalUrl": "https://shopstriveandseek.com/",
+      "createdUtc": 1793886509,
+      "tags": [
+        "founder"
       ],
       "quality": 42
     },
@@ -204,22 +238,6 @@
       "createdUtc": 1793759046,
       "tags": [
         "ai"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-50356198",
-      "title": "Show HN: I got tired of GitHub trending, so I built my own",
-      "excerpt": "I like to see what new projects people are working on in open-source, but I found it hard to find projects or news in any systematic way. I built Shadowgraph so that I could browse the latest in open source development…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 3,
-      "comments": 3,
-      "url": "https://news.ycombinator.com/item?id=50356198",
-      "externalUrl": "https://shadowgraph.io/",
-      "createdUtc": 1793731080,
-      "tags": [
-        "discussion"
       ],
       "quality": 42
     },
