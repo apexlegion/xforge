@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T22:44:05.022Z",
+  "updatedAt": "2026-11-07T04:45:43.820Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -36,7 +36,7 @@
       "excerpt": "I've been working on a fun little app that paints geologic maps over landscapes using augmented reality. You can use it to identify what the mapped rocks are, read descriptions about them, and view the earth as it…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 262,
+      "score": 263,
       "comments": 55,
       "url": "https://news.ycombinator.com/item?id=50290533",
       "externalUrl": "https://outcrop.rocks/",
