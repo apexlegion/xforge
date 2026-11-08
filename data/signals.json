@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T04:35:47.649Z",
+  "updatedAt": "2026-11-08T15:48:09.435Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -143,6 +143,22 @@
       "quality": 42
     },
     {
+      "id": "hn-50392586",
+      "title": "OpenClaw SaaS?",
+      "excerpt": "Does anyone know of an OpenClaw like SaaS or Agent saas that is a turnkey solution? Preferably not one that I have to buy a new computer or find a spare one? Something that just works as software with its own email,…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 4,
+      "comments": 16,
+      "url": "https://news.ycombinator.com/item?id=50392586",
+      "externalUrl": null,
+      "createdUtc": 1793974851,
+      "tags": [
+        "saas"
+      ],
+      "quality": 42
+    },
+    {
       "id": "hn-50380154",
       "title": "Show HN: I built Postraid to help founders create social media content with AI",
       "excerpt": "Hey HN! I'm an indie hacker, and one thing I've always struggled with is consistently creating content to promote my projects on social media. an of course i found it not fun todo as a developer. Building the product is…",
@@ -222,22 +238,6 @@
       "tags": [
         "ai",
         "indie"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-50392586",
-      "title": "OpenClaw SaaS?",
-      "excerpt": "Does anyone know of an OpenClaw like SaaS or Agent saas that is a turnkey solution? Preferably not one that I have to buy a new computer or find a spare one? Something that just works as software with its own email,…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 3,
-      "comments": 12,
-      "url": "https://news.ycombinator.com/item?id=50392586",
-      "externalUrl": null,
-      "createdUtc": 1793974851,
-      "tags": [
-        "saas"
       ],
       "quality": 42
     },
