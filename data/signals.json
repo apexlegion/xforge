@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T04:46:15.758Z",
+  "updatedAt": "2026-11-09T19:30:36.043Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 16,
+  "count": 17,
   "signals": [
     {
       "id": "hn-50303984",
@@ -19,7 +19,7 @@
       "excerpt": "Running a bootstrapped SaaS for 20 years with my brother",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 262,
+      "score": 263,
       "comments": 62,
       "url": "https://news.ycombinator.com/item?id=50303984",
       "externalUrl": "https://blog.zamzar.com/2026/10/30/20-years-766-million-files-two-chameleons/",
@@ -149,7 +149,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 4,
-      "comments": 18,
+      "comments": 19,
       "url": "https://news.ycombinator.com/item?id=50392586",
       "externalUrl": null,
       "createdUtc": 1793974851,
@@ -254,6 +254,22 @@
       "createdUtc": 1793759046,
       "tags": [
         "ai"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-50356198",
+      "title": "Show HN: I got tired of GitHub trending, so I built my own",
+      "excerpt": "I like to see what new projects people are working on in open-source, but I found it hard to find projects or news in any systematic way. I built Shadowgraph so that I could browse the latest in open source development…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 3,
+      "comments": 3,
+      "url": "https://news.ycombinator.com/item?id=50356198",
+      "externalUrl": "https://shadowgraph.io/",
+      "createdUtc": 1793731080,
+      "tags": [
+        "discussion"
       ],
       "quality": 42
     },
