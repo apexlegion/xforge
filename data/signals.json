@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T19:30:36.043Z",
+  "updatedAt": "2026-11-10T06:01:54.469Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 17,
+  "count": 16,
   "signals": [
     {
       "id": "hn-50303984",
@@ -270,23 +270,6 @@
       "createdUtc": 1793731080,
       "tags": [
         "discussion"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-50161537",
-      "title": "I put my cell number on my startup's homepage",
-      "excerpt": "I run vote.direct, a voting platform for HOAs, churches, nonprofits and unions. I’m a solo founder, bootstrapped, and I built most of it with AI. This months marks my first 5 figure month an 8x growth from the last…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 2,
-      "comments": 3,
-      "url": "https://news.ycombinator.com/item?id=50161537",
-      "externalUrl": null,
-      "createdUtc": 1792472459,
-      "tags": [
-        "growth",
-        "startup"
       ],
       "quality": 42
     }
