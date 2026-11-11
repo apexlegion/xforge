@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T04:49:44.249Z",
+  "updatedAt": "2026-11-11T16:53:20.707Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -77,22 +77,6 @@
         "discussion"
       ],
       "quality": 45
-    },
-    {
-      "id": "hn-50176508",
-      "title": "SaaS Is Dead",
-      "excerpt": "SaaS Is Dead",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 16,
-      "comments": 24,
-      "url": "https://news.ycombinator.com/item?id=50176508",
-      "externalUrl": "https://saasisdead.si/",
-      "createdUtc": 1792561371,
-      "tags": [
-        "saas"
-      ],
-      "quality": 42
     },
     {
       "id": "hn-50324966",
@@ -205,6 +189,22 @@
       "createdUtc": 1793090797,
       "tags": [
         "saas"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-50447169",
+      "title": "Show HN: A Git friendly open API client",
+      "excerpt": "Hello HN! My team and I have been using Postman, then moved on to Bruno but we still had issues with how it handled environments, workspaces, pre-request authentication, performance on large collections, etc. I decided…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 0,
+      "url": "https://news.ycombinator.com/item?id=50447169",
+      "externalUrl": "https://github.com/awake-client/awake",
+      "createdUtc": 1794349523,
+      "tags": [
+        "discussion"
       ],
       "quality": 42
     },
