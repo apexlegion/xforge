@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T17:22:02.842Z",
+  "updatedAt": "2026-11-12T23:14:14.521Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -20,7 +20,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 264,
-      "comments": 62,
+      "comments": 63,
       "url": "https://news.ycombinator.com/item?id=50303984",
       "externalUrl": "https://blog.zamzar.com/2026/10/30/20-years-766-million-files-two-chameleons/",
       "createdUtc": 1793368722,
@@ -193,6 +193,23 @@
       "quality": 42
     },
     {
+      "id": "hn-50455964",
+      "title": "Do 9/10 new AI SaaS websites seem like they should be an editor command to you?",
+      "excerpt": "This question is stuck in my head. Thought I would drill a hole and pour it on the floor.",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 2,
+      "url": "https://news.ycombinator.com/item?id=50455964",
+      "externalUrl": null,
+      "createdUtc": 1794417976,
+      "tags": [
+        "saas",
+        "ai"
+      ],
+      "quality": 42
+    },
+    {
       "id": "hn-50447169",
       "title": "Show HN: A Git friendly open API client",
       "excerpt": "Hello HN! My team and I have been using Postman, then moved on to Bruno but we still had issues with how it handled environments, workspaces, pre-request authentication, performance on large collections, etc. I decided…",
@@ -254,22 +271,6 @@
       "createdUtc": 1793759046,
       "tags": [
         "ai"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-50356198",
-      "title": "Show HN: I got tired of GitHub trending, so I built my own",
-      "excerpt": "I like to see what new projects people are working on in open-source, but I found it hard to find projects or news in any systematic way. I built Shadowgraph so that I could browse the latest in open source development…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 3,
-      "comments": 3,
-      "url": "https://news.ycombinator.com/item?id=50356198",
-      "externalUrl": "https://shadowgraph.io/",
-      "createdUtc": 1793731080,
-      "tags": [
-        "discussion"
       ],
       "quality": 42
     }
