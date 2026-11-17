@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T06:40:42.615Z",
+  "updatedAt": "2026-11-17T18:09:40.137Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 16,
+  "count": 14,
   "signals": [
     {
       "id": "hn-50303984",
@@ -111,22 +111,6 @@
       "quality": 42
     },
     {
-      "id": "hn-50262980",
-      "title": "From SaaS to agents: our users' job became the agent's job",
-      "excerpt": "From SaaS to agents: our users' job became the agent's job",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 6,
-      "comments": 0,
-      "url": "https://news.ycombinator.com/item?id=50262980",
-      "externalUrl": "https://www.trackingplan.com/blog/from-saas-to-agents",
-      "createdUtc": 1793123289,
-      "tags": [
-        "saas"
-      ],
-      "quality": 42
-    },
-    {
       "id": "hn-50392586",
       "title": "OpenClaw SaaS?",
       "excerpt": "Does anyone know of an OpenClaw like SaaS or Agent saas that is a turnkey solution? Preferably not one that I have to buy a new computer or find a spare one? Something that just works as software with its own email,…",
@@ -171,22 +155,6 @@
       "url": "https://news.ycombinator.com/item?id=50351409",
       "externalUrl": "https://github.com/lokadb/lokadb",
       "createdUtc": 1793710300,
-      "tags": [
-        "saas"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-50256197",
-      "title": "Show HN: Software Hate Index (real-time ranking of SaaS complaints)",
-      "excerpt": "Show HN: Software Hate Index (real-time ranking of SaaS complaints)",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 5,
-      "comments": 3,
-      "url": "https://news.ycombinator.com/item?id=50256197",
-      "externalUrl": "https://hissingkitty.com/predictions",
-      "createdUtc": 1793090797,
       "tags": [
         "saas"
       ],
