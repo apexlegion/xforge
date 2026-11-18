@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T05:59:23.177Z",
+  "updatedAt": "2026-11-18T17:47:43.331Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 14,
+  "count": 15,
   "signals": [
     {
       "id": "hn-50303984",
@@ -206,6 +206,22 @@
       "createdUtc": 1793886509,
       "tags": [
         "founder"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-50528475",
+      "title": "Show HN: Harness for building/cloning SaaS using open-weight models",
+      "excerpt": "Built a codex like harness for non-tech builders to easily clone B2B SaaS using open-weight models. We figured companies are still charging for building software. Software, we think is commoditized. Tokens are cheap,…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 4,
+      "comments": 6,
+      "url": "https://news.ycombinator.com/item?id=50528475",
+      "externalUrl": "https://neander.ai/",
+      "createdUtc": 1794900118,
+      "tags": [
+        "saas"
       ],
       "quality": 42
     },
