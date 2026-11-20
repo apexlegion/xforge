@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T17:58:23.435Z",
+  "updatedAt": "2026-11-20T00:31:37.380Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -45,22 +45,6 @@
         "saas"
       ],
       "quality": 46
-    },
-    {
-      "id": "hn-50293459",
-      "title": "Ask HN: Do you have side-projects that generate >$500 revenue/month?",
-      "excerpt": "What inspired you to build that project and how long did it take?",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 41,
-      "comments": 30,
-      "url": "https://news.ycombinator.com/item?id=50293459",
-      "externalUrl": null,
-      "createdUtc": 1793297537,
-      "tags": [
-        "discussion"
-      ],
-      "quality": 45
     },
     {
       "id": "hn-50324966",
@@ -158,6 +142,22 @@
       "tags": [
         "saas",
         "ai"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-50552465",
+      "title": "I made my first internet moneeeeey and it took me only 6 years",
+      "excerpt": "I made my first internet moneeeeey and it took me only 6 years",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 0,
+      "url": "https://news.ycombinator.com/item?id=50552465",
+      "externalUrl": "https://www.indiehackers.com/post/i-made-my-first-internet-moneeeeeey-and-it-took-me-only-6-years-SACfG3JVCBsDW7yIwU3r",
+      "createdUtc": 1795037851,
+      "tags": [
+        "indie"
       ],
       "quality": 42
     },
