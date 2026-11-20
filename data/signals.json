@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T00:31:37.380Z",
+  "updatedAt": "2026-11-20T17:33:26.324Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,25 +11,8 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 15,
+  "count": 14,
   "signals": [
-    {
-      "id": "hn-50303984",
-      "title": "Running a bootstrapped SaaS for 20 years with my brother",
-      "excerpt": "Running a bootstrapped SaaS for 20 years with my brother",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 264,
-      "comments": 63,
-      "url": "https://news.ycombinator.com/item?id=50303984",
-      "externalUrl": "https://blog.zamzar.com/2026/10/30/20-years-766-million-files-two-chameleons/",
-      "createdUtc": 1793368722,
-      "tags": [
-        "saas",
-        "bootstrap"
-      ],
-      "quality": 73
-    },
     {
       "id": "hn-50353386",
       "title": "Show HN: HackerChurn – which SaaS tools HN wants to cancel",
