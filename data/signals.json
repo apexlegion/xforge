@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T05:44:17.760Z",
+  "updatedAt": "2026-11-21T16:36:37.478Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 14,
+  "count": 15,
   "signals": [
     {
       "id": "hn-50353386",
@@ -141,6 +141,22 @@
       "createdUtc": 1795037851,
       "tags": [
         "indie"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-50582578",
+      "title": "Show HN: Trichroma, a Platformer of Light",
+      "excerpt": "Hi Hackernews! I just wanted to share a game I've made over a few weeks just as a little side project. Of course it was developed using Agents Engineering. The idea of the game though comes from around 10 years ago,…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 0,
+      "url": "https://news.ycombinator.com/item?id=50582578",
+      "externalUrl": "https://trichroma.namirsab.dev/",
+      "createdUtc": 1795210685,
+      "tags": [
+        "discussion"
       ],
       "quality": 42
     },
