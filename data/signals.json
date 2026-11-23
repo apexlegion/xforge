@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T05:53:15.968Z",
+  "updatedAt": "2026-11-23T20:52:51.895Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 13,
+  "count": 14,
   "signals": [
     {
       "id": "hn-50353386",
@@ -36,7 +36,7 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 6,
-      "comments": 4,
+      "comments": 8,
       "url": "https://news.ycombinator.com/item?id=50582578",
       "externalUrl": "https://trichroma.namirsab.dev/",
       "createdUtc": 1795210685,
@@ -125,6 +125,22 @@
       "tags": [
         "saas",
         "ai"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-50601881",
+      "title": "Show HN: Gitfold – every Git branch as a folder, ready in a second",
+      "excerpt": "Hi HN! I want to show you a project which I'm using myself to save time on worktrees creation and management. My case is a bit specific because I'm normally working on a really big monorepo, where creation of a worktree…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 1,
+      "url": "https://news.ycombinator.com/item?id=50601881",
+      "externalUrl": "https://github.com/pkukielka/gitfold",
+      "createdUtc": 1795369108,
+      "tags": [
+        "discussion"
       ],
       "quality": 42
     },
