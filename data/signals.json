@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T20:52:51.895Z",
+  "updatedAt": "2026-11-24T08:31:47.274Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 14,
+  "count": 15,
   "signals": [
     {
       "id": "hn-50353386",
@@ -40,6 +40,22 @@
       "url": "https://news.ycombinator.com/item?id=50582578",
       "externalUrl": "https://trichroma.namirsab.dev/",
       "createdUtc": 1795210685,
+      "tags": [
+        "discussion"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-50601881",
+      "title": "Show HN: Gitfold – every Git branch as a folder, ready in a second",
+      "excerpt": "Hi HN! I want to show you a project which I'm using myself to save time on worktrees creation and management. My case is a bit specific because I'm normally working on a really big monorepo, where creation of a worktree…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 6,
+      "comments": 1,
+      "url": "https://news.ycombinator.com/item?id=50601881",
+      "externalUrl": "https://github.com/pkukielka/gitfold",
+      "createdUtc": 1795369108,
       "tags": [
         "discussion"
       ],
@@ -129,16 +145,16 @@
       "quality": 42
     },
     {
-      "id": "hn-50601881",
-      "title": "Show HN: Gitfold – every Git branch as a folder, ready in a second",
-      "excerpt": "Hi HN! I want to show you a project which I'm using myself to save time on worktrees creation and management. My case is a bit specific because I'm normally working on a really big monorepo, where creation of a worktree…",
+      "id": "hn-50604007",
+      "title": "Show HN: I wrote FlightTrack twice",
+      "excerpt": "FlightTrack was my iPhone flight tracker from the early App Store days (bestselling travel app for 4 years), and I just rewrote it from scratch. I first wrote FlightTrack as a side project in 2008. It did really well…",
       "source": "hackernews",
       "subreddit": "HN",
       "score": 5,
       "comments": 1,
-      "url": "https://news.ycombinator.com/item?id=50601881",
-      "externalUrl": "https://github.com/pkukielka/gitfold",
-      "createdUtc": 1795369108,
+      "url": "https://news.ycombinator.com/item?id=50604007",
+      "externalUrl": "https://apps.apple.com/us/app/flighttrack-flight-tracker/id6788552553",
+      "createdUtc": 1795382382,
       "tags": [
         "discussion"
       ],
