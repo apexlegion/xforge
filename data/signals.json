@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T08:31:47.274Z",
+  "updatedAt": "2026-11-24T19:56:35.085Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,37 +11,37 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 15,
+  "count": 12,
   "signals": [
-    {
-      "id": "hn-50353386",
-      "title": "Show HN: HackerChurn – which SaaS tools HN wants to cancel",
-      "excerpt": "Show HN: HackerChurn – which SaaS tools HN wants to cancel",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 71,
-      "comments": 26,
-      "url": "https://news.ycombinator.com/item?id=50353386",
-      "externalUrl": "https://hissingkitty.com/hacker-churn",
-      "createdUtc": 1793720512,
-      "tags": [
-        "saas"
-      ],
-      "quality": 46
-    },
     {
       "id": "hn-50582578",
       "title": "Show HN: Trichroma, a Platformer of Light",
       "excerpt": "Hi Hackernews! I just wanted to share a game I've made over a few weeks just as a little side project. Of course it was developed using Agents Engineering. The idea of the game though comes from around 10 years ago,…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 6,
-      "comments": 8,
+      "score": 8,
+      "comments": 10,
       "url": "https://news.ycombinator.com/item?id=50582578",
       "externalUrl": "https://trichroma.namirsab.dev/",
       "createdUtc": 1795210685,
       "tags": [
         "discussion"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-50627008",
+      "title": "Show HN: We replaced our time tracking SaaS with a Git repository",
+      "excerpt": "TL;DR: - Free and open source, no seat limits. - Some of its features require plans that cost a team of 10 around $1,000/year on Clockify or $2,000/year on Toggl Track. - No backend. Your time entries live in your…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 7,
+      "comments": 0,
+      "url": "https://news.ycombinator.com/item?id=50627008",
+      "externalUrl": "https://github.com/clockoli/clockoli",
+      "createdUtc": 1795521993,
+      "tags": [
+        "saas"
       ],
       "quality": 42
     },
@@ -58,22 +58,6 @@
       "createdUtc": 1795369108,
       "tags": [
         "discussion"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-50350441",
-      "title": "The SaaS apocalypse started in October",
-      "excerpt": "The SaaS apocalypse started in October",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 6,
-      "comments": 0,
-      "url": "https://news.ycombinator.com/item?id=50350441",
-      "externalUrl": "https://mackgrenfell.com/writing/saas-growth-2026",
-      "createdUtc": 1793703726,
-      "tags": [
-        "saas"
       ],
       "quality": 42
     },
@@ -108,22 +92,6 @@
         "ai",
         "indie",
         "content"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-50351409",
-      "title": "Show HN: LokaDB – store each SaaS clients rows in a separate Postgres database",
-      "excerpt": "Show HN: LokaDB – store each SaaS clients rows in a separate Postgres database",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 5,
-      "comments": 3,
-      "url": "https://news.ycombinator.com/item?id=50351409",
-      "externalUrl": "https://github.com/lokadb/lokadb",
-      "createdUtc": 1793710300,
-      "tags": [
-        "saas"
       ],
       "quality": 42
     },
@@ -237,22 +205,6 @@
       "createdUtc": 1793759046,
       "tags": [
         "ai"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-50356198",
-      "title": "Show HN: I got tired of GitHub trending, so I built my own",
-      "excerpt": "I like to see what new projects people are working on in open-source, but I found it hard to find projects or news in any systematic way. I built Shadowgraph so that I could browse the latest in open source development…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 3,
-      "comments": 3,
-      "url": "https://news.ycombinator.com/item?id=50356198",
-      "externalUrl": "https://shadowgraph.io/",
-      "createdUtc": 1793731080,
-      "tags": [
-        "discussion"
       ],
       "quality": 42
     }
