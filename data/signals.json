@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T07:06:10.263Z",
+  "updatedAt": "2026-11-25T18:58:38.667Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 12,
+  "count": 13,
   "signals": [
     {
       "id": "hn-50582578",
@@ -35,13 +35,29 @@
       "excerpt": "TL;DR: - Free and open source, no seat limits. - Some of its features require plans that cost a team of 10 around $1,000/year on Clockify or $2,000/year on Toggl Track. - No backend. Your time entries live in your…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 7,
+      "score": 9,
       "comments": 0,
       "url": "https://news.ycombinator.com/item?id=50627008",
       "externalUrl": "https://github.com/clockoli/clockoli",
       "createdUtc": 1795521993,
       "tags": [
         "saas"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-50604007",
+      "title": "Show HN: I wrote FlightTrack twice",
+      "excerpt": "FlightTrack was my iPhone flight tracker from the early App Store days (bestselling travel app for 4 years), and I just rewrote it from scratch. I first wrote FlightTrack as a side project in 2008. It did really well…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 6,
+      "comments": 1,
+      "url": "https://news.ycombinator.com/item?id=50604007",
+      "externalUrl": "https://apps.apple.com/us/app/flighttrack-flight-tracker/id6788552553",
+      "createdUtc": 1795382382,
+      "tags": [
+        "discussion"
       ],
       "quality": 42
     },
@@ -109,22 +125,6 @@
       "tags": [
         "saas",
         "ai"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-50604007",
-      "title": "Show HN: I wrote FlightTrack twice",
-      "excerpt": "FlightTrack was my iPhone flight tracker from the early App Store days (bestselling travel app for 4 years), and I just rewrote it from scratch. I first wrote FlightTrack as a side project in 2008. It did really well…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 5,
-      "comments": 1,
-      "url": "https://news.ycombinator.com/item?id=50604007",
-      "externalUrl": "https://apps.apple.com/us/app/flighttrack-flight-tracker/id6788552553",
-      "createdUtc": 1795382382,
-      "tags": [
-        "discussion"
       ],
       "quality": 42
     },
@@ -205,6 +205,22 @@
       "createdUtc": 1794900118,
       "tags": [
         "saas"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-50644891",
+      "title": "Ask HN: What are your niche, unusual hobbies?",
+      "excerpt": "Title explains it. Of course one could debate what counts as \"unusual\" or \"niche\" but, I'm just curious what the crowd here does outside of work and side-projects.",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 3,
+      "comments": 6,
+      "url": "https://news.ycombinator.com/item?id=50644891",
+      "externalUrl": null,
+      "createdUtc": 1795627553,
+      "tags": [
+        "niche"
       ],
       "quality": 42
     }
