@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T19:56:35.085Z",
+  "updatedAt": "2026-11-25T07:06:10.263Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -129,6 +129,22 @@
       "quality": 42
     },
     {
+      "id": "hn-50516186",
+      "title": "Ask HN: How are you dealing with AI burnout?",
+      "excerpt": "I wonder if anyone else is experiencing the specific type of burnout that comes from working with AI tools. I think there are a couple of reasons that it is different from regular workload burnout. 1. It feels that we…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 5,
+      "comments": 1,
+      "url": "https://news.ycombinator.com/item?id=50516186",
+      "externalUrl": null,
+      "createdUtc": 1794826300,
+      "tags": [
+        "ai"
+      ],
+      "quality": 42
+    },
+    {
       "id": "hn-50552465",
       "title": "I made my first internet moneeeeey and it took me only 6 years",
       "excerpt": "I made my first internet moneeeeey and it took me only 6 years",
@@ -189,22 +205,6 @@
       "createdUtc": 1794900118,
       "tags": [
         "saas"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-50360823",
-      "title": "Ask HN: AI Side/personal projects to improve hireability?",
-      "excerpt": "Hey, wondering if anyone has ideas about what are good personal/side projects to do that could help improve hiring chances, get more interviews and do better in them. Curious about either infra related like serving or…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 3,
-      "comments": 3,
-      "url": "https://news.ycombinator.com/item?id=50360823",
-      "externalUrl": null,
-      "createdUtc": 1793759046,
-      "tags": [
-        "ai"
       ],
       "quality": 42
     }
