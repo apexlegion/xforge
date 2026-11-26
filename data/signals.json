@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T06:57:16.865Z",
+  "updatedAt": "2026-11-26T18:49:51.037Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 13,
+  "count": 12,
   "signals": [
     {
       "id": "hn-50631791",
@@ -19,8 +19,8 @@
       "excerpt": "I created joonoo.art to turn family photos into picture books and comics. I was inspired to do it last summer because my granddaughter was very enthusiastic when I made up stories with her as the hero. It's been a major…",
       "source": "hackernews",
       "subreddit": "HN",
-      "score": 20,
-      "comments": 22,
+      "score": 21,
+      "comments": 25,
       "url": "https://news.ycombinator.com/item?id=50631791",
       "externalUrl": "https://joonoo.art/create-comic",
       "createdUtc": 1795542833,
@@ -110,24 +110,6 @@
       "quality": 42
     },
     {
-      "id": "hn-50380154",
-      "title": "Show HN: I built Postraid to help founders create social media content with AI",
-      "excerpt": "Hey HN! I'm an indie hacker, and one thing I've always struggled with is consistently creating content to promote my projects on social media. an of course i found it not fun todo as a developer. Building the product is…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 5,
-      "comments": 5,
-      "url": "https://news.ycombinator.com/item?id=50380154",
-      "externalUrl": "https://www.postraid.com/",
-      "createdUtc": 1793891799,
-      "tags": [
-        "ai",
-        "indie",
-        "content"
-      ],
-      "quality": 42
-    },
-    {
       "id": "hn-50455964",
       "title": "Do 9/10 new AI SaaS websites seem like they should be an editor command to you?",
       "excerpt": "This question is stuck in my head. Thought I would drill a hole and pour it on the floor.",
@@ -193,22 +175,6 @@
       "quality": 42
     },
     {
-      "id": "hn-50379021",
-      "title": "Show HN: Strive and Seek – original merch for builders, hackers and founders",
-      "excerpt": "It all started with a poster in our office that says \"F ck it, ship it\". People really gravitate to the poster. Take pictures with it. Tell us, \"we love the sentiment!\" So we decided: why not launch a shop? Strive &…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 5,
-      "comments": 0,
-      "url": "https://news.ycombinator.com/item?id=50379021",
-      "externalUrl": "https://shopstriveandseek.com/",
-      "createdUtc": 1793886509,
-      "tags": [
-        "founder"
-      ],
-      "quality": 42
-    },
-    {
       "id": "hn-50528475",
       "title": "Show HN: Harness for building/cloning SaaS using open-weight models",
       "excerpt": "Built a codex like harness for non-tech builders to easily clone B2B SaaS using open-weight models. We figured companies are still charging for building software. Software, we think is commoditized. Tokens are cheap,…",
@@ -221,6 +187,22 @@
       "createdUtc": 1794900118,
       "tags": [
         "saas"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-50644891",
+      "title": "Ask HN: What are your niche, unusual hobbies?",
+      "excerpt": "Title explains it. Of course one could debate what counts as \"unusual\" or \"niche\" but, I'm just curious what the crowd here does outside of work and side-projects.",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 3,
+      "comments": 8,
+      "url": "https://news.ycombinator.com/item?id=50644891",
+      "externalUrl": null,
+      "createdUtc": 1795627553,
+      "tags": [
+        "niche"
       ],
       "quality": 42
     }
