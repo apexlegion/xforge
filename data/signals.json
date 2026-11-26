@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T18:58:38.667Z",
+  "updatedAt": "2026-11-26T06:57:16.865Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -13,6 +13,22 @@
   ],
   "count": 13,
   "signals": [
+    {
+      "id": "hn-50631791",
+      "title": "Show HN: Keeping faces and features consistent across 24 AI-driven comic pages",
+      "excerpt": "I created joonoo.art to turn family photos into picture books and comics. I was inspired to do it last summer because my granddaughter was very enthusiastic when I made up stories with her as the hero. It's been a major…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 20,
+      "comments": 22,
+      "url": "https://news.ycombinator.com/item?id=50631791",
+      "externalUrl": "https://joonoo.art/create-comic",
+      "createdUtc": 1795542833,
+      "tags": [
+        "discussion"
+      ],
+      "quality": 42
+    },
     {
       "id": "hn-50582578",
       "title": "Show HN: Trichroma, a Platformer of Light",
@@ -205,22 +221,6 @@
       "createdUtc": 1794900118,
       "tags": [
         "saas"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-50644891",
-      "title": "Ask HN: What are your niche, unusual hobbies?",
-      "excerpt": "Title explains it. Of course one could debate what counts as \"unusual\" or \"niche\" but, I'm just curious what the crowd here does outside of work and side-projects.",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 3,
-      "comments": 6,
-      "url": "https://news.ycombinator.com/item?id=50644891",
-      "externalUrl": null,
-      "createdUtc": 1795627553,
-      "tags": [
-        "niche"
       ],
       "quality": 42
     }
