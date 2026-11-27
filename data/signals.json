@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T06:51:30.762Z",
+  "updatedAt": "2026-11-27T18:41:21.222Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 12,
+  "count": 11,
   "signals": [
     {
       "id": "hn-50631791",
@@ -20,14 +20,14 @@
       "source": "hackernews",
       "subreddit": "HN",
       "score": 21,
-      "comments": 25,
+      "comments": 29,
       "url": "https://news.ycombinator.com/item?id=50631791",
       "externalUrl": "https://joonoo.art/create-comic",
       "createdUtc": 1795542833,
       "tags": [
         "discussion"
       ],
-      "quality": 42
+      "quality": 44
     },
     {
       "id": "hn-50582578",
@@ -90,22 +90,6 @@
       "createdUtc": 1795369108,
       "tags": [
         "discussion"
-      ],
-      "quality": 42
-    },
-    {
-      "id": "hn-50392586",
-      "title": "OpenClaw SaaS?",
-      "excerpt": "Does anyone know of an OpenClaw like SaaS or Agent saas that is a turnkey solution? Preferably not one that I have to buy a new computer or find a spare one? Something that just works as software with its own email,…",
-      "source": "hackernews",
-      "subreddit": "HN",
-      "score": 4,
-      "comments": 20,
-      "url": "https://news.ycombinator.com/item?id=50392586",
-      "externalUrl": null,
-      "createdUtc": 1793974851,
-      "tags": [
-        "saas"
       ],
       "quality": 42
     },
