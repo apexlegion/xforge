@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T18:41:21.222Z",
+  "updatedAt": "2026-11-28T06:25:19.010Z",
   "source": "reddit+hackernews",
   "sources": [
     "reddit",
@@ -11,7 +11,7 @@
     "r/indiehackers",
     "r/smallbusiness"
   ],
-  "count": 11,
+  "count": 12,
   "signals": [
     {
       "id": "hn-50631791",
@@ -58,6 +58,23 @@
       "createdUtc": 1795521993,
       "tags": [
         "saas"
+      ],
+      "quality": 42
+    },
+    {
+      "id": "hn-50671974",
+      "title": "Ask HN: Isn't it time we promote conversation rather than d*wnr*nking it?",
+      "excerpt": "(Apologies for the childish self-censoring, but A) I'm serious about it and B) it kinda drives home my point on its own...) More specifically: why continue the practice of pushing content off the front page that has a…",
+      "source": "hackernews",
+      "subreddit": "HN",
+      "score": 7,
+      "comments": 5,
+      "url": "https://news.ycombinator.com/item?id=50671974",
+      "externalUrl": null,
+      "createdUtc": 1795815854,
+      "tags": [
+        "growth",
+        "startup"
       ],
       "quality": 42
     },
